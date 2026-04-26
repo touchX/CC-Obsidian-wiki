@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777177500740-clcb73sml",
+  "providerId": "claude",
+  "title": "Identify current AI model",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777177500740,
+  "updatedAt": 1777191056458,
+  "lastResponseAt": 1777191056458,
+  "sessionId": "a5a952b3-cb1f-464a-910e-3047e595f8de",
+  "providerState": {
+    "providerSessionId": "a5a952b3-cb1f-464a-910e-3047e595f8de"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
