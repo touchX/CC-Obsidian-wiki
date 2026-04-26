@@ -26,7 +26,7 @@ raw/ → [ingest] → wiki/ + archive/
 ---
 name: page-slug
 description: 一句话描述
-type: concept | entity | source | synthesis | guide
+type: concept | entity | source | synthesis | guide | tutorial | tips
 tags: [tag1, tag2]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
