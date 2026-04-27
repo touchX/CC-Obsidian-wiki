@@ -5,7 +5,7 @@ type: source
 tags: [mcp, browser, automation, comparison]
 created: 2026-04-15
 updated: 2026-04-26
-source: ../../archive/reports/claude-in-chrome-v-chrome-devtools-mcp.md
+source: ../../../archive/reports/claude-in-chrome-v-chrome-devtools-mcp.md
 ---
 
 # Browser Automation MCP Comparison
@@ -16,5 +16,5 @@ source: ../../archive/reports/claude-in-chrome-v-chrome-devtools-mcp.md
 
 ## 相关页面
 
-- [[entities/claude-mcp]] — MCP 服务器集成
-- [[entities/claude-hooks]] — Hooks 系统
+- [[wiki/entities/claude-mcp]] — MCP 服务器集成
+- [[wiki/entities/claude-hooks]] — Hooks 系统

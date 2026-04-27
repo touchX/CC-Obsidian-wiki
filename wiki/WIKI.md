@@ -99,7 +99,7 @@ type: concept | entity | source | synthesis | guide | implementation
 tags: [tag1, tag2, tag3]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-source: ../archive/{category}/{filename}.md
+source: ../../../archive/{category}/{filename}.md  # 模板占位符
 ---
 
 # Page Title

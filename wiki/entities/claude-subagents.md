@@ -4,7 +4,7 @@ description: 子代理系统 — 多 Agent 并行协作与任务分发
 type: entity
 tags: [subagents, multi-agent, parallel]
 created: 2026-04-26
-source: ../../archive/best-practice/claude-subagents.md
+source: ../../../archive/best-practice/claude-subagents.md
 ---
 
 # Claude Subagents
@@ -42,5 +42,5 @@ mcpServers: [...]    # MCP 服务范围
 
 ## 相关页面
 
-- [[entities/claude-mcp]] — MCP 服务配置
-- [[entities/claude-skills]] — 技能系统
+- [[wiki/entities/claude-mcp]] — MCP 服务配置
+- [[wiki/entities/claude-skills]] — 技能系统

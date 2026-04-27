@@ -2,6 +2,7 @@
 name: wiki-index-auto
 description: Wiki 自动索引 (Dataview 版本) - 测试版
 type: reference
+tags: [index, wiki, dataview, auto]
 created: 2026-04-26
 updated: 2026-04-26
 ---

@@ -2,6 +2,7 @@
 name: wiki-index
 description: Wiki 导航索引 — 基于 Dataview 自动生成，零维护
 type: reference
+tags: [index, wiki, dataview]
 created: 2026-04-26
 updated: 2026-04-26
 ---

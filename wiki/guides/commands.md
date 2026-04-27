@@ -4,7 +4,7 @@ description: Weather Orchestrator Command 实现指南 — Command → Agent →
 type: guide
 tags: [commands, implementation, orchestration]
 created: 2026-04-26
-source: ../../archive/implementation/claude-commands-implementation.md
+source: ../../../archive/implementation/claude-commands-implementation.md
 ---
 
 # Commands Implementation
@@ -30,7 +30,7 @@ model: haiku
 
 ## 交叉引用
 
-- [[entities/claude-commands]] — Commands 系统
+- [[wiki/entities/claude-commands]] — Commands 系统
 - [[synthesis/agent-command-skill-comparison]] — 三种扩展机制对比
 - [[guides/agent-teams]] — Agent Teams 实现
 

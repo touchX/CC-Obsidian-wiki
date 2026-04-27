@@ -5,7 +5,7 @@ type: source
 tags: [usage, limits, rate-limits, billing]
 created: 2026-03-10
 updated: 2026-04-26
-source: ../../archive/reports/claude-usage-and-rate-limits.md
+source: ../../../archive/reports/claude-usage-and-rate-limits.md
 ---
 
 # Usage, Rate Limits & Extra Usage
@@ -14,4 +14,4 @@ Claude Code 订阅计划（Pro/Max 5x/Max 20x）采用滚动窗口重置策略�
 
 ## 相关页面
 
-- [[entities/claude-commands]] — 命令参考
+- [[wiki/entities/claude-commands]] — 命令参考

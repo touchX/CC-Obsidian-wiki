@@ -5,7 +5,7 @@ type: source
 tags: [llm, performance, degradation, analysis]
 created: 2026-04-15
 updated: 2026-04-26
-source: ../../archive/reports/llm-day-to-day-degradation.md
+source: ../../../archive/reports/llm-day-to-day-degradation.md
 ---
 
 # LLM Day-to-Day Degradation
@@ -14,5 +14,5 @@ LLM 日间性能感知波动的真实原因分析：9 层推理栈中的方差�
 
 ## 相关页面
 
-- [[entities/claude-commands]] — /model 命令
+- [[wiki/entities/claude-commands]] — /model 命令
 - [[concepts/context-management]] — 上下文管理

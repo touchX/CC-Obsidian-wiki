@@ -1,10 +1,11 @@
 ---
 name: entities/claude-hooks
-description: Hooks 系统 — 会话生命周期拦截与自动化
+description: Hooks 系统完整参考 — 会话生命周期拦截与自动化
 type: entity
 tags: [hooks, lifecycle, automation, pretool, posttool]
 created: 2026-04-26
-source: ../../archive/best-practice/claude-hooks.md
+updated: 2026-04-27
+source: ../../archive/cc-doc/Hooks 参考.md
 ---
 
 # Claude Hooks
@@ -18,6 +19,10 @@ Hooks 在会话生命周期关键节点拦截执行，支持 PreToolUse、PostTo
 | `PreToolUse` | 工具执行前 | 验证、修改参数 |
 | `PostToolUse` | 工具执行后 | 格式化、检查 |
 | `Stop` | 会话结束时 | 最终验证、清理 |
+
+## 完整 Hook 生命周期
+
+完整的 Hook 事件和配置参考请参阅 [[sources/hooks-full]]。
 
 ## Frontmatter 结构
 
@@ -50,7 +55,7 @@ priority: 100            # 执行优先级
 ## 交叉引用
 
 - [[concepts/context-management]] — 上下文管理
-- [[entities/claude-commands]] — 命令系统
+- [[wiki/entities/claude-commands]] — 命令系统
 - [[synthesis/agent-command-skill-comparison]] — 扩展机制对比
 
 ## 相关页面

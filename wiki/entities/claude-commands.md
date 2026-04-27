@@ -1,15 +1,16 @@
 ---
 name: entities/claude-commands
-description: 75 个内置斜杠命令完整分类参考
+description: Claude Code 75+ 内置斜杠命令完整分类参考
 type: entity
 tags: [commands, slash-commands, reference]
 created: 2026-04-26
-source: ../../archive/best-practice/claude-commands.md
+updated: 2026-04-27
+source: ../../archive/cc-doc/命令.md
 ---
 
 # Claude Commands
 
-内置斜杠命令系统，按功能分为 8 大类。输入 `/` 触发自动补全，支持自定义命令扩展。
+内置斜杠命令系统，输入 `/` 触发自动补全，支持自定义命令扩展。
 
 ## 命令分类
 
@@ -32,8 +33,17 @@ source: ../../archive/best-practice/claude-commands.md
 | `/resume` | 恢复上次会话 |
 | `/compact` | 压缩上下文节省空间 |
 | `/model` | 切换模型（Haiku/Sonnet/Opus） |
+| `/permissions` | 管理工具权限规则 |
+| `/mcp` | 管理 MCP server 连接 |
+| `/hooks` | 查看 hook 配置 |
+| `/diff` | 打开交互式差异查看器 |
+
+## 完整命令列表
+
+完整的 75+ 命令列表请参阅 [[sources/commands-full]]。
 
 ## 相关页面
 
-- [[entities/claude-cli]] — CLI 完整指南
-- [[entities/claude-settings]] — 配置选项
+- [[wiki/entities/claude-cli]] — CLI 完整指南
+- [[wiki/entities/claude-settings]] — 配置选项
+- [[synthesis/agent-command-skill-comparison]] — 扩展机制对比

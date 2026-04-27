@@ -43,7 +43,7 @@ model: haiku  # 可选：指定模型
 
 ## 相关页面
 
-- [[entities/claude-commands]] — Commands 实体
+- [[wiki/entities/claude-commands]] — Commands 实体
 - [[guides/commands]] — Commands 使用指南
 - [[synthesis/agent-command-skill-comparison]] — Agent/Command/Skill 对比
 - [[implementation/skills-implementation]] — Skills 实现

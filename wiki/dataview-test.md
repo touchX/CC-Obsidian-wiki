@@ -2,6 +2,7 @@
 name: dataview-test
 description: Dataview 查询语法验证页面
 type: reference
+tags: [dataview, test, query]
 created: 2026-04-26
 updated: 2026-04-26
 ---

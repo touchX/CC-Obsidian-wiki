@@ -2,6 +2,7 @@
 name: wiki-index-manual
 description: Wiki 导航索引（手动维护版）- 备份于 Dataview 迁移期间
 type: reference
+tags: [index, wiki, backup, deprecated]
 created: 2026-04-26
 updated: 2026-04-26
 backup: "备份自 index.md，Dataview 迁移完成后保留作为应急参考"
@@ -40,15 +41,15 @@ Claude Code 相关的具体工具、框架和项目。
 
 | 页面                                    | 描述                   | 类型      | 更新         |
 | ------------------------------------- | -------------------- | ------- | ---------- |
-| [[entities/claude-code]]              | Anthropic CLI 工具完整指南 | tool    | 2026-04-23 |
-| [[entities/claude-skills]]            | Skills 系统详解          | feature | 2026-04-23 |
-| [[entities/claude-cli]]               | Claude CLI 核心功能      | tool    | 2026-04-26 |
-| [[entities/claude-subagents]]         | 子代理系统                | feature | 2026-04-26 |
-| [[entities/claude-mcp]]               | MCP 服务器集成            | feature | 2026-04-26 |
-| [[entities/claude-settings]]          | 设置配置系统               | feature | 2026-04-26 |
-| [[entities/claude-commands]]          | 自定义 Commands         | feature | 2026-04-26 |
-| [[entities/claude-cli-startup-flags]] | CLI 启动参数参考           | tool    | 2026-04-26 |
-| [[entities/claude-hooks]]             | Hooks 系统             | feature | 2026-04-26 |
+| [[wiki/entities/claude-code]]              | Anthropic CLI 工具完整指南 | tool    | 2026-04-23 |
+| [[wiki/entities/claude-skills]]            | Skills 系统详解          | feature | 2026-04-23 |
+| [[wiki/entities/claude-cli]]               | Claude CLI 核心功能      | tool    | 2026-04-26 |
+| [[wiki/entities/claude-subagents]]         | 子代理系统                | feature | 2026-04-26 |
+| [[wiki/entities/claude-mcp]]               | MCP 服务器集成            | feature | 2026-04-26 |
+| [[wiki/entities/claude-settings]]          | 设置配置系统               | feature | 2026-04-26 |
+| [[wiki/entities/claude-commands]]          | 自定义 Commands         | feature | 2026-04-26 |
+| [[wiki/entities/claude-cli-startup-flags]] | CLI 启动参数参考           | tool    | 2026-04-26 |
+| [[wiki/entities/claude-hooks]]             | Hooks 系统             | feature | 2026-04-26 |
 
 ---
 

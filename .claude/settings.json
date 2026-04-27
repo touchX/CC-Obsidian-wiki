@@ -33,7 +33,8 @@
       "WebFetch(domain:json.schemastore.org)",
       "WebFetch(domain:claudelog.com)",
       "WebFetch(domain:www.eesel.ai)",
-      "WebFetch(domain:shipyard.build)"
+      "WebFetch(domain:shipyard.build)",
+      "Write(D:\\\\Docs\\\\claude-code-best-practice\\\\.claude.json)"
     ],
     "deny": [],
     "ask": [
@@ -425,6 +426,11 @@
     "command": "echo \"shayan's best practice status line\"",
     "padding": 0
   },
+  "enabledPlugins": {
+    "obsidian@obsidian-skills": true,
+    "andrej-karpathy-skills@karpathy-skills": true,
+    "feature-dev@claude-plugins-official": true
+  },
   "outputStyle": "Explanatory",
   "spinnerTipsEnabled": true,
   "spinnerVerbs": {
@@ -447,8 +453,5 @@
       "This is shayan custom tip#2"
     ]
   },
-  "plansDirectory": "./reports",
-  "enabledPlugins": {
-    "obsidian@obsidian-skills": true
-  }
+  "plansDirectory": "./reports"
 }

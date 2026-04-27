@@ -5,7 +5,7 @@ type: source
 tags: [tips, git, squash-merge, pr-size]
 created: 2026-03-25
 updated: 2026-04-26
-source: ../../archive/tips/claude-boris-2-tips-25-mar-26.md
+source: ../../../archive/tips/claude-boris-2-tips-25-mar-26.md
 ---
 
 # Squash Merging & PR Size Distribution
@@ -23,4 +23,4 @@ Boris Cherny 每日 141 个 PR 的工作流实践：始终使用 squash merge �
 ## 相关页面
 
 - [[concepts/git-workflow]] — Git 工作流
-- [[entities/claude-commands]] — 相关命令
+- [[wiki/entities/claude-commands]] — 相关命令

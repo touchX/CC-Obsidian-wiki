@@ -5,7 +5,7 @@ type: synthesis
 tags: [agents, commands, skills, architecture]
 created: 2026-04-10
 updated: 2026-04-26
-source: ../../archive/reports/claude-agent-command-skill.md
+source: ../../../archive/reports/claude-agent-command-skill.md
 ---
 
 # Agents vs Commands vs Skills
@@ -14,6 +14,67 @@ source: ../../archive/reports/claude-agent-command-skill.md
 
 ## 相关页面
 
-- [[entities/claude-commands]] — 命令参考
-- [[entities/claude-skills]] — Skills 系统
+- [[wiki/entities/claude-commands]] — 命令参考
+- [[wiki/entities/claude-skills]] — Skills 系统
 - [[concepts/agent-harness]] — Agent Harness
+
+---
+
+## 调用关系解析
+
+### 核心关系矩阵
+
+| 关系对 | 方向 | 说明 |
+|--------|------|------|
+| **Command ↔ Agent** | 双向 | 互相触发/编排 |
+| **Agent → Skill** | 单向 | Agent 调用 Skill |
+| **Command → Skill** | 单向 | Command 可触发 Skill |
+
+### 调用关系图解
+
+```
+Command ──── 触发 ───→ Agent
+    ↑                      │
+    │                      │
+    └──── 调用 ────────────┘
+              ↓
+         Agent
+         ├── skills: [weather-fetcher]
+         ├── 自主决定是否调用 Skill
+         └── Skill 不能主动调用 Agent
+```
+
+### 核心结论
+
+1. **Agent ↔ Command**：双向调用关系
+2. **Agent → Skill**：单向调用关系（Skill 不能调用 Agent）
+3. **Skill 是 Agent 的属性**，Agent 自主决定使用哪个 Skill
+
+### Skill 与 Agent 的关系类比
+
+> 工具箱 (Agent) 决定用哪把螺丝刀
+> 螺丝刀 (Skill) 不知道自己在被用
+
+### 循环调用风险
+
+Command → Agent → Command → Agent ... 可能形成循环
+**解决方案**：设计时避免循环，或通过 flags 标记执行深度
+
+### 详细字段对比
+
+| 字段 | Agent | Command | Skill |
+|------|:-----:|:-------:|:-----:|
+| name | ✅ | ❌ | ✅ |
+| description | ✅ | ✅ | ✅ |
+| model | ✅ | ✅ | ❌ |
+| allowedTools | ✅ | ✅ | ❌ |
+| skills | ✅ | ❌ | ❌ |
+| memory | ✅ | ❌ | ❌ |
+| hooks | ✅ | ❌ | ❌ |
+| mcpServers | ✅ | ❌ | ❌ |
+| maxTurns | ✅ | ❌ | ❌ |
+| permissionMode | ✅ | ❌ | ❌ |
+| color | ✅ | ❌ | ❌ |
+| user-invocable | ❌ | ❌ | ✅ |
+
+详细规格见：[[implementation/agent-command-skill-fields]]

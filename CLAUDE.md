@@ -40,6 +40,8 @@ source: ../../archive/{category}/filename.md
 - **优先查询 Wiki** 而非重新思考 — 先读 `wiki/index.md` 找相关页面
 - **遵循 Frontmatter 规范** — 新页面必须包含必需字段
 - **使用 Wiki 链接** — 用 `[[page-slug]]` 而非完整路径
+- **偏好语言** — 创建文档时，优先使用 **中文**
+- **文档查询、修改、创建** — 优先使用 **Obsidian-cli** 及相关 **skills** 来查询或操作文档
 
 ### 路径计算规则
 ```
@@ -56,6 +58,7 @@ grep "^source:" wiki/**/*.md | while read f; do
 done
 ```
 
+## WIKI偏好语言
 ## 相关文件
 
 | 文件 | 说明 |

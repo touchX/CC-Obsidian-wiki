@@ -71,6 +71,6 @@ claude --version
 
 ## 相关资源
 
-- [[entities/claude-cli]] — CLI 核心功能
-- [[entities/claude-settings]] — 设置配置系统
+- [[wiki/entities/claude-cli]] — CLI 核心功能
+- [[wiki/entities/claude-settings]] — 设置配置系统
 - [[guides/quick-start]] — Wiki 快速入门

@@ -4,7 +4,7 @@ description: Claude CLI 75+ 启动参数完整参考手册
 type: entity
 tags: [cli, flags, command-line, startup, reference]
 created: 2026-04-26
-source: ../../archive/best-practice/claude-cli-startup-flags.md
+source: ../../../archive/best-practice/claude-cli-startup-flags.md
 ---
 
 # Claude CLI Startup Flags
@@ -50,8 +50,8 @@ claude --local                      # 本地模式（无需 API）
 
 ## 交叉引用
 
-- [[entities/claude-cli]] — CLI 核心功能
-- [[entities/claude-code]] — CLI 工具完整指南
+- [[wiki/entities/claude-cli]] — CLI 核心功能
+- [[wiki/entities/claude-code]] — CLI 工具完整指南
 - [[concepts/context-window]] — 上下文窗口原理
 
 ## 相关页面

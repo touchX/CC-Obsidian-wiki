@@ -94,7 +94,7 @@ sources: N
 
 使用 `[[page-slug]]` 语法：
 - `[[concepts/context-window]]` → 链接到概念页面
-- `[[entities/claude-code]]` → 链接到实体页面
+- `[[wiki/entities/claude-code]]` → 链接到实体页面
 
 ## 与 RAG 的区别
 

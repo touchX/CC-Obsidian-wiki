@@ -124,7 +124,7 @@ sources: 3
 
 ## 相关页面
 
-- [[entities/claude-settings]] — 设置系统详解
+- [[wiki/entities/claude-settings]] — 设置系统详解
 - [[concepts/context-management]] — 上下文管理策略
-- [[entities/claude-hooks]] — Hooks 系统
+- [[wiki/entities/claude-hooks]] — Hooks 系统
 - [[guides/agent-teams]] — Agent Teams 指南

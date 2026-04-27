@@ -4,8 +4,9 @@ description: Sub-agents 实现指南 — 上下文分叉与记忆系统
 type: guide
 tags: [subagents, implementation, memory]
 created: 2026-04-26
-source: ../../archive/implementation/claude-subagents-implementation.md
+source: ../../../archive/implementation/claude-subagents-implementation.md
 ---
+
 
 # Sub-agents Implementation
 
@@ -48,7 +49,7 @@ skills:
 
 ## 交叉引用
 
-- [[entities/claude-subagents]] — 子代理系统
+- [[wiki/entities/claude-subagents]] — 子代理系统
 - [[concepts/agent-memory]] — 子 Agent 持久化记忆系统
 - [[guides/agent-teams]] — Agent Teams（对比）
 

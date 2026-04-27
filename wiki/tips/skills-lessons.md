@@ -5,7 +5,7 @@ type: source
 tags: [tips, skills, best-practices]
 created: 2026-03-17
 updated: 2026-04-26
-source: ../../archive/tips/claude-thariq-tips-17-mar-26.md
+source: ../../../archive/tips/claude-thariq-tips-17-mar-26.md
 ---
 
 # Skills 使用九大经验
@@ -34,5 +34,5 @@ Thariq 分享 Anthropic 数百个 Skills 实践：Skills 是文件夹非纯 Mark
 
 ## 相关页面
 
-- [[entities/claude-skills]] — Skills 系统
+- [[wiki/entities/claude-skills]] — Skills 系统
 - [[guides/power-ups]] — 功能教程

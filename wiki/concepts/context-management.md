@@ -66,8 +66,8 @@ Memory Strategy (四层)
 ## 相关概念
 
 - [[concepts/context-window]] — 上下文窗口原理
-- [[entities/claude-code]] — Claude Code 工具
-- [[entities/claude-hooks]] — Hooks 系统
+- [[wiki/entities/claude-code]] — Claude Code 工具
+- [[wiki/entities/claude-hooks]] — Hooks 系统
 
 ## 来源
 

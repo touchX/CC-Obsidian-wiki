@@ -1,10 +1,11 @@
 ---
 name: entities/claude-cli
-description: Anthropic Claude Code CLI 工具完整指南
+description: Anthropic Claude Code CLI 工具完整指南，包括启动选项和命令行参数
 type: entity
-tags: [tool, cli, anthropic]
+tags: [tool, cli, anthropic, installation, startup]
 created: 2026-04-26
-source: ../../archive/best-practice/claude-cli.md
+updated: 2026-04-27
+source: ../../archive/cc-doc/CLI 参考.md
 ---
 
 # Claude CLI
@@ -29,8 +30,13 @@ claude --resume           # 恢复上次会话
 claude --print <prompt>   # 单次输出模式
 ```
 
+## CLI 参考
+
+完整的命令行标志和选项请参阅 [[sources/cli-reference-full]]。
+
 ## 相关页面
 
-- [[entities/claude-commands]] — 75 个内置命令
-- [[entities/claude-settings]] — 配置选项
+- [[wiki/entities/claude-commands]] — 75+ 内置命令
+- [[wiki/entities/claude-settings]] — 配置选项
+- [[wiki/entities/claude-setup]] — 安装和设置
 - [[guides/power-ups]] — 交互教程

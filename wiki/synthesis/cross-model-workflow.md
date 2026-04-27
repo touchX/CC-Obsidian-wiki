@@ -5,7 +5,7 @@ type: synthesis
 tags: [workflow, cross-model, claude-code, codex, plan-mode, verification]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../archive/workflows/cross-model-workflow/cross-model-workflow.md
+source: ../../../archive/workflows/cross-model-workflow/cross-model-workflow.md
 ---
 
 # Cross-Model (Claude Code + Codex) Workflow

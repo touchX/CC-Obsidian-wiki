@@ -4,12 +4,152 @@ description: Wiki 操作历史记录 — 所有变更的追加式日志
 type: reference
 tags: [wiki, log, history, changelog, operations]
 created: 2026-04-23
-updated: 2026-04-26
+updated: 2026-04-27
 ---
 
 # Wiki Log
 
 > 维基操作历史 — 追加式记录
+
+---
+
+## [2026-04-27] docs-ingest | Claude MCP/工具/编排架构 文档摄取完成
+
+- **来源**: `raw/cc-doc/` (3个文档)
+- **操作**: 分析 → 去重检查 → 创建/更新 Wiki 页面
+- **更新文件**:
+  - `entities/claude-mcp.md` — 新增 Token 消耗分析、无法禁用用户级 MCP 的三种方法
+  - `entities/claude-tools.md` — 新增六大类别概览表格（Bash/LSP/Monitor/PowerShell 行为）
+- **新建文件**:
+  - `synthesis/orchestration-architecture.md` — Command → Agent → Skill 分层编排架构详解
+- **归档**: 源文件已存在于 `archive/cc-doc/`（之前批次已归档）
+
+---
+
+## [2026-04-27] docs-ingest | Claude Code Week 15 周报摄取
+
+- **来源**: `raw/cc-doc/Week 15 · April 6–10, 2026.md`
+- **操作**: 分析 → 去重检查 → 创建 Wiki 页面
+- **新建文件**: `wiki/sources/claude-code-week-15-2026.md`
+- **内容**: Ultraplan、Monitor tool、/autofix-pr、/team-onboarding 等 4 个主要功能
+
+---
+
+## [2026-04-27] docs-ingest | 工具/命令/Hooks/Plugins 官方文档摄取完成
+
+- **来源**: `raw/cc-doc/` (13个文档)
+- **操作**: 分析 → 创建/更新 Wiki 页面
+- **新建文件**:
+  - `entities/claude-tools.md` — 工具参考完整列表（含 Bash/LSP/Monitor/PowerShell 行为）
+  - `entities/claude-checkpointing.md` — 断点、会话状态管理
+  - `entities/claude-interactive-mode.md` — 交互模式（快捷键/Vim/命令历史/后台任务）
+  - `entities/claude-env-vars.md` — 环境变量完整参考
+  - `entities/claude-auto-mode.md` — 自动模式配置
+  - `entities/claude-setup.md` — 系统要求、安装和高级设置
+  - `implementation/plugins-reference.md` — Plugin 系统完整参考（架构/生命周期）
+  - `implementation/plugin-marketplace.md` — Plugin Marketplace 创建和分发
+  - `implementation/plugin-dependencies.md` — 依赖版本约束管理
+- **更新文件**:
+  - `entities/claude-cli.md` — 更新 source 字段
+  - `entities/claude-commands.md` — 更新 source 字段
+  - `entities/claude-hooks.md` — 更新 source 字段
+  - `sources/claude-channels-full.md` — Channels 完整文档（已存在）
+- **已归档**: `raw/cc-doc/` → `archive/cc-doc/`（13个文件）
+
+---
+
+## [2026-04-27] docs-ingest | Skills 官方文档摄取完成
+
+- **来源**: `raw/cc-doc/使用 skills 扩展 Claude.md`
+- **操作**: 去重检查 → 更新现有页面 → 归档
+- **发现重复**: `wiki/entities/claude-skills.md`（76行简略版）
+- **更新文件**: `entities/claude-skills.md`（扩展至 ~250行，含完整示例和故障排除）
+- **归档**: `raw/cc-doc/` → `archive/cc-doc/使用 skills 扩展 Claude.md`
+
+---
+
+## [2026-04-27] docs-ingest | 官方文档摄取完成（第三批）
+
+- **来源**: `raw/cc-doc/` (3个文档)
+- **操作**: 分析 → 创建 Wiki 页面 → 归档
+- **新建文件**:
+  - `sources/claude-skills-full.md` — Skills 完整官方文档
+  - `sources/claude-hooks-full.md` — Hooks 完整官方文档
+  - `sources/claude-subagents-full.md` — Subagents 完整官方文档
+- **归档**: `raw/cc-doc/` → `archive/cc-doc/`
+  - `使用 hooks 自动化工作流.md`
+  - `创建自定义 subagents.md`
+
+---
+
+## [2026-04-27] docs-ingest | 官方文档摄取完成（第二批）
+
+- **来源**: `archive/cc-doc/` (4个文档)
+- **操作**: 分析 → 创建/更新 Wiki 页面
+- **新建文件**:
+  - `guides/permissions.md` — 权限模式详解（default/acceptEdits/plan/auto/dontAsk/bypassPermissions）
+  - `guides/claude-directory.md` — .claude 目录结构详解
+- **更新文件**:
+  - `concepts/claude-memory.md` — 整合「Claude 如何记住你的项目.md」完整内容
+  - `entities/claude-skills.md` — 整合「扩展 Claude Code.md」Skills 相关内容
+
+---
+
+## [2026-04-27] docs-ingest | 官方文档摄取完成（第一批）
+
+- **来源**: `raw/cc-doc/` (8个文档)
+- **操作**: 分析 → 去重 → 创建/更新 Wiki 页面
+- **更新文件**:
+  - `entities/claude-code.md` — 补充代理循环、工具类别、会话管理
+  - `concepts/context-window.md` — 添加压缩行为和交互式演练
+- **新建文件**:
+  - `guides/best-practices.md` — 最佳实践指南
+  - `guides/workflows.md` — 常见工作流程
+- **归档**: `raw/cc-doc/` → `archive/cc-doc/`
+
+---
+
+## [2026-04-27] lint | Source 路径修复完成
+
+- **操作**: 修复 18 个 entities 页面的 source 路径错误
+- **问题**: 使用了 `../../../archive/` 而非 `../../archive/`
+- **修复文件**:
+  - `entities/brand-guardian.md`
+  - `entities/engineering-*.md` (11个文件)
+  - `entities/design-*.md` (6个文件)
+- **验证结果**:
+  - Source 路径问题: 82 → 0 ✅
+  - 根因: 之前脚本 bug 产生误报
+- **更新**: `WIKI-LINT-REPORT.md` 已更新为当前状态
+
+---
+
+## [2026-04-27] docs-ingest | Command/Agent/Skill 文档整合
+
+- **操作**: 文档摄取（raw/ → wiki/ + archive/）
+- **更新**:
+  - `wiki/synthesis/agent-command-skill-comparison.md` — 追加调用关系解析章节
+- **新建**:
+  - `wiki/implementation/agent-command-skill-fields.md` — 字段完整对比规格
+  - `wiki/entities/engineering-sre-agent.md` — SRE Agent 实体
+- **归档**:
+  - `archive/notes/2026-04-27-command-subagent-skill-relation.md`
+  - `archive/notes/2026-04-27-agent-command-skill-fields.md`
+  - `archive/agency-agents/engineering/engineering-sre.md`
+
+---
+
+## [2026-04-26] agency-agents | 多代理工作流文档
+
+- **操作**: 归档 `archive/agency-agents/` 到 `archive/agency-agents/`
+- **文档状态**: 6 个工作流文档已存在于 Wiki
+  - `wiki/guides/workflow-startup-mvp.md` — 7-Agent 创业 MVP 工作流
+  - `wiki/guides/workflow-with-memory.md` — MCP Memory 增强版
+  - `wiki/guides/workflow-book-chapter.md` — Book Co-Author 工作流
+  - `wiki/guides/workflow-landing-page.md` — 4-Agent 快速落地
+  - `wiki/guides/nexus-spatial-discovery.md` — 8-Agent 深度调研
+  - `wiki/guides/workflow-examples.md` — README 概览
+- **来源**: `archive/agency-agents/examples/`
 
 ---
 
@@ -370,6 +510,37 @@ updated: 2026-04-26
 - **验证结果**: Skills 工具列表显示 4 个新 skills 可用 ✅
 - **清理**: 删除空的 `.omc/skills/` 目录
 - **状态**: 已完成
+
+## [2026-04-26] ingest | Design Agent 文档摄取完成
+
+- **操作**: 8 个 Design Agent 文档从 raw/ → wiki/ + archive/
+- **创建页面** (8个 entities):
+  - `entities/brand-guardian.md` — Brand strategy specialist (💎 #E91E63)
+  - `entities/ui-designer.md` — Visual design systems specialist (🎨 purple)
+  - `entities/ux-researcher.md` — User behavior analysis specialist (🔬 green)
+  - `entities/image-prompt-engineer.md` — AI photography prompts (📷 amber)
+  - `entities/inclusive-visuals-specialist.md` — AI bias defense (🌈 #4DB6AC)
+  - `entities/visual-storyteller.md` — Visual communication specialist (🎬 orange)
+  - `entities/whimsy-injector.md` — Creative personality specialist (✨ pink)
+  - `entities/ux-architect.md` — Technical architecture specialist (🏗️ blue)
+- **归档**: `archive/agency-agents/design/*.md` → `archive/agency-agents/design/`
+- **方法**: 直接文件系统写入（绕过 obsidian CLI 语法限制）
+- **状态**: 已完成
+
+## [2026-04-27] docs-ingest | 文档摄取完成
+
+- **操作**: 完成剩余 raw/ 文档处理
+- **归档内容**:
+  - `raw/cc-doc/` → `archive/cc-doc/` (10个 Claude Code 官方文档剪报)
+  - `raw/notes/` → `archive/notes/` (UI/UX entities 分析)
+- **跳过原因**:
+  - Claude Code 官方文档：Wiki 已有 `entities/claude-settings.md` 等 17+ 页面覆盖
+  - UI/UX notes：相关 4 个 Design Agent Wiki 页面已存在
+- **清理**: 删除空的 `raw/` 目录
+- **最终统计**: 
+  - 本次新增 Wiki 页面: 3 个（agent-command-skill-fields, engineering-sre-agent, 更新 synthesis）
+  - 归档文件: 12 个（10 cc-doc + 1 notes + 1 engineering-sre源）
+- **状态**: ✅ 完成
 
 ---
 

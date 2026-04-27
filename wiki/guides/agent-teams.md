@@ -4,7 +4,7 @@ description: Agent Teams 多会话协调工作流实现指南
 type: guide
 tags: [agent-teams, implementation, tmux, coordination]
 created: 2026-04-26
-source: ../../archive/implementation/claude-agent-teams-implementation.md
+source: ../../../archive/implementation/claude-agent-teams-implementation.md
 ---
 
 # Agent Teams Implementation
@@ -26,8 +26,8 @@ Agent Teams 通过多个独立 Claude Code 会话协调工作，每个 teammate 
 
 ## 交叉引用
 
-- [[entities/claude-subagents]] — 子代理系统（对比）
-- [[entities/claude-commands]] — 命令系统
+- [[wiki/entities/claude-subagents]] — 子代理系统（对比）
+- [[wiki/entities/claude-commands]] — 命令系统
 - [[synthesis/agent-command-skill-comparison]] — 扩展机制对比
 
 ## 相关页面

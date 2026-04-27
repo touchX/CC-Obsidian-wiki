@@ -32,7 +32,7 @@ wiki/
 ### 1. 查询知识
 ```
 问：我如何使用 Claude Code 的 Skills？
-→ 读取 [[entities/claude-skills]]
+→ 读取 [[wiki/entities/claude-skills]]
 ```
 
 ### 2. 摄入新来源
@@ -72,7 +72,7 @@ sources: 1
 | 类型 | 用途 | 示例 |
 |------|------|------|
 | concept | 核心概念 | [[concepts/context-window]] |
-| entity | 具体工具/项目 | [[entities/claude-code]] |
+| entity | 具体工具/项目 | [[wiki/entities/claude-code]] |
 | source | 来源摘要 | [[sources/karpathy-llm-wiki]] |
 | synthesis | 综合分析 | [[synthesis/agent-architecture]] |
 | guide | 操作指南 | [[guides/quick-start]] |
@@ -81,7 +81,7 @@ sources: 1
 
 使用 `[[page-slug]]` 语法创建链接：
 - `[[concepts/xxx]]` — 概念页面
-- `[[entities/xxx]]` — 实体页面
+- `[[wiki/entities/xxx]]` — 实体页面
 - `[[sources/xxx]]` — 来源页面
 - `[[synthesis/xxx]]` — 综合页面
 - `[[guides/xxx]]` — 指南页面

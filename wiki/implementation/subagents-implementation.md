@@ -53,7 +53,7 @@ skills:
 
 ## 相关页面
 
-- [[entities/claude-subagents]] — Sub-agents 实体
+- [[wiki/entities/claude-subagents]] — Sub-agents 实体
 - [[guides/subagents]] — Sub-agents 使用指南
 - [[synthesis/agent-command-skill-comparison]] — Agent/Command/Skill 对比
 - [[implementation/agent-teams-implementation]] — Agent Teams 实现

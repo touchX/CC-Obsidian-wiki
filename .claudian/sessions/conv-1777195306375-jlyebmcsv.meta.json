@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777195306375-jlyebmcsv",
+  "providerId": "claude",
+  "title": "Query Claude Code settings in wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777195306375,
+  "updatedAt": 1777272195738,
+  "lastResponseAt": 1777272195738,
+  "sessionId": "86f68a80-fb42-4c2b-9ec3-af40371cf78e",
+  "providerState": {
+    "providerSessionId": "86f68a80-fb42-4c2b-9ec3-af40371cf78e"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

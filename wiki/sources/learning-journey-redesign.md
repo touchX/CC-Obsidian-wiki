@@ -5,7 +5,7 @@ type: source
 tags: [presentation, redesign, narrative]
 created: 2026-04-18
 updated: 2026-04-26
-source: ../../archive/reports/learning-journey-weather-reporter-redesign.md
+source: ../../../archive/reports/learning-journey-weather-reporter-redesign.md
 ---
 
 # Weather Reporter Redesign Plan
@@ -16,5 +16,5 @@ Learning Journey 演示重构计划：围绕 weather reporter agent 重排第 7 
 
 ## 相关页面
 
-- [[entities/claude-subagents]] — 子代理系统
-- [[entities/claude-commands]] — 命令参考
+- [[wiki/entities/claude-subagents]] — 子代理系统
+- [[wiki/entities/claude-commands]] — 命令参考

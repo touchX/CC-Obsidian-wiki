@@ -104,7 +104,7 @@ Level 4: Skills      (技能扩展)
 
 ## 相关资源
 
-- [[entities/claude-commands]] — Commands 系统
-- [[entities/claude-subagents]] — Sub-agents 系统
-- [[entities/claude-skills]] — Skills 系统
+- [[wiki/entities/claude-commands]] — Commands 系统
+- [[wiki/entities/claude-subagents]] — Sub-agents 系统
+- [[wiki/entities/claude-skills]] — Skills 系统
 - [[tutorial/day0/README]] — Day 0 安装教程
