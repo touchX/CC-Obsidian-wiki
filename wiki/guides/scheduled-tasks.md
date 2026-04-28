@@ -4,7 +4,7 @@ description: 定时任务实现指南 — /loop cron 调度与任务管理
 type: guide
 tags: [scheduled-tasks, loop, cron, implementation]
 created: 2026-04-26
-source: ../../../archive/implementation/claude-scheduled-tasks-implementation.md
+source: ../../archive/implementation/claude-scheduled-tasks-implementation.md
 ---
 
 # Scheduled Tasks Implementation
@@ -39,10 +39,10 @@ source: ../../../archive/implementation/claude-scheduled-tasks-implementation.md
 
 ## 交叉引用
 
-- [[wiki/entities/claude-commands]] — 命令系统
-- [[synthesis/agent-command-skill-comparison]] — 扩展机制对比
+- [[claude-commands]] — 命令系统
+- [[agent-command-skill-comparison]] — 扩展机制对比
 
 ## 相关页面
 
-- [[guides/commands]] — Commands 实现
-- [[guides/agent-teams]] — Agent Teams 实现
+- [[commands]] — Commands 实现
+- [[agent-teams]] — Agent Teams 实现

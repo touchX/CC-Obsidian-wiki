@@ -5,7 +5,7 @@ type: entity
 tags: [frontend, react, vue, angular, css, web-performance, accessibility]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-frontend-developer.md
+source: ../../archive/agency-agents/engineering/engineering-frontend-developer.md
 ---
 
 # Frontend Developer
@@ -66,12 +66,12 @@ styles/
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-ux-researcher|UX Researcher]]
-- [[wiki/entities/engineering-ui-designer|UI Designer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-ux-researcher|UX Researcher]]
+- [[engineering-ui-designer|UI Designer]]
 
 ## Links
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-ux-researcher|UX Researcher]]
-- [[wiki/entities/engineering-ui-designer|UI Designer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-ux-researcher|UX Researcher]]
+- [[engineering-ui-designer|UI Designer]]

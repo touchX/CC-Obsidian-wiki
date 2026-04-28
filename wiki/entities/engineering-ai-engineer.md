@@ -5,7 +5,7 @@ type: entity
 tags: [ai-engineering, machine-learning, mlops, llm-integration]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-ai-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-ai-engineer.md
 ---
 
 # AI Engineer
@@ -47,12 +47,12 @@ AI Engineer 专注于机器学习模型开发、部署和生产集成。构建�
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-data-engineer|Data Engineer]]
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-ai-data-remediation-engineer|AI Data Remediation Engineer]]
+- [[engineering-data-engineer|Data Engineer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-ai-data-remediation-engineer|AI Data Remediation Engineer]]
 
 ## Links
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-data-engineer|Data Engineer]]
-- [[wiki/entities/engineering-ai-data-remediation-engineer|AI Data Remediation Engineer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-data-engineer|Data Engineer]]
+- [[engineering-ai-data-remediation-engineer|AI Data Remediation Engineer]]

@@ -5,7 +5,7 @@ type: guide
 tags: [startup, mvp, development, sprint, product, rapid-prototyping]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/examples/workflow-startup-mvp.md
+source: ../../archive/agency-agents/examples/workflow-startup-mvp.md
 ---
 
 # Startup MVP Workflow

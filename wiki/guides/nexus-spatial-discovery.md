@@ -5,7 +5,7 @@ type: guide
 tags: [nexus, spatial, discovery, multi-agent, parallel, xr, ux-research]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/examples/nexus-spatial-discovery.md
+source: ../../archive/agency-agents/examples/nexus-spatial-discovery.md
 ---
 
 # Nexus Spatial Discovery

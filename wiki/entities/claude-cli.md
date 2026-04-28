@@ -32,11 +32,11 @@ claude --print <prompt>   # 单次输出模式
 
 ## CLI 参考
 
-完整的命令行标志和选项请参阅 [[sources/cli-reference-full]]。
+完整的命令行标志和选项请参阅 [[cli-reference-full]]。
 
 ## 相关页面
 
-- [[wiki/entities/claude-commands]] — 75+ 内置命令
-- [[wiki/entities/claude-settings]] — 配置选项
-- [[wiki/entities/claude-setup]] — 安装和设置
-- [[guides/power-ups]] — 交互教程
+- [[claude-commands]] — 75+ 内置命令
+- [[claude-settings]] — 配置选项
+- [[claude-setup]] — 安装和设置
+- [[power-ups]] — 交互教程

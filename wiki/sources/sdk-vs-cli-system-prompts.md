@@ -5,7 +5,7 @@ type: source
 tags: [sdk, cli, system-prompts, comparison]
 created: 2026-04-20
 updated: 2026-04-26
-source: ../../../archive/reports/claude-agent-sdk-vs-cli-system-prompts.md
+source: ../../archive/reports/claude-agent-sdk-vs-cli-system-prompts.md
 ---
 
 # SDK vs CLI System Prompts
@@ -16,5 +16,5 @@ Claude Agent SDK 与 Claude CLI 的系统提示词架构根本不同：CLI 使�
 
 ## 相关页面
 
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[concepts/agent-harness]] — Agent Harness
+- [[claude-skills]] — Skills 系统
+- [[agent-harness]] — Agent Harness

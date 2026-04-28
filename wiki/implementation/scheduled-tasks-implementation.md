@@ -53,5 +53,5 @@ $ claude
 
 ## 相关页面
 
-- [[guides/scheduled-tasks]] — 定时任务使用指南
-- [[wiki/entities/claude-commands]] — Commands 实体
+- [[scheduled-tasks]] — 定时任务使用指南
+- [[claude-commands]] — Commands 实体

@@ -5,7 +5,7 @@ type: source
 tags: [tips, opus, auto-mode, recaps, verification]
 created: 2026-04-16
 updated: 2026-04-26
-source: ../../../archive/tips/claude-boris-6-tips-16-apr-26.md
+source: ../../archive/tips/claude-boris-6-tips-16-apr-26.md
 ---
 
 # Opus 4.7 六大技巧
@@ -25,5 +25,5 @@ Boris Cherny 使用 Opus 4.7 几周后的实战技巧：Auto Mode 免权限提�
 
 ## 相关页面
 
-- [[wiki/entities/claude-commands]] — 命令参考
-- [[wiki/entities/claude-settings]] — 配置选项
+- [[claude-commands]] — 命令参考
+- [[claude-settings]] — 配置选项

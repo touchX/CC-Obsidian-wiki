@@ -1,0 +1,25 @@
+{
+  "name": "fireworks-tech-graph",
+  "full_name": "yizhiyanhua-ai/fireworks-tech-graph",
+  "description": "Claude Code skill for generating production-quality SVG+PNG technical diagrams using natural language descriptions",
+  "stars": 4750,
+  "forks": null,
+  "language": "Python",
+  "license": "MIT",
+  "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+  "homepage": null,
+  "topics": ["claude-code", "claude-code-skill", "svg", "diagram", "technical-drawing", "ai-agent"],
+  "created_at": "2026-04-10",
+  "pushed_at": "2026-04-20",
+  "updated_at": "2026-04-28",
+  "collected_at": "2026-04-28",
+  "features": {
+    "visual_styles": 7,
+    "diagram_types": 14,
+    "uml_support": true,
+    "ai_agent_patterns": ["RAG", "Agentic Search", "Mem0", "Multi-Agent", "Tool Call"],
+    "output_formats": ["SVG", "PNG"]
+  },
+  "installation": "npx skills add yizhiyanhua-ai/fireworks-tech-graph",
+  "requirements": ["rsvg-convert (librsvg)"]
+}

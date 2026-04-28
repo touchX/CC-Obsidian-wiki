@@ -113,5 +113,5 @@ What tools do you have access to?
 ## 另请参阅
 
 - [MCP servers](https://code.claude.com/docs/zh-CN/mcp) — 通过连接外部服务器添加自定义工具
-- [[wiki/entities/claude-cli]] — CLI 完整指南
-- [[wiki/entities/claude-commands]] — 命令系统
+- [[claude-cli]] — CLI 完整指南
+- [[claude-commands]] — 命令系统

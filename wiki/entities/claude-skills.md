@@ -5,7 +5,7 @@ type: entity
 tags: [skills, automation, workflow, extension]
 created: 2026-04-26
 updated: 2026-04-27
-source: ../../../archive/cc-doc/使用 skills 扩展 Claude.md
+source: ../../archive/cc-doc/使用 skills 扩展 Claude.md
 ---
 
 # Claude Skills
@@ -211,10 +211,10 @@ Skills 可捆绑脚本生成视觉输出：
 
 ## 相关页面
 
-- [[wiki/entities/claude-subagents]] — Subagent 系统
-- [[wiki/entities/claude-mcp]] — MCP 服务器
-- [[wiki/entities/claude-hooks]] — Hooks 系统
-- [[guides/skills]] — Skills 使用指南
+- [[claude-subagents]] — Subagent 系统
+- [[claude-mcp]] — MCP 服务器
+- [[claude-hooks]] — Hooks 系统
+- [[skills]] — Skills 使用指南
 
 ## 来源
 

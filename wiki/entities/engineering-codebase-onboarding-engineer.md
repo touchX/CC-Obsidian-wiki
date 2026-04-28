@@ -5,7 +5,7 @@ type: entity
 tags: [codebase-exploration, onboarding, architecture, documentation]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-codebase-onboarding-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-codebase-onboarding-engineer.md
 ---
 
 # Codebase Onboarding Engineer
@@ -82,12 +82,12 @@ Codebase Onboarding Engineer 是代码库探索专家，帮助新成员快速理
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-frontend-developer|Frontend Developer]]
-- [[wiki/entities/engineering-code-reviewer|Code Reviewer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-frontend-developer|Frontend Developer]]
+- [[engineering-code-reviewer|Code Reviewer]]
 
 ## Links
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-frontend-developer|Frontend Developer]]
-- [[wiki/entities/engineering-code-reviewer|Code Reviewer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-frontend-developer|Frontend Developer]]
+- [[engineering-code-reviewer|Code Reviewer]]

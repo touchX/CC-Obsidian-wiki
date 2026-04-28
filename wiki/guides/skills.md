@@ -4,7 +4,7 @@ description: Skills 实现指南 — Agent Skills vs 直接调用 Skills
 type: guide
 tags: [skills, implementation, invocation]
 created: 2026-04-26
-source: ../../../archive/implementation/claude-skills-implementation.md
+source: ../../archive/implementation/claude-skills-implementation.md
 ---
 
 # Skills Implementation
@@ -40,11 +40,11 @@ Skill tool → skill: weather-svg-creator
 
 ## 交叉引用
 
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[synthesis/agent-command-skill-comparison]] — 三种扩展机制对比
-- [[concepts/skills-discovery-mono-repos]] — 大型 Monorepo 中的发现机制
+- [[claude-skills]] — Skills 系统
+- [[agent-command-skill-comparison]] — 三种扩展机制对比
+- [[skills-discovery-mono-repos]] — 大型 Monorepo 中的发现机制
 
 ## 相关页面
 
-- [[guides/commands]] — Commands 实现
-- [[guides/subagents]] — Sub-agents 实现
+- [[commands]] — Commands 实现
+- [[subagents]] — Sub-agents 实现

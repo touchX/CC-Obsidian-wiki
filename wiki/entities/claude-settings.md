@@ -7,7 +7,7 @@ tags:
   - configuration
   - environment
 created: 2026-04-26
-source: ../../../archive/best-practice/claude-settings.md
+source: ../../archive/best-practice/claude-settings.md
 ---
 
 # Claude Settings 
@@ -38,5 +38,5 @@ Claude Code 配置系统包含 60+ 设置项和 175+ 环境变量，按功能分
 
 ## 相关页面
 
-- [[wiki/entities/claude-cli]] — CLI 工具
-- [[concepts/claude-memory]] — 内存管理
+- [[claude-cli]] — CLI 工具
+- [[claude-memory]] — 内存管理

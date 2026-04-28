@@ -5,7 +5,7 @@ type: entity
 tags: [siem, threat-detection, sigma, mitre-attck, soc, splunk]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-threat-detection-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-threat-detection-engineer.md
 color: "#7b2d8e"
 emoji: 🎯
 ---

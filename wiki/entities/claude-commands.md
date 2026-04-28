@@ -40,10 +40,10 @@ source: ../../archive/cc-doc/命令.md
 
 ## 完整命令列表
 
-完整的 75+ 命令列表请参阅 [[sources/commands-full]]。
+完整的 75+ 命令列表请参阅 [[commands-full]]。
 
 ## 相关页面
 
-- [[wiki/entities/claude-cli]] — CLI 完整指南
-- [[wiki/entities/claude-settings]] — 配置选项
-- [[synthesis/agent-command-skill-comparison]] — 扩展机制对比
+- [[claude-cli]] — CLI 完整指南
+- [[claude-settings]] — 配置选项
+- [[agent-command-skill-comparison]] — 扩展机制对比

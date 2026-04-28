@@ -80,9 +80,9 @@ sources: 2
 
 ## 相关概念
 
-- [[concepts/context-management]] — 上下文管理策略
-- [[wiki/entities/claude-code]] — Claude Code 的上下文处理
-- [[synthesis/agent-architecture]] — Agent 架构中的上下文设计
+- [[context-management]] — 上下文管理策略
+- [[claude-code]] — Claude Code 的上下文处理
+- [[agent-architecture]] — Agent 架构中的上下文设计
 
 ## 实践建议
 

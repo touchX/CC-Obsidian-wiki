@@ -5,7 +5,7 @@ type: entity
 tags: [prototype, mvp, rapid, nextjs, prisma, laravel, livewire]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-rapid-prototyper.md
+source: ../../archive/agency-agents/engineering/engineering-rapid-prototyper.md
 color: green
 emoji: ⚡
 ---

@@ -5,7 +5,7 @@ type: entity
 tags: [cms, wordpress, drupal, php, content-management]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-cms-developer.md
+source: ../../archive/agency-agents/engineering/engineering-cms-developer.md
 ---
 
 # CMS Developer
@@ -74,12 +74,12 @@ CMS Developer 是 Drupal 和 WordPress 专家，精通主题开发、插件模�
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-frontend-developer|Frontend Developer]]
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
+- [[engineering-frontend-developer|Frontend Developer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-devops-automator|DevOps Automator]]
 
 ## Links
 
-- [[wiki/entities/engineering-frontend-developer|Frontend Developer]]
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
+- [[engineering-frontend-developer|Frontend Developer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-devops-automator|DevOps Automator]]

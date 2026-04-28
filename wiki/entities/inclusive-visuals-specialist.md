@@ -7,7 +7,7 @@ type: entity
 tags: [ai, bias, representation, diversity, inclusion, visual]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/design/design-inclusive-visuals-specialist.md
+source: ../../archive/agency-agents/design/design-inclusive-visuals-specialist.md
 ---
 
 # Inclusive Visuals Specialist

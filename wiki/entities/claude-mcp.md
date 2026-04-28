@@ -5,7 +5,7 @@ type: entity
 tags: [mcp, plugins, tools, integration]
 created: 2026-04-26
 updated: 2026-04-27
-source: ../../../archive/best-practice/claude-mcp.md
+source: ../../archive/best-practice/claude-mcp.md
 ---
 
 # Claude MCP
@@ -75,7 +75,7 @@ MCP (Model Context Protocol) 服务器扩展 Claude Code 连接外部工具、�
 
 ## 相关页面
 
-- [[wiki/entities/claude-cli]] — CLI 工具
-- [[wiki/entities/claude-subagents]] — Subagent 与 MCP 隔离
-- [[guides/power-ups]] — 功能教程
-- [[concepts/global-vs-project-settings]] — 全局 vs 项目级配置
+- [[claude-cli]] — CLI 工具
+- [[claude-subagents]] — Subagent 与 MCP 隔离
+- [[power-ups]] — 功能教程
+- [[global-vs-project-settings]] — 全局 vs 项目级配置

@@ -5,7 +5,7 @@ type: entity
 tags: [agents, engineering, sre, reliability, observability, sla]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-sre.md
+source: ../../archive/agency-agents/engineering/engineering-sre.md
 ---
 
 # SRE Agent 规格
@@ -98,5 +98,5 @@ slos:
 
 ## 相关页面
 
-- [[wiki/entities/claude-subagents]] — Claude Subagents 概览
-- [[implementation/agent-teams-implementation]] — Agent 团队实现
+- [[claude-subagents]] — Claude Subagents 概览
+- [[agent-teams-implementation]] — Agent 团队实现

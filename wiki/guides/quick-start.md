@@ -32,7 +32,7 @@ wiki/
 ### 1. 查询知识
 ```
 问：我如何使用 Claude Code 的 Skills？
-→ 读取 [[wiki/entities/claude-skills]]
+→ 读取 [[claude-skills]]
 ```
 
 ### 2. 摄入新来源
@@ -61,7 +61,7 @@ sources: 1
 ...
 
 ## 相关概念
-- [[concepts/related-page]]
+- [[related-page]]
 
 ## 来源
 - [来源链接](url)
@@ -71,26 +71,26 @@ sources: 1
 
 | 类型 | 用途 | 示例 |
 |------|------|------|
-| concept | 核心概念 | [[concepts/context-window]] |
-| entity | 具体工具/项目 | [[wiki/entities/claude-code]] |
-| source | 来源摘要 | [[sources/karpathy-llm-wiki]] |
-| synthesis | 综合分析 | [[synthesis/agent-architecture]] |
-| guide | 操作指南 | [[guides/quick-start]] |
+| concept | 核心概念 | [[context-window]] |
+| entity | 具体工具/项目 | [[claude-code]] |
+| source | 来源摘要 | [[karpathy-llm-wiki]] |
+| synthesis | 综合分析 | [[agent-architecture]] |
+| guide | 操作指南 | [[quick-start]] |
 
 ## 交叉引用
 
 使用 `[[page-slug]]` 语法创建链接：
-- `[[concepts/xxx]]` — 概念页面
-- `[[wiki/entities/xxx]]` — 实体页面
-- `[[sources/xxx]]` — 来源页面
-- `[[synthesis/xxx]]` — 综合页面
-- `[[guides/xxx]]` — 指南页面
+- `[[xxx]]` — 概念页面
+- `[[xxx]]` — 实体页面
+- `[[xxx]]` — 来源页面
+- `[[xxx]]` — 综合页面
+- `[[xxx]]` — 指南页面
 
 ## 下一步
 
-- 阅读 [[sources/karpathy-llm-wiki]] 了解方法论
-- 查看 [[concepts/agent-harness]] 了解测试框架
-- 阅读 [[synthesis/agent-architecture]] 了解系统架构
+- 阅读 [[karpathy-llm-wiki]] 了解方法论
+- 查看 [[agent-harness]] 了解测试框架
+- 阅读 [[agent-architecture]] 了解系统架构
 
 ## 来源
 

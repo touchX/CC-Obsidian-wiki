@@ -63,8 +63,9 @@ project-root/
 │           ├── reports/
 │           ├── tips/
 │           └── tutorial/
-└── scripts/               # 维护工具
-    └── wiki-lint.sh       # Wiki 健康检查工具
+└── .claude/skills/       # Skills 目录
+    └── wiki-lint/         # Wiki Lint Skill
+        └── wiki-lint.sh  # Wiki 健康检查工具
 ```
 
 ## 三层架构
@@ -95,11 +96,11 @@ project-root/
 ---
 name: page-slug
 description: 一句话描述
-type: concept | entity | source | synthesis | guide | implementation
+type: concept | entity | source | synthesis | guide | tutorial | tips | implementation
 tags: [tag1, tag2, tag3]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-source: ../../../archive/{category}/{filename}.md  # 模板占位符
+source: ../../archive/{category}/{filename}.md  # 模板占位符
 ---
 
 # Page Title
@@ -109,7 +110,7 @@ source: ../../../archive/{category}/{filename}.md  # 模板占位符
 - `source:` 字段必须指向 `archive/` 中的原始文件
 - 路径从 Wiki 页面位置计算相对路径：
   - `wiki/{category}/xxx.md` → `source: ../../archive/{category}/xxx.md`
-  - `wiki/{category}/{subcategory}/xxx.md` → `source: ../../../archive/{category}/xxx.md`
+  - `wiki/{category}/{subcategory}/xxx.md` → `source: ../../archive/{category}/xxx.md`
 
 ### 命名规范
 - **概念**：小写 + 连字符，如 `context-window.md`
@@ -149,11 +150,9 @@ source: ../../../archive/{category}/{filename}.md  # 模板占位符
 
 ### Lint（检查）
 
-使用 `scripts/wiki-lint.sh` 定期检查 Wiki 健康状况：
+使用 `/wiki-lint` skill 定期检查 Wiki 健康状况：
 
-```bash
-cd wiki && ../scripts/wiki-lint.sh
-```
+调用 `/wiki-lint` skill 或使用备选命令 `cd wiki && ../.claude/skills/wiki-lint/wiki-lint.sh`
 
 **检查项目**：
 1. **页面统计** — 按分类统计页面数量
@@ -212,12 +211,12 @@ Dataview 会根据 frontmatter 自动查询并生成表格，实现零维护。
 - Notes: 关键发现...
 
 ## [YYYY-MM-DD] query | User Question
-- Answered: 综合了 [[x]], [[y]]
-- Filed to: [[synthesis/topic-analysis]]
+- Answered: 综合了 [[context-management]], [[context-window]]
+- Filed to: [[topic-analysis]]
 
 ## [YYYY-MM-DD] lint
 - Found: 1 contradiction, 2 orphans
-- Fixed: [[page-x]], [[page-y]]
+- Fixed: [[quick-start]], [[best-practices]]
 ```
 
 ## 质量标准
@@ -244,7 +243,7 @@ Dataview 会根据 frontmatter 自动查询并生成表格，实现零维护。
 ## 工具提示
 
 - 使用 `grep "^## \[" wiki/log.md | tail -5` 查看最近 5 条日志
-- 运行 `cd wiki && ../scripts/wiki-lint.sh` 检查健康状况
+- 调用 `/wiki-lint` skill 检查健康状况
 - 在 Obsidian 中查看 Graph View 可视化 Wiki 结构
 
 ## 故障排除
@@ -260,7 +259,7 @@ Dataview 会根据 frontmatter 自动查询并生成表格，实现零维护。
 **路径计算规则**:
 ```
 wiki/{category}/xxx.md       → source: ../../archive/{category}/xxx.md
-wiki/{category}/{sub}/xxx.md → source: ../../../archive/{category}/xxx.md
+wiki/{category}/{sub}/xxx.md → source: ../../archive/{category}/xxx.md
 ```
 
 **修复命令**:
@@ -272,7 +271,7 @@ find wiki -mindepth 2 -maxdepth 2 -type f -name "*.md" \
 
 # 修复二级子目录（如 tutorial/day0/）
 find wiki/tutorial -type f -name "*.md" \
-  -exec sed -i 's|source: \.\./\.\./archive/|source: ../../../archive/|' {} \;
+  -exec sed -i 's|source: \.\./\.\./archive/|source: ../../archive/|' {} \;
 ```
 
 **验证**: `grep -r "^source: \.\./archive/" wiki/` 应返回 0

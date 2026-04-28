@@ -68,8 +68,8 @@ CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude
 
 ## 相关页面
 
-- [[guides/agent-teams]] — Agent Teams 指南
-- [[wiki/entities/claude-subagents]] — 子代理系统
-- [[synthesis/agent-command-skill-comparison]] — Agent/Command/Skill 对比
-- [[implementation/commands-implementation]] — Commands 实现
-- [[implementation/subagents-implementation]] — Sub-agents 实现
+- [[agent-teams]] — Agent Teams 指南
+- [[claude-subagents]] — 子代理系统
+- [[agent-command-skill-comparison]] — Agent/Command/Skill 对比
+- [[commands-implementation]] — Commands 实现
+- [[subagents-implementation]] — Sub-agents 实现

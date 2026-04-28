@@ -5,7 +5,7 @@ type: guide
 tags: [best-practices, workflow, tips]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/cc-doc/Claude Code 最佳实践.md
+source: ../../archive/cc-doc/Claude Code 最佳实践.md
 ---
 
 # Claude Code 最佳实践
@@ -106,11 +106,11 @@ See @docs/git-instructions.md for git workflow.
 
 ## 相关页面
 
-- [[wiki/entities/claude-code]] — Claude Code 核心机制
-- [[concepts/context-window]] — 上下文窗口原理
-- [[guides/workflows]] — 常见工作流程
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[wiki/entities/claude-hooks]] — Hooks 系统
+- [[claude-code]] — Claude Code 核心机制
+- [[context-window]] — 上下文窗口原理
+- [[workflows]] — 常见工作流程
+- [[claude-skills]] — Skills 系统
+- [[claude-hooks]] — Hooks 系统
 
 ## 来源
 

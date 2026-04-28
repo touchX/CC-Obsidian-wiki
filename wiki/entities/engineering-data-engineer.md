@@ -5,7 +5,7 @@ type: entity
 tags: [data-engineering, data-pipelines, etl-elt, lakehouse, big-data]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-data-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-data-engineer.md
 ---
 
 # Data Engineer
@@ -66,12 +66,12 @@ Gold (Curated)   → 业务聚合数据
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-ai-engineer|AI Engineer]]
-- [[wiki/entities/engineering-ai-data-remediation-engineer|AI Data Remediation Engineer]]
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
+- [[engineering-ai-engineer|AI Engineer]]
+- [[engineering-ai-data-remediation-engineer|AI Data Remediation Engineer]]
+- [[engineering-backend-architect|Backend Architect]]
 
 ## Links
 
-- [[wiki/entities/engineering-ai-engineer|AI Engineer]]
-- [[wiki/entities/engineering-ai-data-remediation-engineer|AI Data Remediation Engineer]]
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
+- [[engineering-ai-engineer|AI Engineer]]
+- [[engineering-ai-data-remediation-engineer|AI Data Remediation Engineer]]
+- [[engineering-backend-architect|Backend Architect]]

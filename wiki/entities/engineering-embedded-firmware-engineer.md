@@ -5,7 +5,7 @@ type: entity
 tags: [embedded-systems, firmware, esp32, stm32, rtos, iot]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-embedded-firmware-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-embedded-firmware-engineer.md
 ---
 
 # Embedded Firmware Engineer
@@ -62,10 +62,10 @@ void vTaskFunction(void* pvParameters) {
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-devops-automator|DevOps Automator]]
 
 ## Links
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-devops-automator|DevOps Automator]]

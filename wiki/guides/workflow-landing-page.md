@@ -5,7 +5,7 @@ type: guide
 tags: [landing-page, marketing, content, design, frontend, growth, sprint]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/examples/workflow-landing-page.md
+source: ../../archive/agency-agents/examples/workflow-landing-page.md
 ---
 
 # Landing Page Sprint Workflow

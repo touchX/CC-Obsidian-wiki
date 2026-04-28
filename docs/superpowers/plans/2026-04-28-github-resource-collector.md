@@ -177,7 +177,7 @@ Expected: 提交成功
 ### Task 3: 创建 Wiki 页面模板
 
 **Files:**
-- Create: `scripts/templates/github-repo-template.md`
+- Create: `.claude/skills/github-collect/github-repo-template.md`
 
 - [ ] **Step 1: 创建模板目录**
 
@@ -190,7 +190,7 @@ Expected: 目录创建成功
 - [ ] **Step 2: 创建模板文件**
 
 ```bash
-cat > scripts/templates/github-repo-template.md << 'EOF'
+cat > .claude/skills/github-collect/github-repo-template.md << 'EOF'
 ---
 name: {owner}-{repo}
 description: {description}
@@ -234,7 +234,7 @@ Expected: 模板文件创建成功
 - [ ] **Step 3: 验证模板内容**
 
 ```bash
-cat scripts/templates/github-repo-template.md
+cat .claude/skills/github-collect/github-repo-template.md
 ```
 
 Expected: 模板包含正确的占位符
@@ -332,7 +332,7 @@ set -e
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WIKI_DIR="$PROJECT_ROOT/wiki"
 ARCHIVE_DIR="$PROJECT_ROOT/archive"
-TEMPLATE_FILE="$PROJECT_ROOT/scripts/templates/github-repo-template.md"
+TEMPLATE_FILE="$PROJECT_ROOT/.claude/skills/github-collect/github-repo-template.md"
 CURRENT_DATE=$(date +%Y-%m-%d)
 
 # 颜色输出
@@ -539,7 +539,7 @@ async function fetchGitHubRepoData(owner, repo) {
 
 async function loadTemplate() {
   const fs = require('fs');
-  const templatePath = 'scripts/templates/github-repo-template.md';
+  const templatePath = '.claude/skills/github-collect/github-repo-template.md';
   return fs.readFileSync(templatePath, 'utf-8');
 }
 
@@ -1006,7 +1006,7 @@ Expected: 提交成功
 echo "检查目录结构:"
 ls -d wiki/resources/github-repos/ 2>/dev/null && echo "✅ Wiki 目录"
 ls -d archive/resources/github/ 2>/dev/null && echo "✅ 归档目录"
-ls scripts/templates/github-repo-template.md 2>/dev/null && echo "✅ 模板文件"
+ls .claude/skills/github-collect/github-repo-template.md 2>/dev/null && echo "✅ 模板文件"
 ls skills/github-collect/skill.json 2>/dev/null && echo "✅ Skill 配置"
 ```
 

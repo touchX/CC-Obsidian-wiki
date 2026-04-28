@@ -5,7 +5,7 @@ type: guide
 tags: [workflows, examples, patterns, multi-agent, best-practices]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/examples/README.md
+source: ../../archive/agency-agents/examples/README.md
 ---
 
 # Workflow Examples
@@ -110,8 +110,8 @@ Build your own workflow by combining patterns:
 
 ## 🔗 Related
 
-- [[guides/agent-teams]] — Multi-agent coordination
-- [[guides/skills]] — Skill-based agent configuration
-- [[wiki/entities/subagents]] — Agent definitions
+- [[agent-teams]] — Multi-agent coordination
+- [[skills]] — Skill-based agent configuration
+- [[subagents]] — Agent definitions
 
 ---

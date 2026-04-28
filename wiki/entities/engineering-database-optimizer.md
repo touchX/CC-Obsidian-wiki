@@ -5,7 +5,7 @@ type: entity
 tags: [database, postgresql, mysql, supabase, query-optimization, indexing]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-database-optimizer.md
+source: ../../archive/agency-agents/engineering/engineering-database-optimizer.md
 ---
 
 # Database Optimizer
@@ -58,12 +58,12 @@ SELECT * FROM orders WHERE user_id = 123;
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-data-engineer|Data Engineer]]
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-data-engineer|Data Engineer]]
+- [[engineering-devops-automator|DevOps Automator]]
 
 ## Links
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-data-engineer|Data Engineer]]
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-data-engineer|Data Engineer]]
+- [[engineering-devops-automator|DevOps Automator]]

@@ -5,7 +5,7 @@ type: entity
 tags: [security, threat-modeling, owasp, sast, dast, vulnerability]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-security-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-security-engineer.md
 color: red
 emoji: 🔒
 ---

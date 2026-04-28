@@ -19,14 +19,14 @@ raw/ → [ingest] → wiki/ + archive/
 |------|------|------|
 | **Ingest** | 读取 raw/ → 创建 wiki/ 页面 → 归档到 archive/ | 添加新知识 |
 | **Query** | 读取 wiki/index.md → 相关页面 → 综合回答 | 回答问题 |
-| **Lint** | `cd wiki && ../scripts/wiki-lint.sh` | 健康检查 |
+| **Lint** | `cd wiki && ../.claude/skills/wiki-lint/wiki-lint.sh` | 健康检查 |
 
 ### Frontmatter 标准（必须）
 ```yaml
 ---
 name: page-slug
 description: 一句话描述
-type: concept | entity | source | synthesis | guide | tutorial | tips
+type: concept | entity | source | synthesis | guide | tutorial | tips | implementation
 tags: [tag1, tag2]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -66,7 +66,7 @@ done
 | `wiki/WIKI.md` | Wiki Schema 规范（完整参考） |
 | `wiki/index.md` | Wiki 自动索引（Dataview） |
 | `wiki/log.md` | Wiki 操作日志 |
-| `scripts/wiki-lint.sh` | Wiki 健康检查工具 |
+| `.claude/skills/wiki-lint/wiki-lint.sh` | Wiki 健康检查工具 |
 | `.claude/rules/markdown-docs.md` | Markdown 文档规范 |
 
 ## 维护清单
@@ -74,7 +74,7 @@ done
 - [ ] 新页面添加正确 frontmatter
 - [ ] 新页面更新 wiki/index.md（Dataview 自动处理）
 - [ ] 添加 wiki/log.md 操作记录
-- [ ] 定期运行 `scripts/wiki-lint.sh` 检查健康状况
+- [ ] 定期运行 `.claude/skills/wiki-lint/wiki-lint.sh` 检查健康状况
 - [ ] Source 引用指向 archive/ 中的实际文件
 
 ---

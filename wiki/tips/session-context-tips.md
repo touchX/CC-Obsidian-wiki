@@ -5,7 +5,7 @@ type: source
 tags: [tips, session, context, compact, subagents]
 created: 2026-04-16
 updated: 2026-04-26
-source: ../../../archive/tips/claude-thariq-tips-16-apr-26.md
+source: ../../archive/tips/claude-thariq-tips-16-apr-26.md
 ---
 
 # Session Management & 1M Context
@@ -24,5 +24,5 @@ Thariq 详解 1M token 上下文窗口管理：Continue/Rewind/Compact/Clear/Sub
 
 ## 相关页面
 
-- [[concepts/context-management]] — 上下文管理
-- [[wiki/entities/claude-subagents]] — 子代理系统
+- [[context-management]] — 上下文管理
+- [[claude-subagents]] — 子代理系统

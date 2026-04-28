@@ -5,7 +5,7 @@ type: entity
 tags: [ai-engineering, data-pipeline, self-healing, semantic-clustering]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-ai-data-remediation-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-ai-data-remediation-engineer.md
 ---
 
 # AI Data Remediation Engineer
@@ -47,6 +47,6 @@ AI Data Remediation Engineer 是自愈数据管道专家，使用气隙本地 SL
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-data-engineer|Data Engineer]]
-- [[wiki/entities/engineering-ai-engineer|AI Engineer]]
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
+- [[engineering-data-engineer|Data Engineer]]
+- [[engineering-ai-engineer|AI Engineer]]
+- [[engineering-backend-architect|Backend Architect]]

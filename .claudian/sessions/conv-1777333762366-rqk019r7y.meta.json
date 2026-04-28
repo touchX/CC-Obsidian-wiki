@@ -1,14 +1,14 @@
 {
-  "id": "conv-1777195306375-jlyebmcsv",
+  "id": "conv-1777333762366-rqk019r7y",
   "providerId": "claude",
-  "title": "Query Claude Code settings in wiki",
+  "title": "运行 Wiki 健康检查",
   "titleGenerationStatus": "success",
-  "createdAt": 1777195306375,
-  "updatedAt": 1777272195738,
-  "lastResponseAt": 1777272195738,
-  "sessionId": "86f68a80-fb42-4c2b-9ec3-af40371cf78e",
+  "createdAt": 1777333762366,
+  "updatedAt": 1777338437566,
+  "lastResponseAt": 1777338437566,
+  "sessionId": "f759d8a6-fcf5-4d28-ad8d-94e006e9d7bd",
   "providerState": {
-    "providerSessionId": "86f68a80-fb42-4c2b-9ec3-af40371cf78e"
+    "providerSessionId": "f759d8a6-fcf5-4d28-ad8d-94e006e9d7bd"
   },
   "usage": {
     "model": "haiku",
