@@ -5,7 +5,7 @@ type: entity
 tags: [feishu, bot, API, workflow, integration]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-feishu-integration-developer.md
+source: ../../archive/agency-agents/engineering/engineering-feishu-integration-developer.md
 ---
 
 # Engineering Feishu Integration Developer

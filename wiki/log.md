@@ -4,12 +4,129 @@ description: Wiki 操作历史记录 — 所有变更的追加式日志
 type: reference
 tags: [wiki, log, history, changelog, operations]
 created: 2026-04-23
-updated: 2026-04-27
+updated: 2026-04-28
 ---
 
 # Wiki Log
 
 > 维基操作历史 — 追加式记录
+
+---
+
+## [2026-04-28] github-collect | Cocoon-AI/architecture-diagram-generator 收集完成
+
+- **来源**: https://github.com/Cocoon-AI/architecture-diagram-generator
+- **操作**: GitHub MCP 获取元数据 → 检测 Skill 目录结构 → 归档 JSON → 生成 v2.0 Wiki 页面
+- **元数据**:
+  - Stars: 4,487
+  - Forks: 338
+  - Language: HTML
+  - License: MIT
+  - Topics: claude-code, claude-skill, architecture, svg, diagram
+- **生成文件**:
+  - `wiki/resources/github-repos/cocoon-ai-architecture-diagram-generator.md` — v2.0 Wiki 页面
+  - `archive/resources/github/cocoon-ai-architecture-diagram-generator-2026-04-28.json` — 归档数据
+- **内容**: Claude AI Skill，生成精美暗黑主题架构图（独立 HTML/SVG）
+- **文档结构**:
+  - architecture-diagram/SKILL.md — 设计系统规范
+  - architecture-diagram/assets/template.html — 基础模板
+  - examples/ — Web App, AWS Serverless, Microservices 示例
+- **最新版本**: v1.0 (2025-12-22)
+- **增强特性**: 颜色方案表、多平台安装指南、技术规格、设计系统
+
+## [2026-04-28] github-collect | safishamsi/graphify v2.0 增强收集完成
+
+- **来源**: https://github.com/safishamsi/graphify
+- **操作**: GitHub MCP 获取元数据 → 检测 docs/ 翻译目录 → 归档 JSON → 生成 v2.0 Wiki 页面
+- **元数据**:
+  - Stars: 36,616
+  - Forks: 4,062
+  - Language: Python
+  - License: MIT
+  - Topics: graphrag, knowledge-graph, claude-code, skills, codex, gemini, openclaw
+- **生成文件**:
+  - `wiki/resources/github-repos/safishamsi-graphify.md` — v2.0 Wiki 页面（项目快照、多语言文档）
+  - `archive/resources/github/safishamsi-graphify-2026-04-28.json` — 归档数据（docs_structure 增强）
+- **内容**: AI 编码助手技能，将代码/文档/图片/视频转化为可查询知识图谱
+- **文档结构**:
+  - docs/translations/ — 25+ 语言翻译 README
+  - AGENTS.md, ARCHITECTURE.md, CHANGELOG.md, SECURITY.md
+- **最新版本**: v0.5.2 (2026-04-27)
+- **增强特性**: 项目快照表、帮助文档目录、多语言文档列表、安装与使用、团队工作流程
+
+## [2026-04-28] github-collect | vercel/next.js v2.0 增强收集完成
+
+- **来源**: https://github.com/vercel/next.js
+- **操作**: GitHub MCP 获取元数据 → 检测 docs/ 目录结构 → 归档 JSON → 生成 v2.0 Wiki 页面
+- **元数据**:
+  - Stars: 139,195
+  - Forks: 30,978
+  - Language: JavaScript
+  - License: MIT
+  - Topics: react, ssr, ssg, vercel, node, server-rendering
+- **生成文件**:
+  - `wiki/resources/github-repos/vercel-nextjs.md` — v2.0 Wiki 页面
+  - `archive/resources/github/vercel-nextjs-2026-04-28.json` — 归档数据
+- **文档结构**:
+  - docs/01-app, docs/02-pages, docs/03-architecture, docs/04-community
+  - CONTRIBUTING.md, release-channels-publishing.md, pull-request-descriptions.md
+- **最新版本**: v16.2.4 (2026-04-15)
+
+## [2026-04-28] github-collect | iamzhihuix/skills-manage 收集完成
+
+- **来源**: https://github.com/iamzhihuix/skills-manage
+- **操作**: GitHub CLI 获取元数据 → 归档 JSON → 生成 Wiki 页面
+- **元数据**:
+  - Stars: 1,271
+  - Language: TypeScript
+  - License: Apache-2.0
+  - Topics: ai, claude-code, cursor, desktop-app, llm, react, rust, skills, tauri
+- **生成文件**:
+  - `wiki/resources/github-repos/iamzhihuix-skills-manage.md` — Wiki 页面
+  - `archive/resources/github/iamzhihuix-skills-manage-2026-04-28.json` — 归档数据
+- **内容**: Tauri 桌面应用，支持 20+ 平台统一管理 AI coding agent skills
+
+## [2026-04-28] github-collect | cathrynlavery/diagram-design 收集完成
+
+- **来源**: https://github.com/cathrynlavery/diagram-design
+- **操作**: GitHub CLI 获取元数据 → 归档 JSON → 生成 Wiki 页面
+- **元数据**:
+  - Stars: 2,007
+  - Language: HTML
+  - License: None
+  - Topics: claude-code, diagram, svg, html, claude-code-skill
+- **生成文件**:
+  - `wiki/resources/github-repos/cathrynlavery-diagram-design.md` — Wiki 页面
+  - `archive/resources/github/cathrynlavery-diagram-design-2026-04-28.json` — 归档数据
+- **内容**: 13 种编辑级图表类型，Self-contained HTML + SVG，无阴影/无 Mermaid 杂讯
+
+## [2026-04-28] github-collect | yizhiyanhua-ai/fireworks-tech-graph 收集完成
+
+- **来源**: https://github.com/yizhiyanhua-ai/fireworks-tech-graph
+- **操作**: 验证 URL → GitHub MCP 获取元数据 → 归档 JSON → 生成 Wiki 页面
+- **元数据**:
+  - Stars: 4,750
+  - Language: Python
+  - License: MIT
+  - Topics: claude-code-skill, svg, diagram, ai-agent
+- **生成文件**:
+  - `wiki/resources/github-repos/yizhiyanhua-ai-fireworks-tech-graph.md` — Wiki 页面
+  - `archive/resources/github/yizhiyanhua-ai-fireworks-tech-graph-2026-04-28.json` — 归档数据
+- **内容**: 7 种视觉风格、14 种图表类型、完整 UML 支持、AI/Agent 领域模式
+
+## [2026-04-28] github-collect | addyosmani/agent-skills 收集完成
+
+- **来源**: https://github.com/addyosmani/agent-skills
+- **操作**: 验证 URL → GitHub MCP 获取元数据 → 归档 JSON → 生成 Wiki 页面
+- **元数据**:
+  - Stars: 24,701
+  - Language: Shell
+  - License: MIT
+  - Topics: agent-skills, claude-code, cursor, skills
+- **生成文件**:
+  - `wiki/resources/github-repos/addyosmani-agent-skills.md` — Wiki 页面
+  - `archive/resources/github/addyosmani-agent-skills-2026-04-28.json` — 归档数据
+- **内容**: 包含 9 个开发技能、3 个角色 Persona、4 个参考检查清单
 
 ---
 
@@ -393,7 +510,7 @@ updated: 2026-04-27
 
 ## [2026-04-26] lint | Wiki Lint 工具创建与执行
 
-- **创建工具**: `scripts/wiki-lint.sh` — Wiki 健康检查脚本
+- **创建工具**: `.claude/skills/wiki-lint/wiki-lint.sh` — Wiki 健康检查脚本
 - **功能**:
   - 页面统计（按分类）
   - Frontmatter 完整性检查
@@ -451,7 +568,7 @@ updated: 2026-04-27
 - **操作**: 基于实践经验优化 WIKI.md
 - **更新内容**:
   - **目录结构**: 补充完整的子目录（tutorial/day0/, tutorial/day1/, assets/images/ 等）
-  - **Lint 章节**: 更新为实际工具命令 `cd wiki && ../scripts/wiki-lint.sh`
+  - **Lint 章节**: 更新为实际工具命令 `cd wiki && ../.claude/skills/wiki-lint/wiki-lint.sh`
   - **故障排除**: 新增章节，记录 source 路径错误修复经验
   - **更新历史**: 记录本次优化到版本历史（v2.1）
 - **新增内容**:
@@ -551,4 +668,47 @@ updated: 2026-04-27
 
 - 仓库: vercel/next.js
 - Wiki 页面: wiki/resources/github-repos/vercel-nextjs.md
+
+---
+
+## [2026-04-28] github-collect | vercel/next.js 增强版收集完成
+
+- **来源**: https://github.com/vercel/next.js
+- **操作**: GitHub MCP 获取元数据 → 增强归档 JSON → 生成完整 Wiki 页面
+- **元数据**:
+  - Stars: 139,195
+  - Forks: 30,978
+  - Language: JavaScript
+  - License: MIT
+  - Topics: react, ssr, ssg, vercel, nextjs, node, server-rendering, static-site-generator
+  - 默认分支: canary
+  - 开放 Issues: 3,861
+- **帮助文档检测**:
+  - ✅ docs/ 目录（01-app, 02-pages, 03-architecture, 04-community）
+  - ✅ contributing.md 详细贡献指南
+  - ✅ 外部文档: https://nextjs.org/docs
+- **生成文件**:
+  - `wiki/resources/github-repos/vercel-nextjs.md` — 增强版 Wiki 页面（v2.0）
+  - `archive/resources/github/vercel-nextjs-2026-04-28.json` — 完整归档数据
+- **内容更新**:
+  - 项目快照表（Stars, Forks, 开放 Issues）
+  - 核心特性说明
+  - 多层次帮助文档（docs/、contributing、在线文档）
+  - 安装与使用示例
+  - 最新版本信息
+
+## [2026-04-28] github-collect | safishamsi/graphify 收集完成
+
+- **来源**: https://github.com/safishamsi/graphify
+- **操作**: GitHub CLI 获取元数据 → 归档 JSON → 生成 Wiki 页面
+- **元数据**:
+  - Stars: 36,616
+  - Language: Python
+  - License: MIT
+  - Topics: antigravity, claude-code, codex, gemini, graphrag, knowledge-graph, openclaw, skills
+- **生成文件**:
+  - `wiki/resources/github-repos/safishamsi-graphify.md` — Wiki 页面
+  - `archive/resources/github/safishamsi-graphify-2026-04-28.json` — 归档数据
+- **内容**: AI coding assistant skill，将代码、文档、论文、图片或视频转换为可查询的知识图谱
+- **主页**: https://graphifylabs.ai/
 

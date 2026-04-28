@@ -5,7 +5,7 @@ type: source
 tags: [api, tools, optimization, tokens]
 created: 2026-03-15
 updated: 2026-04-26
-source: ../../../archive/reports/claude-advanced-tool-use.md
+source: ../../archive/reports/claude-advanced-tool-use.md
 ---
 
 # Advanced Tool Use Patterns
@@ -14,5 +14,5 @@ Claude 4.6 发布的 API 级别工具优化：Programmatic Tool Calling (PTC) �
 
 ## 相关页面
 
-- [[wiki/entities/claude-cli-startup-flags]] — 启动参数
-- [[concepts/context-management]] — 上下文管理
+- [[claude-cli-startup-flags]] — 启动参数
+- [[context-management]] — 上下文管理

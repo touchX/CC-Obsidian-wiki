@@ -5,7 +5,7 @@ type: entity
 tags: [wechat, miniprogram, wxml, wxss, wechat-pay, china]
 created: 2026-04-26
 updated: 2026-26
-source: ../../../archive/agency-agents/engineering/engineering-wechat-mini-program-developer.md
+source: ../../archive/agency-agents/engineering/engineering-wechat-mini-program-developer.md
 color: green
 emoji: 💬
 ---

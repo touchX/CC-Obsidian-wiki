@@ -5,7 +5,7 @@ type: entity
 tags: [devops, cicd, kubernetes, terraform, infrastructure, automation]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-devops-automator.md
+source: ../../archive/agency-agents/engineering/engineering-devops-automator.md
 ---
 
 # DevOps Automator
@@ -68,12 +68,12 @@ Metrics (Prometheus) → Visualization (Grafana) → Alerting
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-security-reviewer|Security Reviewer]]
-- [[wiki/entities/engineering-frontend-developer|Frontend Developer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-security-reviewer|Security Reviewer]]
+- [[engineering-frontend-developer|Frontend Developer]]
 
 ## Links
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-security-reviewer|Security Reviewer]]
-- [[wiki/entities/engineering-frontend-developer|Frontend Developer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-security-reviewer|Security Reviewer]]
+- [[engineering-frontend-developer|Frontend Developer]]

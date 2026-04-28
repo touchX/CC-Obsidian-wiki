@@ -4,7 +4,7 @@ description: Day 1 教程 — Claude Code 使用层级 (Prompting→Agents→Ski
 type: tutorial
 tags: [tutorial, prompting, agents, skills, beginner, workflow]
 created: 2026-04-26
-source: ../../../archive/tutorial/day1/README.md
+source: ../../archive/tutorial/day1/README.md
 ---
 
 # Day 1 — Claude Code 使用层级
@@ -95,16 +95,16 @@ Level 4: Skills      (技能扩展)
 
 | 方向 | 教程 |
 |------|------|
-| 工作流优化 | [[guides/rpi-workflow]] |
-| Agent 团队 | [[guides/agent-teams]] |
-| 命令编排 | [[guides/commands]] |
-| 技能开发 | [[guides/skills]] |
+| 工作流优化 | [[rpi-workflow]] |
+| Agent 团队 | [[agent-teams]] |
+| 命令编排 | [[commands]] |
+| 技能开发 | [[skills]] |
 
 ---
 
 ## 相关资源
 
-- [[wiki/entities/claude-commands]] — Commands 系统
-- [[wiki/entities/claude-subagents]] — Sub-agents 系统
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[tutorial/day0/README]] — Day 0 安装教程
+- [[claude-commands]] — Commands 系统
+- [[claude-subagents]] — Sub-agents 系统
+- [[claude-skills]] — Skills 系统
+- [[day0/README]] — Day 0 安装教程

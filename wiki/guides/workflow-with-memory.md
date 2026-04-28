@@ -5,7 +5,7 @@ type: guide
 tags: [memory, mcp, multi-agent, context, persistence, state]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/examples/workflow-with-memory.md
+source: ../../archive/agency-agents/examples/workflow-with-memory.md
 ---
 
 # Workflow with Memory

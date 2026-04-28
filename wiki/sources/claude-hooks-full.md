@@ -117,5 +117,5 @@ Hooks 是用户定义的 shell 命令，在 Claude Code 生命周期中的特定
 ## 完整文档
 
 本页面是完整官方文档的摘要版本。完整内容请参阅：
-- [[sources/claude-hooks-full|claude-hooks-full]] - 完整 Hooks 官方文档
+- [[claude-hooks-full|claude-hooks-full]] - 完整 Hooks 官方文档
 - 原始文件：[[../../archive/cc-doc/使用 hooks 自动化工作流.md]]

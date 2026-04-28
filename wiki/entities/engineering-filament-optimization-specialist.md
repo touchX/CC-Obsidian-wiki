@@ -5,7 +5,7 @@ type: entity
 tags: [filament, laravel, UI, optimization, performance]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-filament-optimization-specialist.md
+source: ../../archive/agency-agents/engineering/engineering-filament-optimization-specialist.md
 ---
 
 # Engineering Filament Optimization Specialist

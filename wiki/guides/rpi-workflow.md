@@ -98,6 +98,6 @@ rpi/{feature-slug}/
 
 ## 相关资源
 
-- [[guides/agent-teams]] — Agent 团队协作
-- [[synthesis/agent-architecture]] — Agent 架构模式
-- [[tutorial/day1/README]] — Day 1 使用层级
+- [[agent-teams]] — Agent 团队协作
+- [[agent-architecture]] — Agent 架构模式
+- [[day1/README]] — Day 1 使用层级

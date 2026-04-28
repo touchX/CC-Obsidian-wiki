@@ -5,7 +5,7 @@ type: guide
 tags: [permissions, security, workflow]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/cc-doc/选择权限模式.md
+source: ../../archive/cc-doc/选择权限模式.md
 ---
 
 # 选择权限模式
@@ -110,9 +110,9 @@ claude --permission-mode bypassPermissions
 
 ## 相关页面
 
-- [[wiki/entities/claude-settings]] — 设置系统
-- [[wiki/entities/claude-hooks]] — Hooks 系统
-- [[guides/best-practices]] — 最佳实践
+- [[claude-settings]] — 设置系统
+- [[claude-hooks]] — Hooks 系统
+- [[best-practices]] — 最佳实践
 
 ## 来源
 

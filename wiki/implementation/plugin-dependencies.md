@@ -67,5 +67,5 @@ claude plugin tag --push
 
 ## 相关页面
 
-- [[implementation/plugin-marketplace]] — Marketplace 创建
-- [[implementation/plugins-reference]] — Plugin 参考
+- [[plugin-marketplace]] — Marketplace 创建
+- [[plugins-reference]] — Plugin 参考

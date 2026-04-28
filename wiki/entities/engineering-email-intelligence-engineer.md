@@ -5,7 +5,7 @@ type: entity
 tags: [email, pipeline, AI, context-engineering]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-email-intelligence-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-email-intelligence-engineer.md
 ---
 
 # Engineering Email Intelligence Engineer

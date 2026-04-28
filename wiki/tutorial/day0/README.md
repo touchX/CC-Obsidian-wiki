@@ -4,7 +4,7 @@ description: Day 0 教程 — Claude Code 安装与认证指南
 type: tutorial
 tags: [tutorial, installation, setup, authentication, beginner]
 created: 2026-04-26
-source: ../../../archive/tutorial/day0/README.md
+source: ../../archive/tutorial/day0/README.md
 ---
 
 # Day 0 — Claude Code 安装与认证
@@ -15,9 +15,9 @@ source: ../../../archive/tutorial/day0/README.md
 
 | 平台 | 教程 |
 |------|------|
-| Windows | [[tutorial/day0/windows]] |
-| Linux | [[tutorial/day0/linux]] |
-| macOS | [[tutorial/day0/mac]] |
+| Windows | [[day0/windows]] |
+| Linux | [[day0/linux]] |
+| macOS | [[day0/mac]] |
 
 ---
 
@@ -65,12 +65,12 @@ claude --version
 
 ## 下一步
 
-安装完成后，前往 [[tutorial/day1/README]] 学习使用层级。
+安装完成后，前往 [[day1/README]] 学习使用层级。
 
 ---
 
 ## 相关资源
 
-- [[wiki/entities/claude-cli]] — CLI 核心功能
-- [[wiki/entities/claude-settings]] — 设置配置系统
-- [[guides/quick-start]] — Wiki 快速入门
+- [[claude-cli]] — CLI 核心功能
+- [[claude-settings]] — 设置配置系统
+- [[quick-start]] — Wiki 快速入门

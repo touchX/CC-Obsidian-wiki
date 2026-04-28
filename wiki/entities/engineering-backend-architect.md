@@ -5,7 +5,7 @@ type: entity
 tags: [backend, system-design, database-architecture, cloud-infrastructure]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-backend-architect.md
+source: ../../archive/agency-agents/engineering/engineering-backend-architect.md
 ---
 
 # Backend Architect
@@ -54,12 +54,12 @@ Backend Architect 专注于可扩展系统设计、数据库架构和云基础�
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
-- [[wiki/entities/engineering-database-optimizer|Database Optimizer]]
-- [[wiki/entities/engineering-code-reviewer|Code Reviewer]]
+- [[engineering-devops-automator|DevOps Automator]]
+- [[engineering-database-optimizer|Database Optimizer]]
+- [[engineering-code-reviewer|Code Reviewer]]
 
 ## Links
 
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
-- [[wiki/entities/engineering-database-optimizer|Database Optimizer]]
-- [[wiki/entities/engineering-code-reviewer|Code Reviewer]]
+- [[engineering-devops-automator|DevOps Automator]]
+- [[engineering-database-optimizer|Database Optimizer]]
+- [[engineering-code-reviewer|Code Reviewer]]

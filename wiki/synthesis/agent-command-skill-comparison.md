@@ -5,7 +5,7 @@ type: synthesis
 tags: [agents, commands, skills, architecture]
 created: 2026-04-10
 updated: 2026-04-26
-source: ../../../archive/reports/claude-agent-command-skill.md
+source: ../../archive/reports/claude-agent-command-skill.md
 ---
 
 # Agents vs Commands vs Skills
@@ -14,9 +14,9 @@ source: ../../../archive/reports/claude-agent-command-skill.md
 
 ## 相关页面
 
-- [[wiki/entities/claude-commands]] — 命令参考
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[concepts/agent-harness]] — Agent Harness
+- [[claude-commands]] — 命令参考
+- [[claude-skills]] — Skills 系统
+- [[agent-harness]] — Agent Harness
 
 ---
 
@@ -77,4 +77,4 @@ Command → Agent → Command → Agent ... 可能形成循环
 | color | ✅ | ❌ | ❌ |
 | user-invocable | ❌ | ❌ | ✅ |
 
-详细规格见：[[implementation/agent-command-skill-fields]]
+详细规格见：[[agent-command-skill-fields]]

@@ -56,11 +56,11 @@ source: ../../archive/cc-doc/配置自动模式.md
 
 ## 交叉引用
 
-- [[wiki/entities/claude-permissions]] — 权限系统
-- [[wiki/entities/claude-commands]] — 命令参考
-- [[concepts/context-management]] — 上下文管理
+- [[claude-permissions]] — 权限系统
+- [[claude-commands]] — 命令参考
+- [[context-management]] — 上下文管理
 
 ## 相关页面
 
-- [[guides/commands]] — Commands 实现
-- [[implementation/commands-implementation]] — 详细实现
+- [[commands]] — Commands 实现
+- [[commands-implementation]] — 详细实现

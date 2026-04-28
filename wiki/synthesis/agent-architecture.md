@@ -55,7 +55,7 @@ Claude Code
 
 ### 3. 测试策略
 
-根据 [[concepts/agent-harness]]：
+根据 [[agent-harness]]：
 - **Harness** 提供可重复的测试环境
 - **Test Cases** 定义输入/期望输出
 - **Evaluator** 判断输出质量
@@ -81,10 +81,10 @@ Claude Code
 
 ## 相关来源
 
-- [[sources/karpathy-llm-wiki]] — 知识管理方法论
-- [[concepts/context-window]] — 上下文限制
-- [[concepts/context-management]] — 管理策略
-- [[concepts/agent-harness]] — 测试框架
+- [[karpathy-llm-wiki]] — 知识管理方法论
+- [[context-window]] — 上下文限制
+- [[context-management]] — 管理策略
+- [[agent-harness]] — 测试框架
 
 ## 实践建议
 

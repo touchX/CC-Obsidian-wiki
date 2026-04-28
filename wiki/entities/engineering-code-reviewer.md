@@ -5,7 +5,7 @@ type: entity
 tags: [code-review, quality, security, best-practices, static-analysis]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-code-reviewer.md
+source: ../../archive/agency-agents/engineering/engineering-code-reviewer.md
 ---
 
 # Code Reviewer
@@ -60,12 +60,12 @@ Code Reviewer 是代码审查专家，提供建设性反馈，确保代码质量
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-frontend-developer|Frontend Developer]]
-- [[wiki/entities/engineering-security-reviewer|Security Reviewer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-frontend-developer|Frontend Developer]]
+- [[engineering-security-reviewer|Security Reviewer]]
 
 ## Links
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-frontend-developer|Frontend Developer]]
-- [[wiki/entities/engineering-security-reviewer|Security Reviewer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-frontend-developer|Frontend Developer]]
+- [[engineering-security-reviewer|Security Reviewer]]

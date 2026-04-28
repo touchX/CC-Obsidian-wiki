@@ -128,6 +128,6 @@ interface PluginHook {
 
 ## 相关页面
 
-- [[implementation/plugins-implementation]] — Plugin 开发指南
-- [[wiki/entities/claude-hooks]] — Hook 系统
-- [[guides/skills]] — Skills 系统
+- [[plugins-implementation]] — Plugin 开发指南
+- [[claude-hooks]] — Hook 系统
+- [[skills]] — Skills 系统

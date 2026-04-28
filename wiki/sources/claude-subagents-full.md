@@ -93,5 +93,5 @@ Use the test-runner subagent to fix failing tests
 ## 完整文档
 
 本页面是完整官方文档的摘要版本。完整内容请参阅：
-- [[sources/claude-subagents-full|claude-subagents-full]] - 完整 Subagents 官方文档
+- [[claude-subagents-full|claude-subagents-full]] - 完整 Subagents 官方文档
 - 原始文件：[[../../archive/cc-doc/创建自定义 subagents.md]]

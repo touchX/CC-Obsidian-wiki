@@ -5,7 +5,7 @@ type: guide
 tags: [agents, commands, skills, architecture, fields, reference]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/notes/2026-04-27-agent-command-skill-fields.md
+source: ../../archive/notes/2026-04-27-agent-command-skill-fields.md
 ---
 
 # Agent / Command / Skill 字段完整对比
@@ -137,7 +137,7 @@ user-invocable: false                    # 是否可被用户调用
 
 ## 相关 Wiki 页面
 
-- [[synthesis/agent-command-skill-comparison]] — 高层概述与调用关系
-- [[implementation/commands-implementation]] — Command 实现细节
-- [[implementation/subagents-implementation]] — Agent 实现细节
-- [[implementation/skills-implementation]] — Skill 实现细节
+- [[agent-command-skill-comparison]] — 高层概述与调用关系
+- [[commands-implementation]] — Command 实现细节
+- [[subagents-implementation]] — Agent 实现细节
+- [[skills-implementation]] — Skill 实现细节

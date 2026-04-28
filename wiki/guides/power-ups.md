@@ -4,7 +4,7 @@ description: 10 个交互式教程动画演示 — 功能速览
 type: guide
 tags: [tutorial, interactive, learning]
 created: 2026-04-26
-source: ../../../archive/best-practice/claude-power-ups.md
+source: ../../archive/best-practice/claude-power-ups.md
 ---
 
 # Power-ups
@@ -35,5 +35,5 @@ claude
 
 ## 相关页面
 
-- [[wiki/entities/claude-commands]] — 命令参考
-- [[wiki/entities/claude-skills]] — 技能系统
+- [[claude-commands]] — 命令参考
+- [[claude-skills]] — 技能系统

@@ -5,7 +5,7 @@ type: entity
 tags: [mobile, ios, android, react-native, flutter, swiftui, jetpack-compose]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-mobile-app-builder.md
+source: ../../archive/agency-agents/engineering/engineering-mobile-app-builder.md
 color: purple
 emoji: 📲
 ---

@@ -4,7 +4,7 @@ description: macOS 平台 Claude Code 安装指南
 type: tutorial
 tags: [tutorial, installation, macos, setup, beginner]
 created: 2026-04-26
-source: ../../../archive/tutorial/day0/mac.md
+source: ../../archive/tutorial/day0/mac.md
 ---
 
 # macOS 平台安装指南
@@ -68,6 +68,6 @@ xattr -d com.apple.quarantine /path/to/claude
 
 ## 相关资源
 
-- [[tutorial/day0/README]] — 安装概览
-- [[tutorial/day0/windows]] — Windows 安装
-- [[tutorial/day0/linux]] — Linux 安装
+- [[day0/README]] — 安装概览
+- [[day0/windows]] — Windows 安装
+- [[day0/linux]] — Linux 安装

@@ -55,6 +55,6 @@ curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del in
 
 ## 相关页面
 
-- [[wiki/entities/claude-cli]] — CLI 基础
-- [[wiki/entities/claude-env-vars]] — 环境变量
-- [[wiki/entities/claude-settings]] — 配置选项
+- [[claude-cli]] — CLI 基础
+- [[claude-env-vars]] — 环境变量
+- [[claude-settings]] — 配置选项

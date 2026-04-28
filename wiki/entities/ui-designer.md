@@ -7,7 +7,7 @@ type: entity
 tags: [ui, design, visual, systems, components, ux]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/design/design-ui-designer.md
+source: ../../archive/agency-agents/design/design-ui-designer.md
 ---
 
 # UI Designer

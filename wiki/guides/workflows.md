@@ -5,7 +5,7 @@ type: guide
 tags: [workflows, debugging, refactoring, testing]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/cc-doc/常见工作流程.md
+source: ../../archive/cc-doc/常见工作流程.md
 ---
 
 # 常见工作流程
@@ -197,9 +197,9 @@ source: ../../../archive/cc-doc/常见工作流程.md
 
 ## 相关页面
 
-- [[guides/best-practices]] — 最佳实践指南
-- [[wiki/entities/claude-code]] — Claude Code 核心机制
-- [[wiki/entities/claude-subagents]] — 子代理系统
+- [[best-practices]] — 最佳实践指南
+- [[claude-code]] — Claude Code 核心机制
+- [[claude-subagents]] — 子代理系统
 
 ## 来源
 

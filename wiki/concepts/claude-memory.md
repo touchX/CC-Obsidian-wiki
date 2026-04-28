@@ -5,7 +5,7 @@ type: concept
 tags: [memory, context, claude-md, auto-memory]
 created: 2026-04-26
 updated: 2026-04-27
-source: ../../../archive/cc-doc/Claude 如何记住你的项目.md
+source: ../../archive/cc-doc/Claude 如何记住你的项目.md
 ---
 
 # Claude Memory
@@ -120,10 +120,10 @@ See @README.md for overview and @package.json for npm commands.
 
 ## 相关页面
 
-- [[wiki/entities/claude-settings]] — 设置详解
-- [[concepts/context-window]] — 上下文窗口原理
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[guides/claude-directory]] — .claude 目录结构
+- [[claude-settings]] — 设置详解
+- [[context-window]] — 上下文窗口原理
+- [[claude-skills]] — Skills 系统
+- [[claude-directory]] — .claude 目录结构
 
 ## 来源
 

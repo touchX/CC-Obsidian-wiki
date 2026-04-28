@@ -4,7 +4,7 @@ description: 大型 Monorepo 中 Skills 发现机制 — 与 CLAUDE.md 的关键
 type: concept
 tags: [skills, monorepo, discovery, context]
 created: 2026-04-12
-source: ../../../archive/reports/claude-skills-for-larger-mono-repos.md
+source: ../../archive/reports/claude-skills-for-larger-mono-repos.md
 ---
 
 # Skills 在大型 Monorepo 中的发现机制
@@ -13,6 +13,6 @@ Skills 与 CLAUDE.md 的核心区别：CLAUDE.md 向上遍历目录树（ancesto
 
 ## 相关页面
 
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[concepts/context-management]] — 上下文管理
-- [[guides/skill-organization]] — 组织指南
+- [[claude-skills]] — Skills 系统
+- [[context-management]] — 上下文管理
+- [[skill-organization]] — 组织指南

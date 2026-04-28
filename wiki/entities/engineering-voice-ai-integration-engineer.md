@@ -5,7 +5,7 @@ type: entity
 tags: [voice-ai, transcription, whisper, llm, audio, websocket]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-voice-ai-integration-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-voice-ai-integration-engineer.md
 color: violet
 emoji: 🎙️
 ---

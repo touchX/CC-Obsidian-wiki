@@ -22,7 +22,7 @@ Hooks 在会话生命周期关键节点拦截执行，支持 PreToolUse、PostTo
 
 ## 完整 Hook 生命周期
 
-完整的 Hook 事件和配置参考请参阅 [[sources/hooks-full]]。
+完整的 Hook 事件和配置参考请参阅 [[hooks-full]]。
 
 ## Frontmatter 结构
 
@@ -54,12 +54,12 @@ priority: 100            # 执行优先级
 
 ## 交叉引用
 
-- [[concepts/context-management]] — 上下文管理
-- [[wiki/entities/claude-commands]] — 命令系统
-- [[synthesis/agent-command-skill-comparison]] — 扩展机制对比
+- [[context-management]] — 上下文管理
+- [[claude-commands]] — 命令系统
+- [[agent-command-skill-comparison]] — 扩展机制对比
 
 ## 相关页面
 
-- [[guides/commands]] — Commands 实现
-- [[guides/skills]] — Skills 实现
-- [[guides/scheduled-tasks]] — 定时任务
+- [[commands]] — Commands 实现
+- [[skills]] — Skills 实现
+- [[scheduled-tasks]] — 定时任务

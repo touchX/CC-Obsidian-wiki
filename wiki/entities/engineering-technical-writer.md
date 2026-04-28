@@ -5,7 +5,7 @@ type: entity
 tags: [documentation, api-docs, openapi, developer-experience, docusaurus]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-technical-writer.md
+source: ../../archive/agency-agents/engineering/engineering-technical-writer.md
 color: teal
 emoji: 📚
 ---

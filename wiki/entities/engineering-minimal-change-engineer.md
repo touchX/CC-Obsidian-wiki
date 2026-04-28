@@ -5,7 +5,7 @@ type: entity
 tags: [engineering, scope-discipline, PR, refactoring]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-minimal-change-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-minimal-change-engineer.md
 ---
 
 # Minimal Change Engineer
@@ -42,7 +42,7 @@ source: ../../../archive/agency-agents/engineering/engineering-minimal-change-en
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-code-reviewer|Code Reviewer]] — 代码审查
-- [[wiki/entities/engineering-refactoring-expert|Refactoring Expert]] — 重构参考
+- [[engineering-code-reviewer|Code Reviewer]] — 代码审查
+- [[engineering-refactoring-expert|Refactoring Expert]] — 重构参考
 
 > 最小的 diff 能解决问题——每一行额外的代码都是风险。

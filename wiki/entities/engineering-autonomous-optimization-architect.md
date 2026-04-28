@@ -5,7 +5,7 @@ type: entity
 tags: [system-architecture, autonomous, optimization, ai-finops]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-autonomous-optimization-architect.md
+source: ../../archive/agency-agents/engineering/engineering-autonomous-optimization-architect.md
 ---
 
 # Autonomous Optimization Architect
@@ -52,12 +52,12 @@ Autonomous Optimization Architect 是智能系统治理者，持续影子测试 
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
-- [[wiki/entities/engineering-code-reviewer|Code Reviewer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-devops-automator|DevOps Automator]]
+- [[engineering-code-reviewer|Code Reviewer]]
 
 ## Links
 
-- [[wiki/entities/engineering-backend-architect|Backend Architect]]
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]]
-- [[wiki/entities/engineering-code-reviewer|Code Reviewer]]
+- [[engineering-backend-architect|Backend Architect]]
+- [[engineering-devops-automator|DevOps Automator]]
+- [[engineering-code-reviewer|Code Reviewer]]

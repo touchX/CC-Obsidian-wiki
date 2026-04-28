@@ -7,7 +7,7 @@ type: entity
 tags: [ai, image, photography, prompt, generation, visual]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/design/design-image-prompt-engineer.md
+source: ../../archive/agency-agents/design/design-image-prompt-engineer.md
 ---
 
 # Image Prompt Engineer

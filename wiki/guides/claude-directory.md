@@ -5,7 +5,7 @@ type: guide
 tags: [configuration, directory, setup]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/cc-doc/探索 .claude 目录.md
+source: ../../archive/cc-doc/探索 .claude 目录.md
 ---
 
 # 探索 .claude 目录
@@ -109,10 +109,10 @@ project/.claude/               # 项目级配置（可提交）
 
 ## 相关页面
 
-- [[concepts/context-management]] — 上下文管理
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[wiki/entities/claude-subagents]] — Subagents 系统
-- [[wiki/entities/claude-settings]] — 设置系统
+- [[context-management]] — 上下文管理
+- [[claude-skills]] — Skills 系统
+- [[claude-subagents]] — Subagents 系统
+- [[claude-settings]] — 设置系统
 
 ## 来源
 

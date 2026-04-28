@@ -212,7 +212,7 @@ Dataview 会根据 frontmatter 自动查询并生成表格，实现零维护。
 
 ## [YYYY-MM-DD] query | User Question
 - Answered: 综合了 [[context-management]], [[context-window]]
-- Filed to: [[synthesis/topic-analysis]]
+- Filed to: [[topic-analysis]]
 
 ## [YYYY-MM-DD] lint
 - Found: 1 contradiction, 2 orphans

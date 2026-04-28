@@ -7,7 +7,7 @@ type: entity
 tags: [ux, research, user, behavior, testing, analysis]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/design/design-ux-researcher.md
+source: ../../archive/agency-agents/design/design-ux-researcher.md
 ---
 
 # UX Researcher

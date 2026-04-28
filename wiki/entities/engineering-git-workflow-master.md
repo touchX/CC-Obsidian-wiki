@@ -5,7 +5,7 @@ type: entity
 tags: [git, workflow, branching, commits]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-git-workflow-master.md
+source: ../../archive/agency-agents/engineering/engineering-git-workflow-master.md
 ---
 
 # Engineering Git Workflow Master

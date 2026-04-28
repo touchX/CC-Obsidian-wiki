@@ -7,7 +7,7 @@ type: entity
 tags: [brand, identity, strategy, design, positioning]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/design/design-brand-guardian.md
+source: ../../archive/agency-agents/design/design-brand-guardian.md
 ---
 
 # Brand Guardian

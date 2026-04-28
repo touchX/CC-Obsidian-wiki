@@ -62,8 +62,8 @@ user-invocable: false
 
 ## 相关页面
 
-- [[wiki/entities/claude-skills]] — Skills 实体
-- [[guides/skills]] — Skills 使用指南
-- [[synthesis/agent-command-skill-comparison]] — Agent/Command/Skill 对比
-- [[implementation/commands-implementation]] — Commands 实现
-- [[implementation/subagents-implementation]] — Sub-agents 实现
+- [[claude-skills]] — Skills 实体
+- [[skills]] — Skills 使用指南
+- [[agent-command-skill-comparison]] — Agent/Command/Skill 对比
+- [[commands-implementation]] — Commands 实现
+- [[subagents-implementation]] — Sub-agents 实现

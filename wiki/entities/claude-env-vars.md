@@ -107,6 +107,6 @@ export DISABLE_TELEMETRY=1
 
 ## 相关页面
 
-- [[wiki/entities/claude-cli]] — CLI 基础
-- [[wiki/entities/claude-settings]] — 配置选项
-- [[wiki/entities/claude-permissions]] — 权限管理
+- [[claude-cli]] — CLI 基础
+- [[claude-settings]] — 配置选项
+- [[claude-permissions]] — 权限管理

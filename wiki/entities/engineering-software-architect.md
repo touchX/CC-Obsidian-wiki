@@ -5,7 +5,7 @@ type: entity
 tags: [architecture, ddd, microservices, cqrs, adr, system-design]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-software-architect.md
+source: ../../archive/agency-agents/engineering/engineering-software-architect.md
 color: indigo
 emoji: 🏛️
 ---

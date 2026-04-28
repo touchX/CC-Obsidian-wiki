@@ -5,7 +5,7 @@ type: synthesis
 tags: [architecture, harness, prompts, engineering]
 created: 2026-03-25
 updated: 2026-04-26
-source: ../../../archive/reports/why-harness-is-important.md
+source: ../../archive/reports/why-harness-is-important.md
 ---
 
 # Why Harness Is Important
@@ -14,6 +14,6 @@ Claude Code 的 10 大架构能力超越"提示词包装器"认知：上下文�
 
 ## 相关页面
 
-- [[wiki/entities/claude-commands]] — 命令参考
-- [[wiki/entities/claude-skills]] — Skills 系统
-- [[concepts/agent-harness]] — Agent Harness
+- [[claude-commands]] — 命令参考
+- [[claude-skills]] — Skills 系统
+- [[agent-harness]] — Agent Harness

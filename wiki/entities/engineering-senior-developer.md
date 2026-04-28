@@ -5,7 +5,7 @@ type: entity
 tags: [laravel, livewire, fluxui, threejs, fullstack, premium]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-senior-developer.md
+source: ../../archive/agency-agents/engineering/engineering-senior-developer.md
 color: green
 emoji: 💎
 ---

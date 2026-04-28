@@ -7,7 +7,7 @@ type: entity
 tags: [creative, whimsy, personality, delight, playful, brand]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/design/design-whimsy-injector.md
+source: ../../archive/agency-agents/design/design-whimsy-injector.md
 ---
 
 # Whimsy Injector

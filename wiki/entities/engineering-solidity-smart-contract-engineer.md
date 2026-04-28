@@ -5,7 +5,7 @@ type: entity
 tags: [solidity, evm, blockchain, defi, gas-optimization, web3]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/engineering/engineering-solidity-smart-contract-engineer.md
+source: ../../archive/agency-agents/engineering/engineering-solidity-smart-contract-engineer.md
 color: orange
 emoji: ⛓️
 ---

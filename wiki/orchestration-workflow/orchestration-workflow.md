@@ -64,9 +64,9 @@ source: ../../archive/orchestration-workflow.md
 
 ## 相关资源
 
-- [[guides/commands]] — Commands 使用指南
-- [[guides/skills]] — Skills 实现指南
-- [[guides/subagents]] — Sub-agents 实现指南
-- [[wiki/entities/claude-commands]] — Commands 实体
-- [[wiki/entities/claude-skills]] — Skills 实体
-- [[wiki/entities/claude-subagents]] — 子代理实体
+- [[commands]] — Commands 使用指南
+- [[skills]] — Skills 实现指南
+- [[subagents]] — Sub-agents 实现指南
+- [[claude-commands]] — Commands 实体
+- [[claude-skills]] — Skills 实体
+- [[claude-subagents]] — 子代理实体

@@ -5,7 +5,7 @@ type: guide
 tags: [book, chapter, writing, content, author, ghostwriting]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/examples/workflow-book-chapter.md
+source: ../../archive/agency-agents/examples/workflow-book-chapter.md
 ---
 
 # Book Chapter Workflow

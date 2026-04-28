@@ -7,7 +7,7 @@ type: entity
 tags: [ux, architecture, technical, css, frontend, systems]
 created: 2026-04-26
 updated: 2026-04-26
-source: ../../../archive/agency-agents/design/design-ux-architect.md
+source: ../../archive/agency-agents/design/design-ux-architect.md
 ---
 
 # UX Architect

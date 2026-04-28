@@ -5,7 +5,7 @@ type: entity
 tags: [incident-response, SLO, post-mortem, on-call, reliability]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../../archive/agency-agents/engineering/engineering-incident-response-commander.md
+source: ../../archive/agency-agents/engineering/engineering-incident-response-commander.md
 ---
 
 # Incident Response Commander
@@ -48,8 +48,8 @@ source: ../../../archive/agency-agents/engineering/engineering-incident-response
 
 ## 与其他 Agent 协作
 
-- [[wiki/entities/engineering-devops-automator|DevOps Automator]] — 自动化运维
-- [[wiki/entities/engineering-backend-architect|Backend Architect]] — 架构支持
-- [[wiki/entities/engineering-sre|SRE]] — 可靠性工程
+- [[engineering-devops-automator|DevOps Automator]] — 自动化运维
+- [[engineering-backend-architect|Backend Architect]] — 架构支持
+- [[engineering-sre|SRE]] — 可靠性工程
 
 > Incident Response Commander 让团队在凌晨 3 点被叫醒时，有准备而非英雄主义。
