@@ -127,6 +127,11 @@ while IFS= read -r ref; do
         continue
     fi
 
+    # 跳过占位符和示例链接
+    if [[ "$page_name" == *"..."* ]] || [[ "$page_name" == *"page-slug"* ]] || [[ "$page_name" == "xxx" ]]; then
+        continue
+    fi
+
     # 跳过非 wiki 链接（外部 URL、文件路径）
     if [[ "$page_name" == http* ]] || [[ "$page_name" == ../* ]] || [[ "$page_name" == /* ]]; then
         continue

@@ -2,8 +2,8 @@
 name: wiki-schema
 description: LLM Wiki 维护规范 — 本项目的 Wiki 架构、操作流程和约定
 type: reference
-version: 2.2
-updated: 2026-04-26
+version: 2.4
+updated: 2026-04-28
 ---
 
 # Wiki Schema — Claude Code Best Practice Wiki
@@ -228,6 +228,13 @@ Dataview 会根据 frontmatter 自动查询并生成表格，实现零维护。
 - [ ] 更新日期正确
 - [ ] 内容无过时引用
 
+### 语言标准
+- [ ] **内容必须使用中文**
+  - 源素材为英文或其他语言时，必须翻译为中文
+  - 代码示例、技术术语、专有名词保留原文
+  - API 名称、命令、文件路径保留原文
+  - `source:` 字段仍指向原始语言文件（用于溯源）
+
 ### 链接健康
 - [ ] 无悬空链接
 - [ ] 入站链接 > 0（无孤立页面）
@@ -284,6 +291,8 @@ find wiki/tutorial -type f -name "*.md" \
 | 2026-04-26 | 2.0 | P3 架构：新增 Raw→Archive 工作流，source 字段规范 |
 | 2026-04-26 | 2.1 | 优化：完整目录结构、Lint 工具集成、故障排除章节 |
 | 2026-04-26 | 2.2 | Dataview 自动索引：index.md 改为 Dataview 查询实现零维护 |
+| 2026-04-28 | 2.3 | 修复：wiki-lint.sh 占位符过滤，WIKI.md 移除模板占位符 |
+| 2026-04-28 | 2.4 | 新增：语言标准约束 — Wiki 内容必须使用中文，源素材翻译规范 |
 
 ---
 
