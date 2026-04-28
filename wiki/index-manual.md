@@ -79,7 +79,7 @@ Claude Code 相关的具体工具、框架和项目。
 | [[why-harness-is-important]]            | Harness 为何不是提示词包装器            | 3   | 2026-04-26 |
 | [[agent-command-skill-comparison]]      | Agent/Command/Skill 三种扩展机制对比  | 2   | 2026-04-26 |
 | [[cross-model-workflow]]                | Claude Code + Codex 跨模型协作工作流  | 2   | 2026-04-26 |
-| [[orchestration-workflow/orchestration-workflow]] | Command → Agent → Skill 编排工作流 | 3   | 2026-04-26 |
+| [[orchestration-workflow]] | Command → Agent → Skill 编排工作流 | 3   | 2026-04-26 |
 
 ---
 
