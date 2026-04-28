@@ -10,7 +10,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 WIKI_DIR="$PROJECT_ROOT/wiki"
 ARCHIVE_DIR="$PROJECT_ROOT/archive"
-TEMPLATE_FILE="$PROJECT_ROOT/scripts/templates/github-repo-template.md"
+TEMPLATE_FILE="$SCRIPT_DIR/github-repo-template.md"
 CURRENT_DATE=$(date +%Y-%m-%d)
 
 # 颜色输出

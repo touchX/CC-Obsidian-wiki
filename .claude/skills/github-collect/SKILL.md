@@ -78,7 +78,7 @@ github_url: https://github.com/{owner}/{repo}
 ```
 Wiki 页面: wiki/resources/github-repos/{owner}-{repo}.md
 归档文件: archive/resources/github/{owner}-{repo}-{YYYY-MM-DD}.json
-模板文件: scripts/templates/github-repo-template.md
+模板文件: .claude/skills/github-collect/github-repo-template.md
 ```
 
 ## Implementation Steps
@@ -125,7 +125,7 @@ cd wiki && ../scripts/wiki-lint.sh
 | 验证 URL | 正则表达式 | `^https?://github\.com/[^/]+/[^/]+$` |
 | 获取数据 | GitHub MCP | `mcp__plugin_github_github__get_repo` |
 | 归档数据 | JSON 文件 | `archive/resources/github/{name}-{date}.json` |
-| 生成页面 | 模板替换 | `scripts/templates/github-repo-template.md` |
+| 生成页面 | 模板替换 | `.claude/skills/github-collect/github-repo-template.md` |
 | 更新日志 | 追加 | `wiki/log.md` |
 
 ## Common Mistakes
