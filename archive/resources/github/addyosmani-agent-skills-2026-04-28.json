@@ -1,0 +1,26 @@
+{
+  "collected_at": "2026-04-28",
+  "source_url": "https://github.com/addyosmani/agent-skills",
+  "owner": "addyosmani",
+  "repo": "agent-skills",
+  "name": "agent-skills",
+  "full_name": "addyosmani/agent-skills",
+  "description": "Production-grade engineering skills for AI coding agents.",
+  "stargazers_count": 24701,
+  "language": "Shell",
+  "license": {
+    "key": "mit",
+    "name": "MIT License"
+  },
+  "topics": [
+    "agent-skills",
+    "antigravity",
+    "antigravity-ide",
+    "claude-code",
+    "cursor",
+    "skills"
+  ],
+  "created_at": "2026-02-15T20:20:26Z",
+  "html_url": "https://github.com/addyosmani/agent-skills",
+  "readme": "# Agent Skills\n\nProduction-grade engineering skills for AI coding agents.\n\n## Skills\n\n- **Bug Reproduction** — Minimal reproduction instructions\n- **Code Review** — Structured feedback\n- **Debug** — Systematic diagnosis\n- **Docs** — Usage docs from code\n- **File Review** — Changes context\n- **Refactor** — Safe improvement\n- **Search** — Codebase exploration\n- **Test** — Coverage-driven tests\n- **Type** — TypeScript migration\n\n## Personas\n\n- **Code Architect** — System design and patterns\n- **Code Simplifier** — Refactoring and clarity\n- **Taste Refiner** — UX and polish\n\n## Reference Checklists\n\n- **Architecture Review** — 15-point system design checklist\n- **Code Review** — 10-point quality gates\n- **Debug Session** — 8-step diagnostic protocol\n- **File Review** — 5-point change analysis\n\n## Links\n\n- Claude Code: [Installation guide](https://docs.anthropic.com/claude-code)\n- Cursor: [Documentation](https://cursor.com/docs)\n"
+}

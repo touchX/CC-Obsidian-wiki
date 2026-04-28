@@ -1,0 +1,33 @@
+{
+  "name": "architecture-diagram-generator",
+  "full_name": "Cocoon-AI/architecture-diagram-generator",
+  "owner": "Cocoon-AI",
+  "repo": "architecture-diagram-generator",
+  "description": "Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill.",
+  "stars": 4487,
+  "forks": 338,
+  "open_issues": 1,
+  "language": "HTML",
+  "license": "MIT",
+  "url": "https://github.com/Cocoon-AI/architecture-diagram-generator",
+  "created_at": "2025-12-22",
+  "updated_at": "2026-04-28",
+  "default_branch": "main",
+  "topics": [
+    "claude-code",
+    "claude-skill",
+    "architecture",
+    "svg",
+    "diagram"
+  ],
+  "docs_structure": {
+    "docs_directory": true,
+    "docs_files": ["architecture-diagram/SKILL.md", "architecture-diagram/assets/template.html"],
+    "examples_directory": true,
+    "example_files": ["examples/web-app.html", "examples/aws-serverless.html", "examples/microservices.html"],
+    "contributing_guide": true,
+    "external_docs": "https://github.com/Cocoon-AI/architecture-diagram-generator/blob/main/README.md"
+  },
+  "latest_stable_release": "v1.0",
+  "latest_release_date": "2025-12-22"
+}

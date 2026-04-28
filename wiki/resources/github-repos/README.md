@@ -16,18 +16,12 @@
 ### Frontmatter 元数据
 ```yaml
 ---
-name: {owner}-{repo}
-description: {description}
-type: source
-version: 1.0
-tags: [github, {language}]
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-source: ../../../archive/resources/github/{owner}-{repo}-{YYYY-MM-DD}.json
-stars: {star_count}
-language: {language}
-license: {license}
-github_url: https://github.com/{owner}/{repo}
+name: github-repos-readme
+description: GitHub 资源收集模块说明文档
+type: guide
+tags: [github, resources, index]
+created: 2026-04-28
+updated: 2026-04-28
 ---
 ```
 

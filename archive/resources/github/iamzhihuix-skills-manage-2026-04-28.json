@@ -1,0 +1,41 @@
+{
+  "name": "skills-manage",
+  "full_name": "iamzhihuix/skills-manage",
+  "description": "Desktop app to manage AI coding agent skills across Claude Code, Cursor, Gemini CLI, Codex, and 20+ platforms from one place.",
+  "stars": 1271,
+  "forks": null,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "url": "https://github.com/iamzhihuix/skills-manage",
+  "homepage": null,
+  "topics": ["ai", "claude-code", "cursor", "desktop-app", "llm", "react", "rust", "skills", "tauri"],
+  "created_at": "2026-04-13",
+  "pushed_at": "2026-04-26",
+  "updated_at": "2026-04-28",
+  "collected_at": "2026-04-28",
+  "features": {
+    "platforms": 20,
+    "tech_stack": ["Tauri v2", "React 19", "TypeScript", "Rust", "SQLite"],
+    "capabilities": [
+      "Central skill library",
+      "Per-platform install/uninstall",
+      "Claude Code native + marketplace skills",
+      "Full skill detail view with Markdown preview",
+      "Collections for organizing skills",
+      "Discover local project skill libraries",
+      "Marketplace browsing",
+      "GitHub repository import",
+      "Fast search with virtualization",
+      "Bilingual UI (English/Chinese)",
+      "Catppuccin themes"
+    ]
+  },
+  "supported_platforms": [
+    "Claude Code", "Codex CLI", "Cursor", "Gemini CLI", "Trae",
+    "Factory Droid", "Junie", "Qwen", "Trae CN", "Windsurf",
+    "Qoder", "Augment", "OpenCode", "KiloCode", "OB1",
+    "Amp", "Kiro", "CodeBuddy", "Hermes", "Copilot",
+    "OpenClaw", "QClaw", "EasyClaw", "AutoClaw", "WorkBuddy"
+  ],
+  "download_url": "https://github.com/iamzhihuix/skills-manage/releases/latest"
+}
