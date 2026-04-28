@@ -2,6 +2,7 @@
 name: {owner}-{repo}
 description: {description}
 type: source
+version: 1.0
 tags: [github, {language}]
 created: {current_date}
 updated: {current_date}
@@ -28,8 +29,13 @@ github_url: https://github.com/{owner}/{repo}
 ## 链接
 
 - **GitHub**: https://github.com/{owner}/{repo}
+- **文档**: {docs_url}
 - **Issue**: https://github.com/{owner}/{repo}/issues
 
 ## 标签
 
 `{language}` `github` `resource`
+
+## 相关资源
+
+<!-- Dataview 自动填充 -->
