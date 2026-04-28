@@ -546,3 +546,9 @@ updated: 2026-04-27
 
 *格式: `## [YYYY-MM-DD] operation | Brief description`*
 *查看最近 5 条: `grep "^## \[" wiki/log.md | tail -5`*
+
+## [2026-04-28T09:20:00.000Z] 收集 GitHub 仓库
+
+- 仓库: vercel/next.js
+- Wiki 页面: wiki/resources/github-repos/vercel-nextjs.md
+

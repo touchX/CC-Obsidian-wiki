@@ -4,8 +4,20 @@
 
 set -euo pipefail
 
-WIKI_DIR="${WIKI_DIR:-wiki}"
-REPORT_FILE="${WIKI_DIR}/WIKI-LINT-REPORT.md"
+# 检测脚本运行位置，自动设置 WIKI_DIR
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+project_root="$(dirname "$script_dir")"
+
+# 如果当前在 wiki/ 目录内，WIKI_DIR 为当前目录
+# 否则从项目根目录计算
+current_dir="$(basename "$(pwd)")"
+if [ "$current_dir" = "wiki" ]; then
+    WIKI_DIR="${WIKI_DIR:-.}"
+    REPORT_FILE="WIKI-LINT-REPORT.md"
+else
+    WIKI_DIR="${WIKI_DIR:-wiki}"
+    REPORT_FILE="${WIKI_DIR}/WIKI-LINT-REPORT.md"
+fi
 
 echo "# Wiki Lint Report" > "$REPORT_FILE"
 echo "" >> "$REPORT_FILE"

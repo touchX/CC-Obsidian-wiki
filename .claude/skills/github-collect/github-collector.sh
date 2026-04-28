@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # GitHub 资源收集器
-# 用法: ./scripts/github-collector.sh <github-url>
+# 用法: bash .claude/skills/github-collect/github-collector.sh <github-url>
 
 set -e
 
-# 配置
-PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# 配置 - 脚本在 .claude/skills/github-collect/ 下，需要上两级到项目根目录
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 WIKI_DIR="$PROJECT_ROOT/wiki"
 ARCHIVE_DIR="$PROJECT_ROOT/archive"
 TEMPLATE_FILE="$PROJECT_ROOT/scripts/templates/github-repo-template.md"

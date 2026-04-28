@@ -104,7 +104,7 @@ Wiki 页面: wiki/resources/github-repos/{owner}-{repo}.md
 
 ```bash
 # 使用辅助脚本准备请求
-bash scripts/github-collector.sh https://github.com/vercel/next.js
+bash .claude/skills/github-collect/github-collector.sh https://github.com/vercel/next.js
 
 # AI 助手使用 GitHub MCP 获取数据
 # mcp__plugin_github_github__get_repo
