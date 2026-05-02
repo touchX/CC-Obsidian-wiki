@@ -1164,6 +1164,14 @@ source: ../../archive/wiki-log/
   - `.claude/skills/mentor-ai-programming/SKILL.md` — 添加 Pre-Teaching Verification Gate
   - `wiki/log.md` — 本记录
 
+- **Phase 2 P1 验证** ✅ 测试通过，验证 Gate 正常工作
+
+- **Phase 3 P2 自动错误追踪**
+  - `.claude/skills/mentor-ai-programming/SKILL.md` — 添加自动错误追踪机制
+    - 定义三种触发场景：warning/error/critical
+    - 记录格式：error_id, date, severity, source, category, topic, content, confidence_label, user_feedback, improvement
+    - 执行方式：输出未验证内容后调用 `wiki-capture` 记录到 error-tracking.md
+
 ### 相关文档
 
 - 设计文档：`docs/superpowers/specs/2026-05-02-teaching-skill-verification-design.md`
