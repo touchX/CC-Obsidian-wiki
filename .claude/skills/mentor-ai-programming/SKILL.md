@@ -58,6 +58,32 @@ Claude Code AI 编程教学专家 Skill，为进阶开发者提供系统化的 C
 | 推测层 | `> [!warning] 推测内容` | Callout 块 |
 | 未验证 | `> [!caution] 未经验证` | Callout 块 |
 
+### 自动错误追踪
+
+**触发条件**：当出现以下情况时，自动记录到 `error-tracking.md`
+
+| 触发场景 | 记录类型 | 数据点 |
+|----------|----------|--------|
+| Wiki 无相关内容但输出洞察层 | warning | 主题、AI 置信度、用户反馈 |
+| 推测层内容被用户质疑 | error | 推测内容、依据、质疑点 |
+| 事实层被用户发现错误 | critical | 错误内容、正确内容、来源对比 |
+
+**记录格式**：
+```yaml
+error_id: AUTO-<timestamp>
+date: <current-date>
+severity: warning | error | critical
+source: auto-detected
+category: unverified-content
+topic: <teaching-topic>
+content: <original-ai-output>
+confidence_label: "⚠️ 未经验证" | "💡 AI 洞察" | "⚠️ 推测"
+user_feedback: <if-available>
+improvement: <suggestion>
+```
+
+**执行方式**：在输出未验证内容后，调用 `wiki-capture` 记录到 error-tracking.md
+
 ## 使用方式
 
 ```
