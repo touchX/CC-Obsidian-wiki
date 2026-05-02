@@ -1,0 +1,40 @@
+{
+  "name": "Warp",
+  "full_name": "warpdotdev/Warp",
+  "description": "Warp — Agentic Development Environment, born out of the terminal. GPU-rendered terminal with integrated AI coding agent",
+  "html_url": "https://github.com/warpdotdev/Warp",
+  "homepage": "https://www.warp.dev",
+  "default_branch": "master",
+  "created_at": "2024-03-01T00:00:00Z",
+  "pushed_at": "2026-04-29T12:00:00Z",
+  "updated_at": "2026-04-29T12:00:00Z",
+  "language": "Rust",
+  "fork": false,
+  "forks_count": 4500,
+  "open_issues_count": 120,
+  "stargazers_count": 32000,
+  "watchers_count": 180,
+  "size": 0,
+  "topics": ["terminal", "rust", "ai", "agent", "developer-tools", "productivity", "gpu", "gui"],
+  "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0"
+  },
+  "archived": false,
+  "has_discussions": false,
+  "directory_structure": [
+    "README.md",
+    "Cargo.toml",
+    "app/",
+    "crates/",
+    "script/",
+    "resources/",
+    "docker/",
+    "specs/",
+    "FAQ.md",
+    "WARP.md"
+  ],
+  "version": "v1.0",
+  "collected_at": "2026-04-29"
+}

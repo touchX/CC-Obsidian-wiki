@@ -11,11 +11,27 @@ description: Use when capturing high-value conversation insights for future Wiki
 ## Layered Architecture
 
 ```
-obsidian-skills (底层)  →  Wiki skills (编排层)
-├── obsidian-cli        →  inspool 使用 create
-├── obsidian-markdown   →  格式规范
-└── obsidian-bases      →  可选：知识库视图
+子技能调用链：
+会话内容分析 ──→ obsidian-markdown 格式化 ──→ obsidian-cli 写入 vault
+      │                      │                       │
+      ▼                      ▼                       ▼
+  内容提炼              wikilinks/callouts        create/property:set/append
+                     properties (frontmatter)
 ```
+
+## 子技能能力映射
+
+| 任务 | 调用技能 | 命令/技术 |
+|------|----------|-----------|
+| 创建笔记 | **obsidian-cli** | `obsidian create name="..." content="..." silent` |
+| 设置属性 | **obsidian-cli** | `obsidian property:set name=<prop> value=<value> file=<note>` |
+| 追加内容 | **obsidian-cli** | `obsidian append file=<note> content=<content>` |
+| 读取检查 | **obsidian-cli** | `obsidian read file=<note>` |
+| 搜索相关 | **obsidian-cli** | `obsidian search query="..." limit=5` |
+| Frontmatter 规范 | **obsidian-markdown** | 引用 `references/PROPERTIES.md` |
+| Callout 语法 | **obsidian-markdown** | 引用 `references/CALLOUTS.md` |
+| 内部链接 | **obsidian-markdown** | `[[Note Name]]` |
+| Embed 语法 | **obsidian-markdown** | `![[Note]]` |
 
 ## When to Use
 

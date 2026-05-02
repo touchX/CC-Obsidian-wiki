@@ -11,12 +11,24 @@ Wiki 健康检查技能：验证 frontmatter 完整性、交叉引用有效性�
 ## Layered Architecture
 
 ```
-obsidian-skills (底层)  →  Wiki skills (编排层)
-├── obsidian-cli        →  可选：读取页面内容
-└── Bash 工具           →  wiki-lint 主要使用 grep/find
+子技能调用链：
+Wiki 页面检查 ──→ obsidian-cli 读取 ──→ Bash 工具 检查 ──→ 生成报告
+      │                │                   │
+      ▼                ▼                   ▼
+  grep/find         read/backlinks     frontmatter/cross-ref
 ```
 
-**注意**: 此 skill 主要使用 Bash grep/find 进行检查，底层检查逻辑无需修改。
+## 子技能能力映射
+
+| 任务 | 调用技能 | 命令/技术 |
+|------|----------|-----------|
+| 统计页面 | **obsidian-cli** | `obsidian search query="" limit=100` |
+| 读取页面 | **obsidian-cli** | `obsidian read file=<note>` |
+| 查看标签 | **obsidian-cli** | `obsidian tags sort=count counts` |
+| 查看链接 | **obsidian-cli** | `obsidian backlinks file=<note>` |
+| 搜索内容 | **obsidian-cli** | `obsidian search query="..."` |
+| Frontmatter 规范 | **obsidian-markdown** | 引用 `references/PROPERTIES.md` |
+| Callout 报告 | **obsidian-markdown** | 使用 callout 格式生成报告 |
 
 ## When to Use
 

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777359769676-tzu4k3qqm",
+  "providerId": "claude",
+  "title": "Collect prompt-optimizer repository information",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777359769676,
+  "updatedAt": 1777691561391,
+  "lastResponseAt": 1777646571835,
+  "sessionId": "3a7147f3-7e36-4c01-bb03-f283532f3672",
+  "providerState": {
+    "providerSessionId": "3a7147f3-7e36-4c01-bb03-f283532f3672"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

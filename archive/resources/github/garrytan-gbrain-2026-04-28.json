@@ -1,0 +1,29 @@
+{
+  "name": "gbrain",
+  "owner": "garrytan",
+  "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain. Your AI agent is smart but forgetful. GBrain gives it a brain.",
+  "stars": 12000,
+  "language": "TypeScript",
+  "license": "MIT",
+  "url": "https://github.com/garrytan/gbrain",
+  "created_at": "2024",
+  "updated_at": "2026-04-28",
+  "topics": ["ai-agent", "knowledge-graph", "memory-system", "openclaw", "hermes", "pgvector", "hybrid-search"],
+  "fetched_at": "2026-04-28",
+  "key_features": [
+    "Self-wiring knowledge graph with typed links",
+    "Hybrid search (vector + BM25 + graph)",
+    "29 built-in skills for agent operations",
+    "PGLite default (2-second setup), Postgres+pgvector for scale",
+    "MCP server exposing 30+ tools",
+    "Benchmarked P@5 49.1%, R@5 97.9% on Opus corpus"
+  ],
+  "skills_count": 29,
+  "repo_structure": {
+    "skills": "Fat markdown skills for agent workflows",
+    "src": "TypeScript core code",
+    "docs": "Documentation and guides",
+    "recipes": "Data extraction recipes",
+    "templates": "Page templates"
+  }
+}

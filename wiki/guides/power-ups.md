@@ -4,6 +4,7 @@ description: 10 个交互式教程动画演示 — 功能速览
 type: guide
 tags: [tutorial, interactive, learning]
 created: 2026-04-26
+updated: 2026-05-01
 source: ../../archive/best-practice/claude-power-ups.md
 ---
 

@@ -1,3 +1,12 @@
+---
+name: github-repos-readme
+description: GitHub 资源收集模块说明文档
+type: guide
+tags: [github, resources, index]
+created: 2026-04-28
+updated: 2026-04-28
+---
+
 # GitHub 资源收集
 
 本目录用于存储从 GitHub 收集的优秀仓库资源 Wiki 页面。

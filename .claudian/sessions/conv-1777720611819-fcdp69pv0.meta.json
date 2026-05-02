@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777720611819-fcdp69pv0",
+  "providerId": "claude",
+  "title": "学习 Command 系统启动",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777720611819,
+  "updatedAt": 1777721055447,
+  "lastResponseAt": 1777721055447,
+  "sessionId": "5d7413d1-de3d-498c-9e33-b2af7aa7bb4e",
+  "providerState": {
+    "providerSessionId": "5d7413d1-de3d-498c-9e33-b2af7aa7bb4e"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 36391,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 36391,
+    "percentage": 18,
+    "contextWindowIsAuthoritative": true
+  }
+}

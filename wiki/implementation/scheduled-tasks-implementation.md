@@ -4,6 +4,7 @@ description: /loop 定时任务实现详解 — Cron 调度与递归执行
 type: implementation
 tags: [implementation, scheduled-tasks, loop, cron, automation]
 created: 2026-03-10
+updated: 2026-05-01
 ---
 
 # Scheduled Tasks Implementation

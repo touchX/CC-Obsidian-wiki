@@ -4,6 +4,7 @@ description: 定时任务实现指南 — /loop cron 调度与任务管理
 type: guide
 tags: [scheduled-tasks, loop, cron, implementation]
 created: 2026-04-26
+updated: 2026-05-01
 source: ../../archive/implementation/claude-scheduled-tasks-implementation.md
 ---
 

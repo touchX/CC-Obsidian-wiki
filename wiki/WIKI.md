@@ -112,6 +112,25 @@ source: ../../archive/{category}/{filename}.md  # 模板占位符
   - `wiki/{category}/xxx.md` → `source: ../../archive/{category}/xxx.md`
   - `wiki/{category}/{subcategory}/xxx.md` → `source: ../../archive/{category}/xxx.md`
 
+### Frontmatter 扩展字段（可选）
+
+以下字段由 learning-tracker skill 使用，用于智能学习追踪：
+
+```markdown
+# --- 智能进化字段（可选） ---
+query_count: 12          # 被查询次数
+last_queried: 2024-03-18 # 最后查询时间
+difficulty_level: 3      # 1-5，用户理解难度评分
+learning_path: next      # prev/next/core - 学习顺序标记
+```
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `query_count` | number | 页面被查询次数 |
+| `last_queried` | date | 最后查询日期 |
+| `difficulty_level` | number | 理解难度 1-5 |
+| `learning_path` | string | 学习路径标记：prev/next/core |
+
 ### 命名规范
 - **概念**：小写 + 连字符，如 `context-window.md`
 - **实体**：小写 + 连字符，如 `claude-code.md`

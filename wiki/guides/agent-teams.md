@@ -4,6 +4,7 @@ description: Agent Teams 多会话协调工作流实现指南
 type: guide
 tags: [agent-teams, implementation, tmux, coordination]
 created: 2026-04-26
+updated: 2026-05-01
 source: ../../archive/implementation/claude-agent-teams-implementation.md
 ---
 

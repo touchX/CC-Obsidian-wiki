@@ -1,7 +1,15 @@
 {
   "respectGitignore": true,
   "env": {
-    "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "80"
+    "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "80",
+    "ANTHROPIC_BASE_URL": "https://api.minimaxi.com/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "sk-cp-EAdANb2QEnaH-67USaQmrS6qew1Qd1BgNGz1SwUWrwpXA5taAnXUOnuOpzmg3qPD0oycnuvr6SyKDDdlTqVVGtNwmP5-gmuI-lu3PnuvAn8kkdcuabGZUhw",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "MiniMax-M2.7",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "MiniMax-M2.7",
+    "ANTHROPIC_MODEL": "MiniMax-M2.7",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "MiniMax-M2.7",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
   },
   "attribution": {
     "commit": "Co-Authored-By: Claude <noreply@anthropic.com>",
@@ -34,7 +42,26 @@
       "WebFetch(domain:claudelog.com)",
       "WebFetch(domain:www.eesel.ai)",
       "WebFetch(domain:shipyard.build)",
-      "Write(D:\\\\Docs\\\\claude-code-best-practice\\\\.claude.json)"
+      "Write(D:\\\\Docs\\\\claude-code-best-practice\\\\.claude.json)",
+      "Edit(/.claude/skills/github-collect/**)",
+      "Bash(mkdir -p \"D:/Docs/claude-code-best-practice/archive/system-prompts/Traycer AI\")",
+      "Bash(mv \"D:/Docs/claude-code-best-practice/raw/system-prompts/Traycer AI/\"* \"D:/Docs/claude-code-best-practice/archive/system-prompts/Traycer AI/\")",
+      "Bash(mkdir -p \"D:/Docs/claude-code-best-practice/archive/system-prompts/Windsurf\")",
+      "Bash(mv \"D:/Docs/claude-code-best-practice/raw/system-prompts/Windsurf/\"* \"D:/Docs/claude-code-best-practice/archive/system-prompts/Windsurf/\")",
+      "Bash(mkdir -p \"D:/Docs/claude-code-best-practice/archive/guides\")",
+      "Bash(cp \"D:/Docs/claude-code-best-practice/raw/zhihu/Claude Code 并行开发完全指南：Subagents + Agent Teams + Git Worktree + 工作流编排实战.md\" \"D:/Docs/claude-code-best-practice/archive/guides/claude-code-parallel-development-2026-05-01.md\")",
+      "Bash(mkdir -p \"D:/Docs/claude-code-best-practice/archive/resources/tools\")",
+      "Bash(cp \"D:/Docs/claude-code-best-practice/raw/zhihu/gstack简析：Claude Code是不是就是通用智能体？.md\" \"D:/Docs/claude-code-best-practice/archive/resources/tools/gstack-analysis-2026-05-01.md\")",
+      "Bash(rmdir \"D:/Docs/claude-code-best-practice/raw/system-prompts\" 2>/dev/null && ls -la \"D:/Docs/claude-code-best-practice/raw/\")",
+      "Bash(rm -rf \"D:/Docs/claude-code-best-practice/raw/system-prompts\" && echo \"system-prompts 已删除\" && find \"D:/Docs/claude-code-best-practice/raw\" -type d 2>/dev/null)",
+      "Bash(rm \"raw/claude/How to create Skills for Claude steps and examples.md\")",
+      "Bash(cp 'D:/Docs/claude-code-best-practice/raw/zhihu/这个周末我研究了 .claude，终于知道为什么别人用 Claude 比我强10倍.md' 'D:/Docs/claude-code-best-practice/archive/zhihu/')",
+      "Bash(rm \"D:\\\\Docs\\\\claude-code-best-practice\\\\raw\\\\notes\\\\2026-05-02-command-complete-guide.md\")",
+      "Write(D:\\\\Docs\\\\claude-code-best-practice\\\\.claude\\\\rules\\\\teaching-accuracy.md)",
+      "Write(D:\\\\Docs\\\\claude-code-best-practice\\\\.claude\\\\rules\\\\verification-protocol.md)",
+      "Write(D:\\\\Docs\\\\claude-code-best-practice\\\\.claude\\\\rules\\\\error-tracking.md)",
+      "Write(D:\\\\Docs\\\\claude-code-best-practice\\\\.claude\\\\rules\\\\real-time-monitor.md)",
+      "Write(D:\\\\Docs\\\\claude-code-best-practice\\\\.claude\\\\errors\\\\ERR-001-command-hallucination.md)"
     ],
     "deny": [],
     "ask": [

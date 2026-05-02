@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777455960759-eybvumdr1",
+  "providerId": "claude",
+  "title": "Collect MemPalace repository information",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777455960761,
+  "updatedAt": 1777645797831,
+  "lastResponseAt": 1777472950375,
+  "sessionId": "be543592-e321-4ad6-af3f-9a56e0adc26d",
+  "providerState": {
+    "providerSessionId": "be543592-e321-4ad6-af3f-9a56e0adc26d"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 30813,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 30813,
+    "percentage": 15,
+    "contextWindowIsAuthoritative": true
+  }
+}

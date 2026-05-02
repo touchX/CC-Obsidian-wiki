@@ -4,6 +4,7 @@ description: Sub-agents 实现指南 — 上下文分叉与记忆系统
 type: guide
 tags: [subagents, implementation, memory]
 created: 2026-04-26
+updated: 2026-05-01
 source: ../../archive/implementation/claude-subagents-implementation.md
 ---
 

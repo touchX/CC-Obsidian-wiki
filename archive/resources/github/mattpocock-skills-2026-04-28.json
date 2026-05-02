@@ -1,0 +1,71 @@
+{
+  "name": "skills",
+  "owner": "mattpocock",
+  "full_name": "mattpocock/skills",
+  "description": "A collection of Claude Code skills for planning, development, tooling, and writing workflows",
+  "html_url": "https://github.com/mattpocock/skills",
+  "stargazers_count": 0,
+  "forks_count": 0,
+  "language": "TypeScript",
+  "topics": ["claude-code", "skills", "workflows", "development-tools", "tdd"],
+  "created_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "default_branch": "master",
+  "license": "MIT",
+  "author": "Matt Pocock",
+  "repository_type": "skills-collection",
+  "core_concept": {
+    "description": "Curated collection of Claude Code skills organized by workflow category",
+    "philosophy": "Domain-specific skills for different development phases",
+    "unique_selling_point": "npx-based installation system for easy skill management"
+  },
+  "skill_categories": {
+    "planning_and_design": {
+      "skills": ["to-prd", "to-issues", "grill-me", "design-an-interface", "request-refactor-plan"],
+      "focus": "Requirements gathering, issue creation, technical design"
+    },
+    "development": {
+      "skills": ["tdd", "triage-issue", "improve-codebase-architecture", "migrate-to-shoehorn", "scaffold-exercises"],
+      "focus": "Test-driven development, code quality, architecture"
+    },
+    "tooling_and_setup": {
+      "skills": ["setup-pre-commit", "git-guardrails-claude-code"],
+      "focus": "Git workflows, pre-commit hooks"
+    },
+    "writing_and_knowledge": {
+      "skills": ["write-a-skill", "edit-article", "ubiquitous-language", "obsidian-vault"],
+      "focus": "Documentation, knowledge management, skill creation"
+    }
+  },
+  "total_skills_count": 20,
+  "installation": {
+    "cli": "npx skills",
+    "individual": "npx skills <skill-name>",
+    "example": "npx skills to-prd"
+  },
+  "features": [
+    "Domain-specific skill categories",
+    "npx-based installation system",
+    "TDD workflow support",
+    "Pre-commit hook setup",
+    "Documentation writing skills",
+    "Knowledge management integration"
+  ],
+  "directory_structure": [
+    "caveman/SKILL.md - Context compression skill",
+    "design-an-interface/SKILL.md - UI/UX design workflow",
+    "domain-model/SKILL.md - Domain modeling",
+    "tdd/SKILL.md - Test-driven development",
+    "write-a-skill/SKILL.md - Meta skill for creating skills",
+    "to-prd/SKILL.md - Requirements to PRD",
+    "to-issues/SKILL.md - PRD to GitHub issues",
+    "grill-me/SKILL.md - Technical interview prep",
+    "request-refactor-plan/SKILL.md - Refactoring planning",
+    "improve-codebase-architecture/SKILL.md - Architecture enhancement",
+    "setup-pre-commit/SKILL.md - Pre-commit hooks",
+    "git-guardrails-claude-code/SKILL.md - Git workflow rules",
+    "edit-article/SKILL.md - Technical writing",
+    "ubiquitous-language/SKILL.md - Domain language",
+    "obsidian-vault/SKILL.md - Knowledge management"
+  ]
+}

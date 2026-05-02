@@ -1,0 +1,70 @@
+{
+  "name": "agent-skills",
+  "owner": "addyosmani",
+  "full_name": "addyosmani/agent-skills",
+  "description": "Production-grade engineering skills for AI coding agents. 20 skills covering the full development lifecycle.",
+  "html_url": "https://github.com/addyosmani/agent-skills",
+  "stargazers_count": 24701,
+  "forks_count": 0,
+  "language": "Shell",
+  "topics": ["agent-skills", "claude-code", "cursor", "skills", "development-lifecycle"],
+  "created_at": "2024",
+  "updated_at": "2026-04-28",
+  "default_branch": "master",
+  "license": "MIT",
+  "author": "Addy Osmani",
+  "repository_type": "skills",
+  "core_concept": {
+    "description": "Skills encode workflows, quality gates, and best practices that senior engineers use. Packaged so AI agents follow them consistently.",
+    "lifecycle": ["Define", "Plan", "Build", "Verify", "Review", "Ship"]
+  },
+  "commands": [
+    {"command": "/spec", "phase": "Define", "principle": "Spec before code"},
+    {"command": "/plan", "phase": "Plan", "principle": "Small, atomic tasks"},
+    {"command": "/build", "phase": "Build", "principle": "One slice at a time"},
+    {"command": "/test", "phase": "Verify", "principle": "Tests are proof"},
+    {"command": "/review", "phase": "Review", "principle": "Improve code health"},
+    {"command": "/code-simplify", "phase": "Review", "principle": "Clarity over cleverness"},
+    {"command": "/ship", "phase": "Ship", "principle": "Faster is safer"}
+  ],
+  "skills_count": 20,
+  "skills_by_phase": {
+    "Define": ["idea-refine", "spec-driven-development"],
+    "Plan": ["planning-and-task-breakdown"],
+    "Build": ["incremental-implementation", "test-driven-development", "context-engineering", "source-driven-development", "frontend-ui-engineering", "api-and-interface-design"],
+    "Verify": ["browser-testing-with-devtools", "debugging-and-error-recovery"],
+    "Review": ["code-review-and-quality", "code-simplification", "security-and-hardening", "performance-optimization"],
+    "Ship": ["git-workflow-and-versioning", "ci-cd-and-automation", "deprecation-and-migration", "documentation-and-adrs", "shipping-and-launch"]
+  },
+  "agents": [
+    {"name": "code-reviewer", "role": "Senior Staff Engineer", "focus": "Five-axis code review"},
+    {"name": "test-engineer", "role": "QA Specialist", "focus": "Test strategy, coverage analysis"},
+    {"name": "security-auditor", "role": "Security Engineer", "focus": "OWASP assessment, threat modeling"}
+  ],
+  "references": [
+    "testing-patterns.md",
+    "security-checklist.md",
+    "performance-checklist.md",
+    "accessibility-checklist.md"
+  ],
+  "platforms": ["Claude Code", "Cursor", "Gemini CLI", "Windsurf", "OpenCode", "GitHub Copilot", "Kiro IDE"],
+  "installation": {
+    "claude_code": "/plugin marketplace add addyosmani/agent-skills",
+    "gemini_cli": "gemini skills install https://github.com/addyosmani/agent-skills.git --path skills"
+  },
+  "key_features": [
+    "7 slash commands mapping to development lifecycle",
+    "20 production-grade skills",
+    "3 specialist agent personas",
+    "4 reference checklists",
+    "Anti-rationalization tables in every skill",
+    "Verification gates with evidence requirements"
+  ],
+  "directory_structure": [
+    "skills/ - 20 core skills",
+    "agents/ - 3 specialist personas",
+    "references/ - 4 checklists",
+    "hooks/ - Session lifecycle hooks",
+    "docs/ - Setup guides per platform"
+  ]
+}

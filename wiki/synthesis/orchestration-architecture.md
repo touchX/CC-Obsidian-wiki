@@ -5,7 +5,7 @@ type: synthesis
 tags: [orchestration, command, agent, skill, architecture]
 created: 2026-04-27
 updated: 2026-04-27
-source: ../../raw/cc-doc/Command Agent 技能模式  shanraisshanclaude-code-best-practice.md
+source: ../../../archive/cc-doc/Command Agent 技能模式  shanraisshanclaude-code-best-practice.md
 related:
   - wiki/synthesis/agent-command-skill-comparison.md
   - wiki/guides/commands.md

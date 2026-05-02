@@ -89,12 +89,42 @@ LSP 工具为 Claude 提供来自运行中的语言服务器的代码智能：
 
 ## Monitor 工具
 
-Monitor 工具让 Claude 在后台监视某些内容，并在其更改时做出反应：
+Monitor 让 Claude 在后台持续监视指定目标，发生变化时主动通知。
 
-- 跟踪日志文件并在错误出现时标记它们
+### 核心功能
+
+- 跟踪日志文件并在错误出现时标记
 - 轮询 PR 或 CI 作业并在其状态更改时报告
 - 监视目录以查找文件更改
 - 跟踪长时间运行脚本的输出
+
+### 启用方式
+
+直接在对话中请求监控：
+```
+"Monitor the test output file and tell me when tests fail"
+"Monitor the CI pipeline and notify me when it completes"
+```
+
+### 授权配置
+
+| 语法 | 含义 |
+|------|------|
+| `Monitor` | 需首次确认 |
+| `Monitor(*)` | 自动授权 |
+
+| 级别 | 位置 | 作用域 |
+|------|------|--------|
+| User | ~/.claude.json | 全局 |
+| Project | .claude.json | 当前项目 |
+| Subagent | frontmatter | 特定 agent |
+
+### 与 Bash 后台运行的区别
+
+| 维度 | Bash 后台 | Monitor |
+|------|----------|---------|
+| 通知机制 | 完成时通知 | 状态变化时主动通知 |
+| 持续性 | 任务结束即停止 | 可持续监控 |
 
 ## PowerShell 工具
 

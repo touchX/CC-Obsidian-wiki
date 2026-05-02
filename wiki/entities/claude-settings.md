@@ -7,6 +7,7 @@ tags:
   - configuration
   - environment
 created: 2026-04-26
+updated: 2026-05-01
 source: ../../archive/best-practice/claude-settings.md
 ---
 

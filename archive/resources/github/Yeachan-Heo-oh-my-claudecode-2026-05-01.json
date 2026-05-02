@@ -1,0 +1,44 @@
+{
+  "name": "oh-my-claudecode",
+  "full_name": "Yeachan-Heo/oh-my-claudecode",
+  "description": "Everything for Claude Code — Skills, Agents, Hooks, Missions, and CLAUDE.md tailored for Korean developers",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+  "created_at": "2025-01-15T00:00:00Z",
+  "updated_at": "2026-04-30T00:00:00Z",
+  "topics": [
+    "claude-code",
+    "skills",
+    "agents",
+    "claude",
+    "ai",
+    "productivity",
+    "korean",
+    "localization"
+  ],
+  "collected_at": "2026-05-01",
+  "repository_type": "skills-agents",
+  "key_directories": [
+    "agents/",
+    "skills/",
+    "hooks/",
+    "missions/",
+    ".claude-plugin/"
+  ],
+  "platforms": ["claude-code"],
+  "i18n_support": [
+    "README.zh.md",
+    "README.ja.md",
+    "README.ko.md",
+    "README.de.md",
+    "README.es.md",
+    "README.fr.md",
+    "README.it.md",
+    "README.pt.md",
+    "README.ru.md",
+    "README.tr.md",
+    "README.vi.md"
+  ]
+}

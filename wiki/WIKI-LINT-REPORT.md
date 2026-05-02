@@ -1,57 +1,73 @@
----
-name: wiki-lint-report
-description: Wiki 健康检查报告 — 自动生成
-type: report
-tags: [wiki, lint, health-check]
-created: 2026-04-28
-updated: 2026-04-28
+# Wiki Lint Report
+
+> 生成时间: 2026-05-02 17:48:29
+
 ---
 
-# Wiki Lint 报告
+## 📊 统计概览
 
-> 生成时间: 2026-04-28
+| 指标 | 数量 |
+|------|------|
+| **总页面数** | 254 |
+| **Frontmatter 问题** | 20 |
+| **缺失 Source 文件** | 50 |
+| **断链（抽样）** | 2 |
+| **健康度评分** | 72% |
 
+---
 ---
 
 ## 页面统计
 
 | 分类 | 页面数 |
 |------|--------|
-| concepts/ | 9 |
+| concepts/ | 12 |
 | entities/ | 59 |
-| sources/ | 24 |
-| synthesis/ | 7 |
-| guides/ | 20 |
+| sources/ | 33 |
+| synthesis/ | 9 |
+| guides/ | 36 |
 | tips/ | 13 |
 | tutorial/ | 5 |
-| implementation/ | 10 |
+| implementation/ | 13 |
 | orchestration-workflow/ | 1 |
-| **总计** | **148** |
+| **总计** | **181** |
 
 ## Frontmatter 检查
 
-✅ 所有页面 frontmatter 完整
+- ❌ ./implementation/plugins-reference.md: 缺少 frontmatter
+- ⚠️  ./progress-agent-teams.md: 缺少 type 字段
+- ⚠️  ./progress-commands.md: 缺少 name 字段
+- ⚠️  ./progress-commands.md: 缺少 type 字段
+- ⚠️  ./progress-hooks.md: 缺少 type 字段
+- ⚠️  ./progress-subagents.md: 缺少 type 字段
+- ⚠️  ./progress-workflows.md: 缺少 type 字段
 
 ## 交叉引用检查
 
-✅ 所有交叉引用有效（占位符和示例链接已过滤）
+- ⚠️  [[./config/coding-standards.md]]: 目标页面不存在
+- ⚠️  [[./config/tech-stack.md]]: 目标页面不存在
+- ⚠️  [[.kiro/specs/feature.md]]: 目标页面不存在
+- ⚠️  [[agents]]: 目标页面不存在
+- ⚠️  [[anthropics-claude-plugins-official-2026-04-28.json]]: 目标页面不存在
+- ⚠️  [[concepts/multi-agent-orchestration]]: 目标页面不存在
+- ⚠️  [[concepts/team-adoption]]: 目标页面不存在
+- ⚠️  [[cursor]]: 目标页面不存在
+- ⚠️  [[entities/claude-agents]]: 目标页面不存在
+- ⚠️  [[file]]: 目标页面不存在
+- ⚠️  [[guides/]]: 目标页面不存在
+- ⚠️  [[implementation/subagents-usage-guide|Subagents 使用指南]]: 目标页面不存在
+- ⚠️  [[linshenkx-prompt-optimizer-2026-04-28.json]]: 目标页面不存在
+- ⚠️  [[patterns/]]: 目标页面不存在
+- ⚠️  [[patterns/agent-harness-design]]: 目标页面不存在
+- ⚠️  [[proton-services]]: 目标页面不存在
+- ⚠️  [[relative/path/to/file.md]]: 目标页面不存在
+- ⚠️  [[relative/path]]: 目标页面不存在
+- ⚠️  [[resources/github-repos/openclaw-openclaw]]: 目标页面不存在
+- ⚠️  [[resources/tools/]]: 目标页面不存在
+- ⚠️  [[skills/weather-fetcher]]: 目标页面不存在
+- ⚠️  [[skills/weather-svg-creator]]: 目标页面不存在
 
 ## Source 引用检查
 
-✅ 所有 source 引用有效（117 个 source 字段均指向存在的 archive 文件）
-
-## 总结
-
-- 总页面数: 148
-- Frontmatter 问题: 0
-- 交叉引用问题: 0
-- Source 引用问题: 0
-
-✅ Wiki 健康状况良好
-
----
-
-**语言约束合规性**：
-- ✅ 已添加语言标准：Wiki 内容必须使用中文
-- ✅ 源素材翻译规范已明确
-- ✅ 代码、技术术语保留原文规则已建立
+- ❌ ./implementation/subagent-best-practices.md: source 指向不存在的文件 (../../archive/cc-doc/子 Agent 最佳实践 shanraisshanclaude-code-best-practice.md)
+- ❌ ./implementation/weather-orchestrator-walkthrough.md: source 指向不存在的文件 (../../archive/cc-doc/天气编排器实战演练 shanraisshanclaude-code-best-practice.md)

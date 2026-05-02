@@ -4,6 +4,7 @@ description: 子 Agent 持久化记忆系统 — memory frontmatter 字段详解
 type: concept
 tags: [agents, memory, persistence, context]
 created: 2026-02-15
+updated: 2026-05-01
 source: ../../archive/reports/claude-agent-memory.md
 ---
 

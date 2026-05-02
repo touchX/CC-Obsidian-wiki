@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777647554570-r7rxqy000",
+  "providerId": "claude",
+  "title": "Ingest raw documents into wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777647554570,
+  "updatedAt": 1777691567371,
+  "lastResponseAt": 1777648635540,
+  "sessionId": "da2e78df-4a5c-47e9-aaf2-6615fd7512e1",
+  "providerState": {
+    "providerSessionId": "da2e78df-4a5c-47e9-aaf2-6615fd7512e1"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 38176,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 38176,
+    "percentage": 19,
+    "contextWindowIsAuthoritative": true
+  }
+}

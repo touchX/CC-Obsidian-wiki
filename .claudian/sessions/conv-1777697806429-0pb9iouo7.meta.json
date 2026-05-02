@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777697806429-0pb9iouo7",
+  "providerId": "claude",
+  "title": "Analyze Obsidian file parsing issue",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777697806429,
+  "updatedAt": 1777716889239,
+  "lastResponseAt": 1777697884396,
+  "sessionId": "5a286259-3123-4b4d-9b95-aadff7180291",
+  "providerState": {
+    "providerSessionId": "5a286259-3123-4b4d-9b95-aadff7180291"
+  },
+  "currentNote": "wiki/learning-progress.base",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 19167,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 19167,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}

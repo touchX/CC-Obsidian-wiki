@@ -1,0 +1,68 @@
+{
+  "name": "superpowers",
+  "full_name": "obra/superpowers",
+  "description": "An agentic skills framework & software development methodology that works.",
+  "stars": 170260,
+  "forks": null,
+  "language": "Shell",
+  "license": "MIT",
+  "url": "https://github.com/obra/superpowers",
+  "homepage": null,
+  "topics": [],
+  "created_at": "2025-10-09",
+  "pushed_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "collected_at": "2026-04-28",
+  "features": {
+    "type": "Agentic Skills Framework",
+    "methodology": "Complete software development workflow",
+    "core_workflow": [
+      "brainstorming",
+      "using-git-worktrees",
+      "writing-plans",
+      "subagent-driven-development",
+      "test-driven-development",
+      "requesting-code-review",
+      "finishing-a-development-branch"
+    ],
+    "skills_categories": {
+      "testing": ["test-driven-development"],
+      "debugging": ["systematic-debugging", "verification-before-completion"],
+      "collaboration": [
+        "brainstorming",
+        "writing-plans",
+        "executing-plans",
+        "dispatching-parallel-agents",
+        "requesting-code-review",
+        "receiving-code-review",
+        "using-git-worktrees",
+        "finishing-a-development-branch",
+        "subagent-driven-development"
+      ],
+      "meta": ["writing-skills", "using-superpowers"]
+    },
+    "philosophy": [
+      "Test-Driven Development",
+      "Systematic over ad-hoc",
+      "Complexity reduction",
+      "Evidence over claims"
+    ],
+    "supported_platforms": [
+      "Claude Code Official Marketplace",
+      "Claude Code (Superpowers Marketplace)",
+      "OpenAI Codex CLI",
+      "OpenAI Codex App",
+      "Cursor",
+      "OpenCode",
+      "GitHub Copilot CLI",
+      "Gemini CLI"
+    ]
+  },
+  "author": "Jesse Vincent",
+  "organization": "Prime Radiant",
+  "community": {
+    "discord": "https://discord.gg/35wsABTejz",
+    "issues": "https://github.com/obra/superpowers/issues",
+    "blog": "https://blog.fsck.com/2025/10/09/superpowers/"
+  }
+}

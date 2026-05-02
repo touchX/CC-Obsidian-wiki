@@ -4,6 +4,7 @@ description: Weather Orchestrator Command 实现指南 — Command → Agent →
 type: guide
 tags: [commands, implementation, orchestration]
 created: 2026-04-26
+updated: 2026-05-01
 source: ../../archive/implementation/claude-commands-implementation.md
 ---
 

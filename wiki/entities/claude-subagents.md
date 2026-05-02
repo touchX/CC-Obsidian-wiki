@@ -4,6 +4,7 @@ description: 子代理系统 — 多 Agent 并行协作与任务分发
 type: entity
 tags: [subagents, multi-agent, parallel]
 created: 2026-04-26
+updated: 2026-05-01
 source: ../../archive/best-practice/claude-subagents.md
 ---
 

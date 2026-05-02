@@ -1,0 +1,50 @@
+filters:
+  and:
+    - file.hasTag("learning-progress")
+    - file.ext == "md"
+formulas:
+  level_order: if(level == "L1", 1, if(level == "L2", 2, if(level == "L3", 3, 0)))
+  status_icon: if(status == "completed", "✅", if(status == "in-progress", "🔄", if(status == "not-started", "⬜", "❓")))
+  days_since_updated: (today() - date(updated)).days
+properties:
+  module:
+    displayName: 模块
+  level:
+    displayName: 等级
+  status:
+    displayName: 状态
+  formula.level_order:
+    displayName: 优先级
+  formula.days_since_updated:
+    displayName: 天数
+  started_date:
+    displayName: 开始日期
+  updated:
+    displayName: 更新日期
+  notes:
+    displayName: 备注
+views:
+  - type: table
+    name: 模块进度总览
+    order:
+      - formula.level_order
+      - module
+      - formula.status_icon
+      - level
+      - status
+      - formula.days_since_updated
+      - updated
+      - notes
+    summaries:
+      formula.level_order: Unique
+  - type: cards
+    name: 学习状态卡片
+    filters:
+      and:
+        - status != "completed"
+    order:
+      - formula.level_order
+      - module
+      - level
+      - status
+      - updated

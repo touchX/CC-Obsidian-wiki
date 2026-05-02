@@ -61,7 +61,34 @@ grep "^source:" wiki/**/*.md | while read f; do
 done
 ```
 
-## WIKI偏好语言
+## 语言约束
+- Wiki 内容必须使用 **中文**
+- 代码示例、技术术语保留原文
+- source 字段指向原始语言文件（溯源用）
+
+## 项目命令
+
+```bash
+npm install          # 安装依赖
+npm run lint         # 运行 Wiki 健康检查
+cd wiki && ../.claude/skills/wiki-lint/wiki-lint.sh  # Lint 检查
+```
+
+## 目录结构
+
+```
+./
+├── CLAUDE.md           # 本文件
+├── wiki/               # Wiki 文档（Obsidian vault）
+│   ├── index.md        # 自动索引
+│   ├── log.md          # 操作日志
+│   └── */              # 分类页面
+├── raw/                # 原始素材（待处理）
+├── archive/            # 已归档文档
+└── .claude/
+    └── skills/         # Claude Code skills
+```
+
 ## 相关文件
 
 | 文件 | 说明 |
@@ -83,3 +110,4 @@ done
 ---
 
 *本项目基于 Karpathy 的 LLM Wiki 方法论构建*
+*最后更新: 2026-05-02*

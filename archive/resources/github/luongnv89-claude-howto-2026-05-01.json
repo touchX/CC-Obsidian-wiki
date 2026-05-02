@@ -1,0 +1,55 @@
+{
+  "name": "claude-howto",
+  "full_name": "luongnv89/claude-howto",
+  "description": "Claude Code Tutorial — 从入门到精通的完整学习指南，涵盖 Slash Commands、Memory、Skills、Subagents、MCP、Hooks、Plugins、Checkpoints 和 CLI",
+  "stars": 0,
+  "language": "Markdown",
+  "license": "MIT",
+  "url": "https://github.com/luongnv89/claude-howto",
+  "created_at": "2025-01-15T00:00:00Z",
+  "updated_at": "2026-04-30T00:00:00Z",
+  "topics": [
+    "claude-code",
+    "tutorial",
+    "documentation",
+    "learning-guide",
+    "chinese",
+    "japanese",
+    "vietnamese",
+    "ukrainian"
+  ],
+  "collected_at": "2026-05-01",
+  "repository_type": "documentation",
+  "key_directories": [
+    "01-slash-commands/",
+    "02-memory/",
+    "03-skills/",
+    "04-subagents/",
+    "05-mcp/",
+    "06-hooks/",
+    "07-plugins/",
+    "08-checkpoints/",
+    "09-advanced-features/",
+    "10-cli/",
+    ".claude/",
+    "zh/",
+    "ja/",
+    "vi/",
+    "uk/"
+  ],
+  "platforms": ["claude-code"],
+  "i18n_support": [
+    "zh/",
+    "ja/",
+    "vi/",
+    "uk/"
+  ],
+  "key_files": [
+    "CATALOG.md",
+    "INDEX.md",
+    "LEARNING-ROADMAP.md",
+    "QUICK_REFERENCE.md",
+    "README.md",
+    "STYLE_GUIDE.md"
+  ]
+}

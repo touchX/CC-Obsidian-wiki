@@ -1,0 +1,56 @@
+{
+  "name": "agent-lightning",
+  "full_name": "microsoft/agent-lightning",
+  "description": "Microsoft AI Agent Framework — 轻量级 Python 框架，用于构建、训练和部署 AI Agents，支持 OpenTelemetry 追踪和强化学习",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "url": "https://github.com/microsoft/agent-lightning",
+  "created_at": "2025-01-15T00:00:00Z",
+  "updated_at": "2026-04-30T00:00:00Z",
+  "topics": [
+    "agents",
+    "ai",
+    "python",
+    "machine-learning",
+    "reinforcement-learning",
+    "opentelemetry",
+    "llm",
+    "claude-code",
+    "mcp"
+  ],
+  "collected_at": "2026-05-01",
+  "repository_type": "framework",
+  "key_directories": [
+    "agentlightning/",
+    "agentlightning/adapter/",
+    "agentlightning/algorithm/",
+    "agentlightning/cli/",
+    "agentlightning/execution/",
+    "agentlightning/instrumentation/",
+    "agentlightning/litagent/",
+    "agentlightning/runner/",
+    "agentlightning/trainer/",
+    "agentlightning/tracer/",
+    "agentlightning/verl/",
+    "examples/",
+    "tests/",
+    "docs/",
+    "dashboard/"
+  ],
+  "platforms": ["python", "claude-code"],
+  "key_files": [
+    "AGENTS.md",
+    "README.md",
+    "pyproject.toml",
+    "mkdocs.yml"
+  ],
+  "framework_type": "agent-framework",
+  "core_features": [
+    "Agent 开发框架",
+    "OpenTelemetry 追踪",
+    "强化学习支持",
+    "CLI 工具",
+    "可视化 Dashboard"
+  ]
+}

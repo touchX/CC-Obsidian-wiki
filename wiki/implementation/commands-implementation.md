@@ -4,6 +4,7 @@ description: Commands 命令系统实现详解 — Weather Orchestrator 示例
 type: implementation
 tags: [implementation, commands, orchestration, weather-orchestrator]
 created: 2026-03-02
+updated: 2026-05-01
 ---
 
 # Commands Implementation

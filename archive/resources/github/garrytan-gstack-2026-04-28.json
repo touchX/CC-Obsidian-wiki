@@ -1,0 +1,41 @@
+{
+  "name": "gstack",
+  "full_name": "garrytan/gstack",
+  "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+  "stars": 85472,
+  "forks": 12503,
+  "language": "TypeScript",
+  "license": "MIT",
+  "url": "https://github.com/garrytan/gstack",
+  "homepage": null,
+  "topics": [],
+  "created_at": "2026-03-11",
+  "pushed_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "collected_at": "2026-04-28",
+  "author": {
+    "name": "Garry Tan",
+    "role": "President & CEO of Y Combinator",
+    "social": "https://x.com/garrytan",
+    "background": "Early eng/PM/designer at Palantir, cofounded Posterous (sold to Twitter), built Bookface (YC's internal network)"
+  },
+  "highlights": {
+    "productivity": "810× code output increase vs 2013 (11,417 vs 14 logical lines/day)",
+    "shipped": "3 production services, 40+ features in 60 days (part-time while running YC)",
+    "efficiency": "240× entire 2013 year output in YTD 2026 (through April 18)"
+  },
+  "features": {
+    "tools_count": 23,
+    "roles": [
+      "CEO",
+      "Designer",
+      "Engineering Manager",
+      "Release Manager",
+      "Documentation Engineer",
+      "QA"
+    ],
+    "focus": "Opinionated tools for startup founders and product builders"
+  },
+  "quote": "I don't think I've typed like a line of code probably since December — Andrej Karpathy, March 2026",
+  "comparison": "Peter Steinberger built OpenClaw (247K stars) essentially solo with AI agents"
+}

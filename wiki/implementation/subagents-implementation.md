@@ -4,6 +4,7 @@ description: Sub-agents 子代理实现详解 — Weather Agent 示例
 type: implementation
 tags: [implementation, subagents, weather-agent, isolated-context]
 created: 2026-03-02
+updated: 2026-05-01
 ---
 
 # Sub-agents Implementation

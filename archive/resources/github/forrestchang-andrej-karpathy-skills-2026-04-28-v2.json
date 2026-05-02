@@ -1,0 +1,71 @@
+{
+  "name": "andrej-karpathy-skills",
+  "owner": "forrestchang",
+  "full_name": "forrestchang/andrej-karpathy-skills",
+  "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+  "html_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+  "stargazers_count": 95206,
+  "forks_count": 9224,
+  "language": null,
+  "topics": ["claude-code", "claude-md", "guidelines", "best-practices"],
+  "created_at": "2026-01-27T03:53:13Z",
+  "updated_at": "2026-04-28T08:16:52Z",
+  "default_branch": "main",
+  "open_issues_count": 75,
+  "archived": false,
+  "visibility": "public",
+  "license": "MIT",
+  "repository_type": "skills",
+  "core_principles": [
+    {
+      "name": "Think Before Coding",
+      "description": "Don't assume. Don't hide confusion. Surface tradeoffs.",
+      "addresses": "Wrong assumptions, hidden confusion, missing tradeoffs"
+    },
+    {
+      "name": "Simplicity First",
+      "description": "Minimum code that solves the problem. Nothing speculative.",
+      "addresses": "Overcomplication, bloated abstractions"
+    },
+    {
+      "name": "Surgical Changes",
+      "description": "Touch only what you must. Clean up only your own mess.",
+      "addresses": "Orthogonal edits, touching code you shouldn't"
+    },
+    {
+      "name": "Goal-Driven Execution",
+      "description": "Define success criteria. Loop until verified.",
+      "addresses": "Leverage through tests-first, verifiable success criteria"
+    }
+  ],
+  "karpathy_problems": [
+    "Wrong assumptions made silently without checking",
+    "Overcomplication of code and APIs, bloated abstractions",
+    "Side-effect changes to code/comments not understood"
+  ],
+  "installation_methods": [
+    {
+      "method": "Claude Code Plugin",
+      "command": "/plugin marketplace add forrestchang/andrej-karpathy-skills",
+      "recommended": true
+    },
+    {
+      "method": "CLAUDE.md",
+      "command": "curl -o CLAUDE.md https://raw.githubusercontent.com/.../CLAUDE.md"
+    }
+  ],
+  "directory_structure": [
+    "CLAUDE.md",
+    "CURSOR.md",
+    "EXAMPLES.md",
+    "README.md",
+    "README.zh.md",
+    "skills/karpathy-guidelines/SKILL.md"
+  ],
+  "derivative_projects": [
+    "skillmaxxing - Multi-tool, multi-mode",
+    "product-mode - Product-level principles",
+    "Level Up Coding - Tutorial series"
+  ],
+  "platforms": ["Claude Code", "Cursor"]
+}

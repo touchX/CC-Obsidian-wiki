@@ -4,6 +4,7 @@ description: RPI 开发流程 — Research→Plan→Implement 三阶段系统化
 type: guide
 tags: [workflow, rpi, research, plan, implement, agents, commands]
 created: 2026-04-26
+updated: 2026-05-01
 ---
 
 # RPI Workflow

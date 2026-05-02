@@ -1,0 +1,30 @@
+name: recent-files
+description: 最近添加的文档
+type: base
+filters:
+  and:
+    - file.ext == "md"
+    - file.ctime >= date(today() - "30d")
+formulas:
+  days_since_created: (today() - file.ctime).days
+  created_date: file.ctime.format("YYYY-MM-DD")
+properties:
+  file.name:
+    displayName: 文件名
+  formula.created_date:
+    displayName: 创建日期
+  formula.days_since_created:
+    displayName: 天数
+views:
+  - type: table
+    name: 最近添加
+    order:
+      - file.ctime
+      - file.name
+      - description
+    sort:
+      - property: file.ctime
+        direction: DESC
+    limit: 50
+    summaries:
+      formula.days_since_created: Average

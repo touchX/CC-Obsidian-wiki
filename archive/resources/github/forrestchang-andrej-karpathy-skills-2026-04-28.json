@@ -1,0 +1,36 @@
+{
+  "name": "andrej-karpathy-skills",
+  "owner": "forrestchang",
+  "full_name": "forrestchang/andrej-karpathy-skills",
+  "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+  "html_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+  "stargazers_count": 95206,
+  "forks_count": 9224,
+  "language": null,
+  "topics": [],
+  "created_at": "2026-01-27T03:53:13Z",
+  "updated_at": "2026-04-28T08:16:52Z",
+  "default_branch": "main",
+  "open_issues_count": 75,
+  "archived": false,
+  "visibility": "public",
+  "has_wiki": false,
+  "has_pages": false,
+  "directory_structure": [
+    ".claude-plugin/",
+    ".cursor/",
+    "CLAUDE.md",
+    "CURSOR.md",
+    "EXAMPLES.md",
+    "README.md",
+    "README.zh.md",
+    "skills/karpathy-guidelines/"
+  ],
+  "files": [
+    {"path": "CLAUDE.md", "size": 2357, "description": "Main Claude Code configuration"},
+    {"path": "CURSOR.md", "size": 1955, "description": "Cursor IDE configuration"},
+    {"path": "EXAMPLES.md", "size": 14838, "description": "Usage examples"},
+    {"path": "README.md", "size": 6198, "description": "English documentation"},
+    {"path": "README.zh.md", "size": 6042, "description": "Chinese documentation"}
+  ]
+}

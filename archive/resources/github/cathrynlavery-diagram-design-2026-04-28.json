@@ -1,22 +1,76 @@
 {
   "name": "diagram-design",
+  "owner": "cathrynlavery",
   "full_name": "cathrynlavery/diagram-design",
-  "description": "Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-  "stars": 2007,
-  "forks": null,
+  "description": "A Claude Code skill for creating editorial-quality technical diagrams as standalone HTML files with inline SVG. 13 diagram types with brand-matching.",
+  "html_url": "https://github.com/cathrynlavery/diagram-design",
+  "stargazers_count": 2007,
+  "forks_count": 0,
   "language": "HTML",
-  "license": null,
-  "url": "https://github.com/cathrynlavery/diagram-design",
-  "homepage": null,
-  "topics": ["claude-code", "diagram", "svg", "html", "claude-code-skill"],
+  "topics": ["claude-code", "diagrams", "svg", "design", "claude-skills", "documentation"],
   "created_at": "2026-04-16",
-  "pushed_at": null,
   "updated_at": "2026-04-28",
-  "collected_at": "2026-04-28",
-  "features": {
-    "diagram_types": 13,
-    "format": "HTML + SVG",
-    "standalone": true
+  "default_branch": "master",
+  "license": "MIT",
+  "author": "Cathryn Lavery",
+  "repository_type": "skills",
+  "core_concept": {
+    "description": "Create editorial-quality technical diagrams as self-contained HTML files with inline SVG",
+    "philosophy": "The highest-quality move is usually deletion. Every node earns its place. Target density: 4/10.",
+    "unique_selling_point": "Brand-matching in 60 seconds by reading your website"
   },
-  "highlight": "Self-contained HTML + SVG. No shadows, no Mermaid-slop."
+  "diagram_types_count": 13,
+  "diagram_types": [
+    {"name": "Architecture", "use_case": "Components + connections in a system"},
+    {"name": "Flowchart", "use_case": "Decision logic with branches"},
+    {"name": "Sequence", "use_case": "Time-ordered messages between actors"},
+    {"name": "State machine", "use_case": "States + transitions + guards"},
+    {"name": "ER / data model", "use_case": "Entities + fields + relationships"},
+    {"name": "Timeline", "use_case": "Events positioned in time"},
+    {"name": "Swimlane", "use_case": "Cross-functional process with handoffs"},
+    {"name": "Quadrant", "use_case": "Two-axis positioning / prioritization"},
+    {"name": "Nested", "use_case": "Hierarchy through containment / scope"},
+    {"name": "Tree", "use_case": "Parent → children relationships"},
+    {"name": "Layer stack", "use_case": "Stacked abstraction levels"},
+    {"name": "Venn", "use_case": "Overlap between sets"},
+    {"name": "Pyramid / funnel", "use_case": "Ranked hierarchy or conversion drop-off"}
+  ],
+  "variants_per_type": 3,
+  "variant_types": ["minimal light", "minimal dark", "full editorial"],
+  "design_system": {
+    "colors": "Semantic roles (paper, ink, muted, accent, link)",
+    "typography": "Instrument Serif (title), Geist sans (node names), Geist Mono (technical)",
+    "spacing": "4px grid (non-negotiable)",
+    "complexity_budget": "Max 9 nodes per diagram"
+  },
+  "features": [
+    "First-run style guide gate - prompts brand customization before first diagram",
+    "URL-based onboarding - fetches website, extracts palette + fonts",
+    "WCAG AA contrast checks automatically",
+    "Progressive disclosure - loads only relevant type reference",
+    "13 diagram types with type-specific anti-patterns",
+    "Annotation callout primitive (italic Instrument Serif)",
+    "Sketchy filter primitive (hand-drawn SVG variant)",
+    "Self-contained HTML output - no external images or JS"
+  ],
+  "installation": {
+    "clone": "git clone git@github.com:cathrynlavery/diagram-design.git ~/.claude/skills/diagram-design",
+    "plugin": "/plugin marketplace add cathrynlavery/diagram-design",
+    "plugin_install": "/plugin install diagram-design@diagram-design"
+  },
+  "directory_structure": [
+    "SKILL.md - top-level: philosophy, selection guide, checklist",
+    "references/ - 15 type-specific and utility references",
+    "references/style-guide.md - single source of truth for colors + fonts",
+    "references/onboarding.md - URL-to-tokens flow",
+    "assets/ - gallery, templates, 39 example diagrams (13 types × 3 variants)",
+    "docs/screenshots/ - README images"
+  ],
+  "author_info": {
+    "name": "Cathryn Lavery",
+    "company": "BestSelf.co",
+    "blog": "littlemight.com",
+    "bio": "Writes about AI, entrepreneurship, and designing nice-looking things"
+  },
+  "platforms": ["Claude Code"]
 }

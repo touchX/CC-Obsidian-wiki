@@ -1,0 +1,23 @@
+{
+  "name": "gstack",
+  "full_name": "garrytan/gstack",
+  "description": "23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+  "stars": 87415,
+  "language": "TypeScript",
+  "license": "MIT",
+  "url": "https://github.com/garrytan/gstack",
+  "created_at": "2024-05-09T19:09:33Z",
+  "updated_at": "2026-05-01T06:21:26Z",
+  "topics": [
+    "claude-code",
+    "claude",
+    "anthropic",
+    "skills",
+    "productivity",
+    "tools",
+    "ai-assistant"
+  ],
+  "collected_at": "2026-05-01",
+  "readme_sha": "426c8468f35608d45048992ab41fde0636d409bb",
+  "repository_type": "skills"
+}

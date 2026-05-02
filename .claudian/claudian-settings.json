@@ -1,9 +1,9 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "haiku",
-  "thinkingBudget": "off",
-  "effortLevel": "max",
+  "model": "sonnet",
+  "thinkingBudget": "low",
+  "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -30,7 +30,7 @@
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
-      "lastModel": "haiku",
+      "lastModel": "sonnet",
       "environmentVariables": "",
       "environmentHash": ""
     },
@@ -42,22 +42,22 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
-      "installationMethodsByHost": {},
-      "wslDistroOverride": "",
+      "installationMethodsByHost": {
+        "DESKTOP-K2VHS90": "native-windows"
+      },
       "wslDistroOverridesByHost": {}
     }
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "sonnet"
   },
   "savedProviderEffort": {
-    "claude": "max"
+    "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "low"
   },
   "lastCustomModel": "",
   "maxTabs": 3,

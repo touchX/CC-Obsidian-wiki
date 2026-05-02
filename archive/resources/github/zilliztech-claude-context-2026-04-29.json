@@ -1,0 +1,39 @@
+{
+  "name": "claude-context",
+  "full_name": "zilliztech/claude-context",
+  "description": "MCP plugin for semantic code search using vector database — enables AI coding assistants to understand your entire codebase",
+  "html_url": "https://github.com/zilliztech/claude-context",
+  "homepage": "https://github.com/zilliztech/claude-context",
+  "default_branch": "main",
+  "created_at": "2025-03-15T00:00:00Z",
+  "pushed_at": "2026-04-29T12:00:00Z",
+  "updated_at": "2026-04-29T12:00:00Z",
+  "language": "TypeScript",
+  "fork": false,
+  "forks_count": 758,
+  "open_issues_count": 35,
+  "stargazers_count": 10223,
+  "watchers_count": 120,
+  "size": 0,
+  "topics": ["agent", "agentic-rag", "ai-coding", "claude-code", "mcp", "semantic-search", "vector-database"],
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT"
+  },
+  "archived": false,
+  "has_discussions": true,
+  "directory_structure": [
+    "README.md",
+    "README_zh.md",
+    "package.json",
+    "pnpm-workspace.yaml",
+    "packages/",
+    "packages/claude-context-core/",
+    "packages/claude-context-mcp/",
+    "packages/vscode-extension/",
+    "examples/"
+  ],
+  "version": "v1.0",
+  "collected_at": "2026-04-29"
+}

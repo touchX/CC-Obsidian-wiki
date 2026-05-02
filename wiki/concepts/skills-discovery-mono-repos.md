@@ -4,6 +4,7 @@ description: 大型 Monorepo 中 Skills 发现机制 — 与 CLAUDE.md 的关键
 type: concept
 tags: [skills, monorepo, discovery, context]
 created: 2026-04-12
+updated: 2026-05-01
 source: ../../archive/reports/claude-skills-for-larger-mono-repos.md
 ---
 

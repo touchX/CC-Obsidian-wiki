@@ -1,0 +1,33 @@
+{
+  "name": "everything-claude-code",
+  "full_name": "affaan-m/everything-claude-code",
+  "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "stars": 171082,
+  "language": "JavaScript",
+  "license": "MIT",
+  "url": "https://github.com/affaan-m/everything-claude-code",
+  "created_at": "2026-01-18T00:51:51Z",
+  "updated_at": "2026-05-01T06:19:24Z",
+  "topics": [
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "developer-tools",
+    "llm",
+    "mcp",
+    "productivity"
+  ],
+  "collected_at": "2026-05-01",
+  "readme_sha": "eac2726ec60273ac2fc7891423d659c11a00169e",
+  "repository_type": "skills-agents",
+  "key_directories": [
+    "agents/",
+    "skills/",
+    "commands/",
+    "hooks/",
+    "plugins/",
+    "contexts/"
+  ],
+  "platforms": ["claude-code", "codex", "opencode", "cursor", "gemini"]
+}

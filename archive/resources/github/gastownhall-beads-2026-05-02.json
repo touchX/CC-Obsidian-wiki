@@ -1,0 +1,15 @@
+{
+  "name": "beads",
+  "owner": "gastownhall",
+  "repo": "beads",
+  "description": "Beads - A memory upgrade for your coding agent",
+  "stars": 22958,
+  "forks": 1505,
+  "language": "Go",
+  "license": "MIT",
+  "github_url": "https://github.com/gastownhall/beads",
+  "topics": ["agents", "claude-code", "coding"],
+  "created_at": "2025-10-12",
+  "updated_at": "2026-05-02",
+  "source": "https://github.com/gastownhall/beads"
+}

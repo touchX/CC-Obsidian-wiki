@@ -1,0 +1,35 @@
+{
+  "name": "OpenClaw-Medical-Skills",
+  "full_name": "FreedomIntelligence/OpenClaw-Medical-Skills",
+  "description": "目前现存最大的开源医疗 AI 技能库 — 869 个 AI Agent 模块，将 Claude 转化为专业生物医学研究平台",
+  "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
+  "homepage": null,
+  "default_branch": "main",
+  "created_at": "2025-10-15T08:30:00Z",
+  "pushed_at": "2026-04-29T09:00:00Z",
+  "updated_at": "2026-04-29T09:00:00Z",
+  "language": "Python",
+  "fork": false,
+  "forks_count": 280,
+  "open_issues_count": 15,
+  "stargazers_count": 2200,
+  "watchers_count": 85,
+  "size": 0,
+  "topics": ["medical", "healthcare", "ai", "claude", "bioinformatics", "clinical", "drug-discovery", "genomics", "skills", "agent", "openclaw", "nanoclaw"],
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT"
+  },
+  "archived": false,
+  "has_discussions": true,
+  "directory_structure": [
+    "README.md",
+    "README_zh.md",
+    "scripts/",
+    "scripts/validate_skill.py",
+    "skills/"
+  ],
+  "version": "v1.0",
+  "collected_at": "2026-04-29"
+}

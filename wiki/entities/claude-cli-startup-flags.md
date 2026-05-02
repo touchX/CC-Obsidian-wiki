@@ -4,6 +4,7 @@ description: Claude CLI 75+ 启动参数完整参考手册
 type: entity
 tags: [cli, flags, command-line, startup, reference]
 created: 2026-04-26
+updated: 2026-05-01
 source: ../../archive/best-practice/claude-cli-startup-flags.md
 ---
 
