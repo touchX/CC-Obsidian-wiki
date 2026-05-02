@@ -19,7 +19,7 @@ source: ../../archive/guides/memory-usage.md
 | L1 | **memU** (MCP) | Ollama 本地语义索引 | 长期语义知识、经验技巧 | 跨会话持久 |
 | L2 | **Claude-Mem** (MCP) | 知识图谱 (端口 37778) | 近期活动、决策记录 | 跨会话持久 |
 | L3 | **Platform Memory** | `~/.claude/projects/<slug>/memory/` | 项目静态信息、架构文档 | 会话自动加载 |
-| L4 | **Memory Hub** | Skill (未激活) | 统一入口 | 待安装 |
+| L4 | **Memory Hub** | Skill (已注册激活) | 统一入口 | 已安装 |
 
 ## L1: memU — 长期语义记忆
 
@@ -103,7 +103,7 @@ C:\Users\Admin\.claude\projects\<project-slug>\memory\
 - 指向外部资源的路径使用绝对路径
 - 及时清理过时或冗余文件
 
-## L4: Memory Hub — 统一入口（待激活）
+## L4: Memory Hub — 统一入口（已激活）
 
 ### 命令
 
