@@ -45,4 +45,5 @@ build/
 
 # Trash
 .trash/
+.reports/
 
