@@ -2,12 +2,12 @@
 name: thedotmack-claude-mem
 description: Claude Code 持久化记忆压缩系统 — 自动捕获会话并智能压缩上下文
 type: source
-version: 1.0
+version: 1.1
 tags: [github, typescript, claude-code, memory, compression, plugin]
 created: 2026-04-29
-updated: 2026-04-29
-source: ../../../../archive/resources/github/thedotmack-claude-mem-2026-04-29.json
-stars: 69320
+updated: 2026-05-03
+source: ../../../../archive/resources/github/thedotmack-claude-mem-2026-05-03.json
+stars: 71058
 language: TypeScript
 license: AGPL-3.0
 github_url: https://github.com/thedotmack/claude-mem
@@ -22,12 +22,12 @@ github_url: https://github.com/thedotmack/claude-mem
 | 项目 | 信息 |
 |------|------|
 | **作者** | Alex Newman (@thedotmack) |
-| **Stars** | ⭐ 69,320 (超高人气) |
-| **Forks** | 5,921 |
+| **Stars** | ⭐ 71,058 (超高人气) |
+| **Forks** | 6,091 (↑170) |
 | **语言** | TypeScript |
 | **许可证** | AGPL-3.0 |
 | **版本** | 12.4.8 |
-| **Node** | >=20.0.0 |
+| **Node** | >=18.0.0 |
 | **Bun** | >=1.0.0 |
 
 ## 核心功能
@@ -144,6 +144,9 @@ npm run translate:tier1  # 主要语言（中/日/韩等）
 ### 安装方式
 
 ```bash
+# 一键安装（推荐）
+npx claude-mem install
+
 # 通过 Claude Code Marketplace
 claude plugin install thedotmack/claude-mem
 
@@ -153,9 +156,58 @@ npm install -g claude-mem
 
 ### 配置要求
 
-- Node.js >= 20.0.0
+- Node.js >= 18.0.0
 - Bun >= 1.0.0 (可选)
-- Claude Code 安装
+- Claude Code / Gemini CLI / OpenCode 安装
+
+## 新增功能（v12+）
+
+### 🎯 MCP Search Tools — 三层检索架构
+
+专为 Claude Code 设计的知识检索工具，分三层逐步过滤：
+
+```
+1. search(query) → 返回带 ID 的索引（~50-100 tokens/条）
+2. timeline(anchor=ID) → 获取结果周围的上下文
+3. get_observations([IDs]) → 仅在筛选后获取完整详情
+```
+
+> **优势**：相比传统 RAG 节省 10x tokens
+
+### ⚙️ Mode & Language 配置
+
+通过 `CLAUDE_MEM_MODE` 环境变量切换运行模式：
+
+```bash
+# 查看当前模式
+echo $CMEM
+
+# 设置模式
+export CLAUDE_MEM_MODE=compact   # 压缩模式
+export CLAUDE_MEM_MODE=inject    # 注入模式
+```
+
+- **$CMEM Token**：通过 `$CMEM` 环境变量快速引用记忆系统状态
+- **多语言支持**：插件界面和提示词支持中文、日语、韩语等
+
+### 🧪 Beta 功能
+
+| 功能 | 说明 |
+|------|------|
+| **Endless Mode** | 无限上下文模式 — 自动压缩旧上下文避免达到 token 上限 |
+| **Biomimetic Memory** | 仿生记忆 — 模拟人类记忆的遗忘曲线和优先级机制 |
+
+### 🔌 OpenClaw Gateway
+
+开放式 Claw 工具网关：
+- 支持自定义 Agent 工作流
+- 开放 API 接口供第三方集成
+- 与 OpenClaw 生态原生兼容
+
+### 🪟 Windows 支持
+
+- 提供完整的 Windows 安装和配置指南
+- 兼容 PowerShell 和 CMD
 
 ## 相关链接
 
@@ -169,7 +221,7 @@ npm install -g claude-mem
 
 ## 亮点特性
 
-1. **超高人气**：69K+ Stars，Claude Code 生态最流行的记忆系统
+1. **超高人气**：71K+ Stars，Claude Code 生态最流行的记忆系统
 2. **AI 驱动**：使用 Claude 自身的能力压缩上下文
 3. **无缝集成**：作为 Claude Code 插件，零配置启动
 4. **知识图谱**：基于图谱的智能检索，而非简单关键词匹配
@@ -182,4 +234,4 @@ npm install -g claude-mem
 
 ---
 
-*收集时间：2026-04-29*
+*收集时间：2026-05-03*

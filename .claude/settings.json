@@ -2,12 +2,6 @@
   "respectGitignore": true,
   "env": {
     "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "80",
-    "ANTHROPIC_BASE_URL": "https://api.minimaxi.com/anthropic",
-    "ANTHROPIC_AUTH_TOKEN": "sk-cp-EAdANb2QEnaH-67USaQmrS6qew1Qd1BgNGz1SwUWrwpXA5taAnXUOnuOpzmg3qPD0oycnuvr6SyKDDdlTqVVGtNwmP5-gmuI-lu3PnuvAn8kkdcuabGZUhw",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "MiniMax-M2.7",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "MiniMax-M2.7",
-    "ANTHROPIC_MODEL": "MiniMax-M2.7",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "MiniMax-M2.7",
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
   },
@@ -90,6 +84,7 @@
     ]
   },
   "enableAllProjectMcpServers": true,
+  "deniedMcpServers": [{"serverName": "serena"}],
   "hooks": {
     "PreToolUse": [
       {

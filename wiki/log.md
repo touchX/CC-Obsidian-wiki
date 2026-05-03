@@ -4,7 +4,7 @@ description: Wiki 操作历史记录 — 所有变更的追加式日志
 type: reference
 tags: [wiki, log, history, changelog, operations]
 created: 2026-04-23
-updated: 2026-05-02
+updated: 2026-05-03
 source: ../../archive/wiki-log/
 ---
 
@@ -2621,5 +2621,42 @@ Claude Code、Cursor、OpenClaw、Codex、Trae、Open Code、Qoder
 - [[progress-commands]] — 学习进度（已标注错误更正）
 - [.claude/rules/teaching-accuracy] — 强制检查清单
 - [.claude/errors/ERR-001-command-hallucination] — 错误详细记录
+
+---
+
+## [2026-05-03] github-collect | NevaMind-AI/memU 收集完成
+
+- **操作**: GitHub 仓库收集 → 元数据获取 → 归档 JSON → 创建 Wiki 页面 → 更新日志
+- **仓库**: [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU)
+- **元数据**:
+  - Stars: 13,514 | Forks: 1,011 | Language: Python | License: Other
+  - Description: "Memory for 24/7 proactive agents like OpenClaw."
+  - Topics: agent-memory, mcp, claude, proactive, openclaw, skills, sandbox
+- **新增文件**:
+  - `archive/resources/github/nevamind-memu-2026-05-03.json` — 归档元数据
+  - `wiki/resources/github-repos/nevamind-memu.md` — Wiki 页面
+- **核心内容**: memU 主动式记忆引擎 — 三层分层记忆（Resource/Item/Category）、双模式检索（RAG/LLM）、24/7 后台运行、意图捕获、Token 优化（~1/10 同类方案）。与本项目已有 memU MCP 服务器集成作为长期语义记忆层
+
+---
+
+## [2026-05-03] github-collect | thedotmack/claude-mem 重新收集完成（更新）
+
+- **操作**: GitHub 仓库重新收集 → 元数据更新 → 归档 JSON → 更新 Wiki 页面 → 更新日志
+- **仓库**: [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
+- **元数据变化**（距上次收集 4 天）:
+  - Stars: 69,320 → **71,058** (+1,738) | Forks: 5,921 → **6,091** (+170)
+  - Issues: 35 → 38 | 版本: v12.4.8
+  - Language: TypeScript | License: AGPL-3.0
+- **更新文件**:
+  - `archive/resources/github/thedotmack-claude-mem-2026-05-03.json` — 归档更新
+  - `wiki/resources/github-repos/thedotmack-claude-mem.md` — Wiki 页面更新
+- **内容新增**:
+  - MCP Search Tools 三层检索架构（search → timeline → get_observations，10x token 节省）
+  - Mode & Language 配置（CLAUDE_MEM_MODE 环境变量、$CMEM token）
+  - Beta 功能（Endless Mode 无限上下文、Biomimetic Memory 仿生记忆）
+  - OpenClaw Gateway 开放式工具网关
+  - Windows 支持指南
+  - 一键安装方式（`npx claude-mem install`）
+  - 多平台支持（Claude Code + Gemini CLI + OpenCode）
 
 ---
