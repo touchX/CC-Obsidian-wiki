@@ -98,6 +98,7 @@ cd wiki && ../.claude/skills/wiki-lint/wiki-lint.sh  # Lint 检查
 | `wiki/log.md` | Wiki 操作日志 |
 | `.claude/skills/wiki-lint/wiki-lint.sh` | Wiki 健康检查工具 |
 | `.claude/rules/markdown-docs.md` | Markdown 文档规范 |
+| `.claude/rules/self-correction.md` | 自我纠错机制 — Pre-Flight 检查站 |
 
 ## 维护清单
 

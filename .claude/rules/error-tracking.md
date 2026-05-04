@@ -85,3 +85,44 @@ status: resolved
 ---
 
 **重要**：每次错误都是改进机会。记录 → 分析 → 改进 → 验证
+
+
+---
+
+### ERR-002: 六项流程违规
+
+#### 错误元数据
+
+`yaml
+error_id: ERR-002
+date: 2026-05-04
+severity: high
+category: process-violation
+status: resolved
+`
+
+#### 违规清单
+
+| # | 违规 | 要求 | 实际 |
+|---|------|------|------|
+| 1 | 使用 Write 创建 Wiki 页面 | 必须用 obsidian create | 直接 Write 写入 |
+| 2 | 手写 YAML Frontmatter | 使用 obsidian property:set | 手工编写 |
+| 3 | 跳过教学准确性检查 | 必须运行强制检查清单 | 未执行 |
+| 4 | 未执行三重验证 | Wiki → 示例 → 官方文档 | 凭记忆回答 |
+| 5 | 用 Grep/Glob 替代 obsidian search | 优先使用 obsidian-cli | 使用传统工具 |
+| 6 | 未运行 wiki-lint | 每次创建页面后运行 | 直接结束 |
+
+#### 根因分析
+
+| 层面 | 问题 |
+|------|------|
+| **工具习惯** | 习惯性使用 Write/Edit/Grep/Glob 而非 obsidian-cli |
+| **技能加载** | Wiki 操作前未加载 docs-ingest/wiki-query 技能 |
+| **验证缺位** | teaching-accuracy + verification-protocol + real-time-monitor 均未触发 |
+| **缺少暂停** | 行动前未 pause 思考是否符合项目规则 |
+
+#### 预防措施
+
+1. 创建 [[guides/process-compliance]] 永久指南页面
+2. 每次任务前执行 通用预检流程（类型判断 → 技能检查 → 规则检查 → 执行）
+3. Wiki 操作必须遵循专项清单

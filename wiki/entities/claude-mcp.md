@@ -4,8 +4,12 @@ description: MCP 服务器配置与推荐 — Context7、Playwright、Chrome 集
 type: entity
 tags: [mcp, plugins, tools, integration]
 created: 2026-04-26
-updated: 2026-04-27
+updated: 2026-05-04
 source: ../../archive/best-practice/claude-mcp.md
+related:
+  - "[[tutorials/mcp-basics]]"
+  - "[[tutorials/mcp-advanced]]"
+  - "[[tutorials/mcp-protocol-analysis]]"
 ---
 
 # Claude MCP
