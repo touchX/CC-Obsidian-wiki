@@ -42,8 +42,19 @@ build/
 
 # Claude session/state files
 .omc/
+.claude/settings.json
+.claudian/
+.claude/
 
 # Trash
 .trash/
 .reports/
+
+# Invalid filenames
+-
+[!info]
+
+# Temporary markdown files (Chinese filenames)
+# 通用提示词开头和思维链模型和深度思考模型的快速切换的技术应用、工具流程和应用场景的技巧和工具流/
+# 私有与助手开启、极速递归与智库接收配置的应用、实战与完整指令的技能/
 
