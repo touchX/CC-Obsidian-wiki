@@ -1,0 +1,52 @@
+{
+  "name": "jq",
+  "full_name": "jqlang/jq",
+  "description": "A lightweight and flexible command-line JSON processor akin to sed, awk, grep, and friends for JSON data",
+  "language": "C",
+  "license": "MIT",
+  "homepage": "https://jqlang.org",
+  "documentation": "https://jqlang.org",
+  "online_playground": "https://play.jqlang.org",
+  "docker_image": "ghcr.io/jqlang/jq",
+  "topics": [
+    "json",
+    "command-line",
+    "cli",
+    "data-processing",
+    "parser",
+    "query-language",
+    "streaming"
+  ],
+  "key_features": [
+    "Lightweight and flexible",
+    "Written in portable C",
+    "Zero runtime dependencies",
+    "Slice, filter, map, and transform structured data",
+    "Akin to sed, awk, grep for JSON"
+  ],
+  "installation_methods": {
+    "prebuilt_binaries": "Download from GitHub releases",
+    "docker": "docker run --rm -i ghcr.io/jqlang/jq:latest",
+    "source": "./configure && make && sudo make install"
+  },
+  "build_dependencies": [
+    "libtool",
+    "make",
+    "automake",
+    "autoconf"
+  ],
+  "community": {
+    "stack_overflow": "https://stackoverflow.com/questions/tagged/jq",
+    "discord": "https://discord.gg/yg6yjNmgAC",
+    "wiki": "https://github.com/jqlang/jq/wiki"
+  },
+  "documentation_license": "Creative Commons CC BY 3.0",
+  "third_party": {
+    "decNumber": "ICU License"
+  },
+  "type": "command-line-tool",
+  "created_at": "2012-01-01T00:00:00Z",
+  "updated_at": "2026-05-05T00:00:00Z",
+  "stars": "High (industry standard)",
+  "status": "Active development"
+}

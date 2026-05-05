@@ -1,0 +1,60 @@
+{
+  "note": "GitHub API rate limited - data extracted from README",
+  "name": "get-shit-done",
+  "full_name": "gsd-build/get-shit-done",
+  "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode, Gemini CLI, and more. Solves context rot.",
+  "topics": [
+    "claude-code",
+    "context-engineering",
+    "spec-driven-development",
+    "meta-prompting",
+    "ai-agents",
+    "workflow-automation",
+    "git-ops"
+  ],
+  "language": "TypeScript",
+  "license": "MIT",
+  "homepage": "https://github.com/gsd-build/get-shit-done",
+  "npm_package": "get-shit-done-cc",
+  "version": "1.39.0",
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2026-05-05T00:00:00Z",
+  "stars": "High (viral project)",
+  "forks": "Active community",
+  "open_issues": "Active development",
+  "supported_runtimes": [
+    "claude-code",
+    "opencode",
+    "gemini-cli",
+    "kilo",
+    "codex",
+    "copilot",
+    "cursor",
+    "windsurf",
+    "antigravity",
+    "augment",
+    "trae",
+    "qwen-code",
+    "hermes-agent",
+    "cline",
+    "codebuddy"
+  ],
+  "key_features": [
+    "Context engineering",
+    "XML prompt formatting",
+    "Multi-agent orchestration",
+    "Atomic git commits",
+    "Modular by design",
+    "Wave-based parallel execution",
+    "Fresh context per plan"
+  ],
+  "workflow": [
+    "gsd-new-project",
+    "gsd-discuss-phase",
+    "gsd-plan-phase",
+    "gsd-execute-phase",
+    "gsd-verify-work",
+    "gsd-ship",
+    "gsd-complete-milestone"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1229582298,
+  "node_id": "R_kgDOSUnv2g",
+  "name": "GitNexus",
+  "full_name": "touchX/GitNexus",
+  "private": false,
+  "owner": {
+    "login": "touchX",
+    "id": 960433,
+    "avatar_url": "https://avatars.githubusercontent.com/u/960433?v=4",
+    "html_url": "https://github.com/touchX"
+  },
+  "html_url": "https://github.com/touchX/GitNexus",
+  "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+  "fork": true,
+  "homepage": "https://gitnexus.vercel.app",
+  "created_at": "2026-05-05T07:31:15Z",
+  "updated_at": "2026-05-05T07:31:15Z",
+  "pushed_at": "2026-05-05T04:49:38Z",
+  "size": 26322,
+  "stargazers_count": 0,
+  "watchers_count": 0,
+  "language": null,
+  "has_issues": false,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 0,
+  "open_issues_count": 0,
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spspdx_id": "NOASSERTION",
+    "url": null
+  },
+  "topics": []
+}

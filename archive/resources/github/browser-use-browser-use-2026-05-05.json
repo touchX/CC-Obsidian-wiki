@@ -1,0 +1,43 @@
+{
+  "id": 881458615,
+  "node_id": "R_kgDONIn9tw",
+  "name": "browser-use",
+  "full_name": "browser-use/browser-use",
+  "private": false,
+  "owner": {
+    "login": "browser-use",
+    "id": 192012301,
+    "avatar_url": "https://avatars.githubusercontent.com/u/192012301?v=4",
+    "html_url": "https://github.com/browser-use",
+    "type": "Organization"
+  },
+  "html_url": "https://github.com/browser-use/browser-use",
+  "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+  "fork": false,
+  "homepage": "https://browser-use.com",
+  "created_at": "2024-10-31T16:00:56Z",
+  "updated_at": "2026-05-05T08:52:18Z",
+  "pushed_at": "2026-05-05T03:37:58Z",
+  "size": 31097,
+  "stargazers_count": 92169,
+  "watchers_count": 92169,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": true,
+  "forks_count": 10463,
+  "open_issues_count": 234,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://github.com/browser-use/browser-use/blob/main/LICENSE"
+  },
+  "topics": ["browser-automation", "ai", "llm", "agent", "web-scraping", "automation"],
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false
+}

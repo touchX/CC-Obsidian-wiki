@@ -1,0 +1,28 @@
+{
+  "createdAt": "2017-05-09T22:16:13Z",
+  "description": "JavaScript API for Chrome and Firefox",
+  "forkCount": 9414,
+  "licenseInfo": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "nickname": ""
+  },
+  "name": "puppeteer",
+  "primaryLanguage": {
+    "name": "TypeScript"
+  },
+  "repositoryTopics": [
+    {"name": "headless-chrome"},
+    {"name": "testing"},
+    {"name": "web"},
+    {"name": "developer-tools"},
+    {"name": "node-module"},
+    {"name": "automation"},
+    {"name": "chrome"},
+    {"name": "chromium"},
+    {"name": "firefox"}
+  ],
+  "stargazerCount": 94244,
+  "updatedAt": "2026-05-05T13:54:35Z",
+  "url": "https://github.com/puppeteer/puppeteer"
+}

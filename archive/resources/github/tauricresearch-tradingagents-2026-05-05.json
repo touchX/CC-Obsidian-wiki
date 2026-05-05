@@ -1,0 +1,43 @@
+{
+  "id": 909213664,
+  "node_id": "R_kgDONjF_4A",
+  "name": "TradingAgents",
+  "full_name": "TauricResearch/TradingAgents",
+  "private": false,
+  "owner": {
+    "login": "TauricResearch",
+    "id": 192884433,
+    "avatar_url": "https://avatars.githubusercontent.com/u/192884433?v=4",
+    "html_url": "https://github.com/TauricResearch",
+    "type": "Organization"
+  },
+  "html_url": "https://github.com/TauricResearch/TradingAgents",
+  "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "fork": false,
+  "homepage": "https://arxiv.org/pdf/2412.20138",
+  "created_at": "2024-12-28T03:31:08Z",
+  "updated_at": "2026-05-05T07:37:55Z",
+  "pushed_at": "2026-05-01T19:23:24Z",
+  "size": 4582,
+  "stargazers_count": 68182,
+  "watchers_count": 68182,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": true,
+  "has_discussions": false,
+  "forks_count": 13117,
+  "open_issues_count": 361,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://github.com/TauricResearch/TradingAgents/blob/main/LICENSE"
+  },
+  "topics": [],
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false
+}

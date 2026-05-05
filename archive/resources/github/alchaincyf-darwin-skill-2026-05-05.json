@@ -1,0 +1,14 @@
+{
+  "name": "darwin-skill",
+  "full_name": "alchaincyf/darwin-skill",
+  "description": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
+  "html_url": "https://github.com/alchaincyf/darwin-skill",
+  "stargazers_count": 2154,
+  "language": null,
+  "forks_count": 0,
+  "open_issues_count": 0,
+  "license": null,
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2026-05-05T00:00:00Z",
+  "topics": ["claude-code", "skill", "automation", "optimization", "autonomous"]
+}
