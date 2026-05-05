@@ -535,3 +535,27 @@ source: ../../archive/wiki-log/
   - Language: HTML
   - 新增详细文档：技术架构（6种模式）、工作流程（6阶段）、使用案例
   - 使用 gh-cli 优化（节省 67% tokens）
+
+## [2026-05-05] GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/windy3f3f3f3f-how-claude-code-works]] — How Claude Code Works（深入解读 Claude Code 50 万行源码）
+  - Stars: Active community
+  - Language: TypeScript | License: MIT
+  - 完整文档：
+    - 项目介绍（50 万行源码的 15 篇专题文档）
+    - 系统架构（QueryEngine → 主循环 → 工具执行）
+    - 6 大关键设计发现：
+      - 为什么感觉那么快（流式输出、工具预执行、9 阶段并行启动）
+      - 静默恢复（7 种 Continue Sites 故障恢复策略）
+      - 4 级渐进式压缩流水线（裁剪→去重→折叠→摘要）
+      - 5 层纵深防御体系（Bash AST 23 项安全检查）
+      - 66 个工具的同一接口规范
+      - 3 种多 Agent 协作模式（子 Agent/协调器/Swarm）
+    - 15 篇专题深入目录
+    - 关键数据（512,000+ 行源码、1,884 TypeScript 文件、66+ 工具）
+    - 阅读建议（针对不同场景的专题选择指南）
+    - 配套项目（claude-code-from-scratch 4000 行代码教程）
+    - 贡献者团队
+
+来源：https://github.com/Windy3f3f3f3f/how-claude-code-works
+归档：archive/resources/github/windy3f3f3f3f-how-claude-code-works-2026-05-05.json
