@@ -1,20 +1,8 @@
----
-name: improve-codebase-architecture
-description: Superpowers improve-codebase-architecture skill guide with 7 core concepts and workflow
-type: guide
-tags: [superpowers, skill, architecture, refactoring]
-created: 2026-05-05
-updated: 2026-05-05
-source: ../../../archive/plugins/improve-codebase-architecture-使用指南.md
----
-
 # improve-codebase-architecture Skill 使用指南
 
 > **目标**：改进代码库架构，识别设计改进机会
 > **核心概念**：Module、Interface、Depth、Seam、Adapter、Leverage、Locality
 > **阅读时间**：完整阅读约 15 分钟
-
-
 
 ---
 
@@ -56,23 +44,6 @@ source: ../../../archive/plugins/improve-codebase-architecture-使用指南.md
 ### 3. Grilling Loop（质询循环）
 
 **目标**：验证设计决策
-
-```
-┌─────────────────────────────────────────┐
-│         Grilling Loop 流程              │
-├─────────────────────────────────────────┤
-│                                         │
-│  提出改进方案                            │
-│    │                                    │
-│    ├── 是否真正解决了问题？              │
-│    ├── 是否引入了新的复杂度？            │
-│    ├── 是否提高了 locality？            │
-│    └── 是否可测试？                     │
-│                                         │
-│  迭代直到满意                            │
-│                                         │
-└─────────────────────────────────────────┘
-```
 
 ---
 
@@ -127,6 +98,5 @@ OrderController
 
 ---
 
-*来源：obra/superpowers 插件 improve-codebase-architecture skill*　
-
-*完整文档：参见 [[../../../archive/plugins/improve-codebase-architecture-使用指南.md]]*
+*来源：obra/superpowers 插件 improve-codebase-architecture skill*
+*完整文档：参见 raw/plugins/improve-codebase-architecture-使用指南.md*

@@ -1,13 +1,3 @@
----
-name: summarize-cli
-description: summarize.sh CLI tool guide - supports URL/YouTube/PDF/file summarization and transcription
-type: guide
-tags: [cli, summarize, youtube, productivity]
-created: 2026-05-05
-updated: 2026-05-05
-source: ../../../archive/plugins/summarize-使用指南.md
----
-
 # summarize.sh CLI 工具使用指南
 
 > **目标**：快速总结 URL、视频、播客、文章和本地文件
@@ -255,4 +245,4 @@ summarize "URL" --length medium
 ---
 
 *来源：summarize.sh CLI 工具官方文档*
-*完整文档：参见 [[../../../archive/plugins/summarize-使用指南.md]]*
+*完整文档：参见 raw/plugins/summarize-使用指南.md*
