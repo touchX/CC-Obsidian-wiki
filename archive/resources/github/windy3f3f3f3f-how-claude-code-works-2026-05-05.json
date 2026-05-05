@@ -1,0 +1,62 @@
+{
+  "name": "how-claude-code-works",
+  "full_name": "Windy3f3f3f3f/how-claude-code-works",
+  "description": "深入解读当前最成功的 AI 编程 Agent 的源码架构 - 15 篇专题文档",
+  "language": "TypeScript",
+  "license": "MIT",
+  "homepage": "https://windy3f3f3f3f.github.io/how-claude-code-works",
+  "topics": [
+    "claude-code",
+    "ai-agent",
+    "typescript",
+    "source-code-analysis",
+    "architecture",
+    "context-engineering",
+    "tool-system",
+    "multi-agent"
+  ],
+  "key_features": [
+    "深入解读 Claude Code 源码架构",
+    "15 篇专题文档覆盖核心设计决策",
+    "配套项目 claude-code-from-scratch（~4000 行代码）",
+    "生产级 AI Agent 工程实践参考"
+  ],
+  "statistics": {
+    "source_lines": "512000+",
+    "typescript_files": 1884,
+    "builtin_tools": 66,
+    "compression_pipeline_levels": 4,
+    "permission_defense_layers": 5
+  },
+  "topics_covered": [
+    "系统主循环与 Agent 架构",
+    "上下文工程与 4 级压缩流水线",
+    "66 个工具的注册与并发控制",
+    "技能系统与 6 层优先级",
+    "记忆系统与语义召回",
+    "Hooks 与可扩展性",
+    "多 Agent 架构与协作",
+    "Plan 模式与工作流",
+    "代码编辑策略",
+    "任务管理系统",
+    "权限与安全纵深防御",
+    "系统提示词设计",
+    "用户体验设计",
+    "最小必要组件"
+  ],
+  "companion_project": {
+    "name": "claude-code-from-scratch",
+    "url": "https://github.com/Windy3f3f3f3f/claude-code-from-scratch",
+    "description": "~4000 行 TypeScript 或 Python 两个版本，11 章分步教程"
+  },
+  "contributors": [
+    "@Windy3f3f3f3f",
+    "@davidweidawang",
+    "Kaibo Huang",
+    "@longx24"
+  ],
+  "type": "documentation",
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2026-05-05T00:00:00Z",
+  "stars": "Active community"
+}
