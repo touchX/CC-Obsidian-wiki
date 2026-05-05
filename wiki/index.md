@@ -114,6 +114,84 @@ WHERE type = "implementation"
 SORT file.link ASC
 ```
 
+## Tutorial (教程)
+
+结构化学习路径和进阶教程。
+
+```dataview
+TABLE without id
+  link(file.link, title) as "页面"
+  , description as "描述"
+FROM "wiki/tutorial"
+WHERE type = "tutorial"
+SORT file.link ASC
+```
+
+## Patterns (模式)
+
+可复用的设计模式和架构模式。
+
+```dataview
+TABLE without id
+  link(file.link, title) as "页面"
+  , description as "描述"
+FROM "wiki/patterns"
+WHERE type = "pattern"
+SORT file.link ASC
+```
+
+## Tools (工具)
+
+外部工具和集成说明。
+
+```dataview
+TABLE without id
+  link(file.link, title) as "页面"
+  , description as "描述"
+FROM "wiki/tools"
+WHERE type = "tool"
+SORT file.link ASC
+```
+
+## Orchestration Workflow (编排工作流)
+
+多 Agent 编排和协作流程。
+
+```dataview
+TABLE without id
+  link(file.link, title) as "页面"
+  , description as "描述"
+FROM "wiki/orchestration-workflow"
+WHERE type = "workflow"
+SORT file.link ASC
+```
+
+## Resources (资源)
+
+外部资源和参考链接。
+
+```dataview
+TABLE without id
+  link(file.link, title) as "页面"
+  , description as "描述"
+FROM "wiki/resources"
+WHERE type = "resource"
+SORT file.link ASC
+```
+
+## External (外部)
+
+外部文档和参考资料。
+
+```dataview
+TABLE without id
+  link(file.link, title) as "页面"
+  , description as "描述"
+FROM "wiki/external"
+WHERE type = "external"
+SORT file.link ASC
+```
+
 ---
 
 > 📝 **提示**: 在 Obsidian 中打开此页面后，Dataview 会自动执行查询并生成表格。点击任意链接跳转到对应页面。
