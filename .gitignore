@@ -44,7 +44,8 @@ build/
 .omc/
 .claude/settings.json
 .claudian/
-.claude/
+# Allow skills directory tracking
+!.claude/skills/
 
 # Trash
 .trash/
