@@ -47,6 +47,14 @@ build/
 # Allow skills directory tracking
 !.claude/skills/
 
+# Claude scripts and env
+.claude/scripts/
+.claude/settings_env.json
+
+# Raw materials (待处理)
+raw/
+guides/
+
 # Trash
 .trash/
 .reports/
