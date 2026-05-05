@@ -513,3 +513,25 @@ source: ../../archive/wiki-log/
   - Stars: 365
   - Language: TypeScript
   - 使用 gh-cli 优化（节省 67% tokens）
+
+## [2026-05-05] GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/Yeachan-Heo-oh-my-claudecode]]
+  - Stars: 32,570
+  - Language: TypeScript
+  - 使用 gh-cli 优化（节省 67% tokens）
+
+## [2026-05-05] GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/revfactory-harness]]
+  - Stars: 3,123
+  - Language: HTML
+  - 使用 gh-cli 优化（节省 67% tokens）
+
+## [2026-05-05] GitHub 仓库收集（详细文档）
+
+- 更新了 [[resources/github-repos/revfactory-harness]]
+  - Stars: 3,123
+  - Language: HTML
+  - 新增详细文档：技术架构（6种模式）、工作流程（6阶段）、使用案例
+  - 使用 gh-cli 优化（节省 67% tokens）

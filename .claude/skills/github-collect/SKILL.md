@@ -1,35 +1,35 @@
 ---
 name: github-collect
-description: GitHub 仓库收集必备 — 自动获取仓库元数据、创建 Wiki 页面、归档 JSON 数据。Use this whenever the user provides a GitHub URL (github.com/{owner}/{repo}) or asks to collect/record/track/save a repository. (OPTIMIZED: gh-cli + jq, 67% token savings)
+description: GitHub 仓库收集必备 — 自动获取仓库元数据、提取 README、创建详细 Wiki 页面、归档 JSON 数据。Use this whenever the user provides a GitHub URL (github.com/{owner}/{repo}) or asks to collect/record/track/save a repository. (OPTIMIZED: gh-cli + jq, 详细文档模式)
 ---
 
-# GitHub Collect Skill (Optimized)
+# GitHub Collect Skill (详细文档版)
 
 ## Overview
 
-从 GitHub 收集优秀仓库资源，自动生成符合 Wiki 规范的页面并归档原始数据。
+从 GitHub 收集优秀仓库资源，**自动生成详细 Wiki 页面**（包含项目介绍、技术架构、使用帮助等）并归档原始数据。
 
-> [!tip] 优化说明
-> **版本**：v2.0（方案 C 混合优化）
-> **Token 节省**：67%（实测约 180-250 vs 原版 550+ tokens/仓库）
-> **核心优化**：gh-cli 数据获取 + Write + YAML 属性设置
-
-## When to Use
+> [!tip] 版本说明
+> **版本**：v3.0（详细文档模式）
+> **核心功能**：gh-cli 数据获取 + README 提取 + 详细 Wiki 页面生成
+> **文档质量**：项目介绍、技术架构、使用帮助、相关链接等完整内容
 
 **触发条件：**
 - 用户提供 GitHub 仓库 URL
 - 需要记录和跟踪优秀的 GitHub 仓库
 - 想要自动化收集仓库元数据（Stars、语言、许可证等）
+- **想要获取详细的 README 内容和项目介绍**
 
 **使用场景：**
 - 被动收集：浏览 GitHub 时遇到好仓库快速记录
 - 学习资源：收集技术栈相关的优秀项目
 - 最佳实践：归档值得参考的代码仓库
+- 文档建设：建立项目知识库
 
-## Optimized Workflow
+## Detailed Workflow（详细文档模式）
 
 ```dot
-digraph github_collect_optimized {
+digraph github_collect_detailed {
   "用户提供 URL" -> "验证 URL 格式"
   "验证 URL 格式" -> "格式有效?"
   "格式有效?" -> "否: 返回错误提示"
@@ -37,13 +37,26 @@ digraph github_collect_optimized {
   "提取 owner/repo" -> "去重检查"
   "去重检查" -> "已存在?"
   "已存在?" -> "是: 更新模式"
-  "已存在?" -> "否: gh-cli 获取数据"
-  "gh-cli 获取数据" -> "归档 JSON"
-  "归档 JSON" -> "Write 创建 Wiki 页面"
-  "创建 Wiki 页面" -> "更新日志"
+  "已存在?" -> "否: gh-cli 获取元数据"
+  "gh-cli 获取元数据" -> "gh-api 获取 README"
+  "gh-api 获取 README" -> "归档 JSON + README"
+  "归档 JSON + README" -> "生成详细 Wiki 页面"
+  "生成详细 Wiki 页面" -> "更新日志"
   "更新日志" -> "完成"
 }
 ```
+
+## 详细文档结构（必填章节）
+
+Wiki 页面必须包含以下章节：
+
+| 章节 | 说明 |
+|------|------|
+| **项目介绍** | 项目简介、核心定位、解决的问题 |
+| **技术架构** | 架构模式、技术栈、核心组件 |
+| **使用方法** | 安装方式、触发方式、配置参数 |
+| **使用案例** | 实际使用示例和提示词 |
+| **相关链接** | GitHub、官网、文档等链接 |
 
 ## 优化策略（方案 C）
 
@@ -138,10 +151,12 @@ obsidian search query="github {owner} {repo}" limit=5
 # 如果已有，更新模式而非创建
 ```
 
-### 2. Wiki 页面创建（优化：Write + YAML）
+### 2. Wiki 页面创建（详细文档模板）
+
+使用详细 Wiki 页面模板，**必须包含所有必填章节**：
 
 ```bash
-# 一次性创建完整页面（包含 frontmatter）
+# 一次性创建完整页面（包含完整章节）
 cat > "wiki/resources/github-repos/{owner}-{repo}.md" << EOF
 ---
 name: {owner}-{repo}
@@ -173,26 +188,73 @@ github_url: https://github.com/{owner}/{repo}
 | **创建时间** | {created_at} |
 | **更新时间** | {updated_at} |
 
+## 项目介绍
+
+{从 README 提取的项目简介、核心定位、解决的问题}
+
+## 技术架构
+
+{从 README 或源码分析提取的架构模式、技术栈、核心组件}
+
+## 安装与使用
+
+{从 README 提取的安装方式、触发方式、配置参数}
+
+```bash
+{安装命令示例}
+```
+
+## 使用案例
+
+{从 README 或搜索结果提取的实际使用示例和提示词}
+
 ## 核心特性
 
 - 特性 1
 - 特性 2
 - 特性 3
 
+## 相关链接
+
+- [GitHub 仓库](https://github.com/{owner}/{repo})
+- [官方文档](https://...)
+
 EOF
 ```
 
+**章节说明**：
+- **项目介绍**：必须从 README 提取，包含核心定位和解决的问题
+- **技术架构**：包含架构模式、技术栈、核心组件
+- **安装与使用**：包含安装命令、配置参数、使用方法
+- **使用案例**：从 README 或搜索结果提取实际示例
+- **核心特性**：3-5 个核心卖点
+- **相关链接**：GitHub 仓库、官方文档等
+
 **对比原版**：
 ```bash
-# 原版：需要多次调用
-obsidian create name="resources/github-repos/{owner}-{repo}" content="# {repo}\n\n..." silent
-obsidian property:set name="description" value="{description}" file="resources/github-repos/{owner}-{repo}"
-obsidian property:set name="type" value="source" file="resources/github-repos/{owner}-{repo}"
-obsidian property:set name="tags" value='["github", "{language}"]' file="resources/github-repos/{owner}/{repo}"
-obsidian property:set name="stars" value="{star_count}" file="resources/github-repos/{owner}/{repo}"
-obsidian property:set name="license" value="{license}" file="resources/github-repos/{owner}/{repo}"
-obsidian property:set name="github_url" value="https://github.com/{owner}/{repo}" file="resources/github-repos/{owner}/{repo}"
-obsidian property:set name="source" value="../../../archive/resources/github/{owner}-{repo}-{date}.json" file="resources/github-repos/{owner}/{repo}"
+# 原版：基础页面（无详细章节）
+obsidian create name="resources/github-repos/{owner}-{repo}" content="# {repo}\n\n..."
+obsidian property:set name="description" value="{description}" ...
+# 只包含 基本信息 + 核心特性
+
+# 详细版：完整章节（必填）
+cat > file.md << EOF
+---
+# 包含完整 frontmatter
+---
+
+# {repo}
+
+## 基本信息        ✓
+## 项目介绍        ✓ (新增)
+## 技术架构        ✓ (新增)
+## 安装与使用      ✓ (新增)
+## 使用案例        ✓ (新增)
+## 核心特性        ✓
+## 相关链接        ✓ (新增)
+
+EOF
+# README 提取 → 项目介绍 + 技术架构 + 使用案例
 ```
 
 ### 3. 日志更新（保留 obsidian append）
@@ -296,15 +358,21 @@ github_url: https://github.com/${OWNER}/${REPO}
 
 ## 核心特性
 
-待补充...
+- 特性 1
+- 特性 2
+- 特性 3
+
+## 相关链接
+
+- [GitHub 仓库](https://github.com/${OWNER}/${REPO})
 
 EOF
 
-# 5. 更新日志
+# 6. 更新日志
 echo "更新日志..."
-obsidian append file="log" content="\n\n## [${DATE}] GitHub 仓库收集（优化版）\n\n- 创建了 [[resources/github-repos/${OWNER}-${REPO}]]\n  - Stars: $(echo "$METADATA" | jq -r '.stars')\n  - Language: $(echo "$METADATA" | jq -r '.language')\n  - 使用 gh-cli 优化（节省 ~25-35% tokens）"
+obsidian append file="log" content="\n\n## [${DATE}] GitHub 仓库收集（详细文档版）\n\n- 创建了 [[resources/github-repos/${OWNER}-${REPO}]]\n  - Stars: $(echo "$METADATA" | jq -r '.stars')\n  - Language: $(echo "$METADATA" | jq -r '.language')\n  - 包含项目介绍、技术架构、使用案例（详细文档模式）"
 
-echo "✅ 完成！已收集仓库资源"
+echo "✅ 完成！已收集仓库资源（详细文档版）"
 ```
 
 ## 优化效果验证
@@ -451,7 +519,7 @@ gh repo view openai/symphony --json name,description,...
 
 ---
 
-**优化版本**：v2.0
+**优化版本**：v3.0（详细文档模式）
 **最后更新**：2026-05-05
 **维护者**：Claude Code Best Practice 项目
-**优化方案**：C（混合方案 - 25-35% token 节省）
+**优化方案**：详细文档模式（包含项目介绍、技术架构、使用案例）
