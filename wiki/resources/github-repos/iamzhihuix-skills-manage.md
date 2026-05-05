@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, tauri, react, typescript, rust, desktop-app, claude-code]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/iamzhihuix-skills-manage-2026-04-28.json
+source: ../../../archive/resources/github/iamzhihuix-skills-manage-2026-04-28.json
 stars: 1271
 language: TypeScript
 license: Apache-2.0

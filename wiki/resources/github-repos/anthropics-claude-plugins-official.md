@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, python, claude-code, plugins, mcp, skills]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/anthropics-claude-plugins-official-2026-04-28.json
+source: ../../../archive/resources/github/anthropics-claude-plugins-official-2026-04-28.json
 stars: 18064
 forks: 2173
 language: Python

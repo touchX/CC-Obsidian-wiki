@@ -6,7 +6,7 @@ version: 2.0
 tags: [github, html, claude-code, claude-skill, architecture, svg, diagram, html]
 created: 2025-12-22
 updated: 2026-04-28
-source: ../../../../archive/resources/github/cocoon-ai-architecture-diagram-generator-2026-04-28.json
+source: ../../../archive/resources/github/cocoon-ai-architecture-diagram-generator-2026-04-28.json
 stars: 4487
 forks: 338
 language: HTML

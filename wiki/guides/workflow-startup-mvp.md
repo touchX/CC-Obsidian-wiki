@@ -1,4 +1,5 @@
 ---
+workflow.startup.mvp
 name: guides/workflow-startup-mvp
 description: 4-week startup MVP development workflow with specialized agent team
 type: guide

@@ -6,7 +6,7 @@ version: 2.0.0-rc.1
 tags: [github, typescript, python, ai, agents, claude-code, skills, productivity]
 created: 2026-04-29
 updated: 2026-05-01
-source: ../../../../archive/resources/github/affaan-m-everything-claude-code-2026-05-01.json
+source: ../../../archive/resources/github/affaan-m-everything-claude-code-2026-05-01.json
 stars: 171082
 forks: 21000+
 language: TypeScript

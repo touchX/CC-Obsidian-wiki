@@ -1,4 +1,5 @@
 ---
+agent.teams
 name: guides/agent-teams
 description: Agent Teams 多会话协调工作流实现指南
 type: guide

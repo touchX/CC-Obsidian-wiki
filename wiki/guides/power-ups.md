@@ -1,4 +1,5 @@
 ---
+power.ups
 name: guides/power-ups
 description: 10 个交互式教程动画演示 — 功能速览
 type: guide

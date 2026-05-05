@@ -5,7 +5,7 @@ type: source
 tags: [github, rust, cli, claude-code, token-optimization, developer-tools, ai-coding, copilot, cursor]
 created: 2026-05-01
 updated: 2026-05-01
-source: ../../../../archive/resources/github/rtk-ai-rtk-2026-05-01.json
+source: ../../../archive/resources/github/rtk-ai-rtk-2026-05-01.json
 stars: 39165
 language: Rust
 license: Other

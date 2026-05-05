@@ -1,4 +1,5 @@
 ---
+auto.mode
 name: guides/auto-mode
 description: Auto Mode — Claude Code 智能权限决策模式，减少中断且保持安全
 type: guide

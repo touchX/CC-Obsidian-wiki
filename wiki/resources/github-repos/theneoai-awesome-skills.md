@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, javascript, ai, skills, agents, claude-code, prompt-engineering]
 created: 2026-04-29
 updated: 2026-04-29
-source: ../../../../archive/resources/github/theneoai-awesome-skills-2026-04-29.json
+source: ../../../archive/resources/github/theneoai-awesome-skills-2026-04-29.json
 stars: 55
 forks: 23
 language: JavaScript

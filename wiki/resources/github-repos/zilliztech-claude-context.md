@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, typescript, mcp, semantic-search, vector-database, ai-coding, agents, rag, milvus]
 created: 2026-04-29
 updated: 2026-04-29
-source: ../../../../archive/resources/github/zilliztech-claude-context-2026-04-29.json
+source: ../../../archive/resources/github/zilliztech-claude-context-2026-04-29.json
 stars: 10223
 forks: 758
 language: TypeScript

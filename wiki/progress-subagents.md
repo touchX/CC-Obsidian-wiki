@@ -1,4 +1,5 @@
 ---
+name: progress_subagents
 name: progress-subagents
 description: Subagents 模块学习进度
 module: Subagents

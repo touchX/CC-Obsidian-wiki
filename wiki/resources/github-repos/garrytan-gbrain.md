@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, typescript, ai-agent, knowledge-graph, memory-system]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/garrytan-gbrain-2026-04-28.json
+source: ../../../archive/resources/github/garrytan-gbrain-2026-04-28.json
 stars: 12000
 language: TypeScript
 license: MIT

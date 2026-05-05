@@ -1,4 +1,5 @@
 ---
+claude.skills.essential.list
 name: claude-skills-essential-list
 description: Claude Code 必装 Skills 推荐清单（新手5个+进阶5个）
 type: guide

@@ -1,4 +1,5 @@
 ---
+workflow.with.memory
 name: guides/workflow-with-memory
 description: Multi-agent workflow enhanced with MCP memory server for persistent context
 type: guide

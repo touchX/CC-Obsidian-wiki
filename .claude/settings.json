@@ -1,9 +1,14 @@
 {
   "respectGitignore": true,
   "env": {
-    "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "80",
+    "ANTHROPIC_AUTH_TOKEN": "b91dc0d03f7b4710baf2ac3c912597cd.6SNOihZ4btrWeSB8",
+    "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
     "API_TIMEOUT_MS": "3000000",
-    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-4.6",
+    "ANTHROPIC_MODEL": "glm-4.7",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-4.7",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-5.1"
   },
   "attribution": {
     "commit": "Co-Authored-By: Claude <noreply@anthropic.com>",

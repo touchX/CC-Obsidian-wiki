@@ -6,7 +6,7 @@ version: 2.0
 tags: [github, python, claude-code, graphrag, knowledge-graph, skills, codex, gemini, openclaw]
 created: 2026-04-03
 updated: 2026-04-28
-source: ../../../../archive/resources/github/safishamsi-graphify-2026-04-28.json
+source: ../../../archive/resources/github/safishamsi-graphify-2026-04-28.json
 stars: 36616
 forks: 4062
 language: Python

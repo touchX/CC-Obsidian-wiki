@@ -1,4 +1,5 @@
 ---
+name: progress_workflows
 name: progress-workflows
 description: Workflows 模块学习进度
 module: Workflows

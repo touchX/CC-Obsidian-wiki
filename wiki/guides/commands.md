@@ -1,4 +1,5 @@
 ---
+commands
 name: guides/commands
 description: Weather Orchestrator Command 实现指南 — Command → Agent → Skill 模式
 type: guide

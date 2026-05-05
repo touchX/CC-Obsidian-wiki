@@ -1,4 +1,5 @@
 ---
+claude.md.configuration.guide
 name: guides/claude-md-configuration-guide
 description: CLAUDE.md 文件配置指南：为代码库定制 Claude Code，提供项目上下文、编码标准和工作流程
 type: guide

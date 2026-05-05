@@ -1,4 +1,5 @@
 ---
+permissions
 name: guides/permissions
 description: Claude Code 权限模式详解：default、acceptEdits、plan、auto、dontAsk、bypassPermissions
 type: guide

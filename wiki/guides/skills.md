@@ -1,4 +1,5 @@
 ---
+skills
 name: guides/skills
 description: Skills 实现指南 — Agent Skills vs 直接调用 Skills
 type: guide

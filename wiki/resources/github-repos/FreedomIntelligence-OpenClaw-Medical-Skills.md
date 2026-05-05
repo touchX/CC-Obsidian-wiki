@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, python, ai, agents, claude-code, medical, healthcare, bioinformatics, clinical, skills]
 created: 2026-04-29
 updated: 2026-04-29
-source: ../../../../archive/resources/github/FreedomIntelligence-OpenClaw-Medical-Skills-2026-04-29.json
+source: ../../../archive/resources/github/FreedomIntelligence-OpenClaw-Medical-Skills-2026-04-29.json
 stars: 2200
 forks: 280
 language: Python

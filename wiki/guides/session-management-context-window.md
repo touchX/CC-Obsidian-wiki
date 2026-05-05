@@ -1,4 +1,5 @@
 ---
+session.management.context.window
 name: guides/session-management-context-window
 description: Claude Code 会话管理完全指南 — 1M Context 窗口下的 Continue/Rewind/Compact/Clear/Subagent 五种策略详解
 type: guide

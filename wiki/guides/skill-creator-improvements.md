@@ -1,4 +1,5 @@
 ---
+skill.creator.improvements
 name: guides/skill-creator-improvements
 description: Skill Creator 新增 Evals 测试、Benchmark 评估和 Description 优化功能
 type: guide

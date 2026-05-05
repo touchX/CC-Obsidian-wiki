@@ -1,4 +1,5 @@
 ---
+best.practices
 name: guides/best-practices
 description: Claude Code 最佳实践：验证、规划、提示技巧和环境配置
 type: guide

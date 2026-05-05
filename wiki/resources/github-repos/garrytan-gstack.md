@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, typescript, claude-code, skills, productivity, tools, ai-assistant]
 created: 2026-05-01
 updated: 2026-05-01
-source: ../../../../archive/resources/github/garrytan-gstack-2026-05-01.json
+source: ../../../archive/resources/github/garrytan-gstack-2026-05-01.json
 stars: 87415
 language: TypeScript
 license: MIT

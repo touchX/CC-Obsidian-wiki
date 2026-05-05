@@ -1,4 +1,5 @@
 ---
+nexus.spatial.discovery
 name: guides/nexus-spatial-discovery
 description: Multi-agent parallel product discovery workflow with 8 specialized agents
 type: guide

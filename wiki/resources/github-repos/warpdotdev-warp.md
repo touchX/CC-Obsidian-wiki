@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, rust, ai, agents, terminal, developer-tools, gpu, productivity]
 created: 2026-04-29
 updated: 2026-04-29
-source: ../../../../archive/resources/github/warpdotdev-warp-2026-04-29.json
+source: ../../../archive/resources/github/warpdotdev-warp-2026-04-29.json
 stars: 32000
 forks: 4500
 language: Rust

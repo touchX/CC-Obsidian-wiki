@@ -1,4 +1,5 @@
 ---
+prompt.caching.optimization
 name: guides/prompt-caching-optimization
 description: Prompt Caching 优化完全指南 — 缓存命中率提升的五个关键实践
 type: guide

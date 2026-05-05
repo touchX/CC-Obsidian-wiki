@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, shell, skills, framework, methodology, claude-code, agent]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/obra-superpowers-2026-04-28.json
+source: ../../../archive/resources/github/obra-superpowers-2026-04-28.json
 stars: 170260
 language: Shell
 license: MIT

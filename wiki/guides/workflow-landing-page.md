@@ -1,4 +1,5 @@
 ---
+workflow.landing.page
 name: guides/workflow-landing-page
 description: 4-agent one-day landing page sprint for rapid campaign launches
 type: guide

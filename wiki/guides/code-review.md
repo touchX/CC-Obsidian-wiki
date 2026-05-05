@@ -1,4 +1,5 @@
 ---
+code.review
 name: guides/code-review
 description: Claude Code Code Review — 多 Agent 团队深度代码审查，捕获 skim 遗漏的 bug
 type: guide

@@ -1,4 +1,5 @@
 ---
+claude.hooks.configuration.guide
 name: guides/claude-hooks-configuration-guide
 description: Claude Code Hooks 完整参考指南：30+ 种 Hook 事件、配置架构、输入输出格式、高级特性（MCP hooks、HTTP hooks、async hooks）
 type: guide

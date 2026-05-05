@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, compound-engineering, claude-code, skills]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/EveryInc-compound-engineering-plugin-2026-04-28.json
+source: ../../../archive/resources/github/EveryInc-compound-engineering-plugin-2026-04-28.json
 stars: 15715
 forks: 1223
 language: TypeScript

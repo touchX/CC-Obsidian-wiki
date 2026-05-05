@@ -1,4 +1,5 @@
 ---
+command.syntax.guide
 name: command-syntax-guide
 description: Claude Code Commands 正确语法指南 - 纯 Markdown 自然语言，不使用 XML 标签
 type: guide

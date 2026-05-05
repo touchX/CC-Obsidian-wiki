@@ -1,4 +1,5 @@
 ---
+name: progress_hooks
 name: progress-hooks
 description: Hooks 模块学习进度
 module: Hooks

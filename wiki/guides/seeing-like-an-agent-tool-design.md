@@ -1,4 +1,5 @@
 ---
+seeing.like.an.agent.tool.design
 name: guides/seeing-like-an-agent-tool-design
 description: 从 Agent 视角设计工具 — Claude Code 工具设计方法论与实战案例
 type: guide

@@ -1,4 +1,5 @@
 ---
+superpowers.tutorial
 name: guides/superpowers-tutorial
 description: Superpowers 详细用法教程 - 大量提示词实例和实战指南
 type: guide

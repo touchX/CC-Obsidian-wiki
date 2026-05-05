@@ -1,4 +1,5 @@
 ---
+claude.hooks.guide
 name: guides/claude-hooks-guide
 description: Claude Code Hooks 实用指南：7 个常见场景的即用型配置（通知、自动格式化、阻止编辑、上下文补充等）
 type: guide

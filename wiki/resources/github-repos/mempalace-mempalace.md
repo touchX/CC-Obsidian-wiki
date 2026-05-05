@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, python, ai, memory, llm, rag, mcp, chromadb]
 created: 2026-04-29
 updated: 2026-04-29
-source: ../../../../archive/resources/github/mempalace-2026-04-29.json
+source: ../../../archive/resources/github/mempalace-2026-04-29.json
 stars: 50283
 forks: 6611
 language: Python

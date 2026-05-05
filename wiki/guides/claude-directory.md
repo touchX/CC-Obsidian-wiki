@@ -1,4 +1,5 @@
 ---
+claude.directory
 name: guides/claude-directory
 description: .claude 目录结构详解：配置、记忆、扩展系统文件位置与作用
 type: guide

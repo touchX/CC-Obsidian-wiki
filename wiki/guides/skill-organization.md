@@ -1,4 +1,5 @@
 ---
+skill.organization
 name: skill-organization
 description: Claude Code Skills 组织结构指南
 type: guide

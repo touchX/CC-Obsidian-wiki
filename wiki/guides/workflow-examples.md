@@ -1,4 +1,5 @@
 ---
+workflow.examples
 name: guides/workflow-examples
 description: Collection of multi-agent workflow patterns for common use cases
 type: guide

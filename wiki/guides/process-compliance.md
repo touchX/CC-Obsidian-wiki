@@ -1,4 +1,5 @@
 ---
+process.compliance
 name: guides/process-compliance
 description: 项目流程遵守规范 - 违规教训与预防机制
 type: guide

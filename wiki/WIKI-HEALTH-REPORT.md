@@ -1,4 +1,5 @@
 ---
+name: wiki_health_report
 name: wiki-health-report
 description: Wiki 健康状况报告 — 2026-05-04
 type: report

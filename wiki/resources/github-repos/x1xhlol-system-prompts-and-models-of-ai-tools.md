@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, system-prompts, ai-tools, claude-code, cursor, cline, codex-cli, gemini-cli, prompt-engineering]
 created: 2026-04-29
 updated: 2026-04-29
-source: ../../../../archive/resources/github/x1xhlol-system-prompts-and-models-of-ai-tools-2026-04-29.json
+source: ../../../archive/resources/github/x1xhlol-system-prompts-and-models-of-ai-tools-2026-04-29.json
 stars: 0
 language: Text
 license: GNU GPL v3

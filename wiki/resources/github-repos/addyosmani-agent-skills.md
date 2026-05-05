@@ -6,7 +6,7 @@ version: 2.0
 tags: [github, shell, agent-skills, claude-code, development-lifecycle]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/addyosmani-agent-skills-2026-04-28-v2.json
+source: ../../../archive/resources/github/addyosmani-agent-skills-2026-04-28-v2.json
 stars: 24701
 forks: 0
 language: Shell

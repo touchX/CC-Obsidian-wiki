@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, python, fastapi, claude-code, proxy, nvidia-nim, openrouter, deepseek, llm, discord-bot, telegram-bot]
 created: 2026-04-29
 updated: 2026-04-29
-source: ../../../../archive/resources/github/alishahryar1-free-claude-code-2026-04-29.json
+source: ../../../archive/resources/github/alishahryar1-free-claude-code-2026-04-29.json
 stars: 0
 language: Python
 license: MIT

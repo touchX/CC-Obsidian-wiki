@@ -1,4 +1,5 @@
 ---
+agent.skills.progressive.disclosure
 name: agent-skills-progressive-disclosure
 description: Agent Skills 渐进式披露机制：三层架构详解（元数据层、指令层、资源层）实现极致 token 优化
 type: guide

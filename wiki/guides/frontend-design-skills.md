@@ -1,4 +1,5 @@
 ---
+frontend.design.skills
 name: guides/frontend-design-skills
 description: 通过 Skills 改进前端设计：使用 Claude Skills 创建独特、定制化的前端界面，避免通用 AI 设计风格
 type: guide

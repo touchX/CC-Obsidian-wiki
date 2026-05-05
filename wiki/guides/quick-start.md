@@ -1,4 +1,5 @@
 ---
+quick.start
 name: quick-start
 description: Wiki 快速入门指南
 type: guide

@@ -1,4 +1,5 @@
 # Commands 模块教学总结
+name: progress_commands
 
 ## 1. Commands 核心概念
 

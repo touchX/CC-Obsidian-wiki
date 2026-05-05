@@ -1,4 +1,5 @@
 ---
+skills.creation.guide
 name: guides/skills-creation-guide
 description: Skills 创建指南：5 步流程构建自定义 Claude 技能，包含实际示例和最佳实践
 type: guide

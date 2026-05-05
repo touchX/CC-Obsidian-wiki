@@ -1,6 +1,6 @@
 # Wiki Lint Report
 
-> 生成时间: 2026-05-04 20:19:17
+> 生成时间: 2026-05-05 11:29:58
 
 ---
 
@@ -24,46 +24,22 @@
 | concepts/ | 14 |
 | entities/ | 59 |
 | sources/ | 33 |
-| synthesis/ | 9 |
-| guides/ | 39 |
+| synthesis/ | 10 |
+| guides/ | 55 |
 | tips/ | 13 |
 | tutorial/ | 5 |
 | implementation/ | 13 |
 | orchestration-workflow/ | 1 |
-| **总计** | **186** |
+| **总计** | **203** |
 
 ## Frontmatter 检查
 
-- ⚠️  [[implementation/mcp-servers]]: 目标页面不存在
-- ⚠️  [[implementation/subagents-usage-guide|Subagents 使用指南]]: 目标页面不存在
-- ⚠️  [[linshenkx-prompt-optimizer-2026-04-28.json]]: 目标页面不存在
-- ⚠️  [[marketing-analytics]]: 目标页面不存在
-- ⚠️  [[memory-hub-skill]]: 目标页面不存在
-- ⚠️  [[page]]: 目标页面不存在
-- ⚠️  [[patterns/]]: 目标页面不存在
-- ⚠️  [[patterns/agent-harness-design]]: 目标页面不存在
-- ⚠️  [[proton-services]]: 目标页面不存在
-- ⚠️  [[raw/notes/2026-05-02-command-correct-guide]]: 目标页面不存在
-- ⚠️  [[relative/path/to/file.md]]: 目标页面不存在
-- ⚠️  [[relative/path]]: 目标页面不存在
-- ⚠️  [[resources/github-repos/openclaw-openclaw]]: 目标页面不存在
-- ⚠️  [[resources/tools/]]: 目标页面不存在
-- ⚠️  wiki/log.md: 缺少 type 字段
-- ⚠️  [[skills/weather-fetcher]]: 目标页面不存在
-- ⚠️  [[skills/weather-svg-creator]]: 目标页面不存在
-- ⚠️  wiki/progress-agent-teams.md: 缺少 type 字段
-- ⚠️  wiki/progress-commands.md: 缺少 name 字段
-- ⚠️  wiki/progress-commands.md: 缺少 type 字段
-- ⚠️  wiki/progress-hooks.md: 缺少 type 字段
-- ⚠️  wiki/progress-subagents.md: 缺少 type 字段
-- ⚠️  wiki/progress-workflows.md: 缺少 type 字段
-- ⚠️  [[teaching-accuracy|教学准确性系统]]: 目标页面不存在
-- ⚠️  [[time-series-analysis]]: 目标页面不存在
-- ⚠️  [[tutorials/agentic-ai-examples]]: 目标页面不存在
-- ⚠️  [[tutorials/google-adk-tutorial]]: 目标页面不存在
-
-## Source 引用检查
-
+- ⚠️  ./log.md: 缺少 type 字段
+- ⚠️  ./progress-agent-teams.md: 缺少 type 字段
+- ⚠️  ./progress-commands.md: 缺少 type 字段
+- ⚠️  ./progress-hooks.md: 缺少 type 字段
+- ⚠️  ./progress-subagents.md: 缺少 type 字段
+- ⚠️  ./progress-workflows.md: 缺少 type 字段
 
 ## 交叉引用检查
 

@@ -1,4 +1,5 @@
 ---
+workflows
 name: guides/workflows
 description: Claude Code 常见工作流程：代码探索、调试、重构、测试和会话管理
 type: guide

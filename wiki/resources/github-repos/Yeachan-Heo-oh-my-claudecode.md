@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, typescript, claude-code, skills, agents, korean, localization, productivity]
 created: 2026-05-01
 updated: 2026-05-01
-source: ../../../../archive/resources/github/Yeachan-Heo-oh-my-claudecode-2026-05-01.json
+source: ../../../archive/resources/github/Yeachan-Heo-oh-my-claudecode-2026-05-01.json
 stars: 0
 language: TypeScript
 license: MIT

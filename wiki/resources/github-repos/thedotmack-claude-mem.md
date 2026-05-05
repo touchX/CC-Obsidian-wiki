@@ -6,7 +6,7 @@ version: 1.1
 tags: [github, typescript, claude-code, memory, compression, plugin]
 created: 2026-04-29
 updated: 2026-05-03
-source: ../../../../archive/resources/github/thedotmack-claude-mem-2026-05-03.json
+source: ../../../archive/resources/github/thedotmack-claude-mem-2026-05-03.json
 stars: 71058
 language: TypeScript
 license: AGPL-3.0

@@ -1,4 +1,5 @@
 ---
+claude.code.parallel.development
 name: guides/claude-code-parallel-development
 description: Claude Code 并行开发完全指南 — Subagents + Agent Teams + Git Worktree + 工作流编排实战
 type: guide

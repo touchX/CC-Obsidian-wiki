@@ -1,4 +1,5 @@
 ---
+onboarding.claude.code.like.new.developer
 name: guides/onboarding-claude-code-like-new-developer
 description: 像培训新开发者一样向 Claude 介绍代码库 — 17年开发经验的方法论
 type: guide

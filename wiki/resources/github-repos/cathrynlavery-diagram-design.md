@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, svg, diagram-design, claude-code, claude-skills]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/cathrynlavery-diagram-design-2026-04-28.json
+source: ../../../archive/resources/github/cathrynlavery-diagram-design-2026-04-28.json
 stars: 2007
 forks: 0
 language: HTML

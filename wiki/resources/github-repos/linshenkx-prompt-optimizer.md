@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, typescript, prompt-engineering, ai-tools]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/linshenkx-prompt-optimizer-2026-04-28.json
+source: ../../../archive/resources/github/linshenkx-prompt-optimizer-2026-04-28.json
 stars: 27308
 forks: 3224
 language: TypeScript

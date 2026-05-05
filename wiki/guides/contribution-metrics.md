@@ -1,4 +1,5 @@
 ---
+contribution.metrics
 name: guides/contribution-metrics
 description: 衡量 Claude Code 对团队开发速度影响的贡献指标追踪功能
 type: guide

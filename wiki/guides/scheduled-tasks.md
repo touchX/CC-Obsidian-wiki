@@ -1,4 +1,5 @@
 ---
+scheduled.tasks
 name: guides/scheduled-tasks
 description: 定时任务实现指南 — /loop cron 调度与任务管理
 type: guide

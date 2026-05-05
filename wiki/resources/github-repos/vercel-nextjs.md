@@ -6,7 +6,7 @@ version: 2.0
 tags: [github, javascript, react, ssr, ssg, vercel, nextjs, node, server-rendering, static-site-generator]
 created: 2026-04-28
 updated: 2026-04-28
-source: ../../../../archive/resources/github/vercel-nextjs-2026-04-28.json
+source: ../../../archive/resources/github/vercel-nextjs-2026-04-28.json
 stars: 139195
 forks: 30978
 language: JavaScript

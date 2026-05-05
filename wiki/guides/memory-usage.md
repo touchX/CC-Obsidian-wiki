@@ -1,4 +1,5 @@
 ---
+memory.usage
 name: memory-usage
 description: Claude Code 记忆系统使用指南 — memU、Claude-Mem、Platform Memory、Memory Hub 四层架构的日常操作与最佳实践
 type: guide

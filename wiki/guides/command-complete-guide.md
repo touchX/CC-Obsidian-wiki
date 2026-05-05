@@ -1,4 +1,5 @@
 ---
+command.complete.guide
 name: command-complete-guide
 description: Claude Code Command 完整指南 - 语法、工作流、最佳实践
 type: guide
@@ -197,8 +198,8 @@ Use the Skill tool:
 
 - [[command-syntax-guide]] — Command 语法详细指南
 - [[agent-command-skill-comparison]] — Agent/Command/Skill 对比
-- [[agents]] — Agents 实现
-- [[skills]] — Skills 实现
+- [[subagents]] — Subagents 实现
+- [[claude-skills]] — Claude Skills 实现
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+rpi.workflow
 name: guides/rpi-workflow
 description: RPI 开发流程 — Research→Plan→Implement 三阶段系统化开发方法论
 type: guide

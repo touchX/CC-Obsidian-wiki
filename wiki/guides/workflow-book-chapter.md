@@ -1,4 +1,5 @@
 ---
+workflow.book.chapter
 name: guides/workflow-book-chapter
 description: Transform rough notes into strategic first-person book chapter drafts
 type: guide

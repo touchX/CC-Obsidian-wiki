@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, markdown, claude-code, tutorial, documentation, learning-guide, multilingual]
 created: 2026-05-01
 updated: 2026-05-01
-source: ../../../../archive/resources/github/luongnv89-claude-howto-2026-05-01.json
+source: ../../../archive/resources/github/luongnv89-claude-howto-2026-05-01.json
 stars: 0
 language: Markdown
 license: MIT

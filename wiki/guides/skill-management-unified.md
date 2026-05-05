@@ -1,4 +1,5 @@
 ---
+skill.management.unified
 name: guides/skill-management-unified
 description: 统一管理多 Agent 工具的 Skill 库 — 使用软链接实现 Single Source of Truth，避免版本分裂
 type: guide

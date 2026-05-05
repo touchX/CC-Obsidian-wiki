@@ -6,7 +6,7 @@ version: 1.0
 tags: [github, python, agents, ai, framework, microsoft, opentelemetry, reinforcement-learning, llm, claude-code]
 created: 2026-05-01
 updated: 2026-05-01
-source: ../../../../archive/resources/github/microsoft-agent-lightning-2026-05-01.json
+source: ../../../archive/resources/github/microsoft-agent-lightning-2026-05-01.json
 stars: 0
 language: Python
 license: MIT

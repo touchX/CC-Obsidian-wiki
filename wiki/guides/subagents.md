@@ -1,4 +1,5 @@
 ---
+subagents
 name: guides/subagents
 description: Sub-agents 实现指南 — 上下文分叉与记忆系统
 type: guide
