@@ -91,6 +91,7 @@
 ├── config.yaml              # 全局配置（输出目录等）
 ├── zhihu/
 │   ├── state.json          # 登录状态（playwright-cli state-save）
+│   ├── meta.json           # 登录元数据（登录时间、过期时间）
 │   ├── cookies.json        # 额外 Cookies（可选）
 │   └── selector.yaml       # 自定义选择器（覆盖默认）
 ├── wechat/
@@ -134,6 +135,7 @@ playwright-collect collect <site> --url <url> --adapter <path/to/config.yaml>
 | `--adapter` | 自定义适配器配置路径 | 使用内置 |
 | `--output` | 输出目录 | `raw/{site}` |
 | `--force` | 强制重新登录 | false |
+| `--since` | 仅抓取指定日期之后发布的文章（增量抓取） | 全部抓取 |
 
 ---
 
@@ -147,7 +149,17 @@ playwright-collect collect <site> --url <url> --adapter <path/to/config.yaml>
   → 用户在浏览器中完成登录（可能遇到验证码）
   → 用户确认登录成功
   → playwright-cli state-save ~/.playwright-collect/zhihu/state.json
-  → 显示登录成功提示
+  → 记录登录时间 + 预估过期时间到 ~/.playwright-collect/zhihu/meta.json
+  → 显示登录成功提示（含预计过期时间）
+```
+
+**meta.json 格式**：
+```json
+{
+  "login_time": "2026-05-07T10:30:00Z",
+  "expires_at": "2026-05-14T10:30:00Z",
+  "note": "知乎通常有效期为 7 天"
+}
 ```
 
 ### Collect 流程
@@ -155,11 +167,14 @@ playwright-collect collect <site> --url <url> --adapter <path/to/config.yaml>
 ```
 用户执行 collect zhihu --url <文章URL> --count 10
   → 检测 ~/.playwright-collect/zhihu/state.json 是否存在
+  → 读取 ~/.playwright-collect/zhihu/meta.json 检查过期时间
+  → 如已过期：提示重新登录（可用 --force 强制继续）
   → playwright-cli state-load ~/.playwright-collect/zhihu/state.json
   → playwright-cli goto <文章URL> (无头模式)
   → 验证登录状态是否有效
   → Site Adapter 解析页面
   → Markdown Formatter 生成内容
+  → 如指定 --since，则过滤发布日期在参数之前的文章
   → 保存到 raw/zhihu/{slug}.md
   → 循环直到完成 --count 篇
 ```
@@ -208,9 +223,20 @@ url: https://www.zhihu.com/p/xxx
 | `published` | 发布时间 |
 | `url` | 原始文章链接 |
 
----
+### 归档触发条件
 
-## 6. 内置适配器
+文章保存到 `raw/{site}/` 后，按以下规则决定归档时机：
+
+| 条件 | 归档动作 |
+|------|----------|
+| 文章质量高（阅读量 > 1000） | 手动触发归档到 `archive/{site}/articles/` |
+| 累计采集 > 50 篇 | 批量归档到 `archive/{site}/articles/` |
+| 用户主动执行 `playwright-collect archive` | 归档指定网站的所有已采集文章 |
+
+```bash
+# 归档命令（预留）
+playwright-collect archive zhihu --days 30  # 归档 30 天前的文章
+```
 
 ### Zhihu 适配器
 
@@ -219,13 +245,28 @@ site: zhihu
 name: 知乎
 
 selectors:
-  article-list: ".List-item"
-  article-link: "a[data-za-attr='title']"
-  article-title: "h2.ContentItem-title"
-  article-content: ".RichText.Article-content"
-  article-author: ".AuthorInfo-name"
-  article-date: ".ContentItem-time"
-  article-stats: ".ArticleMeta--props"
+  # 支持三种类型：css（默认）、xpath、js
+  article-list:
+    type: css
+    value: ".List-item"
+  article-link:
+    type: css
+    value: "a[data-za-attr='title']"
+  article-title:
+    type: css
+    value: "h2.ContentItem-title"
+  article-content:
+    type: css
+    value: ".RichText.Article-content"
+  article-author:
+    type: css
+    value: ".AuthorInfo-name"
+  article-date:
+    type: css
+    value: ".ContentItem-time"
+  article-stats:
+    type: css
+    value: ".ArticleMeta--props"
 
 pagination:
   type: infinite-scroll
@@ -243,11 +284,21 @@ site: wechat
 name: 微信公众号
 
 selectors:
-  article-list: ".weui-article__list li"
-  article-title: ".article-title"
-  article-content: "#js_content"
-  article-author: ".account_nickname"
-  article-date: ".article-time"
+  article-list:
+    type: css
+    value: ".weui-article__list li"
+  article-title:
+    type: css
+    value: ".article-title"
+  article-content:
+    type: css
+    value: "#js_content"
+  article-author:
+    type: css
+    value: ".account_nickname"
+  article-date:
+    type: css
+    value: ".article-time"
 
 pagination:
   type: load-more
