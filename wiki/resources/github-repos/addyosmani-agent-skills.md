@@ -2,36 +2,53 @@
 name: addyosmani-agent-skills
 description: Production-grade engineering skills for AI coding agents. 20 skills covering the full development lifecycle.
 type: source
-version: 2.0
-tags: [github, shell, agent-skills, claude-code, development-lifecycle]
+version: 3.1
+tags: [github, shell, agent-skills, claude-code, development-lifecycle, engineering-workflows]
 created: 2026-04-28
-updated: 2026-04-28
-source: ../../../archive/resources/github/addyosmani-agent-skills-2026-04-28-v2.json
-stars: 24701
-forks: 0
+updated: 2026-05-07
+source: ../../../archive/resources/github/addyosmani-agent-skills-2026-05-07.json
+stars: 31506
+forks: 3696
 language: Shell
 license: MIT
 github_url: https://github.com/addyosmani/agent-skills
-platforms: [Claude Code, Cursor, Gemini CLI, Windsurf, OpenCode, GitHub Copilot]
+platforms: [Claude Code, Cursor, Gemini CLI, Windsurf, OpenCode, GitHub Copilot, Kiro]
 author: Addy Osmani
+topics: [agent-skills, antigravity, antigravity-ide, claude-code, cursor, skills]
 ---
 
 # Agent Skills
 
-Production-grade engineering skills for AI coding agents.
+> [!tip] Repository Overview
+> ⭐ **31,506 Stars** | 🍴 **3,696 Forks** | 🔥 **Production-grade engineering skills for AI coding agents.**
 
 Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.
+
+## 开发生命周期
+
+```
+  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP
+ ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐
+ │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │
+ │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │
+ └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘
+  /spec          /plan          /build        /test         /review       /ship
+```
 
 ## 基本信息
 
 | 字段 | 值 |
 |------|-----|
 | 作者 | [Addy Osmani](https://github.com/addyosmani) |
-| Stars | ![24701](https://img.shields.io/github/stars/addyosmani/agent-skills) |
+| Stars | ⭐ 31,506 |
+| Forks | 🍴 3,696 |
 | 语言 | Shell |
 | 许可证 | MIT |
 | 技能数 | 20 |
-| 平台支持 | 7 个平台 |
+| 平台支持 | 8 个平台 |
+| 创建时间 | 2026-02-15 |
+| 更新时间 | 2026-05-07 |
+| Topics | agent-skills, antigravity, antigravity-ide, claude-code, cursor, skills |
 
 ## 开发生命周期
 
@@ -162,9 +179,20 @@ agent-skills/
 ### Claude Code（推荐）
 
 ```bash
+# Marketplace 安装
 /plugin marketplace add addyosmani/agent-skills
 /plugin install agent-skills@addy-agent-skills
+
+# 本地开发
+git clone https://github.com/addyosmani/agent-skills.git
+claude --plugin-dir /path/to/agent-skills
 ```
+
+> **SSH errors?** 如果没有 SSH keys，使用 HTTPS URL：
+> ```bash
+> /plugin marketplace add https://github.com/addyosmani/agent-skills.git
+> /plugin install agent-skills@addy-agent-skills
+> ```
 
 ### Gemini CLI
 
@@ -172,12 +200,46 @@ agent-skills/
 gemini skills install https://github.com/addyosmani/agent-skills.git --path skills
 ```
 
+### Cursor
+
+复制 `SKILL.md` 到 `.cursor/rules/`，或引用 `skills/` 目录。
+
+### Windsurf
+
+添加 skill 内容到 Windsurf rules 配置。
+
+### GitHub Copilot
+
+使用 `agents/` 中的 agent 定义作为 Copilot personas。
+
+### Kiro IDE & CLI
+
+Skills 位于 `.kiro/skills/` 目录，支持 Project 或 Global 级别。
+
+### OpenCode / Codex
+
+Skills 是纯 Markdown，可与任何接受 system prompts 或 instruction files 的 agent 配合使用。
+
 ## 技能设计原则
 
-1. **Process, not prose** — 技能是工作流，不是参考文档
-2. **Anti-rationalization** — 每个技能都有"借口 + 反驳"表格
-3. **Verification non-negotiable** — 每个技能以证据要求结束
-4. **Progressive disclosure** — SKILL.md 是入口，按需加载引用
+1. **Process, not prose** — 技能是工作流，不是参考文档。每个技能都有步骤、检查点和退出标准。
+2. **Anti-rationalization** — 每个技能都有"借口 + 反驳"表格，防止 agent 跳过步骤。
+3. **Verification non-negotiable** — 每个技能以证据要求结束，"Seems right" 从不充分。
+4. **Progressive disclosure** — `SKILL.md` 是入口，按需加载引用，保持 token 使用最小化。
+
+## 核心特性
+
+- **20 个结构化技能** — 覆盖 Define→Plan→Build→Verify→Review→Ship 完整生命周期
+- **7 个 Slash Commands** — `/spec`, `/plan`, `/build`, `/test`, `/review`, `/code-simplify`, `/ship`
+- **3 个专业 Agent Personas** — code-reviewer, test-engineer, security-auditor
+- **4 个 Reference Checklists** — testing, security, performance, accessibility
+- **Google 工程文化** — 来自《Software Engineering at Google》和 Google 工程实践指南
+
+## 为什么需要 Agent Skills？
+
+AI coding agents 默认走最短路径 —— 这通常意味着跳过 specs、tests、security reviews 和使软件可靠的最佳实践。Agent Skills 给 agents 结构化工作流，强制执行高级工程师在生产代码中使用的相同纪律。
+
+每个技能都编码了来之不易的工程判断：*何时*写 spec、*什么*要测试、*如何*审查、以及*何时*发布。这些不是通用 prompts —— 它们是那种 opinionated、process-driven 的工作流，区分生产质量工作和原型质量工作。
 
 ## 链接
 

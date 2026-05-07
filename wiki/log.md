@@ -4,13 +4,19 @@ description: Wiki 操作历史记录 - 所有变更的追加式日志
 type: reference
 tags: [wiki, log, history, changelog, operations]
 created: 2026-04-23
-updated: 2026-05-05
+updated: 2026-05-07
 source: ../../archive/wiki-log/
 ---
 
 # Wiki Log
 
 > 维基操作历史 - 追加式记录
+
+## [2026-05-07] Agent Skills GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/addyosmani-agent-skills]] — Agent Skills 仓库详情页
+  - Stars: ⭐ 31,506 | Language: Shell | License: MIT
+  - 包含完整项目介绍、技术架构、20 个技能清单
 
 ## [2026-05-05] Superpowers 技能指南归档
 
@@ -559,3 +565,88 @@ source: ../../archive/wiki-log/
 
 来源：https://github.com/Windy3f3f3f3f/how-claude-code-works
 归档：archive/resources/github/windy3f3f3f3f-how-claude-code-works-2026-05-05.json
+
+
+## [2026-05-05] How Claude Code Works 专题文档收集
+
+- 创建了 [[resources/claude-code-works/index]] — 专题文档索引页面
+  - 15 篇专题深入文档完整收集
+  - 总大小：~860 KB
+  - 文档列表：
+    - 01-概述（35KB）：技术栈、6 条核心设计原则、9 阶段启动流程
+    - 02-系统主循环（27KB）：Agent 循环双层架构、7 种故障恢复、工具预执行
+    - 03-上下文工程（69KB）：4 级压缩流水线、自动恢复机制、提示词缓存
+    - 04-工具系统（61KB）：66 个工具注册与并发、MCP 7 种传输
+    - 05-代码编辑策略（46KB）：search-and-replace、唯一性约束、抗幻觉设计
+    - 06-Hooks 与可扩展性（52KB）：23+ Hook 事件、5 种 Hook 类型、6 阶段管道
+    - 07-多 Agent 架构（56KB）：子 Agent 4 种模式、Worktree 隔离、Swarm 通信
+    - 08-记忆系统（37KB）：4 种记忆类型、语义召回、团队记忆
+    - 09-技能系统（27KB）：6 层优先级、懒加载、白名单权限
+    - 10-Plan 模式（25KB）：5 阶段工作流、附件节流、审批与恢复
+    - 11-权限与安全（52KB）：5 层纵深防御、tree-sitter AST 23 项检查
+    - 12-用户体验设计（50KB）：Ink 渲染器、Yoga Flexbox、虚拟滚动、Vim 模式
+    - 13-最小必要组件（59KB）：7 个最小组件、从 500 行到 50 万行演进
+    - 14-系统提示词设计（223KB）：7 层递进架构、反模式接种、7 条设计原则
+    - 15-任务管理系统（24KB）：文件级存储、三层变更检测、多 Agent 协调
+  - 索引页面包含：
+    - 文档总览表（15 篇完整列表）
+    - 按主题分类索引
+    - 阅读路线图（快速入门/核心原理/深度定制/自建 Agent）
+    - 相关资源链接
+
+来源：https://github.com/Windy3f3f3f3f/how-claude-code-works
+归档：archive/resources/claude-code-works/docs/
+
+
+## [2026-05-06] Wiki Lint 修复
+
+- 修复了 [[guides/improve-codebase-architecture]] 的 frontmatter
+  - 添加了 name, description, type, tags, created, updated, source 字段
+- 修复了 [[guides/summarize-cli]] 的 frontmatter
+  - 添加了 name, description, type, tags, created, updated, source 字段
+
+来源：Wiki Lint 健康检查
+
+
+## [2026-05-06] GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/alibaba-page-agent]] — Page Agent（阿里开源的网页 GUI Agent）
+  - Stars: Active（阿里开源）
+  - Language: TypeScript | License: MIT
+  - 完整文档：
+    - 四大核心特性：简易集成（无需扩展/Python）、文本化 DOM 操作（无需截图/LLM）、BYO LLM（通义千问等）、Chrome 扩展（多页面任务/MCP）
+    - 五大使用场景：SaaS AI Copilot、智能表单填写（20次点击→1句话）、无障碍访问、多页面 Agent、MCP 集成
+    - 快速开始（CDN 一行代码 / NPM 安装）
+    - 技术对比（Page Agent vs Browser-Use vs Playwright CLI）
+    - 进阶功能（Chrome 扩展、MCP Server Beta）
+    - 应用示例代码（表单填写、无障碍访问、自动化工作流）
+    - 核心价值：极简集成 + 文本优先 + 客户端运行 + 自然语言交互
+  - 归档：archive/resources/github/alibaba-page-agent-2026-05-05.json
+
+来源：https://github.com/alibaba/page-agent
+归档：archive/resources/github/alibaba-page-agent-2026-05-05.json
+
+## [2026-05-07] GitHub 仓库收集（github-collect）
+
+- 创建了 [[resources/github-repos/getpaseo-paseo]]
+  - Stars: 5579
+  - Language: TypeScript
+  - License: other
+  - 来源: [getpaseo/paseo](https://github.com/getpaseo/paseo)
+
+## [2026-05-07] GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/hmbown-deepseek-tui]] — DeepSeek TUI（终端代码智能助手）
+  - Stars: 16,061 🔥
+  - Language: Rust | License: MIT
+  - 完整文档：
+    - 核心特性：Auto 模式（自动选择模型/思维层级）、思维流式输出、1M Token 上下文、三种模式（Plan/Agent/YOLO）
+    - 工具集：文件操作、Shell、Git、Web、MCP、子 Agent、RLM
+    - LSP 诊断：rust-analyzer、pyright、typescript-language-server、gopls、clangd
+    - 安装方式：npm、Cargo、Homebrew、预编译二进制（中国镜像支持）
+    - 认证配置：DeepSeek、NVIDIA NIM、Fireworks、SGLang、vLLM、Ollama
+    - Skills 系统：可组合的指令包，从 GitHub 安装
+  - 归档：archive/resources/github/hmbown-deepseek-tui-2026-05-07.json
+
+来源：https://github.com/Hmbown/DeepSeek-TUI
+归档：archive/resources/github/hmbown-deepseek-tui-2026-05-07.json

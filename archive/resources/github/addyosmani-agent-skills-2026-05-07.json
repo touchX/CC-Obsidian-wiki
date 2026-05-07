@@ -1,0 +1,13 @@
+{
+  "name": "agent-skills",
+  "owner": "addyosmani",
+  "description": "Production-grade engineering skills for AI coding agents.",
+  "stars": 31506,
+  "forks": 3696,
+  "language": "Shell",
+  "license": "MIT",
+  "created_at": "2026-02-15T20:20:26Z",
+  "updated_at": "2026-05-07T07:18:09Z",
+  "topics": ["agent-skills", "antigravity", "antigravity-ide", "claude-code", "cursor", "skills"],
+  "url": "https://github.com/addyosmani/agent-skills"
+}
