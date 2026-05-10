@@ -1,0 +1,52 @@
+{
+  "name": "self-improving-agent",
+  "full_name": "charon-fan/agent-playbook/self-improving-agent",
+  "description": "Universal self-improving agent that learns from all skill experiences using multi-memory architecture",
+  "language": "JavaScript/Agent Skill",
+  "license": "MIT",
+  "homepage": "https://skills.sh/charon-fan/agent-playbook/self-improving-agent",
+  "documentation": "https://github.com/charon-fan/agent-playbook",
+  "topics": ["self-improvement", "multi-memory", "agent", "claude-code", "hooks", "feedback-loop"],
+  "key_features": [
+    "Multi-memory architecture (semantic, episodic, working)",
+    "Auto-triggers on skill completion, errors, and session events via hooks",
+    "Self-correction system for error handling",
+    "Evolution priority matrix for skill updates",
+    "Pattern confidence and application frequency tracking",
+    "User feedback and root cause analysis",
+    "Self-validation workflows"
+  ],
+  "installation": {
+    "npx": "npx skills add https://github.com/charon-fan/agent-playbook --skill self-improving-agent"
+  },
+  "research_based": [
+    "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+    "Survey on Memory Mechanism of LLM Agents (ACM)",
+    "Lifelong Learning of LLM based Agents",
+    "Evo-Memory: DeepMind's Benchmark"
+  ],
+  "memory_system": {
+    "semantic": "Patterns/Rules in memory/semantic/",
+    "episodic": "Experiences in memory/episodic/YYYY/YYYY-MM-DD-{skill}.json",
+    "working": "Current session in memory/working/"
+  },
+  "automatic_triggers": {
+    "before_start": "Log session start",
+    "after_complete": "Extract patterns, update skills",
+    "on_error": "Capture error context, trigger self-correction"
+  },
+  "evolution_priority": [
+    {"trigger": "New PRD pattern discovered", "target": "prd-planner", "priority": "High"},
+    {"trigger": "Architecture tradeoff clarified", "target": "architecting-solutions", "priority": "High"},
+    {"trigger": "API design rule learned", "target": "api-designer", "priority": "High"},
+    {"trigger": "Debugging fix discovered", "target": "debugger", "priority": "High"},
+    {"trigger": "Review checklist gap", "target": "code-reviewer", "priority": "High"}
+  ],
+  "stats": {
+    "stars": 51,
+    "installs": "27.1K"
+  },
+  "type": "agent-skill",
+  "created_at": "2026-01-01T00:00:00Z",
+  "updated_at": "2026-05-08T00:00:00Z"
+}

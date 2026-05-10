@@ -1,0 +1,36 @@
+{
+  "name": "WindTerm",
+  "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Tmux/Serial terminal.",
+  "stargazerCount": 30870,
+  "forkCount": 2342,
+  "language": {
+    "name": "C",
+    "id": "C"
+  },
+  "licenseInfo": null,
+  "createdAt": "2019-10-09T19:56:09Z",
+  "updatedAt": "2026-05-08T07:26:16Z",
+  "url": "https://github.com/kingToolbox/WindTerm",
+  "repositoryTopics": [
+    "terminal",
+    "telnet",
+    "ssh",
+    "serial",
+    "shell",
+    "client",
+    "sftp",
+    "windows",
+    "linux",
+    "bash",
+    "x11",
+    "zmodem",
+    "mac",
+    "cmd",
+    "powershell",
+    "xmodem",
+    "ymodem",
+    "xterm",
+    "wsl",
+    "tmux"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "skills",
+  "full_name": "mattpocock/skills",
+  "description": "Skills for Real Engineers. Straight from my .claude directory.",
+  "language": "Shell",
+  "license": "MIT",
+  "homepage": "https://skills.sh/mattpocock/skills",
+  "documentation": "https://skills.sh/mattpocock/skills",
+  "topics": ["claude-code", "agent", "skills", "engineering", "productivity", "tdd"],
+  "key_features": [
+    "Small, easy to adapt, and composable skills",
+    "Work with any model",
+    "Based on decades of engineering experience",
+    "Real engineering focus - not vibe coding",
+    "Newsletter with ~60,000 subscribers"
+  ],
+  "skills_catalog": {
+    "engineering": ["diagnose", "grill-with-docs", "triage", "improve-codebase-architecture", "setup-matt-pocock-skills", "tdd", "to-issues", "to-prd", "zoom-out", "prototype"],
+    "productivity": ["caveman", "grill-me", "write-a-skill"],
+    "misc": ["git-guardrails-claude-code", "migrate-to-shoehorn", "scaffold-exercises", "setup-pre-commit"]
+  },
+  "common_problems": [
+    "The Agent Didn't Do What I Want",
+    "The Agent Is Way Too Verbose",
+    "The Code Doesn't Work",
+    "We Built A Ball Of Mud"
+  ],
+  "installation": {
+    "npx": "npx skills@latest add mattpocock/skills"
+  },
+  "quick_start": [
+    "Run: npx skills@latest add mattpocock/skills",
+    "Pick skills and install on your agent",
+    "Run /setup-matt-pocock-skills in your agent"
+  ],
+  "stats": {
+    "stars": 64836,
+    "forks": 5584,
+    "newsletter": "~60,000"
+  },
+  "type": "agent-skills",
+  "created_at": "2026-02-03T11:15:53Z",
+  "updated_at": "2026-05-08T00:20:20Z"
+}

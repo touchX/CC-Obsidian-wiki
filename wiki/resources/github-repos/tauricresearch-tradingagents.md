@@ -4,9 +4,9 @@ description: TradingAgents - 多代理 LLM 金融交易框架
 type: source
 tags: [github, python, llm, trading, finance, multi-agent, langgraph]
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-08
 source: ../../../archive/resources/github/tauricresearch-tradingagents-2026-05-05.json
-stars: 68182
+stars: 71330
 language: Python
 license: Apache-2.0
 github_url: https://github.com/TauricResearch/TradingAgents

@@ -3,7 +3,7 @@
   "permissionMode": "yolo",
   "model": "sonnet",
   "thinkingBudget": "low",
-  "effortLevel": "high",
+  "effortLevel": "max",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -53,7 +53,7 @@
     "claude": "sonnet"
   },
   "savedProviderEffort": {
-    "claude": "high"
+    "claude": "max"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {

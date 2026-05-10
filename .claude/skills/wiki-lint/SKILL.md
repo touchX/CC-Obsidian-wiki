@@ -1,12 +1,14 @@
 ---
 name: wiki-lint
-description: Use when performing Wiki health checks — validates frontmatter, cross-references, and source paths
+description: Use when performing Wiki health checks — validates frontmatter, cross-references, source paths, and archive document bidirectional links (2026-05-08: 新增归档文档双链检查)
+changelog:
+  - 2026-05-08: 新增归档文档双链检查，验证 Wiki 页面是否包含指向归档文档的可点击双链
 ---
 
 # Wiki Lint Skill
 
 ## Overview
-Wiki 健康检查技能：验证 frontmatter 完整性、交叉引用有效性、source 路径正确性
+Wiki 健康检查技能：验证 frontmatter 完整性、交叉引用有效性、source 路径正确性、归档文档双向链接（2026-05-08 新增）
 
 ## Layered Architecture
 
@@ -50,7 +52,8 @@ digraph wiki_lint {
   "统计页面" -> "检查 Frontmatter"
   "检查 Frontmatter" -> "验证 [[链接]]"
   "验证 [[链接]]" -> "检查 source 路径"
-  "检查 source 路径" -> "生成报告"
+  "检查 source 路径" -> "检查归档文档双链" [label="2026-05-08 新增"]
+  "检查归档文档双链" -> "生成报告"
   "生成报告" -> "列出问题清单"
 }
 ```
@@ -62,6 +65,7 @@ digraph wiki_lint {
 | Frontmatter | Grep 文件头 | `grep "^---" wiki/**/*.md` |
 | 交叉引用 | Grep `[[` | `grep -r '\[\[' wiki/` |
 | Source 路径 | 验证文件存在 | Bash `[ -f "$file" ]` |
+| 归档文档双链 | 检查内容中的双链 | `grep '\[\[.*\.md\]\]' wiki/**/*.md` |
 | 页面列表 | 统计数量 | `obsidian search query="" limit=100` |
 
 ### 可选：使用 obsidian-cli
@@ -125,13 +129,87 @@ grep "^source:" wiki/**/*.md | while read line; do
 done
 ```
 
+### 4. 归档文档双链检查（2026-05-08 新增）
+
+**检查目标**：验证 Wiki 页面内容中是否包含指向归档文档的可点击双链
+
+**为什么需要**：
+- `source` 属性提供机器可读的元数据
+- 内容双链提供人类可读的可点击链接
+- 双向链接确保用户可以方便地追溯到原始文档
+
+**检查逻辑**：
+
+```bash
+# 对每个有 source 属性的页面，检查内容中是否包含对应的双链
+grep "^source:" wiki/**/*.md | while read line; do
+  file=$(echo "$line" | sed 's|.*source: ||')
+  # 提取文件名（去除路径和扩展名）
+  filename=$(basename "$file" .md)
+  
+  # 检查页面内容中是否包含 [[...archive/...filename.md]] 或 [[...archive/...filename.md|显示名]]
+  # 允许的格式：
+  # - [[../../../archive/category/file.md]]
+  # - [[../../../archive/category/file.md|显示名称]]
+  # - [[../../../../archive/category/file.md]] （多层子目录）
+done
+```
+
+**检查规则**：
+1. **有 source 属性的页面**，内容中必须包含对应的归档文档双链
+2. **双链路径必须与 source 路径一致**（相对路径计算正确）
+3. **允许使用显示名称**：`[[路径|显示名]]` 格式
+4. **双链位置灵活**：可以在页面开头、末尾或"原始文档"章节中
+
+**常见失败模式**：
+- ❌ 有 source 属性但内容中完全没有双链
+- ❌ 双链路径不正确（如缺少 `../` 层级）
+- ❌ 双链指向错误的文件
+- ❌ 使用外部链接而非双链（如 `[文本](路径)`）
+
+**示例对比**：
+
+✅ **正确**：
+```markdown
+---
+source: ../../../archive/guides/obsidian-workflow.md
+---
+
+## 原始文档
+
+本页面基于 [[../../../archive/guides/obsidian-workflow.md|原始文档]] 创建
+```
+
+❌ **错误 1：缺少双链**：
+```markdown
+---
+source: ../../../archive/guides/obsidian-workflow.md
+---
+
+# 页面内容
+
+（没有任何指向归档文档的双链）
+```
+
+❌ **错误 2：路径错误**：
+```markdown
+---
+source: ../../../archive/guides/obsidian-workflow.md
+---
+
+本页面基于 [[archive/guides/obsidian-workflow.md]] 创建
+# 缺少 ../ 前缀，路径错误
+```
+
 ## Common Mistakes
 
-| 错误 | 正确做法 |
-|------|----------|
-| 跳过 source 检查 | source 必须指向 archive/ 中文件 |
-| 忽略交叉引用问题 | [[链接]] 必须对应存在页面 |
-| 不记录问题清单 | 生成报告便于追踪修复 |
+| 错误 | 正确做法 | 优先级 |
+|------|----------|--------|
+| 跳过 source 检查 | source 必须指向 archive/ 中文件 | 🔴 High |
+| 忽略交叉引用问题 | [[链接]] 必须对应存在页面 | 🔴 High |
+| **有 source 但无内容双链** | **在内容中添加 `[[路径\|显示名]]`** | **🟡 Medium** |
+| **双链路径计算错误** | **使用正确的相对路径 `../`** | **🟡 Medium** |
+| 不记录问题清单 | 生成报告便于追踪修复 | 🟢 Low |
 
 ## Output Format
 
@@ -147,6 +225,8 @@ done
 |------|------|------|
 | 🔴 | file.md | 缺少必需字段 |
 | 🟡 | file.md | [[链接]] 目标不存在 |
+| 🟡 | file.md | 有 source 属性但缺少归档文档双链 | [2026-05-08 新增]
+| 🟡 | file.md | 双链路径与 source 不一致 | [2026-05-08 新增]
 ```
 
 ## Real-World Impact
@@ -154,3 +234,7 @@ done
 - Wiki 质量持续监控
 - 问题早发现早修复
 - 维护成本降低
+- **归档文档双链检查**（2026-05-08 新增）：
+  - 确保用户可以一键追溯到原始文档
+  - 维护 Wiki 与归档文档的双向链接完整性
+  - 提升文档溯源体验和可靠性

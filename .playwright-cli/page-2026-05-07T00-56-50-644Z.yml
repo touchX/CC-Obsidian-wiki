@@ -1,0 +1,588 @@
+- generic [active] [ref=e1]:
+  - link "欢迎进入 首页 - 知乎,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。":
+    - /url: javascript:void(0)
+    - img [ref=e2] [cursor=pointer]
+  - generic [ref=e4]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "知乎" [ref=e8] [cursor=pointer]:
+          - /url: https://www.zhihu.com
+          - img [ref=e9]
+        - generic [ref=e14]:
+          - navigation [ref=e15]:
+            - link "关注" [ref=e16] [cursor=pointer]:
+              - /url: https://www.zhihu.com/follow
+              - generic [ref=e17]: 关注
+            - link "推荐" [ref=e18] [cursor=pointer]:
+              - /url: https://www.zhihu.com/
+              - generic [ref=e19]: 推荐
+            - link "热榜" [ref=e21] [cursor=pointer]:
+              - /url: https://www.zhihu.com/hot
+              - generic [ref=e22]: 热榜
+            - link "专栏" [ref=e23] [cursor=pointer]:
+              - /url: https://www.zhihu.com/column-square
+              - generic [ref=e24]: 专栏
+            - link "圈子 New" [ref=e25] [cursor=pointer]:
+              - /url: https://www.zhihu.com/ring-feeds
+              - generic [ref=e26]:
+                - text: 圈子
+                - generic [ref=e27]: New
+            - link "付费咨询" [ref=e29] [cursor=pointer]:
+              - /url: https://www.zhihu.com/consult
+              - generic [ref=e30]: 付费咨询
+            - link "知学堂" [ref=e31] [cursor=pointer]:
+              - /url: https://www.zhihu.com/education/learning
+              - generic [ref=e32]: 知学堂
+          - search [ref=e34]:
+            - generic [ref=e38]:
+              - combobox "搜索" [ref=e39]
+              - button "搜索" [ref=e40] [cursor=pointer]:
+                - img [ref=e42]
+            - link "直答" [ref=e44] [cursor=pointer]:
+              - /url: https://zhida.zhihu.com/
+              - img [ref=e45]
+              - text: 直答
+            - button "创作" [ref=e50] [cursor=pointer]:
+              - img [ref=e51]
+          - generic [ref=e53]:
+            - button "80条通知" [ref=e55] [cursor=pointer]:
+              - img [ref=e56]
+              - generic [ref=e59]: 消息
+              - generic [ref=e60]: "80"
+            - button "1998条私信" [ref=e62] [cursor=pointer]:
+              - img [ref=e63]
+              - generic [ref=e65]: 私信
+              - generic [ref=e66]: 99+
+            - link "创作中心" [ref=e67] [cursor=pointer]:
+              - /url: https://www.zhihu.com/creator
+              - img [ref=e68]
+              - generic [ref=e70]: 创作中心
+        - button "点击打开郭风翔的主页" [ref=e73] [cursor=pointer]:
+          - img "点击打开郭风翔的主页" [ref=e74]
+    - main [ref=e78]:
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - link [ref=e84] [cursor=pointer]:
+              - /url: https://www.zhihu.com/people/guo-feng-xiang-78
+              - img [ref=e85]
+            - generic [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]: 分享此刻的想法...
+              - generic [ref=e89]:
+                - generic [ref=e90]:
+                  - button [ref=e91] [cursor=pointer]:
+                    - img [ref=e92]
+                  - button [ref=e94] [cursor=pointer]:
+                    - img [ref=e95]
+                  - button [ref=e98] [cursor=pointer]:
+                    - img [ref=e99]
+                  - button [ref=e102] [cursor=pointer]:
+                    - img [ref=e103]
+                  - button [ref=e106] [cursor=pointer]:
+                    - img [ref=e107]
+                - generic [ref=e109]:
+                  - generic [ref=e110] [cursor=pointer]:
+                    - generic [ref=e111]: 同步到圈子
+                    - img [ref=e112]
+                  - button "发想法" [ref=e114] [cursor=pointer]
+          - generic [ref=e115]:
+            - generic [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
+              - text: 提问题
+            - generic [ref=e118] [cursor=pointer]:
+              - img [ref=e119]
+              - text: 写回答
+            - generic [ref=e120] [cursor=pointer]:
+              - img [ref=e121]
+              - text: 写文章
+            - generic [ref=e122] [cursor=pointer]:
+              - img [ref=e123]
+              - text: 发视频
+        - generic [ref=e149]:
+          - generic "边栏锚点"
+          - generic [ref=e150]:
+            - complementary "创作中心卡片" [ref=e152]:
+              - generic [ref=e153]:
+                - img [ref=e154]
+                - generic [ref=e158]:
+                  - text: 创作中心
+                  - link "Lv3" [ref=e159] [cursor=pointer]:
+                    - /url: /creator/account/growth-level
+                    - generic [ref=e160]: Lv3
+                - link "草稿箱(2)" [ref=e161] [cursor=pointer]:
+                  - /url: /creator/manage/creation/draft?type=answer
+                  - generic [ref=e162]:
+                    - text: 草稿箱
+                    - generic [ref=e163]: (2)
+              - generic [ref=e164]:
+                - generic [ref=e170]:
+                  - link "知乎黑客松活动-投放「投放计划」" [ref=e171] [cursor=pointer]:
+                    - /url: https://zhuanlan.zhihu.com/p/2030719281256555777?ResourceType=12&bidId=11713270&planId=11710195
+                  - link "今日阅读 (播放) 数 0 今日新增赞同数 0" [ref=e172] [cursor=pointer]:
+                    - /url: /creator/analytics/work/all
+                    - generic [ref=e173]:
+                      - generic [ref=e174]:
+                        - generic [ref=e175]:
+                          - text: 今日阅读 (播放) 数
+                          - img [ref=e179]
+                        - generic [ref=e181]: "0"
+                      - generic [ref=e182]:
+                        - generic [ref=e183]:
+                          - text: 今日新增赞同数
+                          - img [ref=e187]
+                        - generic [ref=e189]: "0"
+                  - link "送给妈妈的礼物-投放「投放计划」" [ref=e190] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/topic/23524355/hot?ResourceType=12&bidId=11713331&planId=11710259
+                  - link "今日阅读 (播放) 数 0 今日新增赞同数 0" [ref=e191] [cursor=pointer]:
+                    - /url: /creator/analytics/work/all
+                    - generic [ref=e192]:
+                      - generic [ref=e193]:
+                        - generic [ref=e194]:
+                          - text: 今日阅读 (播放) 数
+                          - img [ref=e198]
+                        - generic [ref=e200]: "0"
+                      - generic [ref=e201]:
+                        - generic [ref=e202]:
+                          - text: 今日新增赞同数
+                          - img [ref=e206]
+                        - generic [ref=e208]: "0"
+                  - link "妈妈的Metime-投放「投放计划」" [ref=e209] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/topic/2035312640071823559/hot?ResourceType=12&bidId=11713322&planId=11710257
+                  - link "今日阅读 (播放) 数 0 今日新增赞同数 0" [ref=e210] [cursor=pointer]:
+                    - /url: /creator/analytics/work/all
+                    - generic [ref=e211]:
+                      - generic [ref=e212]:
+                        - generic [ref=e213]:
+                          - text: 今日阅读 (播放) 数
+                          - img [ref=e217]
+                        - generic [ref=e219]: "0"
+                      - generic [ref=e220]:
+                        - generic [ref=e221]:
+                          - text: 今日新增赞同数
+                          - img [ref=e225]
+                        - generic [ref=e227]: "0"
+                  - link "想法5期创中投放-投放「投放计划」" [ref=e228] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/parker/campaign/2025961523764377175?ResourceType=12&bidId=11713287&planId=11710246&zh_hide_nav_bar=true
+                  - link "今日阅读 (播放) 数 0 今日新增赞同数 0" [ref=e229] [cursor=pointer]:
+                    - /url: /creator/analytics/work/all
+                    - generic [ref=e230]:
+                      - generic [ref=e231]:
+                        - generic [ref=e232]:
+                          - text: 今日阅读 (播放) 数
+                          - img [ref=e236]
+                        - generic [ref=e238]: "0"
+                      - generic [ref=e239]:
+                        - generic [ref=e240]:
+                          - text: 今日新增赞同数
+                          - img [ref=e244]
+                        - generic [ref=e246]: "0"
+                  - link "跟着人文去旅行-投放「投放计划」" [ref=e247] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/topic/2032578687531317071/hot?ResourceType=12&bidId=11713273&planId=11710230
+                  - link "今日阅读 (播放) 数 0 今日新增赞同数 0" [ref=e248] [cursor=pointer]:
+                    - /url: /creator/analytics/work/all
+                    - generic [ref=e249]:
+                      - generic [ref=e250]:
+                        - generic [ref=e251]:
+                          - text: 今日阅读 (播放) 数
+                          - img [ref=e255]
+                        - generic [ref=e257]: "0"
+                      - generic [ref=e258]:
+                        - generic [ref=e259]:
+                          - text: 今日新增赞同数
+                          - img [ref=e263]
+                        - generic [ref=e265]: "0"
+                  - link "知乎黑客松活动-投放「投放计划」" [ref=e266] [cursor=pointer]:
+                    - /url: https://zhuanlan.zhihu.com/p/2030719281256555777?ResourceType=12&bidId=11713270&planId=11710195
+                  - link "今日阅读 (播放) 数 0 今日新增赞同数 0" [ref=e267] [cursor=pointer]:
+                    - /url: /creator/analytics/work/all
+                    - generic [ref=e268]:
+                      - generic [ref=e269]:
+                        - generic [ref=e270]:
+                          - text: 今日阅读 (播放) 数
+                          - img [ref=e274]
+                        - generic [ref=e276]: "0"
+                      - generic [ref=e277]:
+                        - generic [ref=e278]:
+                          - text: 今日新增赞同数
+                          - img [ref=e282]
+                        - generic [ref=e284]: "0"
+                - generic [ref=e285]:
+                  - link "进入创作中心" [ref=e286] [cursor=pointer]:
+                    - /url: /creator
+                    - text: 进入创作中心
+                    - img [ref=e288]
+                  - link "等你来答" [ref=e290] [cursor=pointer]:
+                    - /url: /question/waiting
+                    - text: 等你来答
+                    - img [ref=e292]
+            - generic [ref=e294]:
+              - img
+              - generic [ref=e295]:
+                - img [ref=e296]
+                - generic [ref=e298]: 大家都在搜
+                - button "换一换" [ref=e299] [cursor=pointer]:
+                  - img [ref=e300]
+                  - text: 换一换
+              - generic [ref=e302]:
+                - generic [ref=e303] [cursor=pointer]:
+                  - link "豆包付费版本曝光 366 万" [ref=e305]:
+                    - /url: /search?q=%E8%B1%86%E5%8C%85%E4%BB%98%E8%B4%B9%E7%89%88%E6%9C%AC%E6%9B%9D%E5%85%89&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "豆包付费版本曝光" [ref=e306]
+                    - generic [ref=e307]: 366 万
+                  - generic [ref=e308]: 热
+                - link "四川华蓥瀑布秋千事故致 1 死 349 万" [ref=e311] [cursor=pointer]:
+                  - /url: /search?q=%E5%9B%9B%E5%B7%9D%E5%8D%8E%E8%93%A5%E7%80%91%E5%B8%83%E7%A7%8B%E5%8D%83%E4%BA%8B%E6%95%85%E8%87%B4+1+%E6%AD%BB&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                  - generic "四川华蓥瀑布秋千事故致 1 死" [ref=e312]
+                  - generic [ref=e313]: 349 万
+                - link "林依晨自曝曾被前男友要求退圈 323 万" [ref=e316] [cursor=pointer]:
+                  - /url: /search?q=%E6%9E%97%E4%BE%9D%E6%99%A8%E8%87%AA%E6%9B%9D%E6%9B%BE%E8%A2%AB%E5%89%8D%E7%94%B7%E5%8F%8B%E8%A6%81%E6%B1%82%E9%80%80%E5%9C%88&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                  - generic "林依晨自曝曾被前男友要求退圈" [ref=e317]
+                  - generic [ref=e318]: 323 万
+                - generic [ref=e319] [cursor=pointer]:
+                  - link "浏阳烟花厂爆炸致26死61伤 321 万" [ref=e321]:
+                    - /url: /search?q=%E6%B5%8F%E9%98%B3%E7%83%9F%E8%8A%B1%E5%8E%82%E7%88%86%E7%82%B8%E8%87%B426%E6%AD%BB61%E4%BC%A4&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "浏阳烟花厂爆炸致26死61伤" [ref=e322]
+                    - generic [ref=e323]: 321 万
+                  - generic [ref=e324]: 热
+                - link "央视世界杯版权费被曝谈崩 317 万" [ref=e327] [cursor=pointer]:
+                  - /url: /search?q=%E5%A4%AE%E8%A7%86%E4%B8%96%E7%95%8C%E6%9D%AF%E7%89%88%E6%9D%83%E8%B4%B9%E8%A2%AB%E6%9B%9D%E8%B0%88%E5%B4%A9&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                  - generic "央视世界杯版权费被曝谈崩" [ref=e328]
+                  - generic [ref=e329]: 317 万
+                - link "浏阳所有烟花爆竹生产企业全面停产 316 万" [ref=e332] [cursor=pointer]:
+                  - /url: /search?q=%E6%B5%8F%E9%98%B3%E6%89%80%E6%9C%89%E7%83%9F%E8%8A%B1%E7%88%86%E7%AB%B9%E7%94%9F%E4%BA%A7%E4%BC%81%E4%B8%9A%E5%85%A8%E9%9D%A2%E5%81%9C%E4%BA%A7&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                  - generic "浏阳所有烟花爆竹生产企业全面停产" [ref=e333]
+                  - generic [ref=e334]: 316 万
+                - generic [ref=e335] [cursor=pointer]:
+                  - link "三星家电退出中国市场 311 万" [ref=e337]:
+                    - /url: /search?q=%E4%B8%89%E6%98%9F%E5%AE%B6%E7%94%B5%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "三星家电退出中国市场" [ref=e338]
+                    - generic [ref=e339]: 311 万
+                  - generic [ref=e340]: 热
+                - link "美以袭击伊朗 286 万" [ref=e343] [cursor=pointer]:
+                  - /url: /search?q=%E7%BE%8E%E4%BB%A5%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                  - generic "美以袭击伊朗" [ref=e344]
+                  - generic [ref=e345]: 286 万
+                - link "浏阳一烟花厂发生爆炸 276 万" [ref=e348] [cursor=pointer]:
+                  - /url: /search?q=%E6%B5%8F%E9%98%B3%E4%B8%80%E7%83%9F%E8%8A%B1%E5%8E%82%E5%8F%91%E7%94%9F%E7%88%86%E7%82%B8&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                  - generic "浏阳一烟花厂发生爆炸" [ref=e349]
+                  - generic [ref=e350]: 276 万
+                - link "同济大学通报教师论文造假事件 272 万" [ref=e353] [cursor=pointer]:
+                  - /url: /search?q=%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E9%80%9A%E6%8A%A5%E6%95%99%E5%B8%88%E8%AE%BA%E6%96%87%E9%80%A0%E5%81%87%E4%BA%8B%E4%BB%B6&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                  - generic "同济大学通报教师论文造假事件" [ref=e354]
+                  - generic [ref=e355]: 272 万
+            - generic [ref=e357]:
+              - generic [ref=e358]:
+                - img [ref=e359]
+                - generic [ref=e361]: 盐言作者平台
+              - generic [ref=e362] [cursor=pointer]:
+                - generic [ref=e363]:
+                  - generic [ref=e364]: 写好故事，赚高收益！
+                  - generic [ref=e365]: 已有100万+作者入驻
+                - img [ref=e366]
+              - generic [ref=e367] [cursor=pointer]:
+                - text: 去投稿
+                - img [ref=e369]
+            - generic [ref=e371]:
+              - generic [ref=e372]:
+                - img [ref=e373]
+                - text: 推荐关注
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - generic [ref=e377]:
+                    - generic [ref=e379]:
+                      - link "pythonic生物人" [ref=e381] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/mo-cun-34-45
+                        - img "pythonic生物人" [ref=e382]
+                      - generic [ref=e383]:
+                        - link "pythonic生物人" [ref=e386] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/mo-cun-34-45
+                        - generic [ref=e389]: 你关注的「数据与AI爱好者」也关注了 TA
+                    - button "关注" [ref=e390] [cursor=pointer]:
+                      - img [ref=e392]
+                      - text: 关注
+                  - generic [ref=e394]:
+                    - generic [ref=e396]:
+                      - link "KK 小小" [ref=e398] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/kk--13-3
+                        - img "KK 小小" [ref=e399]
+                      - generic [ref=e400]:
+                        - link "KK 小小" [ref=e403] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/kk--13-3
+                        - generic [ref=e406]: 「历史」领域答主
+                    - button "关注" [ref=e407] [cursor=pointer]:
+                      - img [ref=e409]
+                      - text: 关注
+                  - generic [ref=e411]:
+                    - generic [ref=e413]:
+                      - link "公务猿先生" [ref=e415] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/lun-wen-zhuan-jia-27018168
+                        - img "公务猿先生" [ref=e416]
+                      - generic [ref=e417]:
+                        - link "公务猿先生" [ref=e420] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/lun-wen-zhuan-jia-27018168
+                        - generic [ref=e423]: 你看过 TA
+                    - button "关注" [ref=e424] [cursor=pointer]:
+                      - img [ref=e426]
+                      - text: 关注
+                  - generic [ref=e428]:
+                    - generic [ref=e430]:
+                      - link "小陈" [ref=e432] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/chen-yun-fei-14-82
+                        - img "小陈" [ref=e433]
+                      - generic [ref=e434]:
+                        - link "小陈" [ref=e437] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/chen-yun-fei-14-82
+                        - generic [ref=e440]: 「历史」领域答主
+                    - button "关注" [ref=e441] [cursor=pointer]:
+                      - img [ref=e443]
+                      - text: 关注
+                - generic [ref=e445]:
+                  - generic [ref=e446]:
+                    - generic [ref=e448]:
+                      - link "小小将" [ref=e450] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/xiaohuzc
+                        - img "小小将" [ref=e451]
+                      - generic [ref=e452]:
+                        - generic [ref=e454]:
+                          - link "小小将" [ref=e455] [cursor=pointer]:
+                            - /url: //www.zhihu.com/people/xiaohuzc
+                          - link "新知答主" [ref=e456] [cursor=pointer]:
+                            - /url: https://www.zhihu.com/question/510340037
+                            - img [ref=e458]
+                        - generic [ref=e465]: 关注 「数据与AI爱好者」 的人也关注了 TA
+                    - button "关注" [ref=e466] [cursor=pointer]:
+                      - img [ref=e468]
+                      - text: 关注
+                  - generic [ref=e470]:
+                    - generic [ref=e472]:
+                      - link "我爱计算机视觉" [ref=e474] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/52cv
+                        - img "我爱计算机视觉" [ref=e475]
+                      - generic [ref=e476]:
+                        - generic [ref=e478]:
+                          - link "我爱计算机视觉" [ref=e479] [cursor=pointer]:
+                            - /url: //www.zhihu.com/people/52cv
+                          - link "南京理工大学 模式识别与智能系统硕士" [ref=e480] [cursor=pointer]:
+                            - /url: https://www.zhihu.com/question/48510028
+                            - img [ref=e482]
+                        - generic [ref=e488]: 你关注的「大模型爱好者社区」也关注了 TA
+                    - button "关注" [ref=e489] [cursor=pointer]:
+                      - img [ref=e491]
+                      - text: 关注
+                  - generic [ref=e493]:
+                    - generic [ref=e495]:
+                      - link "屋大维" [ref=e497] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/you-ming-da-zu
+                        - img "屋大维" [ref=e498]
+                      - generic [ref=e499]:
+                        - link "屋大维" [ref=e502] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/you-ming-da-zu
+                        - generic [ref=e505]: 「历史」领域答主
+                    - button "关注" [ref=e506] [cursor=pointer]:
+                      - img [ref=e508]
+                      - text: 关注
+                  - generic [ref=e510]:
+                    - generic [ref=e512]:
+                      - link "Michael" [ref=e514] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/michael-62-37
+                        - img "Michael" [ref=e515]
+                      - generic [ref=e516]:
+                        - link "Michael" [ref=e519] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/michael-62-37
+                        - generic [ref=e522]: 关注 「数据与AI爱好者」 的人也关注了 TA
+                    - button "关注" [ref=e523] [cursor=pointer]:
+                      - img [ref=e525]
+                      - text: 关注
+                - generic [ref=e527]:
+                  - generic [ref=e528]:
+                    - generic [ref=e530]:
+                      - link "SunLau" [ref=e532] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/sunlau
+                        - img "SunLau" [ref=e533]
+                      - generic [ref=e534]:
+                        - generic [ref=e536]:
+                          - link "SunLau" [ref=e537] [cursor=pointer]:
+                            - /url: //www.zhihu.com/people/sunlau
+                          - link "新知答主" [ref=e538] [cursor=pointer]:
+                            - /url: https://www.zhihu.com/question/510340037
+                            - img [ref=e540]
+                        - generic [ref=e546]: 关注 「欲三更」 的人也关注了 TA
+                    - button "关注" [ref=e547] [cursor=pointer]:
+                      - img [ref=e549]
+                      - text: 关注
+                  - generic [ref=e551]:
+                    - generic [ref=e553]:
+                      - link "曾经年少" [ref=e555] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/xiong-bang-wen-77
+                        - img "曾经年少" [ref=e556]
+                      - generic [ref=e557]:
+                        - link "曾经年少" [ref=e560] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/xiong-bang-wen-77
+                        - generic [ref=e563]: 「历史」领域答主
+                    - button "关注" [ref=e564] [cursor=pointer]:
+                      - img [ref=e566]
+                      - text: 关注
+                  - generic [ref=e568]:
+                    - generic [ref=e570]:
+                      - link "hong zuo" [ref=e572] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/hong-zuo-41
+                        - img "hong zuo" [ref=e573]
+                      - generic [ref=e574]:
+                        - link "hong zuo" [ref=e577] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/hong-zuo-41
+                        - generic [ref=e580]: 「军事」领域答主
+                    - button "关注" [ref=e581] [cursor=pointer]:
+                      - img [ref=e583]
+                      - text: 关注
+                  - generic [ref=e585]:
+                    - generic [ref=e587]:
+                      - link "洛天Official" [ref=e589] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/luo-tian-12-71
+                        - img "洛天Official" [ref=e590]
+                      - generic [ref=e591]:
+                        - link "洛天Official" [ref=e594] [cursor=pointer]:
+                          - /url: //www.zhihu.com/people/luo-tian-12-71
+                        - generic [ref=e597]: 你可能感兴趣
+                    - button "关注" [ref=e598] [cursor=pointer]:
+                      - img [ref=e600]
+                      - text: 关注
+              - generic [ref=e602]:
+                - img [ref=e603] [cursor=pointer]
+                - generic [ref=e605] [cursor=pointer]: "1"
+                - generic [ref=e606] [cursor=pointer]: "2"
+                - generic [ref=e607] [cursor=pointer]: "3"
+                - img [ref=e608] [cursor=pointer]
+            - link [ref=e611] [cursor=pointer]:
+              - /url: https://sugar.zhihu.com/glory_adreaper/glory_log?lr=1&ct=2&zr=0&ts=1778115408&bi=1216&cty=unknow&coi=0&ut=64aafc915f5640ec97a1c2dffe3cd854&src=brand&cc=440300&ed=CjEEKVQqOStoVjtaCGJ5UQ18DikVIm1yfghmUARpYVFTfFxnXCY7dS0dNlRVM35STSRDdwl2YnFoRDsDDGF-B1JxCGxIKmdxeBxlUxczJQ1acA9-DHp8ITsYY18DdiBFVncBeQt1YnloVTsDDH19sOp9a-y5CDM%3D&ui=103.191.243.244&tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVhwQBgccTgoWAw8WFghWBRoXBkQJBxwDDRIWB1gfCB8BXrKg32tezLk%3D&pf=Windows&ar=0.0000
+              - img [ref=e613]
+            - generic [ref=e614]:
+              - link "广告" [ref=e615] [cursor=pointer]:
+                - /url: https://www.zhihu.com/fiore/creator/long-marathon-five?spu=biz%3D0%26ci%3D3714800%26si%3D2a74b683-8cd3-4a68-ad6e-b22c17be46a6%26ts%3D1778115408%26zid%3D1
+                - img "广告" [ref=e617]
+              - img [ref=e619]
+            - complementary "更多分类入口" [ref=e621]:
+              - list [ref=e622]:
+                - listitem [ref=e623]:
+                  - link "我的收藏 0" [ref=e624] [cursor=pointer]:
+                    - /url: /collections/mine
+                    - img [ref=e625]
+                    - generic [ref=e627]: 我的收藏
+                    - generic [ref=e628]: "0"
+                - listitem [ref=e629]:
+                  - link "我关注的问题 249" [ref=e630] [cursor=pointer]:
+                    - /url: /people/guo-feng-xiang-78/following/questions
+                    - img [ref=e631]
+                    - generic [ref=e633]: 我关注的问题
+                    - generic [ref=e634]: "249"
+                - listitem [ref=e635]:
+                  - link "我的邀请" [ref=e636] [cursor=pointer]:
+                    - /url: /creator/featured-question/invited
+                    - img [ref=e637]
+                    - generic [ref=e639]: 我的邀请
+                - listitem [ref=e640]:
+                  - link "我的余额" [ref=e641] [cursor=pointer]:
+                    - /url: /balance
+                    - img [ref=e642]
+                    - generic [ref=e644]: 我的余额
+                - listitem [ref=e645]:
+                  - link "我的礼券" [ref=e646] [cursor=pointer]:
+                    - /url: /coupon
+                    - img [ref=e647]
+                    - generic [ref=e649]: 我的礼券
+                - listitem [ref=e650]:
+                  - link "我的举报" [ref=e651] [cursor=pointer]:
+                    - /url: /community?source=zhihu_default
+                    - img [ref=e652]
+                    - generic [ref=e654]: 我的举报
+                - listitem [ref=e655]:
+                  - link "违规诊断" [ref=e656] [cursor=pointer]:
+                    - /url: /community/reported
+                    - img [ref=e657]
+                    - generic [ref=e659]: 违规诊断
+                - listitem [ref=e660]:
+                  - link "帮助与客服" [ref=e661] [cursor=pointer]:
+                    - /url: /help-center
+                    - img [ref=e662]
+                    - generic [ref=e664]: 帮助与客服
+                - listitem [ref=e665]:
+                  - link "版权服务中心" [ref=e666] [cursor=pointer]:
+                    - /url: /copyright
+                    - img [ref=e667]
+                    - generic [ref=e669]: 版权服务中心
+            - generic [ref=e670]:
+              - link "广告" [ref=e671] [cursor=pointer]:
+                - /url: https://zhuanlan.zhihu.com/p/2030719281256555777?spu=biz%3D0%26ci%3D3711665%26si%3Dd8c64cab-2d96-4ac1-8f88-e75d5f98bc15%26ts%3D1778115409%26zid%3D2
+                - img "广告" [ref=e673]
+              - img [ref=e675]
+            - contentinfo [ref=e677]:
+              - generic [ref=e678]:
+                - generic [ref=e679]:
+                  - img [ref=e680]
+                  - generic [ref=e682]: 帮助中心
+                - generic [ref=e683]:
+                  - link "知乎个人信息保护指引" [ref=e684] [cursor=pointer]:
+                    - /url: /term/privacy
+                  - button "申请开通机构号" [ref=e685] [cursor=pointer]
+                  - link "联系我们" [ref=e686] [cursor=pointer]:
+                    - /url: /contact
+              - generic [ref=e687]:
+                - generic [ref=e688]:
+                  - img [ref=e689]
+                  - generic [ref=e691]: 举报中心
+                - generic [ref=e692]:
+                  - link "涉未成年举报" [ref=e693] [cursor=pointer]:
+                    - /url: /term/child-jubao
+                  - link "网络谣言举报" [ref=e694] [cursor=pointer]:
+                    - /url: /term/net-report
+                  - link "涉企侵权举报" [ref=e695] [cursor=pointer]:
+                    - /url: /term/enterprise-fake-info
+                  - button "更多" [ref=e696] [cursor=pointer]
+              - generic [ref=e697]:
+                - generic [ref=e698]:
+                  - img [ref=e699]
+                  - generic [ref=e701]: 关于知乎
+                - generic [ref=e702]:
+                  - link "下载知乎" [ref=e703] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/app/
+                  - link "Investor Relations" [ref=e704] [cursor=pointer]:
+                    - /url: https://ir.zhihu.com
+                  - link "知乎协议" [ref=e705] [cursor=pointer]:
+                    - /url: /term/zhihu-terms
+                  - button "更多" [ref=e706] [cursor=pointer]
+              - listitem [ref=e707]
+              - generic [ref=e708]:
+                - link "京ICP证110745号" [ref=e709] [cursor=pointer]:
+                  - /url: https://tsm.miit.gov.cn/dxxzsp/
+                - text: ·
+                - link "京ICP备13052560号-1" [ref=e710] [cursor=pointer]:
+                  - /url: https://beian.miit.gov.cn/
+                - text: ·
+                - link "京公网安备 11010802020088 号" [ref=e711] [cursor=pointer]:
+                  - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020088
+                - text: ·
+                - link "互联网新闻信息服务许可证：11220250001" [ref=e712] [cursor=pointer]:
+                  - /url: https://www.zhihu.com/certificates
+                - text: ·
+                - link "京网文[2025]0422-132 号" [ref=e713] [cursor=pointer]:
+                  - /url: https://www.zhihu.com/certificates
+                - text: ·
+                - link "药品医疗器械网络信息服务备案（京）网药械信息备字（2022）第00334号" [ref=e714] [cursor=pointer]:
+                  - /url: https://picx.zhimg.com/80/v2-7475facab3f2d2eda6faddaca4901d20_720w.png
+                - text: ·
+                - link "广播电视节目制作经营许可证:（京）字第06591号" [ref=e715] [cursor=pointer]:
+                  - /url: https://www.zhihu.com/certificates
+                - text: ·
+                - link "互联网宗教信息服务许可证：京（2022）0000078" [ref=e716] [cursor=pointer]:
+                  - /url: https://www.zhihu.com/certificates
+                - text: · 服务热线：400-919-0001 ·
+                - generic [ref=e717]: © 2026 知乎
+                - text: 北京智者天下科技有限公司版权所有 · 违法和不良信息举报：010-82716601 ·
+                - link "举报邮箱：jubao@zhihu.com" [ref=e718] [cursor=pointer]:
+                  - /url: mailto:jubao@zhihu.com
+              - img "本站提供适老化无障碍服务" [ref=e720]
+    - complementary:
+      - button "回到顶部" [ref=e721] [cursor=pointer]:
+        - img [ref=e722]
+  - generic [ref=e727] [cursor=pointer]:
+    - combobox [ref=e728]
+    - img [ref=e729]

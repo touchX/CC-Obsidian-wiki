@@ -1,25 +1,26 @@
 ---
 name: mattpocock-skills
-description: Matt Pocock 的 Claude Code Skills 合集 — 工程实用主义技能包
+description: Skills for Real Engineers - Matt Pocock 的实用技能集合，帮助构建真实工程应用而非 vibe coding
 type: source
-tags: [github, shell, claude-code, skills, productivity, engineering]
-created: 2026-05-02
-updated: 2026-05-02
-source: ../../../archive/resources/github/mattpocock-skills-2026-05-02.json
-stars: 52980
-forks: 4454
+tags: [github, shell, claude-code, agent, skills, engineering, productivity, tdd]
+created: 2026-05-08
+updated: 2026-05-08
+source: ../../../archive/resources/github/mattpocock-skills-2026-05-08.json
 language: Shell
 license: MIT
 github_url: https://github.com/mattpocock/skills
+online_docs: https://skills.sh/mattpocock/skills
+stats: ⭐64,836 | 🍴5,584 | 📬60K 订阅者
 ---
 
 # Matt Pocock Skills — 工程实用主义技能包
 
 > [!info] 项目信息
-> - **星标数**: 52,980
-> - **Fork 数**: 4,454
+> - **星标数**: 64,836 🔥
+> - **Fork 数**: 5,584
 > - **语言**: Shell
 > - **许可证**: MIT
+> - **订阅者**: ~60,000
 > - **定位**: 为真实工程师设计的 Agent Skills，直接来自 Matt Pocock 的 `.claude` 目录
 
 ## 核心理念

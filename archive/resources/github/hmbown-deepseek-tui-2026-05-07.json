@@ -1,0 +1,46 @@
+{
+  "name": "DeepSeek-TUI",
+  "full_name": "Hmbown/DeepSeek-TUI",
+  "description": "Coding agent for DeepSeek models that runs in your terminal",
+  "language": "Rust",
+  "license": "MIT",
+  "homepage": "",
+  "documentation": "",
+  "topics": ["cli", "deepseek", "llm", "rust", "terminal", "tui"],
+  "key_features": [
+    "Auto mode — chooses both model and thinking level per turn",
+    "Thinking-mode streaming — see DeepSeek reasoning blocks",
+    "Full tool suite — file ops, shell, git, web, MCP, sub-agents",
+    "1M-token context with compaction",
+    "Three modes — Plan (read-only), Agent (approval), YOLO (auto-approved)",
+    "Session save/resume and workspace rollback",
+    "Durable task queue surviving restarts",
+    "HTTP/SSE runtime API for headless workflows",
+    "MCP protocol support",
+    "LSP diagnostics (rust-analyzer, pyright, typescript-language-server)",
+    "Skills system — installable instruction packs from GitHub"
+  ],
+  "use_cases": [
+    "Terminal-based coding agent for DeepSeek V4",
+    "Auto mode for adaptive model selection",
+    "File editing with approval gates",
+    "Sub-agent coordination",
+    "MCP server integration"
+  ],
+  "installation": {
+    "npm": "npm install -g deepseek-tui",
+    "cargo": "cargo install deepseek-tui-cli --locked && cargo install deepseek-tui --locked",
+    "homebrew": "brew tap Hmbown/deepseek-tui && brew install deepseek-tui",
+    "prebuilt": "https://github.com/Hmbown/DeepSeek-TUI/releases"
+  },
+  "quick_start": {
+    "install": "npm install -g deepseek-tui",
+    "auth": "deepseek auth set --provider deepseek",
+    "version": "deepseek --version",
+    "run": "deepseek --model auto"
+  },
+  "acknowledgments": [],
+  "type": "cli-tool",
+  "created_at": "2026-01-19T18:21:01Z",
+  "updated_at": "2026-05-07T07:18:25Z"
+}

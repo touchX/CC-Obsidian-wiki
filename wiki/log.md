@@ -4,13 +4,80 @@ description: Wiki 操作历史记录 - 所有变更的追加式日志
 type: reference
 tags: [wiki, log, history, changelog, operations]
 created: 2026-04-23
-updated: 2026-05-07
+updated: 2026-05-08
 source: ../../archive/wiki-log/
 ---
 
 # Wiki Log
 
 > 维基操作历史 - 追加式记录
+
+## 2026-05-08
+
+- 创建了 [[resources/github-repos/D4Vinci-Scrapling]]
+  - Stars: 48,198 | Language: Python | BSD-3-Clause
+  - 自适应 Web 爬虫框架 — 从单次请求到全规模爬取
+  - 性能超越大多数 Python 爬虫库（Scrapy 的 2.02x，PyQuery 的 12x）
+  - 内置 MCP Server，支持 AI 辅助 Web 爬取
+- 创建了 [[resources/github-repos/kingToolbox-WindTerm]]
+  - Stars: 30,870 | Language: C | Apache-2.0（部分开源）
+  - 专业跨平台 SSH/Sftp/Shell/Telnet/Tmux/Serial 终端工具
+  - 性能基准测试：比 PuTTY 快 10 倍，内存占用低 80-90%
+  - 支持 1000 万行无限制回溯（其他终端 OOM）
+- 创建了 [[resources/github-repos/KKKKhazix-khazix-skills]]
+  - Stars: 8,680 | Language: Python | MIT
+  - 数字生命卡兹克开源的 AI Skills 合集
+  - 4 个实用 Skills：neat-freak、hv-analysis、khazix-writer、aihot
+  - 1 个 Prompt：横纵分析法轻量版
+- 更新了 [[resources/github-repos/tauricresearch-tradingagents]]
+  - 新 Stars: 71,330 (原 68,182) | Forks: 13,822
+- 创建了 [[resources/github-repos/Alishahryar1-free-claude-code]]
+  - Stars: 22,498 🔥 | Forks: 3,250 | Language: Python | License: MIT
+  - 免费 Claude Code 代理，支持 6 种 AI 提供商（NVIDIA NIM、OpenRouter、DeepSeek、LM Studio、llama.cpp、Ollama）
+  - 支持模型路由（Opus/Sonnet/Haiku 分层）、Discord/Telegram 机器人、语音笔记
+  - 技术栈：FastAPI + uv + Ty + Ruff + Loguru
+- 创建了 [[resources/github-repos/abhigyanpatwari-GitNexus]]
+  - Stars: 36,865 | Language: TypeScript | PolyForm Noncommercial
+  - 零服务器代码智能引擎，为 AI Agent 构建代码库知识图谱
+  - 支持 14+ 编程语言，MCP 集成
+- 更新了 [[resources/github-repos/forrestchang-andrej-karpathy-skills]]
+  - 新 Stars: 119,349 (原 95,206) | 新 Forks: 12,030 (原 9,224)
+- 创建了 [[resources/github-repos/iOfficeAI-OfficeCLI]]
+  - Stars: 3,185 | Language: C# | Apache-2.0
+  - 全球首款为 AI Agent 设计的 Office 套件
+  - 支持 Word/Excel/PowerPoint，内置渲染引擎和 MCP Server
+- 更新了 [[resources/github-repos/mattpocock-skills]]
+  - 新 Stars: 64,836 (原 52,980)
+- 创建了 [[resources/auto-claude-parallel-dev]]
+  - Git Worktrees 并行开发环境
+- 创建了 [[resources/oh-my-claudecode-multi-agent]]
+  - 多 Agent 编排工具
+- 创建了 [[guides/claude-hooks-deep-dive]]
+- 创建了 [[resources/claude-managed-agents]]
+- 创建了 [[resources/tools/windterm]]
+  - WindTerm 终端模拟器使用指南
+  - 来源：知乎专栏（阿拉平平）
+  - 与 [[../github-repos/kingToolbox-WindTerm|GitHub 仓库]] 建立关联
+- 创建了 [[synthesis/agent-skills-trend-2026]]
+  - Agent Skills 屠榜现象深度分析
+  - 一周 10 万星背后的知识编码范式
+  - 来源：知乎专栏（硅基新智讯）
+- 创建了 [[guides/open-cli-browser-automation]]
+  - OpenCLI 浏览器自动化新范式
+  - 从 GUI 操作到底层 API 调用
+  - 五级认证策略 + AI Agent 探索工作流
+  - 来源：知乎专栏
+- 创建了 [[resources/aihot]]
+  - AIHOT AI 热点监控网站介绍
+  - Agent 接入（Skill/RSS/API）三种方式
+  - 来源：知乎专栏（virxact）
+  - Claude 托管代理服务官方介绍
+  - 10倍速度构建和部署生产级代理
+  - 客户案例：Notion、Rakuten、Asana、Vibecode、Sentry
+  - 来源：Anthropic Claude Blog
+  - Hooks 深度解析（8 种事件、匹配器）
+- 创建了 [[resources/claude-code-skills-guide]]
+  - Skills 完全指南（2026 最新版）
 
 ## [2026-05-07] Agent Skills GitHub 仓库收集
 
@@ -650,3 +717,75 @@ source: ../../archive/wiki-log/
 
 来源：https://github.com/Hmbown/DeepSeek-TUI
 归档：archive/resources/github/hmbown-deepseek-tui-2026-05-07.json
+
+## [2026-05-08] Skill 文档摄取
+
+- 创建了 [[guides/self-improving-agent-skill]] — Self-Improving Agent（从技能经验中学习的自我进化系统）
+  - 仓库：charon-fan/agent-playbook | ⭐51 | 📥27.1K 安装
+  - 完整文档：
+    - 多记忆系统：语义记忆（模式/规则）、情景记忆（经验）、工作记忆（会话数据）
+    - 自动触发机制：before_start、after_complete、on_error
+    - 进化优先级矩阵：prd-planner、architecting-solutions、api-designer、debugger、code-reviewer 等
+    - 自我改进四阶段流程：经验提取 → 模式抽象 → 技能更新 → 记忆整合
+    - 自我修正机制：错误检测 → 验证根因 → 应用修正 → 验证修复
+    - 研究基础：SimpleMem、Multi-Memory Survey、Lifelong Learning、Evo-Memory
+  - 归档：archive/resources/skills/self-improving-agent-2026-05-08.json
+
+来源：https://skills.sh/charon-fan/agent-playbook/self-improving-agent
+归档：archive/resources/skills/self-improving-agent-2026-05-08.json
+
+## [2026-05-08] GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/zhaono1-agent-playbook]] — Agent Playbook（AI Agent 实用指南和技能集合）
+  - Stars: 51 | Forks: 8
+  - Language: JavaScript
+  - 完整文档：
+    - 25+ 可复用技能：Meta Skills（skill-router, create-pr, session-logger, workflow-orchestrator, self-improving-agent）、核心开发、文档测试、架构运维、规划设计、创意设计
+    - 自动触发机制：auto/background/ask_first 三种模式
+    - 安装方式：一键安装器（pnpm/npm）、符号链接、复制、项目级安装
+    - 平台支持：Claude Code（Full）、Codex（Partial）、Gemini
+    - AI Agent 学习路径（5 级，从 Prompt 工程到自我进化）
+    - 工作流示例：PRD → 审查 → 实施 → 审查 → 反馈 → 提交
+  - 归档：archive/resources/github/zhaono1-agent-playbook-2026-05-08.json
+
+来源：https://github.com/zhaono1/agent-playbook
+归档：archive/resources/github/zhaono1-agent-playbook-2026-05-08.json
+
+## [2026-05-08] GitHub 仓库更新
+
+- 更新了 [[resources/github-repos/mattpocock-skills]] — Skills for Real Engineers
+  - Stars: 52,980 → 64,836 (+11,856 🔥)
+  - Forks: 4,454 → 5,584 (+1,130)
+  - 新增 prototype 技能
+  - 更新在线文档链接：skills.sh
+  - 归档：archive/resources/github/mattpocock-skills-2026-05-08.json
+
+来源：https://github.com/mattpocock/skills
+归档：archive/resources/github/mattpocock-skills-2026-05-08.json
+
+
+
+## [2026-05-10] GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/lewislulu-html-ppt-skill]]
+  - Stars: 3203
+  - Language: HTML
+  - License: MIT
+  - 包含项目介绍、技术架构、使用案例（详细文档版）
+
+
+
+## [2026-05-10] GitHub 仓库收集
+
+- 创建了 [[resources/github-repos/oraios-serena]]
+  - ⭐ **24029 Stars** | Python | MIT 许可证
+  - **描述**：The IDE for Your Coding Agent - 强大的 MCP 工具包，提供语义代码检索、编辑、重构和调试能力
+  - **核心特性**：
+    - 支持 40+ 编程语言的语义检索
+    - 跨文件重命名、移动、内联等 IDE 级重构
+    - 两种后端：Language Servers (LSP) / JetBrains Plugin
+    - 交互式调试（仅 JetBrains）
+  - **AI 评价**：被 Claude (Opus)、GPT 等多个 AI 模型评为最具影响力的工具
+  - **技术栈**：Python, MCP, LSP, JetBrains Plugin
+  - **文档**：包含项目介绍、技术架构、安装使用、完整案例
+  - **数据归档**：archive/resources/github/oraios-serena-2026-05-10.json

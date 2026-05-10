@@ -5,10 +5,10 @@ type: source
 version: 2.0
 tags: [github, claude-code, claude-md, karpathy, guidelines]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-08
 source: ../../../archive/resources/github/forrestchang-andrej-karpathy-skills-2026-04-28-v2.json
-stars: 95206
-forks: 9224
+stars: 119349
+forks: 12030
 github_url: https://github.com/forrestchang/andrej-karpathy-skills
 platforms: [Claude Code, Cursor]
 ---
@@ -22,8 +22,8 @@ A single `CLAUDE.md` file to improve Claude Code behavior, derived from Andrej K
 | 字段 | 值 |
 |------|-----|
 | 作者 | [forrestchang](https://github.com/forrestchang) |
-| Stars | ![95206](https://img.shields.io/github/stars/forrestchang/andrej-karpathy-skills) |
-| Forks | 9,224 |
+| Stars | ⭐ 119,349 |
+| Forks | 12,030 |
 | 许可证 | MIT |
 | 平台 | Claude Code, Cursor |
 

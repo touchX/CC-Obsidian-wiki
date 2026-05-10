@@ -155,6 +155,33 @@ Claude Code 做了三件聪明的事：
 | 14 | [用户体验设计](./docs/12-user-experience.md) | 自研 Ink 渲染器、Yoga Flexbox 布局、虚拟滚动 |
 | 15 | [最小必要组件](./docs/13-minimal-components.md) | 7 个最小必要组件框架、从 500 行到 50 万行的演进 |
 
+## 📥 本地归档文档
+
+> [!tip] 本项目已收集所有专题文档
+> 以下文档已归档到本项目中，可离线阅读：
+
+| 资源 | 说明 |
+|------|------|
+| [[resources/claude-code-works/index]] | 📚 **专题文档索引** — 15 篇完整列表、分类索引、阅读路线图 |
+| [[resources/claude-code-works/01-overview]] | 第 1 章：概述 — 技术栈、核心设计原则 |
+| [[resources/claude-code-works/02-agent-loop]] | 第 2 章：系统主循环 — Agent 循环架构 |
+| [[resources/claude-code-works/03-context-engineering]] | 第 3 章：上下文工程 — 4 级压缩流水线 |
+| [[resources/claude-code-works/04-tool-system]] | 第 4 章：工具系统 — 66 工具注册 |
+| [[resources/claude-code-works/05-code-editing-strategy]] | 第 5 章：代码编辑策略 |
+| [[resources/claude-code-works/06-hooks-extensibility]] | 第 6 章：Hooks 与可扩展性 |
+| [[resources/claude-code-works/07-multi-agent]] | 第 7 章：多 Agent 架构 |
+| [[resources/claude-code-works/08-memory-system]] | 第 8 章：记忆系统 |
+| [[resources/claude-code-works/09-skills-system]] | 第 9 章：技能系统 |
+| [[resources/claude-code-works/10-plan-mode]] | 第 10 章：Plan 模式 |
+| [[resources/claude-code-works/11-permission-security]] | 第 11 章：权限与安全 |
+| [[resources/claude-code-works/12-user-experience]] | 第 12 章：用户体验设计 |
+| [[resources/claude-code-works/13-minimal-components]] | 第 13 章：最小必要组件 |
+| [[resources/claude-code-works/14-system-prompt-design]] | 第 14 章：系统提示词设计 |
+| [[resources/claude-code-works/15-task-system]] | 第 15 章：任务管理系统 |
+
+> [!info] 归档位置
+> 所有专题文档原始文件位于：`archive/resources/claude-code-works/docs/`
+
 ## 📊 关键数据
 
 | 指标 | 数值 |

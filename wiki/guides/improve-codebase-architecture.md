@@ -1,3 +1,13 @@
+---
+name: improve-codebase-architecture-guide
+description: improve-codebase-architecture Skill 使用指南 - 改进代码库架构，识别设计改进机会
+type: guide
+tags: [skill, architecture, code-quality, claude-code]
+created: 2026-05-05
+updated: 2026-05-05
+source: ../../../archive/plugins/improve-codebase-architecture.md
+---
+
 # improve-codebase-architecture Skill 使用指南
 
 > **目标**：改进代码库架构，识别设计改进机会

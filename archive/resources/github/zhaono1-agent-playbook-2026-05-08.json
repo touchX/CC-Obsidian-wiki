@@ -1,0 +1,37 @@
+{
+  "name": "agent-playbook",
+  "full_name": "zhaono1/agent-playbook",
+  "description": "A collection of practical guides, prompts, and skills for AI Agents (Claude Code)",
+  "language": "JavaScript",
+  "license": null,
+  "homepage": "",
+  "documentation": "",
+  "topics": ["claude-code", "agent", "skills", "workflow", "prompts", "mcp"],
+  "key_features": [
+    "Reusable skills with focused SKILL.md files and deeper references/",
+    "Installation and lifecycle tooling through @codeharbor/agent-playbook",
+    "An MCP server for skill discovery",
+    "Workflow docs for planning, self-improvement, automation, and context design"
+  ],
+  "skills_catalog": {
+    "meta_skills": ["skill-router", "create-pr", "session-logger", "auto-trigger", "workflow-orchestrator", "self-improving-agent"],
+    "core_development": ["commit-helper", "code-reviewer", "debugger", "refactoring-specialist"],
+    "documentation_testing": ["documentation-engineer", "api-documenter", "test-automator", "qa-expert"],
+    "architecture_devops": ["api-designer", "security-auditor", "performance-engineer", "deployment-engineer"],
+    "planning_architecture": ["prd-planner", "prd-implementation-precheck", "architecting-solutions", "planning-with-files", "long-task-coordinator"],
+    "design_creative": ["figma-designer"]
+  },
+  "installation": {
+    "pnpm": "pnpm dlx @codeharbor/agent-playbook init",
+    "npm": "npm exec -- @codeharbor/agent-playbook init",
+    "symlink": "ln -s /path/to/agent-playbook/skills/* ~/.claude/skills/",
+    "copy": "cp -r /path/to/agent-playbook/skills/* ~/.claude/skills/"
+  },
+  "auto_triggers": {
+    "modes": ["auto", "background", "ask_first"],
+    "example": "prd-planner completes → self-improving-agent (background) → create-pr (ask_first)"
+  },
+  "type": "agent-toolkit",
+  "created_at": "2026-01-10T11:38:14Z",
+  "updated_at": "2026-05-06T02:51:38Z"
+}

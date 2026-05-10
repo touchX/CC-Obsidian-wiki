@@ -1,0 +1,14 @@
+{
+  "name": "free-claude-code",
+  "owner": "Alishahryar1",
+  "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+  "stars": 22498,
+  "forks": 3250,
+  "language": "Python",
+  "license": "MIT",
+  "created_at": "2026-01-28T19:02:30Z",
+  "updated_at": "2026-05-08T07:00:54Z",
+  "url": "https://github.com/Alishahryar1/free-claude-code",
+  "topics": [],
+  "collected_at": "2026-05-08"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "page-agent",
+  "full_name": "alibaba/page-agent",
+  "description": "The GUI Agent Living in Your Webpage. Control web interfaces with natural language.",
+  "language": "TypeScript",
+  "license": "MIT",
+  "homepage": "https://alibaba.github.io/page-agent/",
+  "documentation": "https://alibaba.github.io/page-agent/docs/introduction/overview",
+  "demo": "https://alibaba.github.io/page-agent/",
+  "topics": [
+    "gui-agent",
+    "browser-automation",
+    "web-automation",
+    "ai-agent",
+    "natural-language",
+    "llm",
+    "typescript"
+  ],
+  "key_features": [
+    "Easy integration - No browser extension / python / headless browser required",
+    "Text-based DOM manipulation - No screenshots, no multi-modal LLMs",
+    "Bring your own LLMs - Use your preferred language model",
+    "Chrome extension for multi-page tasks",
+    "MCP Server (Beta) for external control"
+  ],
+  "use_cases": [
+    "SaaS AI Copilot - Ship an AI copilot in your product",
+    "Smart Form Filling - Turn 20-click workflows into one sentence",
+    "Accessibility - Make any web app accessible through natural language",
+    "Multi-page Agent - Extend web agent reach across browser tabs",
+    "MCP - Allow agent clients to control your browser"
+  ],
+  "installation": {
+    "npm": "npm install page-agent",
+    "cdn": "https://cdn.jsdelivr.net/npm/page-agent@1.8.1/dist/iife/page-agent.demo.js",
+    "cdn_china": "https://registry.npmmirror.com/page-agent/1.8.1/files/dist/iife/page-agent.demo.js"
+  },
+  "quick_start": {
+    "cdn": "<script src=\"https://cdn.jsdelivr.net/npm/page-agent@1.8.1/dist/iife/page-agent.demo.js\" crossorigin=\"true\"></script>",
+    "npm": "import { PageAgent } from 'page-agent'"
+  },
+  "acknowledgments": [
+    "browser-use - DOM processing components and prompt derived from browser-use by Gregor Zunic"
+  ],
+  "type": "framework",
+  "created_at": "2026-01-01T00:00:00Z",
+  "updated_at": "2026-05-05T00:00:00Z"
+}

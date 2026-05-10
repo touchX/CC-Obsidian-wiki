@@ -1,3 +1,13 @@
+---
+name: summarize-cli-guide
+description: summarize.sh CLI 工具使用指南 - 快速总结 URL、视频、播客、文章和本地文件
+type: guide
+tags: [cli, summarize, tool, firecrawl]
+created: 2026-05-05
+updated: 2026-05-05
+source: ../../../archive/plugins/summarize-cli.md
+---
+
 # summarize.sh CLI 工具使用指南
 
 > **目标**：快速总结 URL、视频、播客、文章和本地文件
