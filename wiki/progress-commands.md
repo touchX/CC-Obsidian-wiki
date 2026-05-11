@@ -1,5 +1,16 @@
+---
+name: progress-commands
+description: Commands 模块学习进度
+type: guide
+module: Commands
+level: L1
+status: not-started
+started_date: 2026-05-02
+updated: 2026-05-02
+tags: [learning-progress, commands]
+---
+
 # Commands 模块教学总结
-name: progress_commands
 
 ## 1. Commands 核心概念
 

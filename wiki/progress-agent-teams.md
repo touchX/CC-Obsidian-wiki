@@ -1,7 +1,7 @@
 ---
-name: progress_agent_teams
 name: progress-agent-teams
 description: Agent Teams 模块学习进度
+type: guide
 module: Agent Teams
 level: L1
 status: not-started

@@ -167,4 +167,4 @@ claude-plugins-official/
 
 - **归档时间**: 2026-04-28
 - **归档来源**: GitHub API
-- **源文件**: [[anthropics-claude-plugins-official-2026-04-28.json]]
+- **源文件**: `../../../archive/resources/github/anthropics-claude-plugins-official-2026-04-28.json`

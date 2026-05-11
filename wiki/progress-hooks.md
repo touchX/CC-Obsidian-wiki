@@ -1,7 +1,7 @@
 ---
-name: progress_hooks
 name: progress-hooks
 description: Hooks 模块学习进度
+type: guide
 module: Hooks
 level: L1
 status: not-started

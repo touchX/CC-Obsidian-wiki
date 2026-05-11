@@ -1,3 +1,12 @@
+---
+name: wiki-log
+description: Wiki 操作日志记录
+type: log
+tags: [wiki, log, history]
+created: 2026-05-05
+updated: 2026-05-05
+---
+
 - 2026-05-05: 收集了 [[HKUDS-CLI-Anything]] — CLI-Anything 框架 (33,429 ⭐)
 
 ## 2026-05-05 Superpowers 技能指南归档

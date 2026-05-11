@@ -294,7 +294,7 @@ def analyze_trajectory(trajectory: list) -> dict:
 
 | MCP 服务器 | 用途 | 资源 |
 |-----------|------|------|
-| [[claude-mcp#context7]] | 获取最新库文档 | Reddit 热门 |
+| [[claude-mcp]] | 获取最新库文档 | Reddit 热门 |
 | Playwright | 浏览器自动化 | 前端测试 |
 | Chrome DevTools | 实时调试 | DOM 监控 |
 | DeepWiki | GitHub 仓库文档 | 架构分析 |
@@ -310,7 +310,6 @@ def analyze_trajectory(trajectory: list) -> dict:
 
 1. **[[tutorials/mcp-basics]]** — MCP 协议基础
 2. **[[tutorials/mcp-advanced]]** — MCP 高级应用
-3. **[[concepts/agentic-ai-design-patterns]]** — 设计模式深入
 
 > [!tip] 学习建议
 > 本课程建议按顺序学习，每个模块都包含理论讲解和代码实现。
@@ -318,6 +317,4 @@ def analyze_trajectory(trajectory: list) -> dict:
 
 ## 相关页面
 
-- [[tutorials/agentic-ai-examples]] — 代码示例
-- [[concepts/multi-agent-systems]] — 多智能体系统概念
-- [[tutorials/google-adk-tutorial]] — Google ADK 教程
+- [[tutorials/mcp-protocol-analysis]] — MCP 协议深入分析

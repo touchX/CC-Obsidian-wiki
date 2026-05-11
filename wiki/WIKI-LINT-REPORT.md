@@ -1,8 +1,9 @@
 # Wiki Lint Report
 
-> 生成时间: 2026-05-10 01:50:01
+> 生成时间: 2026-05-11 22:11:57
 
 ---
+- ⚠️  [[claude-mcp#context7]]: 目标页面不存在
 
 ## 📊 统计概览
 
@@ -21,65 +22,20 @@
 
 | 分类 | 页面数 |
 |------|--------|
-| concepts/ | 14 |
+| concepts/ | 19 |
 | entities/ | 59 |
 | sources/ | 33 |
-| synthesis/ | 12 |
-| guides/ | 65 |
-| tips/ | 13 |
+| synthesis/ | 14 |
+| guides/ | 66 |
+| tips/ | 15 |
 | tutorial/ | 5 |
 | implementation/ | 13 |
 | orchestration-workflow/ | 1 |
-| **总计** | **215** |
+| **总计** | **225** |
 
 ## Frontmatter 检查
 
-- ⚠️  [[implementation/mcp-servers]]: 目标页面不存在
-- ⚠️  [[implementation/subagents-usage-guide|Subagents 使用指南]]: 目标页面不存在
-- ⚠️  [[linshenkx-prompt-optimizer-2026-04-28.json]]: 目标页面不存在
-- ⚠️  [[marketing-analytics]]: 目标页面不存在
-- ⚠️  [[memory-hub-skill]]: 目标页面不存在
-- ⚠️  [[memory-system-overview]]: 目标页面不存在
-- ⚠️  [[patterns/]]: 目标页面不存在
-- ⚠️  [[patterns/agent-harness-design]]: 目标页面不存在
-- ⚠️  [[proton-services]]: 目标页面不存在
-- ⚠️  [[raw/notes/2026-05-02-command-correct-guide]]: 目标页面不存在
-- ⚠️  [[relative/path/to/file.md]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/01-overview]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/02-agent-loop]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/03-context-engineering]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/04-tool-system]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/05-code-editing-strategy]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/06-hooks-extensibility]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/07-multi-agent]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/08-memory-system]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/09-skills-system]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/10-plan-mode]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/11-permission-security]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/12-user-experience]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/13-minimal-components]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/14-system-prompt-design]]: 目标页面不存在
-- ⚠️  [[resources/claude-code-works/15-task-system]]: 目标页面不存在
-- ⚠️  [[resources/github-repos/${OWNER_REPO/\//\-}]]: 目标页面不存在
-- ⚠️  [[resources/github-repos/{owner}-{repo}]]: 目标页面不存在
-- ⚠️  [[resources/github-repos/Alishahryar1-free-claude-code]]: 目标页面不存在
-- ❌ ./log-fixed.md: 缺少 frontmatter
-- ⚠️  ./progress-agent-teams.md: 缺少 type 字段
-- ⚠️  ./progress-commands.md: 缺少 type 字段
-- ⚠️  ./progress-hooks.md: 缺少 type 字段
-- ⚠️  ./progress-subagents.md: 缺少 type 字段
-- ⚠️  ./progress-workflows.md: 缺少 type 字段
-- ⚠️  [[resources/github-repos/openclaw-openclaw]]: 目标页面不存在
-- ⚠️  [[resources/tools/]]: 目标页面不存在
-- ⚠️  [[skills/weather-fetcher]]: 目标页面不存在
-- ⚠️  [[skills/weather-svg-creator]]: 目标页面不存在
-- ⚠️  [[teaching-accuracy|教学准确性系统]]: 目标页面不存在
-- ⚠️  [[time-series-analysis]]: 目标页面不存在
-- ⚠️  [[tutorials/agentic-ai-examples]]: 目标页面不存在
-- ⚠️  [[tutorials/google-adk-tutorial]]: 目标页面不存在
-
-## Source 引用检查
-
+✅ 所有页面 frontmatter 完整
 
 ## 交叉引用检查
 
@@ -87,33 +43,27 @@
 - ⚠️  [[./config/coding-standards.md]]: 目标页面不存在
 - ⚠️  [[./config/tech-stack.md]]: 目标页面不存在
 - ⚠️  [[.kiro/specs/feature.md]]: 目标页面不存在
-- ⚠️  [[01-overview]]: 目标页面不存在
-- ⚠️  [[02-agent-loop]]: 目标页面不存在
-- ⚠️  [[03-context-engineering]]: 目标页面不存在
-- ⚠️  [[04-tool-system]]: 目标页面不存在
-- ⚠️  [[05-code-editing-strategy]]: 目标页面不存在
-- ⚠️  [[06-hooks-extensibility]]: 目标页面不存在
-- ⚠️  [[07-multi-agent]]: 目标页面不存在
-- ⚠️  [[08-memory-system]]: 目标页面不存在
-- ⚠️  [[09-skills-system]]: 目标页面不存在
-- ⚠️  [[10-plan-mode]]: 目标页面不存在
-- ⚠️  [[11-permission-security]]: 目标页面不存在
-- ⚠️  [[12-user-experience]]: 目标页面不存在
-- ⚠️  [[13-minimal-components]]: 目标页面不存在
-- ⚠️  [[14-system-prompt-design]]: 目标页面不存在
-- ⚠️  [[15-task-system]]: 目标页面不存在
-- ⚠️  [[agents]]: 目标页面不存在
-- ⚠️  [[anthropics-claude-plugins-official-2026-04-28.json]]: 目标页面不存在
 - ⚠️  [[Claude Code Best Practice|Claude Code 最佳实践项目]]: 目标页面不存在
+- ⚠️  [[agents]]: 目标页面不存在
+- ⚠️  [[architecture-components]]: 目标页面不存在
+- ⚠️  [[architecture-data-flow]]: 目标页面不存在
+- ⚠️  [[architecture-overview]]: 目标页面不存在
 - ⚠️  [[claude-mcp#context7]]: 目标页面不存在
 - ⚠️  [[concepts/agentic-ai-design-patterns]]: 目标页面不存在
 - ⚠️  [[concepts/multi-agent-systems]]: 目标页面不存在
 - ⚠️  [[concepts/team-adoption]]: 目标页面不存在
+- ⚠️  [[container-basics]]: 目标页面不存在
 - ⚠️  [[cursor]]: 目标页面不存在
+- ⚠️  [[design-decisions]]: 目标页面不存在
+- ⚠️  [[design-patterns]]: 目标页面不存在
+- ⚠️  [[design-principles]]: 目标页面不存在
+- ⚠️  [[docker-commands-reference]]: 目标页面不存在
+- ⚠️  [[docs-ingest]]: 目标页面不存在
 - ⚠️  [[entities/claude-agents]]: 目标页面不存在
 - ⚠️  [[file]]: 目标页面不存在
 - ⚠️  [[github-collect]]: 目标页面不存在
 - ⚠️  [[guides/]]: 目标页面不存在
+- ⚠️  [[hooks]]: 目标页面不存在
 - ⚠️  [[implementation/mcp-servers]]: 目标页面不存在
 - ⚠️  [[implementation/subagents-usage-guide|Subagents 使用指南]]: 目标页面不存在
 - ⚠️  [[linshenkx-prompt-optimizer-2026-04-28.json]]: 目标页面不存在
@@ -122,7 +72,12 @@
 - ⚠️  [[memory-system-overview]]: 目标页面不存在
 - ⚠️  [[patterns/]]: 目标页面不存在
 - ⚠️  [[patterns/agent-harness-design]]: 目标页面不存在
+- ⚠️  [[plan-milestones]]: 目标页面不存在
+- ⚠️  [[plan-roadmap]]: 目标页面不存在
+- ⚠️  [[plan-tasks]]: 目标页面不存在
 - ⚠️  [[proton-services]]: 目标页面不存在
+- ⚠️  [[quality-standards]]: 目标页面不存在
+- ⚠️  [[quality-testing]]: 目标页面不存在
 - ⚠️  [[raw/notes/2026-05-02-command-correct-guide]]: 目标页面不存在
 - ⚠️  [[relative/path/to/file.md]]: 目标页面不存在
 - ⚠️  [[resources/claude-code-works/01-overview]]: 目标页面不存在
@@ -141,16 +96,399 @@
 - ⚠️  [[resources/claude-code-works/14-system-prompt-design]]: 目标页面不存在
 - ⚠️  [[resources/claude-code-works/15-task-system]]: 目标页面不存在
 - ⚠️  [[resources/github-repos/${OWNER_REPO/\//\-}]]: 目标页面不存在
-- ⚠️  [[resources/github-repos/{owner}-{repo}]]: 目标页面不存在
 - ⚠️  [[resources/github-repos/Alishahryar1-free-claude-code]]: 目标页面不存在
 - ⚠️  [[resources/github-repos/openclaw-openclaw]]: 目标页面不存在
+- ⚠️  [[resources/github-repos/{owner}-{repo}]]: 目标页面不存在
 - ⚠️  [[resources/tools/]]: 目标页面不存在
+- ⚠️  [[security-best-practices]]: 目标页面不存在
+- ⚠️  [[security-requirements]]: 目标页面不存在
 - ⚠️  [[skills/weather-fetcher]]: 目标页面不存在
 - ⚠️  [[skills/weather-svg-creator]]: 目标页面不存在
 - ⚠️  [[teaching-accuracy|教学准确性系统]]: 目标页面不存在
 - ⚠️  [[time-series-analysis]]: 目标页面不存在
 - ⚠️  [[tutorials/agentic-ai-examples]]: 目标页面不存在
-- ⚠️  [[tutorials/google-adk-tutorial]]: 目标页面不存在
+- ⚠️  [[wiki-lint]]: 目标页面不存在
+- ⚠️  [[wiki-query]]: 目标页面不存在
 
 ## Source 引用检查
 
+- ❌ ./concepts/agent-harness-anatomy.md: source 指向不存在的文件 (../../../archive/claude/extra/The Anatomy of an Agent Harness.md)
+- ❌ ./concepts/agent-skills-vs-mcp.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-agent-skills.md)
+- ❌ ./concepts/agent-teams.md: source 指向不存在的文件 (../../../raw/claude/Orchestrate teams of Claude Code sessions.md)
+- ❌ ./concepts/subagents.md: source 指向不存在的文件 (../../../raw/claude/Create custom subagents.md)
+- ❌ ./external/a2a-protocol-part1.md: source 指向不存在的文件 (../../../archive/Clippings/Bilibili/2026-05-04-A2A协议深度解析 - 第 1 部分：双Agent同步调用场景.md)
+- ❌ ./external/a2a-protocol-part2.md: source 指向不存在的文件 (../../../archive/Clippings/Bilibili/2026-05-04-A2A协议深度解析 - 第 2 部分：流式返回 + 多Agent场景.md)
+- ❌ ./guides/agent-skills-progressive-disclosure.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-agent-skills-progressive-disclosure.md)
+- ❌ ./guides/claude-hooks-configuration-guide.md: source 指向不存在的文件 (../../raw/claude/Hooks reference.md)
+- ❌ ./guides/claude-hooks-deep-dive.md: source 指向不存在的文件 (../../../raw/zhihu/Hooks才是Claude Code CLI 的革命性更新.md)
+- ❌ ./guides/claude-hooks-guide.md: source 指向不存在的文件 (../../raw/claude/Automate workflows with hooks.md)
+- ❌ ./guides/command-complete-guide.md: source 指向不存在的文件 (../../../archive/notes/2026-05-02-command-complete-guide.md)
+- ❌ ./guides/command-syntax-guide.md: source 指向不存在的文件 (../../../archive/notes/2026-05-02-command-correct-guide.md)
+- ❌ ./guides/gh-cli-complete-guide.md: source 指向不存在的文件 (../../archive/skills/gh-cli-skill.md)
+- ❌ ./guides/github-collect-optimized-guide.md: source 指向不存在的文件 (../../../archive/resources/github/${OWNER_REPO///-}-$DATE.json)
+- ❌ ./guides/harness-engineering-for-users.md: source 指向不存在的文件 (../../../archive/claude/extra/Harness engineering for coding agent users.md)
+- ❌ ./guides/improve-codebase-architecture.md: source 指向不存在的文件 (../../../archive/plugins/improve-codebase-architecture.md)
+- ❌ ./guides/memory-usage.md: source 指向不存在的文件 (../../archive/guides/memory-usage.md)
+- ❌ ./guides/self-improving-agent-skill.md: source 指向不存在的文件 (../../../archive/resources/skills/self-improving-agent-2026-05-08.json)
+- ❌ ./guides/summarize-cli.md: source 指向不存在的文件 (../../../archive/plugins/summarize-cli.md)
+- ❌ ./implementation/subagent-best-practices.md: source 指向不存在的文件 (../../archive/cc-doc/子 Agent 最佳实践 shanraisshanclaude-code-best-practice.md)
+- ❌ ./implementation/weather-orchestrator-walkthrough.md: source 指向不存在的文件 (../../archive/cc-doc/天气编排器实战演练 shanraisshanclaude-code-best-practice.md)
+- ❌ ./log.md: source 指向不存在的文件 (../../archive/wiki-log/)
+- ❌ ./resources/auto-claude-parallel-dev.md: source 指向不存在的文件 (../../../raw/zhihu/打造 Claude Code 并行自主开发环境：Auto Claude + GLM 4.7.md)
+- ❌ ./resources/claude-code-skills-guide.md: source 指向不存在的文件 (../../../raw/zhihu/Claude Code Skills 完全指南（2026 最新版）.md)
+- ❌ ./resources/claude-code-works/index.md: source 指向不存在的文件 (../../../archive/resources/claude-code-works/docs/)
+- ❌ ./resources/claude-managed-agents.md: source 指向不存在的文件 (../../../archive/resources/claude/Claude Managed Agents get to production 10x faster.md)
+- ❌ ./resources/github-repos/abhigyanpatwari-GitNexus.md: source 指向不存在的文件 (../../../archive/resources/github/abhigyanpatwari-GitNexus-2026-05-08.json)
+- ❌ ./resources/github-repos/KKKKhazix-khazix-skills.md: source 指向不存在的文件 (../../../archive/resources/github/KKKKhazix-khazix-skills-2026-05-08.json)
+- ❌ ./resources/oh-my-claudecode-multi-agent.md: source 指向不存在的文件 (../../../raw/zhihu/oh-my-claudecode：这可能是目前最强的 Claude Code 多Agent编排工具.md)
+- ❌ ./resources/tools/windterm.md: source 指向不存在的文件 (../../archive/zhihu/WindTerm 使用指南：一款开源的高性能终端模拟器.md)
+- ❌ ./sources/ai-tools-system-prompts.md: source 指向不存在的文件 (../../archive/sources/system-prompts/)
+- ❌ ./sources/claude-mcp-full.md: source 指向不存在的文件 (../../../../archive/cc-doc/通过 MCP 将 Claude Code 连接到工具.md)
+- ❌ ./sources/cursor-system-prompts.md: source 指向不存在的文件 (../../archive/sources/system-prompts/Cursor Prompts/)
+- ❌ ./sources/gemini-vibe-coder.md: source 指向不存在的文件 (../../archive/sources/system-prompts/Google/Gemini/)
+- ❌ ./sources/google-antigravity-prompts.md: source 指向不存在的文件 (../../archive/sources/system-prompts/Google/Antigravity/)
+- ❌ ./sources/zhihu-claude-10x-practice.md: source 指向不存在的文件 (../../archive/zhihu/这个周末我研究了 .claude，终于知道为什么别人用 Claude 比我强10倍.md)
+- ❌ ./synthesis/agent-skill-architecture.md: source 指向不存在的文件 (../../../archive/notes/2026-05-02-agent-skill-architecture-insight.md)
+- ❌ ./synthesis/agent-skills-trend-2026.md: source 指向不存在的文件 (../../../archive/zhihu/一周10万星，GitHub被Agent Skills屠榜了——AI编程的下半场，不在模型，在知识.md)
+- ❌ ./synthesis/harness-engineering-deep-analysis.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-11-Harness Engineering 到底是什么？概念、实战与争议，一次全部讲清楚.md)
+- ❌ ./synthesis/mitchell-ai-adoption-journey.md: source 指向不存在的文件 (../../../archive/claude/extra/My AI Adoption Journey.md)
+- ❌ ./synthesis/orchestration-architecture.md: source 指向不存在的文件 (../../../archive/cc-doc/Command Agent 技能模式 shanraisshanclaude-code-best-practice.md)
+- ❌ ./tips/docs-ingest-practical-lessons.md: source 指向不存在的文件 (../../../archive/notes/2026-05-11-docs-ingest-practical-lessons.md ../../../archive/category/file.md)
+- ❌ ./tips/harness-engineering-first-thoughts.md: source 指向不存在的文件 (../../../archive/claude/extra/Harness Engineering - first thoughts.md)
+- ❌ ./tools/augment-code-gpt5.md: source 指向不存在的文件 (../../../../archive/system-prompts/Augment Code/gpt-5-agent-prompts.txt)
+- ❌ ./tools/augment-code-sonnet4.md: source 指向不存在的文件 (../../../../archive/system-prompts/Augment Code/claude-4-sonnet-agent-prompts.txt)
+- ❌ ./tools/bolt.md: source 指向不存在的文件 (../../../../archive/system-prompts/Open Source prompts/Bolt/Prompt.txt)
+- ❌ ./tools/cline.md: source 指向不存在的文件 (../../../../archive/system-prompts/Open Source prompts/Cline/Prompt.txt)
+- ❌ ./tools/devin-ai.md: source 指向不存在的文件 (../../../../archive/system-prompts/Devin AI/)
+- ❌ ./tools/gemini-cli.md: source 指向不存在的文件 (../../../../archive/system-prompts/Open Source prompts/Gemini CLI/google-gemini-cli-system-prompt.txt)
+- ❌ ./tools/kiro.md: source 指向不存在的文件 (../../../../archive/system-prompts/Kiro/)
+- ❌ ./tools/lumo.md: source 指向不存在的文件 (../../../../archive/system-prompts/Open Source prompts/Lumo/Prompt.txt)
+- ❌ ./tools/manus-ai.md: source 指向不存在的文件 (../../../../archive/system-prompts/Manus Agent Tools & Prompt/)
+- ❌ ./tools/notion-ai.md: source 指向不存在的文件 (../../../../archive/system-prompts/NotionAi/)
+- ❌ ./tools/replit.md: source 指向不存在的文件 (../../../../archive/system-prompts/Replit/Prompt.txt)
+- ❌ ./tools/roocode.md: source 指向不存在的文件 (../../../../archive/system-prompts/Open Source prompts/RooCode/Prompt.txt)
+- ❌ ./tools/same-dev.md: source 指向不存在的文件 (../../../../archive/system-prompts/Same.dev/Prompt.txt)
+- ❌ ./tools/trae-ai.md: source 指向不存在的文件 (../../../../archive/system-prompts/Trae/)
+- ❌ ./tools/traycer-ai.md: source 指向不存在的文件 (../../../../archive/system-prompts/Traycer AI/)
+- ❌ ./tools/v0.md: source 指向不存在的文件 (../../../../archive/system-prompts/v0 Prompts and Tools/Prompt.txt)
+- ❌ ./tools/vscode-agent.md: source 指向不存在的文件 (../../../../archive/system-prompts/VSCode Agent/)
+- ❌ ./tools/warp-dev.md: source 指向不存在的文件 (../../../../archive/system-prompts/Warp.dev/Prompt.txt)
+- ❌ ./tools/windsurf-ai.md: source 指向不存在的文件 (../../../../archive/system-prompts/Windsurf/)
+- ❌ ./tools/xcode-ai.md: source 指向不存在的文件 (../../../../archive/system-prompts/Xcode/)
+- ❌ ./tutorial/day0/linux.md: source 指向不存在的文件 (../../archive/tutorial/day0/linux.md)
+- ❌ ./tutorial/day0/mac.md: source 指向不存在的文件 (../../archive/tutorial/day0/mac.md)
+- ❌ ./tutorial/day0/README.md: source 指向不存在的文件 (../../archive/tutorial/day0/README.md)
+- ❌ ./tutorial/day0/windows.md: source 指向不存在的文件 (../../archive/tutorial/day0/windows.md)
+- ❌ ./tutorial/day1/README.md: source 指向不存在的文件 (../../archive/tutorial/day1/README.md)
+- ❌ ./tutorials/a2a-protocol-guide.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-a2a-protocol/原始字幕.md)
+- ❌ ./tutorials/agent-concepts-principles-patterns.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-agent-concepts-principles-patterns/原始字幕.md)
+- ❌ ./tutorials/agent-skills-andrew-ng-course.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-agent-skills-course/)
+- ❌ ./tutorials/agent-skills-best-practices.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-agent-skills-course/2026-05-04-【吴恩达】AgentSkill_06.md)
+- ❌ ./tutorials/agent-skills-examples.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-agent-skills-course/)
+- ❌ ./tutorials/agent-skills-platform-usage.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-agent-skills-course/)
+- ❌ ./tutorials/agentic-ai-course.md: source 指向不存在的文件 (../../archive/clippings/bilibili/2026-05-04-llm-agent-course/)
+- ❌ ./tutorials/deepseek-v4-claude-code.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-11-DeepSeek-V4-pro接入Claude Code教程-解锁1m上下文+Max思考等级.md)
+- ❌ ./tutorials/docker-complete-guide.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-11-40分钟的Docker实战攻略，一期视频精通Docker.md)
+- ❌ ./tutorials/harness-agent-practice-series.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/基于Harness的Agent实战/)
+- ❌ ./tutorials/harness-engineering-yupi.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-11-火遍全网的 Harness 到底是啥？1 个项目带你搞懂.md)
+- ❌ ./tutorials/harness-video-presentation.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-11-Harness 实践-让 Agent 全自动制作知识讲解视频.md)
+- ❌ ./tutorials/mcp-advanced.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-mcp-ultimate-guide/2026-05-04-MCP终极指南进阶篇.md)
+- ❌ ./tutorials/mcp-basics.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-mcp-ultimate-guide/2026-05-04-MCP终极指南基础篇.md)
+- ❌ ./tutorials/mcp-protocol-analysis.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-mcp-ultimate-guide/2026-05-04-MCP终极指南番外篇：抓包分析 Cline 与模型的交互协议.md)
+- ❌ ./tutorials/opencode-alternative.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-11-Claude Code又封号-别折腾了-这个开源方案省心多了.md)
+- ❌ ./tutorials/rag-mechanism-guide.md: source 指向不存在的文件 (../../../archive/clippings/bilibili/2026-05-04-rag-mechanism/原始字幕.md)
+- ❌ ./WIKI.md: source 指向不存在的文件 (../../archive/{category}/{filename}.md)
+
+## 归档文档双链检查
+
+- 🟡 ./concepts/agent-memory.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/claude-agent-memory.md)
+- 🟡 ./concepts/agent-skills-vs-mcp.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-agent-skills.md)
+- 🟡 ./concepts/agent-teams.md: 有 source 属性但缺少归档文档双链 (source: ../../../raw/claude/Orchestrate teams of Claude Code sessions.md)
+- 🟡 ./concepts/agentic-coding-benefits.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/concepts/agentic-coding-benefits-2026-05-01.md)
+- 🟡 ./concepts/agents-skills-paradigm.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/concepts/building-agents-with-skills-2026-05-01.md)
+- 🟡 ./concepts/claude-dot-folder-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/zhihu/claude-dot-folder-2026-05-02.md)
+- 🟡 ./concepts/claude-memory.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/Claude 如何记住你的项目.md)
+- 🟡 ./concepts/harness-engineering.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/clippings/bilibili/2026-05-04-harness-engineering.md)
+- 🟡 ./concepts/skills-discovery-mono-repos.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/claude-skills-for-larger-mono-repos.md)
+- 🟡 ./concepts/subagents.md: 有 source 属性但缺少归档文档双链 (source: ../../../raw/claude/Create custom subagents.md)
+- 🟡 ./entities/brand-guardian.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/design/design-brand-guardian.md)
+- 🟡 ./entities/claude-auto-mode.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/配置自动模式.md)
+- 🟡 ./entities/claude-checkpointing.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/checkpointing.md)
+- 🟡 ./entities/claude-cli-startup-flags.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/best-practice/claude-cli-startup-flags.md)
+- 🟡 ./entities/claude-cli.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/CLI 参考.md)
+- 🟡 ./entities/claude-commands.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/命令.md)
+- 🟡 ./entities/claude-env-vars.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/环境变量.md)
+- 🟡 ./entities/claude-hooks.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/Hooks 参考.md)
+- 🟡 ./entities/claude-interactive-mode.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/交互模式.md)
+- 🟡 ./entities/claude-mcp.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/best-practice/claude-mcp.md)
+- 🟡 ./entities/claude-settings.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/best-practice/claude-settings.md)
+- 🟡 ./entities/claude-setup.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/高级设置.md)
+- 🟡 ./entities/claude-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/使用 skills 扩展 Claude.md)
+- 🟡 ./entities/claude-subagents.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/best-practice/claude-subagents.md)
+- 🟡 ./entities/claude-tools.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/工具参考.md)
+- 🟡 ./entities/engineering-ai-data-remediation-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-ai-data-remediation-engineer.md)
+- 🟡 ./entities/engineering-ai-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-ai-engineer.md)
+- 🟡 ./entities/engineering-autonomous-optimization-architect.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-autonomous-optimization-architect.md)
+- 🟡 ./entities/engineering-backend-architect.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-backend-architect.md)
+- 🟡 ./entities/engineering-cms-developer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-cms-developer.md)
+- 🟡 ./entities/engineering-code-reviewer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-code-reviewer.md)
+- 🟡 ./entities/engineering-codebase-onboarding-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-codebase-onboarding-engineer.md)
+- 🟡 ./entities/engineering-data-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-data-engineer.md)
+- 🟡 ./entities/engineering-database-optimizer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-database-optimizer.md)
+- 🟡 ./entities/engineering-devops-automator.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-devops-automator.md)
+- 🟡 ./entities/engineering-email-intelligence-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-email-intelligence-engineer.md)
+- 🟡 ./entities/engineering-embedded-firmware-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-embedded-firmware-engineer.md)
+- 🟡 ./entities/engineering-feishu-integration-developer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-feishu-integration-developer.md)
+- 🟡 ./entities/engineering-filament-optimization-specialist.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-filament-optimization-specialist.md)
+- 🟡 ./entities/engineering-frontend-developer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-frontend-developer.md)
+- 🟡 ./entities/engineering-git-workflow-master.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-git-workflow-master.md)
+- 🟡 ./entities/engineering-incident-response-commander.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-incident-response-commander.md)
+- 🟡 ./entities/engineering-minimal-change-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-minimal-change-engineer.md)
+- 🟡 ./entities/engineering-mobile-app-builder.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-mobile-app-builder.md)
+- 🟡 ./entities/engineering-rapid-prototyper.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-rapid-prototyper.md)
+- 🟡 ./entities/engineering-security-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-security-engineer.md)
+- 🟡 ./entities/engineering-senior-developer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-senior-developer.md)
+- 🟡 ./entities/engineering-software-architect.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-software-architect.md)
+- 🟡 ./entities/engineering-solidity-smart-contract-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-solidity-smart-contract-engineer.md)
+- 🟡 ./entities/engineering-sre-agent.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-sre.md)
+- 🟡 ./entities/engineering-technical-writer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-technical-writer.md)
+- 🟡 ./entities/engineering-threat-detection-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-threat-detection-engineer.md)
+- 🟡 ./entities/engineering-voice-ai-integration-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-voice-ai-integration-engineer.md)
+- 🟡 ./entities/engineering-wechat-mini-program-developer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/engineering/engineering-wechat-mini-program-developer.md)
+- 🟡 ./entities/image-prompt-engineer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/design/design-image-prompt-engineer.md)
+- 🟡 ./entities/inclusive-visuals-specialist.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/design/design-inclusive-visuals-specialist.md)
+- 🟡 ./entities/ui-designer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/design/design-ui-designer.md)
+- 🟡 ./entities/ux-architect.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/design/design-ux-architect.md)
+- 🟡 ./entities/ux-researcher.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/design/design-ux-researcher.md)
+- 🟡 ./entities/visual-storyteller.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/design/design-visual-storyteller.md)
+- 🟡 ./entities/whimsy-injector.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/design/design-whimsy-injector.md)
+- 🟡 ./external/a2a-protocol-part1.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/Clippings/Bilibili/2026-05-04-A2A协议深度解析 - 第 1 部分：双Agent同步调用场景.md)
+- 🟡 ./external/a2a-protocol-part2.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/Clippings/Bilibili/2026-05-04-A2A协议深度解析 - 第 2 部分：流式返回 + 多Agent场景.md)
+- 🟡 ./guides/agent-skills-progressive-disclosure.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-agent-skills-progressive-disclosure.md)
+- 🟡 ./guides/agent-teams.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/implementation/claude-agent-teams-implementation.md)
+- 🟡 ./guides/auto-mode.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/auto-mode-2026-05-01.md)
+- 🟡 ./guides/best-practices.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/Claude Code 最佳实践.md)
+- 🟡 ./guides/claude-code-parallel-development.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/claude-code-parallel-development-2026-05-01.md)
+- 🟡 ./guides/claude-directory.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/探索 .claude 目录.md)
+- 🟡 ./guides/claude-hooks-configuration-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../raw/claude/Hooks reference.md)
+- 🟡 ./guides/claude-hooks-deep-dive.md: 有 source 属性但缺少归档文档双链 (source: ../../../raw/zhihu/Hooks才是Claude Code CLI 的革命性更新.md)
+- 🟡 ./guides/claude-hooks-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../raw/claude/Automate workflows with hooks.md)
+- 🟡 ./guides/claude-md-configuration-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/claude-md-configuration-2026-05-01.md)
+- 🟡 ./guides/claude-skills-essential-list.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/zhihu/claude-skills-essential-list-2026-05-02.md)
+- 🟡 ./guides/code-review.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/code-review-2026-05-01.md)
+- 🟡 ./guides/command-complete-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/notes/2026-05-02-command-complete-guide.md)
+- 🟡 ./guides/command-syntax-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/notes/2026-05-02-command-correct-guide.md)
+- 🟡 ./guides/commands.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/implementation/claude-commands-implementation.md)
+- 🟡 ./guides/frontend-design-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/frontend-design-skills-2026-05-01.md)
+- 🟡 ./guides/gh-cli-complete-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/skills/gh-cli-skill.md)
+- 🟡 ./guides/github-collect-optimized-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/${OWNER_REPO///-}-$DATE.json)
+- 🟡 ./guides/improve-codebase-architecture.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/plugins/improve-codebase-architecture.md)
+- 🟡 ./guides/memory-usage.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/memory-usage.md)
+- 🟡 ./guides/nexus-spatial-discovery.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/examples/nexus-spatial-discovery.md)
+- 🟡 ./guides/onboarding-claude-code-like-new-developer.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/onboarding-claude-code-like-new-developer-2026-05-01.md)
+- 🟡 ./guides/permissions.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/选择权限模式.md)
+- 🟡 ./guides/power-ups.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/best-practice/claude-power-ups.md)
+- 🟡 ./guides/process-compliance.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/notes/2026-05-04-process-compliance-reflection.md)
+- 🟡 ./guides/prompt-caching-optimization.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/prompt-caching-optimization-2026-05-01.md)
+- 🟡 ./guides/scheduled-tasks.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/implementation/claude-scheduled-tasks-implementation.md)
+- 🟡 ./guides/seeing-like-an-agent-tool-design.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/seeing-like-an-agent-tool-design-2026-05-01.md)
+- 🟡 ./guides/self-improving-agent-skill.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/skills/self-improving-agent-2026-05-08.json)
+- 🟡 ./guides/session-management-context-window.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/session-management-context-window-2026-05-01.md)
+- 🟡 ./guides/skill-management-unified.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/skill-management-unified-zhihu-2026-05-01.md)
+- 🟡 ./guides/skills-creation-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/guides/skills-creation-2026-05-01.md)
+- 🟡 ./guides/skills.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/implementation/claude-skills-implementation.md)
+- 🟡 ./guides/subagents.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/implementation/claude-subagents-implementation.md)
+- 🟡 ./guides/summarize-cli.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/plugins/summarize-cli.md)
+- 🟡 ./guides/superpowers-overview.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/resources/superpowers/Superpowers技能使用.md)
+- 🟡 ./guides/superpowers-tutorial.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cnblogs/Superpowers 详细用法教程.md)
+- 🟡 ./guides/workflow-book-chapter.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/examples/workflow-book-chapter.md)
+- 🟡 ./guides/workflow-examples.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/examples/README.md)
+- 🟡 ./guides/workflow-landing-page.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/examples/workflow-landing-page.md)
+- 🟡 ./guides/workflow-startup-mvp.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/examples/workflow-startup-mvp.md)
+- 🟡 ./guides/workflow-with-memory.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/agency-agents/examples/workflow-with-memory.md)
+- 🟡 ./guides/workflows.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/常见工作流程.md)
+- 🟡 ./implementation/agent-command-skill-fields.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/notes/2026-04-27-agent-command-skill-fields.md)
+- 🟡 ./implementation/plugin-dependencies.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/约束插件依赖版本.md)
+- 🟡 ./implementation/plugin-marketplace.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/创建和分发 plugin marketplace.md)
+- 🟡 ./implementation/plugins-reference.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/Plugins 参考.md)
+- 🟡 ./implementation/skill-design-principles.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/notes/2026-04-27-skill-design-principles.md)
+- 🟡 ./implementation/subagent-best-practices.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/子 Agent 最佳实践 shanraisshanclaude-code-best-practice.md)
+- 🟡 ./implementation/weather-orchestrator-walkthrough.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/天气编排器实战演练 shanraisshanclaude-code-best-practice.md)
+- 🟡 ./log.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/wiki-log/)
+- 🟡 ./orchestration-workflow/orchestration-workflow.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/orchestration-workflow.md)
+- 🟡 ./patterns/claude-intelligence-harnessing.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/patterns/claude-intelligence-harnessing-2026-05-01.md)
+- 🟡 ./patterns/github-resource-classification.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/patterns/github-resource-classification-2026-05-01.md)
+- 🟡 ./resources/auto-claude-parallel-dev.md: 有 source 属性但缺少归档文档双链 (source: ../../../raw/zhihu/打造 Claude Code 并行自主开发环境：Auto Claude + GLM 4.7.md)
+- 🟡 ./resources/claude-code-skills-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../../raw/zhihu/Claude Code Skills 完全指南（2026 最新版）.md)
+- 🟡 ./resources/claude-code-works/index.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/claude-code-works/docs/)
+- 🟡 ./resources/github-repos/abhigyanpatwari-GitNexus.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/abhigyanpatwari-GitNexus-2026-05-08.json)
+- 🟡 ./resources/github-repos/addyosmani-agent-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/addyosmani-agent-skills-2026-05-07.json)
+- 🟡 ./resources/github-repos/affaan-m-everything-claude-code.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/affaan-m-everything-claude-code-2026-05-01.json)
+- 🟡 ./resources/github-repos/alchaincyf-darwin-skill.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/alchaincyf-darwin-skill-2026-05-05.json)
+- 🟡 ./resources/github-repos/alibaba-page-agent.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/alibaba-page-agent-2026-05-05.json)
+- 🟡 ./resources/github-repos/alishahryar1-free-claude-code.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/Alishahryar1-free-claude-code-2026-05-08.json)
+- 🟡 ./resources/github-repos/anthropics-claude-plugins-official.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/anthropics-claude-plugins-official-2026-04-28.json)
+- 🟡 ./resources/github-repos/browser-use-browser-use.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/browser-use-browser-use-2026-05-05.json)
+- 🟡 ./resources/github-repos/browserbase-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/browserbase-skills-2026-05-05.json)
+- 🟡 ./resources/github-repos/cathrynlavery-diagram-design.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/cathrynlavery-diagram-design-2026-04-28.json)
+- 🟡 ./resources/github-repos/ChromeDevTools-chrome-devtools-mcp.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/ChromeDevTools-chrome-devtools-mcp-2026-05-05.json)
+- 🟡 ./resources/github-repos/cocoon-ai-architecture-diagram-generator.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/cocoon-ai-architecture-diagram-generator-2026-04-28.json)
+- 🟡 ./resources/github-repos/ConardLi-garden-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/ConardLi-garden-skills-2026-05-11.json)
+- 🟡 ./resources/github-repos/D4Vinci-Scrapling.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/D4Vinci-Scrapling-2026-05-10.json)
+- 🟡 ./resources/github-repos/EveryInc-compound-engineering-plugin.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/EveryInc-compound-engineering-plugin-2026-04-28.json)
+- 🟡 ./resources/github-repos/firecrawl-cli.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/firecrawl-cli-2026-05-05.json)
+- 🟡 ./resources/github-repos/firecrawl-firecrawl.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/firecrawl-firecrawl-2026-05-05.json)
+- 🟡 ./resources/github-repos/forrestchang-andrej-karpathy-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/forrestchang-andrej-karpathy-skills-2026-04-28-v2.json)
+- 🟡 ./resources/github-repos/FreedomIntelligence-OpenClaw-Medical-Skills.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/FreedomIntelligence-OpenClaw-Medical-Skills-2026-04-29.json)
+- 🟡 ./resources/github-repos/garrytan-gbrain.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/garrytan-gbrain-2026-04-28.json)
+- 🟡 ./resources/github-repos/garrytan-gstack.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/garrytan-gstack-2026-05-01.json)
+- 🟡 ./resources/github-repos/gastownhall-beads.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/gastownhall-beads-2026-05-02.json)
+- 🟡 ./resources/github-repos/getpaseo-paseo.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/getpaseo-paseo-2026-05-07.json)
+- 🟡 ./resources/github-repos/github-awesome-copilot.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/github-awesome-copilot-2026-05-05.json)
+- 🟡 ./resources/github-repos/gsd-build-get-shit-done.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/gsd-build-get-shit-done-2026-05-05.json)
+- 🟡 ./resources/github-repos/HKUDS-CLI-Anything.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/HKUDS-CLI-Anything-2026-05-05.json)
+- 🟡 ./resources/github-repos/hmbown-deepseek-tui.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/hmbown-deepseek-tui-2026-05-07.json)
+- 🟡 ./resources/github-repos/iamzhihuix-skills-manage.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/iamzhihuix-skills-manage-2026-04-28.json)
+- 🟡 ./resources/github-repos/iOfficeAI-OfficeCLI.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/iOfficeAI-OfficeCLI-2026-05-08.json)
+- 🟡 ./resources/github-repos/jqlang-jq.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/jqlang-jq-2026-05-05.json)
+- 🟡 ./resources/github-repos/juliusbrussee-caveman.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/juliusbrussee-caveman-2026-05-05.json)
+- 🟡 ./resources/github-repos/kingToolbox-WindTerm.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/kingToolbox-WindTerm-2026-05-08.json)
+- 🟡 ./resources/github-repos/KKKKhazix-khazix-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/KKKKhazix-khazix-skills-2026-05-08.json)
+- 🟡 ./resources/github-repos/lewislulu-html-ppt-skill.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/lewislulu-html-ppt-skill-2026-05-10.json)
+- 🟡 ./resources/github-repos/linshenkx-prompt-optimizer.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/linshenkx-prompt-optimizer-2026-04-28.json)
+- 🟡 ./resources/github-repos/luongnv89-claude-howto.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/luongnv89-claude-howto-2026-05-01.json)
+- 🟡 ./resources/github-repos/mattpocock-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/mattpocock-skills-2026-05-08.json)
+- 🟡 ./resources/github-repos/mempalace-mempalace.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/mempalace-2026-04-29.json)
+- 🟡 ./resources/github-repos/microsoft-agent-lightning.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/microsoft-agent-lightning-2026-05-01.json)
+- 🟡 ./resources/github-repos/microsoft-playwright-cli.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/microsoft-playwright-cli-2026-05-05.json)
+- 🟡 ./resources/github-repos/nevamind-memu.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/nevamind-memu-2026-05-03.json)
+- 🟡 ./resources/github-repos/obra-superpowers.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/obra-superpowers-2026-04-28.json)
+- 🟡 ./resources/github-repos/openai-symphony.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/openai-symphony-2026-05-05.json)
+- 🟡 ./resources/github-repos/oraios-serena.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/oraios-serena-2026-05-10.json)
+- 🟡 ./resources/github-repos/othmanadi-planning-with-files.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/othmanadi-planning-with-files-2026-05-05.json)
+- 🟡 ./resources/github-repos/Piebald-AI-claude-code-system-prompts.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/Piebald-AI-claude-code-system-prompts-2026-05-05.md)
+- 🟡 ./resources/github-repos/puppeteer-puppeteer.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/puppeteer-puppeteer-2026-05-05.json)
+- 🟡 ./resources/github-repos/revfactory-harness.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/revfactory-harness-2026-05-05.json)
+- 🟡 ./resources/github-repos/rtk-ai-rtk.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/rtk-ai-rtk-2026-05-01.json)
+- 🟡 ./resources/github-repos/safishamsi-graphify.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/safishamsi-graphify-2026-04-28.json)
+- 🟡 ./resources/github-repos/tanweai-pua.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/tanweai-pua-2026-05-05.json)
+- 🟡 ./resources/github-repos/tauricresearch-tradingagents.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/tauricresearch-tradingagents-2026-05-05.json)
+- 🟡 ./resources/github-repos/thedotmack-claude-mem.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/thedotmack-claude-mem-2026-05-03.json)
+- 🟡 ./resources/github-repos/theneoai-awesome-skills.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/theneoai-awesome-skills-2026-04-29.json)
+- 🟡 ./resources/github-repos/touchx-gitnexus.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/touchx-gitnexus-2026-05-05.json)
+- 🟡 ./resources/github-repos/vercel-labs-agent-browser.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/vercel-labs-agent-browser-2026-05-05.json)
+- 🟡 ./resources/github-repos/vercel-nextjs.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/vercel-nextjs-2026-04-28.json)
+- 🟡 ./resources/github-repos/warpdotdev-warp.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/warpdotdev-warp-2026-04-29.json)
+- 🟡 ./resources/github-repos/windy3f3f3f3f-how-claude-code-works.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/windy3f3f3f3f-how-claude-code-works-2026-05-05.json)
+- 🟡 ./resources/github-repos/x1xhlol-system-prompts-and-models-of-ai-tools.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/x1xhlol-system-prompts-and-models-of-ai-tools-2026-04-29.json)
+- 🟡 ./resources/github-repos/Yeachan-Heo-oh-my-claudecode.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/Yeachan-Heo-oh-my-claudecode-2026-05-05.json)
+- 🟡 ./resources/github-repos/yizhiyanhua-ai-fireworks-tech-graph.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/yizhiyanhua-ai-fireworks-tech-graph-2026-04-28.json)
+- 🟡 ./resources/github-repos/zhaono1-agent-playbook.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/zhaono1-agent-playbook-2026-05-08.json)
+- 🟡 ./resources/github-repos/zilliztech-claude-context.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/github/zilliztech-claude-context-2026-04-29.json)
+- 🟡 ./resources/oh-my-claudecode-multi-agent.md: 有 source 属性但缺少归档文档双链 (source: ../../../raw/zhihu/oh-my-claudecode：这可能是目前最强的 Claude Code 多Agent编排工具.md)
+- 🟡 ./resources/tools/gstack.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/tools/gstack-analysis-2026-05-01.md)
+- 🟡 ./resources/tools/hermes-mem0-tutorial.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/tools/hermes-mem0-zhihu-2026-05-01.md)
+- 🟡 ./resources/tools/oh-my-claudecode.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/tools/oh-my-claudecode-zhihu-2026-05-01.md)
+- 🟡 ./resources/tools/superpowers.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/resources/tools/superpowers-zhihu-2026-05-01.md)
+- 🟡 ./sources/advanced-tool-use.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/claude-advanced-tool-use.md)
+- 🟡 ./sources/ai-tools-system-prompts.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/sources/system-prompts/)
+- 🟡 ./sources/browser-automation-mcp-comparison.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/claude-in-chrome-v-chrome-devtools-mcp.md)
+- 🟡 ./sources/claude-agent-sdk-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/以编程方式运行 Claude Code.md)
+- 🟡 ./sources/claude-agent-teams-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/协调 Claude Code 会话团队.md)
+- 🟡 ./sources/claude-channels-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/使用 channels 将事件推送到运行中的会话.md)
+- 🟡 ./sources/claude-code-week-15-2026.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/Week 15 · April 6–10, 2026.md)
+- 🟡 ./sources/claude-debugging-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/调试你的配置.md)
+- 🟡 ./sources/claude-error-reference-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/错误参考.md)
+- 🟡 ./sources/claude-marketplace-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/通过市场发现和安装预构建插件.md)
+- 🟡 ./sources/claude-mcp-full.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/cc-doc/通过 MCP 将 Claude Code 连接到工具.md)
+- 🟡 ./sources/claude-plugins-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/创建插件.md)
+- 🟡 ./sources/claude-scheduled-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/按计划运行提示词.md)
+- 🟡 ./sources/claude-skills-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/使用 skills 扩展 Claude.md)
+- 🟡 ./sources/claude-troubleshooting-full.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/cc-doc/故障排除.md)
+- 🟡 ./sources/cursor-system-prompts.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/sources/system-prompts/Cursor Prompts/)
+- 🟡 ./sources/gemini-vibe-coder.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/sources/system-prompts/Google/Gemini/)
+- 🟡 ./sources/google-antigravity-prompts.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/sources/system-prompts/Google/Antigravity/)
+- 🟡 ./sources/learning-journey-redesign.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/learning-journey-weather-reporter-redesign.md)
+- 🟡 ./sources/llm-degradation-analysis.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/llm-day-to-day-degradation.md)
+- 🟡 ./sources/qoder-prompt.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Qoder/prompt.txt)
+- 🟡 ./sources/qoder-quest-action.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Qoder/Quest Action.txt)
+- 🟡 ./sources/qoder-quest-design.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Qoder/Quest Design.txt)
+- 🟡 ./sources/sdk-vs-cli-system-prompts.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/claude-agent-sdk-vs-cli-system-prompts.md)
+- 🟡 ./sources/usage-rate-limits.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/claude-usage-and-rate-limits.md)
+- 🟡 ./sources/yc-startups-claude-code-case-studies.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/sources/yc-startups-claude-code-2026-05-01.md)
+- 🟡 ./sources/zhihu-claude-10x-practice.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/zhihu/这个周末我研究了 .claude，终于知道为什么别人用 Claude 比我强10倍.md)
+- 🟡 ./synthesis/agent-command-skill-comparison.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/claude-agent-command-skill.md)
+- 🟡 ./synthesis/agent-skill-architecture.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/notes/2026-05-02-agent-skill-architecture-insight.md)
+- 🟡 ./synthesis/cross-model-workflow.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/workflows/cross-model-workflow/cross-model-workflow.md)
+- 🟡 ./synthesis/orchestration-architecture.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/cc-doc/Command Agent 技能模式 shanraisshanclaude-code-best-practice.md)
+- 🟡 ./synthesis/why-harness-is-important.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/reports/why-harness-is-important.md)
+- 🟡 ./tips/code-review-tips.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tips/claude-boris-2-tips-10-mar-26.md)
+- 🟡 ./tips/docs-ingest-practical-lessons.md: 双链路径与 source 不一致 (source: ../../../archive/notes/2026-05-11-docs-ingest-practical-lessons.md ../../../archive/category/file.md)
+- 🟡 ./tips/opus-47-tips.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tips/claude-boris-6-tips-16-apr-26.md)
+- 🟡 ./tips/session-context-tips.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tips/claude-thariq-tips-16-apr-26.md)
+- 🟡 ./tips/skills-lessons.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tips/claude-thariq-tips-17-mar-26.md)
+- 🟡 ./tips/squash-merge-tips.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tips/claude-boris-2-tips-25-mar-26.md)
+- 🟡 ./tools/amp-claude-4-sonnet.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Amp/claude-4-sonnet.yaml)
+- 🟡 ./tools/amp-gpt-5.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Amp/gpt-5.yaml)
+- 🟡 ./tools/augment-code-gpt5.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Augment Code/gpt-5-agent-prompts.txt)
+- 🟡 ./tools/augment-code-sonnet4.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Augment Code/claude-4-sonnet-agent-prompts.txt)
+- 🟡 ./tools/bolt.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Open Source prompts/Bolt/Prompt.txt)
+- 🟡 ./tools/cline.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Open Source prompts/Cline/Prompt.txt)
+- 🟡 ./tools/cluely-default.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Cluely/Default Prompt.txt)
+- 🟡 ./tools/cluely-enterprise.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Cluely/Enterprise Prompt.txt)
+- 🟡 ./tools/codebuddy-chat.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/CodeBuddy Prompts/Chat Prompt.txt)
+- 🟡 ./tools/codebuddy-craft.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/CodeBuddy Prompts/Craft Prompt.txt)
+- 🟡 ./tools/codex-cli.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Open Source prompts/Codex CLI/openai-codex-cli-system-prompt-20250820.txt)
+- 🟡 ./tools/comet-assistant.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Comet Assistant/System Prompt.txt)
+- 🟡 ./tools/devin-ai.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Devin AI/)
+- 🟡 ./tools/dia.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/dia/Prompt.txt)
+- 🟡 ./tools/emergent-e1.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Emergent/Prompt.txt)
+- 🟡 ./tools/gemini-cli.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Open Source prompts/Gemini CLI/google-gemini-cli-system-prompt.txt)
+- 🟡 ./tools/junie-ai.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Junie/Prompt.txt)
+- 🟡 ./tools/kiro.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Kiro/)
+- 🟡 ./tools/leap-new.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Leap.new/Prompts.txt)
+- 🟡 ./tools/lovable.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Lovable/Agent Prompt.txt)
+- 🟡 ./tools/lumo.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Open Source prompts/Lumo/Prompt.txt)
+- 🟡 ./tools/manus-ai.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Manus Agent Tools & Prompt/)
+- 🟡 ./tools/notion-ai.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/NotionAi/)
+- 🟡 ./tools/orchids-app.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Orchids.app/System Prompt.txt)
+- 🟡 ./tools/perplexity.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/system-prompts/Perplexity/Prompt.txt)
+- 🟡 ./tools/replit.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Replit/Prompt.txt)
+- 🟡 ./tools/roocode.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Open Source prompts/RooCode/Prompt.txt)
+- 🟡 ./tools/same-dev.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Same.dev/Prompt.txt)
+- 🟡 ./tools/trae-ai.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Trae/)
+- 🟡 ./tools/traycer-ai.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Traycer AI/)
+- 🟡 ./tools/v0.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/v0 Prompts and Tools/Prompt.txt)
+- 🟡 ./tools/vscode-agent.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/VSCode Agent/)
+- 🟡 ./tools/warp-dev.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Warp.dev/Prompt.txt)
+- 🟡 ./tools/windsurf-ai.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Windsurf/)
+- 🟡 ./tools/xcode-ai.md: 有 source 属性但缺少归档文档双链 (source: ../../../../archive/system-prompts/Xcode/)
+- 🟡 ./tutorial/day0/linux.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tutorial/day0/linux.md)
+- 🟡 ./tutorial/day0/mac.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tutorial/day0/mac.md)
+- 🟡 ./tutorial/day0/README.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tutorial/day0/README.md)
+- 🟡 ./tutorial/day0/windows.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tutorial/day0/windows.md)
+- 🟡 ./tutorial/day1/README.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/tutorial/day1/README.md)
+- 🟡 ./tutorials/a2a-protocol-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-a2a-protocol/原始字幕.md)
+- 🟡 ./tutorials/agent-concepts-principles-patterns.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-agent-concepts-principles-patterns/原始字幕.md)
+- 🟡 ./tutorials/agent-skills-andrew-ng-course.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-agent-skills-course/)
+- 🟡 ./tutorials/agent-skills-best-practices.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-agent-skills-course/2026-05-04-【吴恩达】AgentSkill_06.md)
+- 🟡 ./tutorials/agent-skills-examples.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-agent-skills-course/)
+- 🟡 ./tutorials/agent-skills-platform-usage.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-agent-skills-course/)
+- 🟡 ./tutorials/agentic-ai-course.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/clippings/bilibili/2026-05-04-llm-agent-course/)
+- 🟡 ./tutorials/claude-code-complete-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/clippings/bilibili/2026-05-04-claude-code-complete-guide/原始字幕.md)
+- 🟡 ./tutorials/harness-agent-practice-series.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/基于Harness的Agent实战/)
+- 🟡 ./tutorials/mcp-advanced.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-mcp-ultimate-guide/2026-05-04-MCP终极指南进阶篇.md)
+- 🟡 ./tutorials/mcp-basics.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-mcp-ultimate-guide/2026-05-04-MCP终极指南基础篇.md)
+- 🟡 ./tutorials/mcp-protocol-analysis.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-mcp-ultimate-guide/2026-05-04-MCP终极指南番外篇：抓包分析 Cline 与模型的交互协议.md)
+- 🟡 ./tutorials/rag-mechanism-guide.md: 有 source 属性但缺少归档文档双链 (source: ../../../archive/clippings/bilibili/2026-05-04-rag-mechanism/原始字幕.md)
+- 🟡 ./WIKI.md: 有 source 属性但缺少归档文档双链 (source: ../../archive/{category}/{filename}.md)
+
+## 总结
+
+- 总页面数: 225
+- Frontmatter 问题: 0
+- 交叉引用问题: 70
+- Source 引用问题: 86
+- 归档文档双链问题: 281
+
+⚠️  发现 437 个问题需要修复

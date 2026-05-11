@@ -1,7 +1,7 @@
 ---
-name: progress_subagents
 name: progress-subagents
 description: Subagents 模块学习进度
+type: guide
 module: Subagents
 level: L1
 status: not-started

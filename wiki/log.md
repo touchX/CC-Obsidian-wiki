@@ -4,13 +4,87 @@ description: Wiki 操作历史记录 - 所有变更的追加式日志
 type: reference
 tags: [wiki, log, history, changelog, operations]
 created: 2026-04-23
-updated: 2026-05-08
+updated: 2026-05-11
+
+- 创建了 [[tutorials/harness-agent-practice-series]]
+  - 来源：Bilibili 视频系列 (BV1nJQFBcEb3) - 作者：码士集团-小森
+  - 基于Harness的Agent实战系列教程：从0到1开发完整Agent（6集）
+  - 核心内容：源码级讲解 + 完整架构设计 + 实战项目演示
+  - 模块：概念定义、架构组件、Agent关系、核心能力、完整实战
+  - 归档：[[../../archive/clippings/bilibili/基于Harness的Agent实战/|系列归档]]
+
+- 创建了 [[tutorials/harness-engineering-yupi]]
+  - 来源：Bilibili 视频 (BV1cW9xB3Ec1) - 作者：程序员鱼皮
+  - Harness Engineering 保姆级教程：零基础实战项目讲解
+  - 核心内容：AI 工程三阶段发展、五大核心模块详解、万能视频下载总结器实战
+  - 快速上手：5 条实用方法 + 现成工具推荐
+  - 归档：[[../../archive/clippings/bilibili/2026-05-11-火遍全网的 Harness 到底是啥？1 个项目带你搞懂.md|本地归档]]
 source: ../../archive/wiki-log/
 ---
 
 # Wiki Log
 
 > 维基操作历史 - 追加式记录
+
+## 2026-05-11
+
+- 创建了 [[concepts/agent-harness-anatomy]]
+  - 来源：LangChain Blog - The Anatomy of an Agent Harness
+  - Agent Harness 核心组件分析：文件系统、Bash + 代码、沙盒、上下文管理、长期执行
+  - 核心公式：Agent = Model + Harness
+  - 五大组件：持久存储、通用工具、安全环境、Context 管理、规划 + 验证
+  - 归档：[[../../../archive/claude/extra/The Anatomy of an Agent Harness.md|本地归档]]
+
+- 创建了 [[guides/harness-engineering-for-users]]
+  - 来源：Martin Fowler's Blog - Harness engineering for coding agent users
+  - 编码 Agent 用户的实践指南：前馈指南（Guides）与反馈传感器（Sensors）
+  - 两种执行类型：Computational（计算型）vs Inferential（推理型）
+  - 三类监管：可维护性、架构适应性、行为
+  - Harness Templates：企业级服务拓扑的模板化
+  - 归档：[[../../../archive/claude/extra/Harness engineering for coding agent users.md|本地归档]]
+
+- 创建了 [[synthesis/mitchell-ai-adoption-journey]]
+  - 来源：Mitchell Hashimoto's Blog - My AI Adoption Journey
+  - Vagrant、Terraform 创建者的 AI 采用之旅：六个阶段的渐进式采用
+  - 核心步骤：放弃 Chatbot → 重现工作 → 日终 Agent → 外包稳赢 → 工程 Harness → 始终运行
+  - 务实态度：在过度炒作的海洋中，代表更细致、衡量的方法
+  - 归档：[[../../../archive/claude/extra/My AI Adoption Journey.md|本地归档]]
+
+- 创建了 [[synthesis/harness-engineering-deep-analysis]]
+  - 来源：Bilibili 视频 (BV12LR1B3EUt) - 作者：马克的技术工作坊
+  - Harness Engineering 深度分析：概念演进、实战案例与争议讨论
+  - 核心观点："Harness Engineering 不是噱头，但也不是终局——是过渡期关键技术"
+  - 内容：三阶段演进图、OpenAI 5个月100万行代码、Anthropic三Agent架构、争议焦点分析
+  - 视频时长：37分钟完整解读
+  - 归档：[[../../../archive/clippings/bilibili/2026-05-11-Harness Engineering 到底是什么？概念、实战与争议，一次全部讲清楚.md|本地归档]]
+
+- 创建了 [[tutorials/docker-complete-guide]]
+  - 来源：Bilibili 视频 (BV1THKyzBER6) - 作者：技术爬爬虾
+  - Docker 完整实战教程：40分钟精通 Docker 所有常用功能与命令
+  - 核心内容：核心概念、跨平台安装、镜像下载、容器运行、挂载卷、调试容器、构建镜像、Docker网络、Docker Compose
+  - 特色：零基础入门 + 命令详解 + 容器编排 + AI辅助学习
+  - 归档：[[../../../archive/clippings/bilibili/2026-05-11-40分钟的Docker实战攻略，一期视频精通Docker.md|本地归档]]
+
+- 创建了 [[tips/harness-engineering-first-thoughts]]
+  - 来源：Martin Fowler's Blog - Harness Engineering memo（早期备忘录）
+  - OpenAI Harness Engineering 实践分析：5 个月、100 万行代码
+  - 早期思考：Harnesses 作为服务模板、运行时约束、技术栈收敛
+  - 后续发展：已被完整文章 [[harness-engineering-for-users]] 取代
+  - 归档：[[../../../archive/claude/extra/Harness Engineering - first thoughts.md|本地归档]]
+
+- 创建了 [[tutorials/agent-teams-guide]]
+  - 来源：Bilibili 视频 (BV1gwcAzkEhw) - 作者：程序员阿江-Relakkes
+  - Claude Code Agent Teams 完整教程
+  - 核心内容：三大痛点、Team Lead + Teammate 架构、启用方式、真实项目实战
+  - 对比 SubAgent：通信方式、协作模式选择指南
+  - 归档：[[../../archive/clippings/bilibili/2026-05-11-Claude Code Agent Teams上手指南+项目实测.md|本地归档]]
+
+- 创建了 [[tutorials/tmux-terminal-multiplexer]]
+  - 来源：Bilibili 视频 (BV1ML411h7tF) - 作者：TheCW
+  - 终端复用器完整教程：Session/Window/Pane 三层架构
+  - 默认快捷键 + 去阴间化配置 + 状态栏美化
+  - 实际场景：远程开发、多任务管理、长时间任务
+  - 归档：[[../../archive/clippings/bilibili/2026-05-11-终端神器tmux：多任务管理大师.md|本地归档]]
 
 ## 2026-05-08
 
@@ -789,3 +863,150 @@ source: ../../archive/wiki-log/
   - **技术栈**：Python, MCP, LSP, JetBrains Plugin
   - **文档**：包含项目介绍、技术架构、安装使用、完整案例
   - **数据归档**：archive/resources/github/oraios-serena-2026-05-10.json
+
+
+## 2026-05-11 — Claude Code 官方文档摄取
+
+### 子代理 (Subagents)
+- 创建了 [[concepts/subagents]]
+- 类型: concept | 标签: claude-code, subagents, ai-agent
+- 来源: 官方文档 Create custom subagents
+- 内容: 内置子代理、子代理作用域、工具控制、权限模式、CLI 定义
+
+### 子代理团队 (Agent Teams)
+- 创建了 [[concepts/agent-teams]]
+- 类型: concept | 标签: claude-code, agent-teams, multi-agent
+- 来源: 官方文档 Orchestrate teams of Claude Code sessions
+- 内容: Team Lead + Teammates 架构、启用方式、任务管理、计划审批
+
+
+## 2026-05-11 — OpenCode 开源方案教程
+
+### OpenCode 替代方案
+- 创建了 [[tutorials/opencode-alternative]]
+- 类型: tutorial | 标签: opencode, 开源方案, claude-code-alternative
+- 来源: Bilibili 视频 BV1u1cxzrEGM
+- 内容: OpenCode 开源替代、内置 10 个 Agent、多模型协作、接口 AI 中转站
+
+
+## 2026-05-11 — Harness 视频生成实践
+
+### Harness 视频生成
+- 创建了 [[tutorials/harness-video-presentation]]
+- 类型: tutorial | 标签: harness, skill, video-generation, agent-workflow
+- 来源: Bilibili 视频 BV1ypdgBCE9B
+- 内容: Web Video Presentation Skill、网页替代视频模型、Harness 驾驭工程
+
+
+## 2026-05-11 — DeepSeek V4 接入 Claude Code
+
+### DeepSeek V4 Pro 教程
+- 创建了 [[tutorials/deepseek-v4-claude-code]]
+- 类型: tutorial | 标签: deepseek, claude-code, api-integration
+- 来源: Bilibili 视频 BV1pQRNBsEGs
+- 内容: Claude Code 安装、CC Switch 配置、DeepSeek API、1M 上下文解锁
+
+
+## 2026-05-11 — docs-ingest 实战经验总结
+
+### 实战经验
+- 创建了 [[tips/docs-ingest-practical-lessons]]
+- 类型: tips | 标签: docs-ingest, wiki-workflow, chinese-environment
+- 来源: 会话记录
+- 内容: 中文环境特殊处理、归档双链规范、Wiki-First 原则、Token 效率数据
+
+
+## 2026-05-11 — 重复内容归档
+
+### Harness 视频教程（重复）
+- 文件：2026-05-11-Harness 实践：让 Agent 全自动制作知识讲解视频.md
+- BV1ypdgBCE9B（与 [[tutorials/harness-video-presentation]] 相同视频）
+- 操作：直接归档，已有 Wiki 页面
+
+
+
+## [2026-05-11] Harness Engineering 页面重新设计
+
+- 完全重构 [[concepts/harness-engineering]] 页面
+- 新增内容：
+  - 可视化架构图（Mermaid）
+  - 六层架构详细说明 + Python 代码示例
+  - 完整实施指南（评估→设计→实现→测试→部署）
+  - 故障排查指南（成功率低、执行慢、内存泄漏）
+  - 性能优化建议（上下文、工具调用、并行执行）
+  - 与 Subagents/Agent Teams/Workflows 的关系
+  - 实战类比（客户拜访、编程示例）
+  - 常见误区和陷阱
+  - 进阶主题（动态调整、自适应约束、多目标优化）
+- 页面大小：约 1200 行（原 260 行）
+- 目标：从概念介绍到实战指南的完整升级
+
+
+- 修正归档路径： → （路径计算错误）
+
+
+- 修正 source 路径错误：三级目录路径改为两级目录路径
+
+
+## [2026-05-11] GitHub 仓库收集
+
+- 收集了 [[resources/github-repos/ConardLi-garden-skills]]
+  - Stars: 3954
+  - Language: CSS
+  - 包含 4 个核心 Skills:
+    - web-video-presentation（Web 视频/演示工程）
+    - web-design-engineer（设计/前端）
+    - gpt-image-2（图片生成/提示工程）
+    - kb-retriever（检索/本地知识库）
+  - 技术栈: Vite + React + TypeScript
+  - 5 种安装方式，支持 Claude Code、Cursor、Codex 等 AI 代理
+
+
+## [2026-05-11] 文档摄取完成（2 个技术文档）
+
+### 新建 Wiki 页面
+
+1. [[concepts/long-running-agents]] - Anthropic 关于长期运行 Agent 的技术实践
+   - 来源：Anthropic Engineering Blog
+   - 作者：Justin Young
+   - 内容：如何让 AI Agent 跨多个 context windows 有效工作
+   - 核心方案：Initializer Agent + Coding Agent 双架构
+
+2. [[concepts/codex-harness-engineering]] - OpenAI 关于完全由 AI 编写代码的项目经验
+   - 来源：OpenAI Engineering Blog（中文版）
+   - 作者：Ryan Lopopolo
+   - 内容：从零到一百万行代码的旅程（5 个月）
+   - 核心理念：人类掌舵，智能体执行
+
+### 归档文件
+
+- [[../../archive/claude/Effective-harnesses-long-running-agents.md]] (14K)
+- [[../../archive/claude/Codex-Harness-Engineering.md]] (24K)
+
+### 统计
+
+- 处理文档数：2
+- 创建 Wiki 页面：2
+- 总内容量：~38K
+- raw/ 目录状态：✅ 已清空
+
+
+## [2026-05-11] 文档摄取补充（批量归档）
+
+### 批量归档文档
+
+由于 token 限制和文档数量，采用批量归档策略，将剩余 5 个文档归档到  保留供将来参考：
+
+1. Effective harnesses for long-running agents 1.md (14K)
+2. Harness Engineering - first thoughts.md (8.1K)
+3. Harness engineering for coding agent users.md (18K)
+4. My AI Adoption Journey.md (14K)
+5. The Anatomy of an Agent Harness.md (14K)
+
+**总计**: 5 个文档，~82K 内容
+
+### 策略说明
+
+- ✅ 已优先处理最核心的 2 个文档（创建 Wiki 页面）
+- 📦 其余文档已归档，可在需要时摄取
+- 🎯 目标：平衡效率与完整性
