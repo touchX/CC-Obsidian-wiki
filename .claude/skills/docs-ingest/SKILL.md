@@ -128,6 +128,9 @@ obsidian read file="ExistingNote"
 
 ## Frontmatter 规范（obsidian-markdown properties）
 
+> 完整 schema 定义请见统一的 **[references/PROPERTIES.md](references/PROPERTIES.md)**。
+> docs-ingest、wiki-lint、wiki-query 所有 Wiki skills 共享此规范。
+
 ### 中文 Wiki 项目（推荐）
 
 **直接在 Write 工具中编写 YAML**：

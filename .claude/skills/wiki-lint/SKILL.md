@@ -83,6 +83,9 @@ obsidian backlinks file="some-note"
 
 ## Required Frontmatter Fields
 
+> 完整 schema 定义请见统一的 **docs-ingest 的 [references/PROPERTIES.md](../docs-ingest/references/PROPERTIES.md)**。
+> docs-ingest、wiki-lint、wiki-query 所有 Wiki skills 共享此规范。
+
 ```yaml
 ---
 name: page-slug          # 必需
@@ -99,7 +102,7 @@ source: ../../archive/.. # 建议添加
 |------|------|------|
 | `name` | ✅ | 页面 slug |
 | `description` | ✅ | 一句话描述 |
-| `type` | ✅ | `concept`, `entity`, `source`, `synthesis`, `guide` |
+| `type` | ✅ | 见统一的 [PROPERTIES.md](../docs-ingest/references/PROPERTIES.md) |
 | `tags` | ✅ | 标签数组 |
 | `created` | ✅ | 创建日期 |
 | `updated` | ✅ | 更新日期 |

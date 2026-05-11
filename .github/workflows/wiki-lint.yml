@@ -1,0 +1,46 @@
+name: Wiki Lint
+
+on:
+  schedule:
+    # 每天 UTC 时间 2:00 运行（北京时间 10:00）
+    - cron: '0 2 * * *'
+  push:
+    paths:
+      - 'wiki/**'
+      - '.claude/skills/wiki-lint/**'
+  pull_request:
+    paths:
+      - 'wiki/**'
+      - '.claude/skills/wiki-lint/**'
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run wiki-lint
+        id: lint
+        continue-on-error: true
+        run: |
+          chmod +x .claude/skills/wiki-lint/wiki-lint.sh
+          cd wiki && bash ../.claude/skills/wiki-lint/wiki-lint.sh
+        shell: bash
+
+      - name: Report status
+        if: always()
+        run: |
+          echo "## Wiki Lint Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f "wiki/WIKI-LINT-REPORT.md" ]; then
+            cat wiki/WIKI-LINT-REPORT.md >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Exit code: ${{ steps.lint.outcome }}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Fail if lint detected issues
+        if: steps.lint.outcome == 'failure'
+        run: |
+          echo "❌ Wiki lint 发现需要修复的问题"
+          exit 1

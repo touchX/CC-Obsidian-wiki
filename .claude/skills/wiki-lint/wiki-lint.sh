@@ -48,6 +48,7 @@ fi
 # 统计函数
 count_pages() {
     local dir=$1
+    [ -d "$WIKI_DIR/$dir" ] || { echo 0; return; }
     find "$WIKI_DIR/$dir" -type f -name "*.md" 2>/dev/null | wc -l
 }
 
@@ -115,7 +116,7 @@ echo "" >> "$REPORT_FILE"
 
 # 查找所有 [[...]] 引用
 temp_refs=$(mktemp)
-find "$WIKI_DIR" -type f -name "*.md" -exec grep -ho '\[\[[^]]*\]\]' {} \; | sort -u > "$temp_refs"
+find "$WIKI_DIR" -type f -name "*.md" -exec grep -ho '\[\[[^]]*\]\]' {} \; 2>/dev/null | sort -u > "$temp_refs" || true
 
 broken_refs=0
 while IFS= read -r ref; do
@@ -175,9 +176,9 @@ while IFS= read -r -d '' file; do
 
         # 从文件目录解析 source 相对路径
         if [ -d "$rel_dir" ]; then
-            full_path="$(cd "$rel_dir" && realpath "$source_path" 2>/dev/null)"
+            full_path="$(cd "$rel_dir" && realpath "$source_path" 2>/dev/null)" || true
         else
-            full_path="$(cd "$WIKI_DIR/$rel_dir" && realpath "$source_path" 2>/dev/null)"
+            full_path="$(cd "$WIKI_DIR/$rel_dir" && realpath "$source_path" 2>/dev/null)" || true
         fi
 
         if [ -z "$full_path" ] || [ ! -f "$full_path" ]; then
